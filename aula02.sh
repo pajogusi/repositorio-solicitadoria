@@ -1,3 +1,8 @@
+#!/bin/bash
+
+echo "Criando Aula 02..."
+
+cat > aulas/introducao-direito-i/aula-02.html << 'EOF'
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -74,3 +79,18 @@ Por outro lado, estacionar num local proibido pode ser ilegal mesmo que ninguém
 
 </body>
 </html>
+EOF
+
+echo "Atualizando Aula 01..."
+
+sed -i 's/➡ Próxima Aula/➡ Aula 02/' aulas/introducao-direito-i/aula-01.html
+
+git add .
+git commit -m "Criar Aula 02"
+git push
+
+echo ""
+echo "Aula 02 criada e publicada."
+echo ""
+echo "URL:"
+echo "https://pajogusi.github.io/universidade-da-vida-direito/"
