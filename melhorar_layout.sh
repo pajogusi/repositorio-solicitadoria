@@ -1,3 +1,8 @@
+#!/bin/bash
+
+echo "A melhorar layout geral..."
+
+cat > style.css << 'EOF'
 * {
     box-sizing: border-box;
 }
@@ -94,3 +99,23 @@ hr {
         margin: 8px 0;
     }
 }
+EOF
+
+# Meter <main> nas páginas que ainda não têm
+for file in index.html cadeiras/*.html aulas/introducao-direito-i/*.html
+do
+    sed -i 's|<body>|<body>\n<main>|' "$file"
+    sed -i 's|</body>|</main>\n</body>|' "$file"
+done
+
+# Forçar nova versão do CSS
+sed -i 's|style.css?v=2|style.css?v=3|g' index.html cadeiras/*.html aulas/introducao-direito-i/*.html
+sed -i 's|style.css"|style.css?v=3"|g' index.html
+sed -i 's|../style.css"|../style.css?v=3"|g' cadeiras/*.html
+sed -i 's|../../style.css"|../../style.css?v=3"|g' aulas/introducao-direito-i/*.html
+
+git add .
+git commit -m "Melhorar layout geral da plataforma"
+git push
+
+echo "Layout atualizado."
