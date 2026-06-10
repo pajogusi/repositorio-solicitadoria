@@ -1,0 +1,289 @@
+#!/bin/bash
+
+echo "A expandir a Aula 03..."
+
+cat > aulas/introducao-direito-i/aula-03.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 03 - A Norma Jurídica</title>
+<link rel="stylesheet" href="../../style.css?v=6">
+</head>
+<body>
+<main>
+
+<h1>Aula 03 - A Norma Jurídica</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Definir o conceito de norma jurídica.</li>
+<li>Identificar as características da norma jurídica.</li>
+<li>Distinguir normas jurídicas de outras regras sociais.</li>
+<li>Compreender a estrutura da norma jurídica.</li>
+<li>Aplicar estes conceitos a exemplos práticos.</li>
+<li>Relacionar a norma jurídica com a atividade da Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+
+<p>
+O Direito é composto por normas jurídicas. Tal como uma casa é construída com tijolos, todo o sistema jurídico é construído através de normas jurídicas.
+</p>
+
+<p>
+Sem normas jurídicas não existiria Direito. Por isso, compreender a norma jurídica é compreender a unidade fundamental de todo o sistema jurídico.
+</p>
+</section>
+
+<section>
+<h2>O que é uma Norma Jurídica?</h2>
+
+<p>
+Uma norma jurídica é uma regra de conduta criada ou reconhecida pelo Estado, destinada a regular comportamentos humanos e cuja observância pode ser imposta coercivamente.
+</p>
+
+<div class="destaque">
+<strong>Definição essencial:</strong><br>
+A norma jurídica indica o que é permitido, obrigatório ou proibido numa determinada sociedade.
+</div>
+
+<p>Exemplos:</p>
+
+<ul>
+<li>É proibido conduzir sem carta.</li>
+<li>Os contratos devem ser cumpridos.</li>
+<li>Os impostos devem ser pagos.</li>
+<li>O empregador deve pagar o salário acordado.</li>
+</ul>
+</section>
+
+<section>
+<h2>Porque existem Normas Jurídicas?</h2>
+
+<h3>Organização da sociedade</h3>
+<p>
+Permitem a convivência pacífica e previsível entre os cidadãos.
+</p>
+
+<h3>Proteção de direitos</h3>
+<p>
+Garantem direitos fundamentais como a vida, liberdade, propriedade e segurança.
+</p>
+
+<h3>Resolução de conflitos</h3>
+<p>
+Fornecem mecanismos para resolver litígios sem recurso à força.
+</p>
+
+<h3>Segurança jurídica</h3>
+<p>
+Permitem que os cidadãos conheçam antecipadamente as consequências dos seus atos.
+</p>
+</section>
+
+<section>
+<h2>Características da Norma Jurídica</h2>
+
+<div class="destaque">
+<h3>Generalidade</h3>
+<p>
+A norma dirige-se a um conjunto indeterminado de pessoas.
+</p>
+<p><strong>Exemplo:</strong> Todos os condutores devem respeitar os limites de velocidade.</p>
+</div>
+
+<div class="destaque">
+<h3>Abstração</h3>
+<p>
+A norma regula situações gerais e não casos concretos.
+</p>
+<p><strong>Exemplo:</strong> Quem causar danos a outra pessoa deve indemnizá-la.</p>
+</div>
+
+<div class="destaque">
+<h3>Imperatividade</h3>
+<p>
+A norma impõe comportamentos obrigatórios ou proibidos.
+</p>
+<p><strong>Exemplo:</strong> É obrigatório declarar certos rendimentos para efeitos fiscais.</p>
+</div>
+
+<div class="destaque">
+<h3>Coercibilidade</h3>
+<p>
+O Estado pode impor o cumprimento da norma.
+</p>
+<p><strong>Exemplo:</strong> Uma multa pode ser cobrada mesmo contra a vontade do infrator.</p>
+</div>
+
+<div class="destaque">
+<h3>Bilateralidade</h3>
+<p>
+Quando alguém tem um direito, normalmente existe outra pessoa com um dever correspondente.
+</p>
+<p><strong>Exemplo:</strong> O trabalhador tem direito ao salário e o empregador tem o dever de o pagar.</p>
+</div>
+</section>
+
+<section>
+<h2>Estrutura da Norma Jurídica</h2>
+
+<p>
+A maioria das normas jurídicas possui duas partes fundamentais.
+</p>
+
+<h3>Previsão</h3>
+
+<p>
+Descreve a situação ou facto que a norma pretende regular.
+</p>
+
+<p><strong>Exemplo:</strong> Se uma pessoa causar danos a outra...</p>
+
+<h3>Estatuição</h3>
+
+<p>
+Define a consequência jurídica.
+</p>
+
+<p><strong>Exemplo:</strong> ...deve indemnizar a pessoa lesada.</p>
+
+<div class="exemplo">
+<strong>Exemplo completo:</strong><br>
+Previsão: Se alguém destruir um bem pertencente a outra pessoa.<br>
+Estatuição: Fica obrigado a reparar o prejuízo causado.
+</div>
+</section>
+
+<section>
+<h2>Norma Jurídica vs Outras Regras</h2>
+
+<h3>Regra Moral</h3>
+<p>Devemos ajudar quem precisa.</p>
+
+<h3>Regra Religiosa</h3>
+<p>Participar em determinados rituais religiosos.</p>
+
+<h3>Regra de Cortesia</h3>
+<p>Cumprimentar as pessoas.</p>
+
+<h3>Norma Jurídica</h3>
+<p>É obrigatório parar perante um sinal vermelho.</p>
+
+<p>
+A principal diferença é que a norma jurídica pode ser imposta através dos mecanismos do Estado.
+</p>
+</section>
+
+<section>
+<h2>Exemplos de Normas Jurídicas no Quotidiano</h2>
+
+<ul>
+<li>Contratos de trabalho.</li>
+<li>Limites de velocidade.</li>
+<li>Pagamento de impostos.</li>
+<li>Compra e venda de imóveis.</li>
+<li>Contratos de arrendamento.</li>
+<li>Casamento e divórcio.</li>
+<li>Heranças.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+
+<p>
+O solicitador trabalha diariamente com normas jurídicas e necessita de as interpretar corretamente.
+</p>
+
+<ul>
+<li>Registos prediais.</li>
+<li>Contratos.</li>
+<li>Heranças.</li>
+<li>Empresas.</li>
+<li>Procedimentos administrativos.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Sem compreender a norma jurídica torna-se impossível interpretar corretamente documentos, contratos ou procedimentos legais.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+
+<ul>
+<li>Pensar que todas as regras são normas jurídicas.</li>
+<li>Confundir norma jurídica com lei.</li>
+<li>Interpretar mal o conceito de coercibilidade.</li>
+<li>Esquecer a bilateralidade dos direitos e deveres.</li>
+</ul>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+
+<ol>
+<li>A norma jurídica é a unidade básica do Direito.</li>
+<li>Regula comportamentos humanos em sociedade.</li>
+<li>Possui generalidade, abstração, imperatividade, coercibilidade e bilateralidade.</li>
+<li>Apresenta normalmente previsão e estatuição.</li>
+<li>Está presente em inúmeras situações do quotidiano.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+
+<ol>
+<li>O que é uma norma jurídica?</li>
+<li>O que significa coercibilidade?</li>
+<li>Quais são as características da norma jurídica?</li>
+<li>Qual a diferença entre previsão e estatuição?</li>
+<li>Dá um exemplo de norma jurídica do dia-a-dia.</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+
+<ol>
+<li>É uma regra de conduta criada ou reconhecida pelo Estado.</li>
+<li>Significa que o Estado pode exigir o cumprimento da norma.</li>
+<li>Generalidade, abstração, imperatividade, coercibilidade e bilateralidade.</li>
+<li>A previsão descreve a situação; a estatuição estabelece a consequência jurídica.</li>
+<li>Limites de velocidade, pagamento de impostos, contratos ou regras laborais.</li>
+</ol>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Página Principal</a> |
+<a href="../../cadeiras/cadeira-01-introducao-direito-i.html">📚 Cadeira</a> |
+<a href="aula-02.html">⬅ Aula 02</a> |
+<a href="aula-04.html">➡ Aula 04</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+# Atualizar página da cadeira para incluir link da Aula 03
+
+sed -i 's|<li>Aula 03 - A norma jurídica</li>|<li><a href="../aulas/introducao-direito-i/aula-03.html">Aula 03 - A norma jurídica</a></li>|' cadeiras/cadeira-01-introducao-direito-i.html
+
+sed -i 's|2 de 10 aulas concluídas|3 de 10 aulas concluídas|' cadeiras/cadeira-01-introducao-direito-i.html
+
+git add .
+git commit -m "Criar Aula 03 completa"
+git push
+
+echo "Aula 03 criada e publicada."
