@@ -1,3 +1,8 @@
+#!/bin/bash
+
+echo "A expandir a Aula 02..."
+
+cat > aulas/introducao-direito-i/aula-02.html << 'EOF'
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -286,3 +291,10 @@ Nem tudo o que é legal é automaticamente ético. A confiança numa profissão 
 </main>
 </body>
 </html>
+EOF
+
+git add .
+git commit -m "Expandir Aula 02 com conteúdo completo"
+git push
+
+echo "Aula 02 expandida e publicada."
