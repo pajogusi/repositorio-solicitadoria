@@ -94,3 +94,17 @@ hr {
         margin: 8px 0;
     }
 }
+
+.aviso {
+    background: #fff3cd;
+    border: 1px solid #ffec99;
+    border-left: 6px solid #f0ad4e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.aviso h2 {
+    margin-top: 0;
+    color: #7a4d00;
+}
