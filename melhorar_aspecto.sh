@@ -1,3 +1,8 @@
+#!/bin/bash
+
+echo "A melhorar o aspeto visual do site..."
+
+cat > style.css << 'EOF'
 * {
     box-sizing: border-box;
 }
@@ -84,3 +89,10 @@ body::before {
         margin: 8px 0;
     }
 }
+EOF
+
+git add .
+git commit -m "Melhorar aspeto visual do site"
+git push
+
+echo "Aspeto visual melhorado e enviado para o GitHub."
