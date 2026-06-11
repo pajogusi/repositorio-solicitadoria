@@ -159,3 +159,38 @@ main::after {
     font-size: 13rem;
     opacity: 0.07;
 }
+
+.cadeira-card{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:12px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.botao{
+display:inline-block;
+background:#0b2c4d;
+color:white !important;
+padding:10px 20px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.botao:hover{
+background:#154b82;
+}
+
+.construcao{
+color:#a66a00;
+font-weight:bold;
+}
+
+.aviso{
+background:#fff4d8;
+border:1px solid #e0c070;
+padding:20px;
+border-radius:12px;
+margin-bottom:30px;
+}
