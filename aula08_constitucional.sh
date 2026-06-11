@@ -1,0 +1,158 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/direito-constitucional/aula-08.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 08 - Presidente da República e Tribunais</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<h1>Aula 08 - Presidente da República e Tribunais</h1>
+
+<p>
+O Presidente da República e os Tribunais são dois dos órgãos de soberania previstos na Constituição Portuguesa. Ambos desempenham funções essenciais para o equilíbrio e funcionamento do Estado de Direito Democrático.
+</p>
+
+<h2>O Presidente da República</h2>
+
+<p>
+O Presidente da República é o Chefe de Estado de Portugal.
+</p>
+
+<p>
+É eleito diretamente pelos cidadãos através de eleições presidenciais.
+</p>
+
+<h3>Principais Funções</h3>
+
+<ul>
+<li>Representar a República Portuguesa.</li>
+<li>Garantir a independência nacional.</li>
+<li>Garantir o regular funcionamento das instituições democráticas.</li>
+<li>Nomear o Primeiro-Ministro.</li>
+<li>Promulgar leis.</li>
+<li>Dissolver a Assembleia da República em determinadas circunstâncias.</li>
+<li>Exercer o cargo de Comandante Supremo das Forças Armadas.</li>
+</ul>
+
+<h2>Promulgação</h2>
+
+<p>
+Depois de uma lei ser aprovada pela Assembleia da República, o Presidente pode promulgá-la.
+</p>
+
+<p>
+A promulgação é o ato pelo qual o Presidente confirma a existência da lei e permite a sua publicação oficial.
+</p>
+
+<div class="destaque">
+<strong>Importante:</strong><br>
+Em certos casos, o Presidente pode recusar a promulgação e devolver a lei para nova apreciação.
+</div>
+
+<h2>Os Tribunais</h2>
+
+<p>
+Os tribunais administram a justiça em nome do povo.
+</p>
+
+<p>
+A sua principal função é aplicar o Direito aos casos concretos e resolver conflitos jurídicos.
+</p>
+
+<h3>Funções dos Tribunais</h3>
+
+<ul>
+<li>Aplicar a lei.</li>
+<li>Resolver litígios.</li>
+<li>Proteger direitos dos cidadãos.</li>
+<li>Fiscalizar a legalidade de determinadas decisões.</li>
+<li>Garantir o respeito pela Constituição.</li>
+</ul>
+
+<h2>Independência dos Tribunais</h2>
+
+<p>
+Os tribunais são independentes dos restantes poderes do Estado.
+</p>
+
+<p>
+Os juízes decidem de acordo com a Constituição e a lei, sem receber ordens do Governo ou de outros órgãos políticos.
+</p>
+
+<div class="destaque">
+<strong>Princípio Fundamental:</strong><br>
+Sem independência judicial não existe verdadeira proteção dos direitos dos cidadãos.
+</div>
+
+<h2>Tribunal Constitucional</h2>
+
+<p>
+O Tribunal Constitucional é responsável por fiscalizar a constitucionalidade das normas jurídicas.
+</p>
+
+<p>
+Pode declarar uma norma inconstitucional quando esta viola a Constituição.
+</p>
+
+<h2>Exemplo Prático</h2>
+
+<p>
+A Assembleia aprova uma lei. O Presidente analisa essa lei antes da promulgação. Mais tarde, se surgir uma dúvida sobre a sua conformidade constitucional, o Tribunal Constitucional poderá pronunciar-se.
+</p>
+
+<h2>Importância para a Solicitadoria</h2>
+
+<p>
+O solicitador trabalha num sistema jurídico onde as leis são criadas, promulgadas e aplicadas por diferentes órgãos.
+</p>
+
+<p>
+Compreender o papel do Presidente da República e dos Tribunais ajuda a entender todo o percurso de uma norma jurídica.
+</p>
+
+<h2>Resumo em 5 Pontos</h2>
+
+<ul>
+<li>O Presidente da República é o Chefe de Estado.</li>
+<li>É eleito diretamente pelos cidadãos.</li>
+<li>Os tribunais administram a justiça.</li>
+<li>Os juízes são independentes.</li>
+<li>O Tribunal Constitucional protege a supremacia da Constituição.</li>
+</ul>
+
+<h2>Mini-Perguntas</h2>
+
+<ol>
+<li>Quem é o Chefe de Estado em Portugal?</li>
+<li>O que é a promulgação?</li>
+<li>Qual é a função principal dos tribunais?</li>
+<li>Porque é importante a independência dos juízes?</li>
+<li>Qual é a função do Tribunal Constitucional?</li>
+</ol>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Página Principal</a> |
+<a href="../../cadeiras/cadeira-02-direito-constitucional.html">📚 Voltar à cadeira</a> |
+<a href="aula-07.html">⬅ Aula Anterior</a> |
+<a href="aula-09.html">➡ Próxima Aula</a>
+</nav>
+
+</body>
+</html>
+EOF
+
+sed -i 's|Aula 08 - Presidente da República e Tribunais|<a href="../aulas/direito-constitucional/aula-08.html">Aula 08 - Presidente da República e Tribunais</a>|' cadeiras/cadeira-02-direito-constitucional.html
+
+git add .
+git commit -m "Adicionar Aula 08 Presidente da Republica e Tribunais"
+git push
+
+echo "Aula 08 criada e publicada."
