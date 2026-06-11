@@ -1,0 +1,97 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/direito-constitucional/aula-03.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 03 - Princípios Fundamentais da Constituição Portuguesa</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<h1>Aula 03 - Princípios Fundamentais da Constituição Portuguesa</h1>
+
+<p>
+A Constituição da República Portuguesa estabelece vários princípios fundamentais que servem de base ao funcionamento do Estado e à proteção dos cidadãos.
+</p>
+
+<h2>O que são princípios fundamentais?</h2>
+
+<p>
+São ideias e valores essenciais que orientam todas as leis portuguesas. Nenhuma lei pode contrariar estes princípios.
+</p>
+
+<h2>Principais princípios constitucionais</h2>
+
+<ul>
+<li>Soberania popular.</li>
+<li>Dignidade da pessoa humana.</li>
+<li>Estado de Direito Democrático.</li>
+<li>Igualdade perante a lei.</li>
+<li>Separação e interdependência dos poderes.</li>
+<li>Proteção dos direitos fundamentais.</li>
+</ul>
+
+<h2>Explicação simples</h2>
+
+<p>
+A Constituição garante que todas as pessoas são tratadas com dignidade, possuem direitos fundamentais e participam na vida democrática do país.
+</p>
+
+<p>
+Estes princípios funcionam como uma bússola para o Estado, os tribunais e todos os órgãos públicos.
+</p>
+
+<h2>Exemplo prático</h2>
+
+<p>
+Se uma lei discriminasse pessoas por motivos de raça, sexo ou religião, essa lei poderia ser considerada inconstitucional por violar o princípio da igualdade.
+</p>
+
+<h2>Importância para a Solicitadoria</h2>
+
+<p>
+O solicitador deve conhecer estes princípios porque muitas situações jurídicas dependem diretamente dos direitos e garantias protegidos pela Constituição.
+</p>
+
+<h2>Resumo em 5 pontos</h2>
+
+<ul>
+<li>Os princípios fundamentais orientam todo o sistema jurídico.</li>
+<li>A Constituição é a lei suprema do Estado.</li>
+<li>A igualdade é um princípio essencial.</li>
+<li>A dignidade humana está no centro da Constituição.</li>
+<li>Nenhuma lei pode contrariar estes princípios.</li>
+</ul>
+
+<h2>Mini-perguntas</h2>
+
+<ol>
+<li>O que são princípios fundamentais?</li>
+<li>Qual é a importância da igualdade perante a lei?</li>
+<li>O que significa soberania popular?</li>
+<li>Porque é importante a dignidade humana?</li>
+<li>Uma lei pode contrariar a Constituição?</li>
+</ol>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Página Principal</a> |
+<a href="../../cadeiras/cadeira-02-direito-constitucional.html">📚 Voltar à cadeira</a> |
+<a href="aula-02.html">⬅ Aula Anterior</a> |
+<a href="aula-04.html">➡ Próxima Aula</a>
+</nav>
+
+</body>
+</html>
+EOF
+
+git add .
+git commit -m "Adicionar Aula 03 Principios Fundamentais"
+git push
+
+echo "Aula 03 criada e publicada."
