@@ -1,3 +1,8 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > index.html << 'EOF'
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -93,3 +98,10 @@
 </main>
 </body>
 </html>
+EOF
+
+git add .
+git commit -m "Reorganizar pagina inicial por anos e semestres"
+git push
+
+echo "Página inicial reorganizada por semestres."
