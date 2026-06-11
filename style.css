@@ -207,3 +207,12 @@ margin-bottom:30px;
 .apoio h3 {
     margin-top: 0;
 }
+
+.footer-copyright{
+margin-top:40px;
+padding:20px;
+font-size:0.85em;
+text-align:center;
+color:#666;
+border-top:1px solid #ddd;
+}
