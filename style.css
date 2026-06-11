@@ -108,3 +108,25 @@ hr {
     margin-top: 0;
     color: #7a4d00;
 }
+
+/* Fundo simbólico da Justiça */
+body::after {
+    content: "⚖️";
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    font-size: 22rem;
+    opacity: 0.06;
+    z-index: -1;
+    pointer-events: none;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
