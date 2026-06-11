@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Quiz Interativo</title>
+<link rel="stylesheet" href="style.css?v=24">
+</head>
+<body>
+<main>
+
+<h1>Quiz Interativo</h1>
+
+<p>
+Teste rápido sobre as duas primeiras cadeiras concluídas.
+</p>
+
+<section class="quiz-interativo">
+
+<h2>Perguntas</h2>
+
+<p><strong>1. O que é o Direito?</strong></p>
+<label><input type="radio" name="q1" value="a"> Uma opinião moral.</label><br>
+<label><input type="radio" name="q1" value="b"> Um conjunto de normas jurídicas que regulam a vida em sociedade.</label><br>
+<label><input type="radio" name="q1" value="c"> Apenas decisões dos tribunais.</label>
+
+<p><strong>2. Qual é a lei fundamental do Estado?</strong></p>
+<label><input type="radio" name="q2" value="a"> Constituição.</label><br>
+<label><input type="radio" name="q2" value="b"> Código Civil.</label><br>
+<label><input type="radio" name="q2" value="c"> Regulamento municipal.</label>
+
+<p><strong>3. O que é coercibilidade?</strong></p>
+<label><input type="radio" name="q3" value="a"> Uma regra de cortesia.</label><br>
+<label><input type="radio" name="q3" value="b"> Uma opinião ética.</label><br>
+<label><input type="radio" name="q3" value="c"> Possibilidade de o Estado impor o cumprimento da norma.</label>
+
+<p><strong>4. Quem fiscaliza principalmente a constitucionalidade?</strong></p>
+<label><input type="radio" name="q4" value="a"> Governo.</label><br>
+<label><input type="radio" name="q4" value="b"> Tribunal Constitucional.</label><br>
+<label><input type="radio" name="q4" value="c"> Câmara Municipal.</label>
+
+<p><strong>5. O que significa hierarquia das normas?</strong></p>
+<label><input type="radio" name="q5" value="a"> Normas inferiores não podem contrariar normas superiores.</label><br>
+<label><input type="radio" name="q5" value="b"> Todas as normas têm o mesmo valor.</label><br>
+<label><input type="radio" name="q5" value="c"> Só os tribunais criam leis.</label>
+
+<br>
+
+<button onclick="verificarQuiz()">Verificar Resultado</button>
+
+<div id="resultadoQuiz" class="resultado-quiz"></div>
+
+</section>
+
+<hr>
+
+<nav>
+<a href="index.html">🏠 Página Principal</a> |
+<a href="glossario/index.html">📖 Glossário</a> |
+<a href="casos/index.html">🧩 Casos Práticos</a>
+</nav>
+
+<script src="script.js"></script>
+
+</main>
+</body>
+</html>
