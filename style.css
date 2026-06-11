@@ -311,3 +311,12 @@ margin-top:10px;
     margin-top: 15px;
     font-weight: bold;
 }
+
+.slogan {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0b2c4d;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
