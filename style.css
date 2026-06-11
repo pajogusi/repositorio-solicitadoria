@@ -194,3 +194,16 @@ padding:20px;
 border-radius:12px;
 margin-bottom:30px;
 }
+
+.apoio {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.apoio h3 {
+    margin-top: 0;
+}
