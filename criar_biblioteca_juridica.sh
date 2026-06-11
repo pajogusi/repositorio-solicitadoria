@@ -1,0 +1,123 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+mkdir -p biblioteca
+
+cat > biblioteca/codigos-juridicos.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Biblioteca Jurídica</title>
+<link rel="stylesheet" href="../style.css?v=20">
+</head>
+<body>
+<main>
+
+<h1>Biblioteca Jurídica</h1>
+
+<p>
+Links úteis para consulta de legislação portuguesa e recursos jurídicos online.
+</p>
+
+<div class="aviso">
+<strong>Aviso:</strong><br>
+Esta página é apenas para estudo. Antes de usar qualquer diploma em contexto real, confirma sempre se a versão está atualizada.
+</div>
+
+<h2>Constituição</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=4&tabela=leis" target="_blank">Constituição da República Portuguesa</a></li>
+</ul>
+
+<h2>Direito Civil, Registos e Notariado</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=775&tabela=leis" target="_blank">Código Civil</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=488&tabela=leis" target="_blank">Código do Registo Predial</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=682&tabela=leis" target="_blank">Código do Registo Civil</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=457&tabela=leis" target="_blank">Código do Notariado</a></li>
+</ul>
+
+<h2>Direito Processual</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1959&tabela=leis" target="_blank">Código de Processo Civil</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=439&tabela=leis" target="_blank">Código de Processo nos Tribunais Administrativos</a></li>
+</ul>
+
+<h2>Direito Comercial, Sociedades e Insolvência</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=524&tabela=leis" target="_blank">Código das Sociedades Comerciais</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=85&tabela=leis" target="_blank">Código Comercial</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=85&tabela=leis" target="_blank">Código da Insolvência e da Recuperação de Empresas</a></li>
+</ul>
+
+<h2>Direito do Trabalho</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1047&tabela=leis" target="_blank">Código do Trabalho</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=487&tabela=leis" target="_blank">Código de Processo do Trabalho</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1158&tabela=leis" target="_blank">Regime Jurídico da Segurança e Saúde no Trabalho</a></li>
+</ul>
+
+<h2>Direito Fiscal</h2>
+<ul>
+<li><a href="https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/Pages/default.aspx" target="_blank">Códigos Tributários — Portal das Finanças</a></li>
+<li><a href="https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs1.aspx" target="_blank">Código do IRS</a></li>
+<li><a href="https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/circ_rep/Pages/irc1.aspx" target="_blank">Código do IRC</a></li>
+<li><a href="https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/codigo-do-iva-indice.aspx" target="_blank">Código do IVA</a></li>
+</ul>
+
+<h2>Direito Penal e Contraordenacional</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=109&tabela=leis" target="_blank">Código Penal</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=199&tabela=leis" target="_blank">Código de Processo Penal</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=166&tabela=leis" target="_blank">Regime Geral das Contraordenações</a></li>
+</ul>
+
+<h2>Direito Administrativo</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=2248&tabela=leis" target="_blank">Código do Procedimento Administrativo</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=2063&tabela=leis" target="_blank">Código dos Contratos Públicos</a></li>
+</ul>
+
+<h2>União Europeia</h2>
+<ul>
+<li><a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A12012M%2FTXT" target="_blank">Tratado da União Europeia</a></li>
+<li><a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A12012E%2FTXT" target="_blank">Tratado sobre o Funcionamento da União Europeia</a></li>
+<li><a href="https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A12012P%2FTXT" target="_blank">Carta dos Direitos Fundamentais da União Europeia</a></li>
+</ul>
+
+<h2>Portais Oficiais</h2>
+<ul>
+<li><a href="https://dre.pt/" target="_blank">Diário da República Eletrónico</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_main.php" target="_blank">PGDL — Legislação Online</a></li>
+<li><a href="https://www.tribunalconstitucional.pt/" target="_blank">Tribunal Constitucional</a></li>
+<li><a href="https://www.parlamento.pt/" target="_blank">Assembleia da República</a></li>
+<li><a href="https://eur-lex.europa.eu/" target="_blank">EUR-Lex — Direito da União Europeia</a></li>
+</ul>
+
+<hr>
+
+<nav>
+<a href="../index.html">🏠 Página Principal</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+# Adicionar ligação à Biblioteca Jurídica na página principal
+sed -i '/<p>Projeto independente de estudo de Direito e Solicitadoria.<\/p>/a\
+\
+<div class="cadeira-card">\
+<h3>⚖️ Biblioteca Jurídica</h3>\
+<p>Códigos, Constituição, legislação fundamental e portais oficiais.</p>\
+<a class="botao" href="biblioteca/codigos-juridicos.html">Abrir Biblioteca</a>\
+</div>' index.html
+
+git add .
+git commit -m "Criar biblioteca juridica com codigos online"
+git push
+
+echo "Biblioteca Jurídica criada."
