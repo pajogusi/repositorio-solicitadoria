@@ -151,3 +151,11 @@ main > * {
     position: relative;
     z-index: 1;
 }
+
+/* Ajuste final da marca de água */
+main::after {
+    right: 2%;
+    bottom: 10%;
+    font-size: 13rem;
+    opacity: 0.07;
+}
