@@ -1,0 +1,108 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/direito-constitucional/aula-04.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 04 - Direitos, Liberdades e Garantias</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+<h1>Aula 04 - Direitos, Liberdades e Garantias</h1>
+
+<p>
+Os Direitos, Liberdades e Garantias são um dos pilares fundamentais da Constituição Portuguesa. Protegem os cidadãos contra abusos de poder e garantem a sua dignidade e liberdade.
+</p>
+
+<h2>O que são?</h2>
+
+<p>
+São direitos fundamentais reconhecidos a todas as pessoas. O Estado deve respeitá-los e protegê-los.
+</p>
+
+<h2>Exemplos de Direitos Fundamentais</h2>
+
+<ul>
+<li>Direito à vida.</li>
+<li>Direito à liberdade.</li>
+<li>Liberdade de expressão.</li>
+<li>Liberdade religiosa.</li>
+<li>Direito à educação.</li>
+<li>Direito à propriedade privada.</li>
+<li>Direito à proteção da saúde.</li>
+</ul>
+
+<h2>Liberdades</h2>
+
+<p>
+As liberdades permitem aos cidadãos agir livremente dentro dos limites da lei.
+</p>
+
+<p>
+Por exemplo, cada pessoa pode expressar as suas opiniões, escolher a sua religião e participar em associações ou partidos políticos.
+</p>
+
+<h2>Garantias</h2>
+
+<p>
+As garantias existem para proteger os cidadãos quando os seus direitos são ameaçados.
+</p>
+
+<p>
+Entre estas garantias encontram-se o acesso aos tribunais, o direito de defesa e o princípio da presunção de inocência.
+</p>
+
+<h2>Exemplo Prático</h2>
+
+<p>
+Se uma pessoa for acusada de um crime, não pode ser considerada culpada sem julgamento. Tem direito a advogado e a defender-se perante um tribunal.
+</p>
+
+<h2>Importância para a Solicitadoria</h2>
+
+<p>
+O solicitador trabalha frequentemente com situações relacionadas com direitos fundamentais, protegendo os interesses dos clientes e garantindo o respeito pelas normas constitucionais.
+</p>
+
+<h2>Resumo em 5 Pontos</h2>
+
+<ul>
+<li>Os direitos fundamentais pertencem a todos os cidadãos.</li>
+<li>As liberdades permitem agir dentro da lei.</li>
+<li>As garantias protegem os cidadãos.</li>
+<li>O Estado deve respeitar estes direitos.</li>
+<li>A Constituição protege os Direitos, Liberdades e Garantias.</li>
+</ul>
+
+<h2>Mini-Perguntas</h2>
+
+<ol>
+<li>O que são Direitos, Liberdades e Garantias?</li>
+<li>Qual a diferença entre um direito e uma garantia?</li>
+<li>O que significa liberdade de expressão?</li>
+<li>O que é a presunção de inocência?</li>
+<li>Porque são importantes estes direitos?</li>
+</ol>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Página Principal</a> |
+<a href="../../cadeiras/cadeira-02-direito-constitucional.html">📚 Voltar à cadeira</a> |
+<a href="aula-03.html">⬅ Aula Anterior</a> |
+<a href="aula-05.html">➡ Próxima Aula</a>
+</nav>
+
+</body>
+</html>
+EOF
+
+git add .
+git commit -m "Adicionar Aula 04 Direitos Liberdades e Garantias"
+git push
+
+echo "Aula 04 criada e publicada."
