@@ -1,3 +1,8 @@
+#!/bin/bash
+
+echo "A criar Aula 10 - Revisão Geral e Quiz Final..."
+
+cat > aulas/introducao-direito-i/quiz-final.html << 'EOF'
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -214,3 +219,14 @@ Considera esta cadeira concluída apenas se conseguires responder corretamente a
 </main>
 </body>
 </html>
+EOF
+
+sed -i 's|<li>Aula 10 - Revisão e quiz final</li>|<li><a href="../aulas/introducao-direito-i/quiz-final.html">Aula 10 - Revisão e quiz final</a></li>|' cadeiras/cadeira-01-introducao-direito-i.html
+
+sed -i 's|3 de 10 aulas concluídas|10 de 10 aulas concluídas|' cadeiras/cadeira-01-introducao-direito-i.html
+
+git add .
+git commit -m "Criar Aula 10 Revisao e Quiz Final"
+git push
+
+echo "Aula 10 criada e publicada."
