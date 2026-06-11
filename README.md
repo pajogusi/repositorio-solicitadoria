@@ -1,4 +1,4 @@
-# Universidade da Vida - Direito e Solicitadoria Independente
+# Repositório de Solicitadoria - Direito e Solicitadoria Independente
 
 Projeto pessoal de estudo baseado na Licenciatura em Solicitadoria.
 
