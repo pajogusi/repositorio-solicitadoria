@@ -1,0 +1,295 @@
+#!/bin/bash
+
+echo "A criar Aula 06 - Estado, Constituição e Lei..."
+
+cat > aulas/introducao-direito-i/aula-06.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 06 - Estado, Constituição e Lei</title>
+<link rel="stylesheet" href="../../style.css?v=10">
+</head>
+<body>
+<main>
+
+<h1>Aula 06 - Estado, Constituição e Lei</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o conceito de Estado.</li>
+<li>Identificar os elementos essenciais do Estado.</li>
+<li>Perceber o papel da Constituição.</li>
+<li>Distinguir Constituição, lei e regulamento.</li>
+<li>Compreender a hierarquia das normas.</li>
+<li>Relacionar estes conceitos com a Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+
+<p>
+O Direito não existe isolado. Vive dentro de uma estrutura política e institucional: o Estado.
+</p>
+
+<p>
+É o Estado que cria, organiza, aplica e garante o cumprimento de grande parte das normas jurídicas.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+Para compreender o Direito, é necessário compreender o Estado, a Constituição e a lei.
+</div>
+</section>
+
+<section>
+<h2>O que é o Estado?</h2>
+
+<p>
+O Estado é uma organização política e jurídica que exerce autoridade sobre uma população, num determinado território, através de órgãos próprios.
+</p>
+
+<p>Tradicionalmente, o Estado possui três elementos essenciais:</p>
+
+<ul>
+<li><strong>Povo:</strong> conjunto de pessoas ligadas ao Estado.</li>
+<li><strong>Território:</strong> espaço físico onde o Estado exerce autoridade.</li>
+<li><strong>Poder político:</strong> capacidade de criar e aplicar regras obrigatórias.</li>
+</ul>
+</section>
+
+<section>
+<h2>Funções do Estado</h2>
+
+<p>
+O Estado desempenha várias funções fundamentais para a vida em sociedade.
+</p>
+
+<ul>
+<li><strong>Função legislativa:</strong> criação de leis.</li>
+<li><strong>Função executiva:</strong> administração e execução das políticas públicas.</li>
+<li><strong>Função jurisdicional:</strong> resolução de conflitos através dos tribunais.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+A Assembleia da República pode aprovar uma lei; o Governo pode executar políticas públicas; os tribunais aplicam o Direito aos casos concretos.
+</div>
+</section>
+
+<section>
+<h2>O que é a Constituição?</h2>
+
+<p>
+A Constituição é a lei fundamental de um Estado.
+</p>
+
+<p>
+Define a organização do poder político, os direitos fundamentais dos cidadãos e os princípios essenciais do sistema jurídico.
+</p>
+
+<p>Em Portugal, a Constituição da República Portuguesa ocupa o topo da hierarquia normativa.</p>
+
+<div class="destaque">
+<strong>Regra essencial:</strong><br>
+Nenhuma lei ou regulamento pode contrariar a Constituição.
+</div>
+</section>
+
+<section>
+<h2>O que regula a Constituição?</h2>
+
+<ul>
+<li>Os direitos, liberdades e garantias dos cidadãos.</li>
+<li>A organização do Estado.</li>
+<li>Os órgãos de soberania.</li>
+<li>As competências da Assembleia da República, Governo, Presidente da República e Tribunais.</li>
+<li>Os princípios fundamentais do sistema jurídico.</li>
+</ul>
+</section>
+
+<section>
+<h2>O que é a Lei?</h2>
+
+<p>
+A lei é uma norma jurídica geral e abstrata, criada por órgãos competentes, com força obrigatória.
+</p>
+
+<p>
+No sistema português, as leis podem surgir através de diferentes formas, como leis da Assembleia da República ou decretos-lei do Governo.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+O Código Civil, o Código Penal, o Código do Trabalho e o Código Comercial contêm normas legais aplicáveis a diferentes áreas da vida social.
+</div>
+</section>
+
+<section>
+<h2>Constituição, Lei e Regulamento</h2>
+
+<p>
+Nem todas as normas têm o mesmo valor.
+</p>
+
+<table>
+<tr>
+<th>Tipo de norma</th>
+<th>Função</th>
+<th>Posição hierárquica</th>
+</tr>
+<tr>
+<td>Constituição</td>
+<td>Lei fundamental do Estado</td>
+<td>Topo</td>
+</tr>
+<tr>
+<td>Lei / Decreto-Lei</td>
+<td>Cria normas gerais obrigatórias</td>
+<td>Abaixo da Constituição</td>
+</tr>
+<tr>
+<td>Regulamento</td>
+<td>Desenvolve ou executa leis</td>
+<td>Abaixo da lei</td>
+</tr>
+</table>
+</section>
+
+<section>
+<h2>Hierarquia das Normas</h2>
+
+<p>
+A hierarquia das normas significa que uma norma inferior não pode contrariar uma norma superior.
+</p>
+
+<ol>
+<li>Constituição.</li>
+<li>Leis e decretos-lei.</li>
+<li>Regulamentos.</li>
+<li>Atos administrativos.</li>
+</ol>
+
+<div class="destaque">
+<strong>Exemplo:</strong><br>
+Um regulamento municipal não pode contrariar uma lei nacional. Uma lei não pode contrariar a Constituição.
+</div>
+</section>
+
+<section>
+<h2>Estado de Direito</h2>
+
+<p>
+Num Estado de Direito, o próprio Estado está sujeito ao Direito.
+</p>
+
+<p>
+Isto significa que os governantes, a Administração Pública e os tribunais devem atuar dentro dos limites da Constituição e da lei.
+</p>
+
+<p>O Estado de Direito assenta em ideias como:</p>
+
+<ul>
+<li>Legalidade.</li>
+<li>Separação de poderes.</li>
+<li>Proteção dos direitos fundamentais.</li>
+<li>Controlo dos atos do poder público.</li>
+<li>Acesso aos tribunais.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+
+<p>
+A atividade do solicitador exige contacto constante com leis, regulamentos e princípios constitucionais.
+</p>
+
+<p>Exemplos:</p>
+
+<ul>
+<li>Verificar se um ato respeita a lei aplicável.</li>
+<li>Interpretar normas legais em contratos.</li>
+<li>Consultar legislação atualizada.</li>
+<li>Acompanhar procedimentos administrativos.</li>
+<li>Identificar direitos fundamentais relevantes para o cliente.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Um solicitador não trabalha apenas com documentos. Trabalha com normas inseridas numa hierarquia jurídica.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+
+<ul>
+<li>Confundir Constituição com uma lei comum.</li>
+<li>Pensar que todas as normas têm o mesmo valor.</li>
+<li>Ignorar que os regulamentos estão abaixo das leis.</li>
+<li>Esquecer que o Estado também está sujeito ao Direito.</li>
+<li>Usar legislação desatualizada.</li>
+</ul>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+
+<ol>
+<li>O Estado é uma organização política e jurídica com povo, território e poder político.</li>
+<li>A Constituição é a lei fundamental do Estado.</li>
+<li>A lei deve respeitar a Constituição.</li>
+<li>Os regulamentos estão abaixo da lei.</li>
+<li>No Estado de Direito, o próprio Estado está sujeito ao Direito.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+
+<ol>
+<li>Quais são os três elementos essenciais do Estado?</li>
+<li>O que é a Constituição?</li>
+<li>Qual a diferença entre lei e regulamento?</li>
+<li>O que significa hierarquia das normas?</li>
+<li>Porque é importante esta matéria para a Solicitadoria?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+
+<ol>
+<li>Povo, território e poder político.</li>
+<li>É a lei fundamental do Estado, que organiza o poder político e consagra direitos fundamentais.</li>
+<li>A lei cria normas gerais obrigatórias; o regulamento desenvolve ou executa a lei.</li>
+<li>Significa que normas inferiores não podem contrariar normas superiores.</li>
+<li>Porque o solicitador interpreta leis, regulamentos e documentos jurídicos dentro de uma ordem normativa hierarquizada.</li>
+</ol>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Página Principal</a> |
+<a href="../../cadeiras/cadeira-01-introducao-direito-i.html">📚 Cadeira</a> |
+<a href="aula-05.html">⬅ Aula 05</a> |
+<a href="aula-07.html">➡ Aula 07</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+sed -i 's|<li>Aula 06 - Estado, Constituição e lei</li>|<li><a href="../aulas/introducao-direito-i/aula-06.html">Aula 06 - Estado, Constituição e lei</a></li>|' cadeiras/cadeira-01-introducao-direito-i.html
+
+git add .
+git commit -m "Criar Aula 06 Estado Constituicao e Lei"
+git push
+
+echo "Aula 06 criada e publicada."
