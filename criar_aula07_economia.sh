@@ -1,0 +1,339 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/introducao-economia/aula-07.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 07 - Preço, Concorrência e Equilíbrio</title>
+<link rel="stylesheet" href="../../style.css?v=41">
+</head>
+<body>
+<main>
+
+<h1>Aula 07 - Preço, Concorrência e Equilíbrio</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o papel do preço na economia.</li>
+<li>Perceber como a concorrência influencia os mercados.</li>
+<li>Compreender o conceito de equilíbrio de mercado.</li>
+<li>Distinguir concorrência de monopólio.</li>
+<li>Relacionar preço, Direito e Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Na aula anterior estudámos mercado, procura e oferta. Nesta aula vamos aprofundar três ideias essenciais: preço, concorrência e equilíbrio.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+O preço transmite informação, a concorrência influencia escolhas e o equilíbrio surge quando procura e oferta se encontram.
+</div>
+</section>
+
+<section>
+<h2>O que é o Preço?</h2>
+<p>
+O preço é o valor monetário pelo qual um bem ou serviço é trocado no mercado.
+</p>
+
+<p>
+Mas o preço não serve apenas para pagar. Ele transmite informação sobre escassez, custos, procura, oferta e expectativas.
+</p>
+
+<ul>
+<li>Preço alto pode indicar escassez ou muita procura.</li>
+<li>Preço baixo pode indicar excesso de oferta ou pouca procura.</li>
+<li>Alterações de preço influenciam decisões de consumidores e empresas.</li>
+</ul>
+</section>
+
+<section>
+<h2>Funções do Preço</h2>
+
+<h3>Função informativa</h3>
+<p>
+O preço informa consumidores e produtores sobre a situação do mercado.
+</p>
+
+<h3>Função de incentivo</h3>
+<p>
+Preços mais altos podem incentivar empresas a produzir mais.
+</p>
+
+<h3>Função de seleção</h3>
+<p>
+Quando um bem é escasso, o preço pode limitar quem consegue adquiri-lo.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Se o preço das rendas sobe muito numa cidade, algumas famílias deixam de conseguir arrendar nessa zona e procuram alternativas.
+</div>
+</section>
+
+<section>
+<h2>Concorrência</h2>
+<p>
+A concorrência existe quando vários produtores ou vendedores disputam clientes no mesmo mercado.
+</p>
+
+<p>
+A concorrência pode beneficiar os consumidores, porque obriga as empresas a melhorar preço, qualidade, inovação e atendimento.
+</p>
+
+<ul>
+<li>Mais escolha para o consumidor.</li>
+<li>Pressão para baixar preços.</li>
+<li>Melhoria da qualidade.</li>
+<li>Inovação.</li>
+<li>Maior eficiência.</li>
+</ul>
+</section>
+
+<section>
+<h2>Concorrência Perfeita e Imperfeita</h2>
+
+<h3>Concorrência perfeita</h3>
+<p>
+É um modelo teórico em que existem muitos compradores, muitos vendedores, produtos semelhantes e informação disponível.
+</p>
+
+<h3>Concorrência imperfeita</h3>
+<p>
+Na realidade, muitos mercados têm limitações: poucas empresas, informação desigual, marcas fortes ou barreiras à entrada.
+</p>
+
+<div class="destaque">
+<strong>Nota:</strong><br>
+A concorrência perfeita é rara na prática. A maioria dos mercados reais tem algum grau de imperfeição.
+</div>
+</section>
+
+<section>
+<h2>Monopólio</h2>
+<p>
+Existe monopólio quando há apenas um vendedor ou fornecedor relevante num mercado.
+</p>
+
+<p>
+Num monopólio, o consumidor tem menos alternativas e o fornecedor pode ter maior poder sobre o preço.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo simples:</strong><br>
+Se numa localidade só existir uma empresa a fornecer determinado serviço essencial, os consumidores ficam dependentes dessa empresa.
+</div>
+</section>
+
+<section>
+<h2>Equilíbrio de Mercado</h2>
+<p>
+O equilíbrio de mercado ocorre quando a quantidade procurada pelos consumidores coincide com a quantidade oferecida pelos produtores.
+</p>
+
+<p>
+Nesse ponto, o preço tende a estabilizar.
+</p>
+
+<div class="destaque">
+<strong>Resumo simples:</strong><br>
+Se há excesso de procura, os preços tendem a subir. Se há excesso de oferta, os preços tendem a descer.
+</div>
+</section>
+
+<section>
+<h2>Excesso de Procura</h2>
+<p>
+O excesso de procura ocorre quando os consumidores querem comprar mais do que aquilo que os vendedores oferecem.
+</p>
+
+<p>Consequências possíveis:</p>
+<ul>
+<li>Subida de preços.</li>
+<li>Listas de espera.</li>
+<li>Racionamento.</li>
+<li>Entrada de novos produtores no mercado.</li>
+</ul>
+</section>
+
+<section>
+<h2>Excesso de Oferta</h2>
+<p>
+O excesso de oferta ocorre quando os vendedores querem vender mais do que os consumidores querem comprar.
+</p>
+
+<p>Consequências possíveis:</p>
+<ul>
+<li>Descida de preços.</li>
+<li>Promoções.</li>
+<li>Redução de produção.</li>
+<li>Saída de empresas do mercado.</li>
+</ul>
+</section>
+
+<section>
+<h2>Direito da Concorrência</h2>
+<p>
+O Direito intervém nos mercados para evitar abusos e proteger consumidores e empresas.
+</p>
+
+<p>
+O Direito da Concorrência procura impedir práticas que distorcem o funcionamento normal dos mercados.
+</p>
+
+<ul>
+<li>Cartéis.</li>
+<li>Abuso de posição dominante.</li>
+<li>Acordos para fixar preços.</li>
+<li>Práticas comerciais desleais.</li>
+<li>Concentração excessiva de mercado.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<p>
+Um solicitador pode encontrar estes conceitos em várias situações práticas.
+</p>
+
+<ul>
+<li>Contratos comerciais.</li>
+<li>Constituição de empresas.</li>
+<li>Compra e venda de imóveis.</li>
+<li>Arrendamentos.</li>
+<li>Insolvência de empresas.</li>
+<li>Cobranças de dívidas.</li>
+<li>Negociação de preços e cláusulas contratuais.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Compreender preço e concorrência ajuda a perceber o contexto económico dos negócios jurídicos.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Pensar que o preço depende apenas da vontade do vendedor.</li>
+<li>Ignorar o papel da procura e da oferta.</li>
+<li>Achar que concorrência significa ausência de regras.</li>
+<li>Confundir monopólio com empresa grande.</li>
+<li>Esquecer que o Direito regula mercados.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Explique como a concorrência pode influenciar preços e qualidade num mercado.
+</div>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+<div class="exemplo">
+<p>
+Numa cidade existem poucas casas disponíveis para arrendamento e muitos interessados. As rendas sobem rapidamente.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Existe excesso de procura ou excesso de oferta?</li>
+<li>Porque os preços sobem?</li>
+<li>Que consequências sociais podem surgir?</li>
+<li>Que áreas do Direito podem estar ligadas a este caso?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+Existe excesso de procura. Há muitos interessados e pouca oferta. As rendas sobem porque os imóveis disponíveis são escassos. Podem estar envolvidos Direito Civil, Arrendamento, Direito Fiscal, políticas públicas e habitação.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>O preço transmite informação sobre o mercado.</li>
+<li>A concorrência influencia preços, qualidade e inovação.</li>
+<li>O equilíbrio ocorre quando procura e oferta coincidem.</li>
+<li>Excesso de procura tende a subir preços; excesso de oferta tende a baixá-los.</li>
+<li>O Direito regula mercados e combate abusos.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>O que é o preço?</li>
+<li>Que funções pode ter o preço?</li>
+<li>O que é concorrência?</li>
+<li>O que é equilíbrio de mercado?</li>
+<li>Porque esta matéria interessa à Solicitadoria?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>É o valor monetário pelo qual um bem ou serviço é trocado.</li>
+<li>Função informativa, de incentivo e de seleção.</li>
+<li>É a disputa entre produtores ou vendedores pelos consumidores.</li>
+<li>É o ponto em que quantidade procurada e quantidade oferecida coincidem.</li>
+<li>Porque contratos, empresas, imóveis, arrendamentos e negócios jurídicos estão inseridos em mercados.</li>
+</ol>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-03-introducao-economia.html">📚 Cadeira</a> |
+<a href="aula-06.html">⬅ Aula 06</a> |
+<a href="aula-08.html">➡ Aula 08</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-03-introducao-economia.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 07 - Preço, concorrência e equilíbrio</li>',
+    '<li><a href="../aulas/introducao-economia/aula-07.html">Aula 07 - Preço, concorrência e equilíbrio</a></li>'
+)
+
+html = html.replace(
+    '<p><strong>Progresso da cadeira:</strong> 6 de 10 aulas concluídas</p>',
+    '<p><strong>Progresso da cadeira:</strong> 7 de 10 aulas concluídas</p>'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('6 / 10 aulas concluídas', '7 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 07 Preco Concorrencia e Equilibrio"
+git push
+
+echo "Aula 07 criada."
