@@ -1,0 +1,428 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+mkdir -p aulas/introducao-economia
+
+cat > cadeiras/cadeira-03-introducao-economia.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Introdução à Economia</title>
+<link rel="stylesheet" href="../style.css?v=36">
+</head>
+<body>
+<main>
+
+<h1>Introdução à Economia</h1>
+
+<section class="box">
+<h2>Apresentação da Cadeira</h2>
+<p>
+Introdução à Economia apresenta os conceitos fundamentais da atividade económica, como escassez, escolha, necessidades, recursos, mercado, produção, consumo e custo de oportunidade.
+</p>
+</section>
+
+<section>
+<h2>Objetivos da Cadeira</h2>
+<ul>
+<li>Compreender o conceito de Economia.</li>
+<li>Perceber a relação entre escassez, escolha e custo de oportunidade.</li>
+<li>Identificar agentes económicos.</li>
+<li>Distinguir bens, serviços, produção e consumo.</li>
+<li>Compreender noções básicas de mercado, preço, procura e oferta.</li>
+<li>Relacionar Economia, Direito e Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aulas</h2>
+<ol>
+<li><a href="../aulas/introducao-economia/aula-01.html">Aula 01 - O que é a Economia?</a></li>
+<li>Aula 02 - Necessidades, bens e recursos</li>
+<li>Aula 03 - Escassez, escolha e custo de oportunidade</li>
+<li>Aula 04 - Agentes económicos</li>
+<li>Aula 05 - Produção, consumo e rendimento</li>
+<li>Aula 06 - Mercado, procura e oferta</li>
+<li>Aula 07 - Preço, concorrência e equilíbrio</li>
+<li>Aula 08 - Estado e economia</li>
+<li>Aula 09 - Caso prático orientado</li>
+<li>Aula 10 - Revisão geral e quiz final</li>
+</ol>
+</section>
+
+<section>
+<h2>Estado</h2>
+<p><strong>Em desenvolvimento.</strong></p>
+<p><strong>Progresso da cadeira:</strong> 1 de 10 aulas concluídas</p>
+<span class="badge desenvolvimento">🟡 Em desenvolvimento</span>
+</section>
+
+<hr>
+
+<nav>
+<a href="../index.html">🏠 Início</a> |
+<a href="../cadeiras.html">📚 Plano de Estudos</a> |
+<a href="../aulas/introducao-economia/aula-01.html">📘 Aula 01</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+cat > aulas/introducao-economia/aula-01.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 01 - O que é a Economia?</title>
+<link rel="stylesheet" href="../../style.css?v=36">
+</head>
+<body>
+<main>
+
+<h1>Aula 01 - O que é a Economia?</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Definir o conceito de Economia.</li>
+<li>Compreender porque existe a Economia.</li>
+<li>Relacionar escassez, necessidades e escolha.</li>
+<li>Perceber o conceito de custo de oportunidade.</li>
+<li>Identificar exemplos económicos no dia a dia.</li>
+<li>Compreender a ligação entre Economia, Direito e Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+A Economia está presente em quase todas as decisões humanas. Mesmo quando não pensamos nela, estamos constantemente a fazer escolhas económicas.
+</p>
+
+<p>
+Comprar ou não comprar, poupar ou gastar, trabalhar mais horas ou ter mais tempo livre, contratar alguém ou investir em máquinas, aumentar impostos ou reduzir despesa pública: todas estas decisões envolvem Economia.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+A Economia estuda a forma como as pessoas, empresas e Estados utilizam recursos limitados para satisfazer necessidades humanas.
+</div>
+</section>
+
+<section>
+<h2>O que é a Economia?</h2>
+
+<p>
+De forma simples, a Economia pode ser definida como a ciência social que estuda a utilização de recursos escassos para satisfazer necessidades humanas.
+</p>
+
+<p>
+Esta definição tem três ideias fundamentais:
+</p>
+
+<ul>
+<li><strong>Necessidades humanas:</strong> aquilo que as pessoas procuram satisfazer.</li>
+<li><strong>Recursos escassos:</strong> meios limitados disponíveis para satisfazer essas necessidades.</li>
+<li><strong>Escolha:</strong> decisão sobre como utilizar os recursos disponíveis.</li>
+</ul>
+
+<p>
+Se os recursos fossem infinitos, a Economia teria pouca importância. O problema é que os recursos são limitados e as necessidades humanas tendem a ser numerosas.
+</p>
+</section>
+
+<section>
+<h2>Necessidades Humanas</h2>
+
+<p>
+As necessidades humanas são aquilo que as pessoas sentem como falta ou desejo.
+</p>
+
+<p>Podem incluir:</p>
+
+<ul>
+<li>Alimentação.</li>
+<li>Habitação.</li>
+<li>Saúde.</li>
+<li>Educação.</li>
+<li>Transporte.</li>
+<li>Segurança.</li>
+<li>Lazer.</li>
+</ul>
+
+<p>
+Algumas necessidades são essenciais à sobrevivência. Outras estão ligadas ao conforto, estatuto social ou qualidade de vida.
+</p>
+</section>
+
+<section>
+<h2>Recursos Escassos</h2>
+
+<p>
+Os recursos são os meios usados para produzir bens e serviços.
+</p>
+
+<p>Exemplos:</p>
+
+<ul>
+<li>Tempo.</li>
+<li>Dinheiro.</li>
+<li>Trabalho humano.</li>
+<li>Máquinas.</li>
+<li>Terrenos.</li>
+<li>Matérias-primas.</li>
+<li>Conhecimento.</li>
+</ul>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+A escassez não significa ausência total. Significa que os recursos não chegam para satisfazer todas as necessidades ao mesmo tempo.
+</div>
+</section>
+
+<section>
+<h2>A Escolha</h2>
+
+<p>
+Como os recursos são limitados, é necessário escolher.
+</p>
+
+<p>
+Sempre que escolhemos uma opção, deixamos outra de lado. Esta é uma das ideias mais importantes da Economia.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Se uma família usa £500 para pagar uma reparação do carro, talvez não consiga usar o mesmo dinheiro para férias, poupança ou compra de novos equipamentos.
+</div>
+</section>
+
+<section>
+<h2>Custo de Oportunidade</h2>
+
+<p>
+O custo de oportunidade é aquilo de que se abdica quando se escolhe uma alternativa.
+</p>
+
+<p>
+Não é apenas o preço em dinheiro. É o valor da melhor opção que ficou para trás.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo prático:</strong><br>
+Se decides estudar durante duas horas, o custo de oportunidade pode ser o descanso, o convívio familiar ou trabalho remunerado que deixaste de fazer nesse tempo.
+</div>
+
+<p>
+Este conceito é essencial porque mostra que todas as decisões têm um custo, mesmo quando não envolvem pagamento direto.
+</p>
+</section>
+
+<section>
+<h2>Economia no Dia a Dia</h2>
+
+<p>
+A Economia não existe apenas nos governos, empresas ou bancos. Está presente na vida quotidiana.
+</p>
+
+<ul>
+<li>Comparar preços no supermercado.</li>
+<li>Decidir entre comprar a pronto ou a crédito.</li>
+<li>Escolher trabalhar horas extra.</li>
+<li>Gerir orçamento familiar.</li>
+<li>Decidir investir num curso.</li>
+<li>Avaliar se compensa reparar ou substituir um bem.</li>
+</ul>
+</section>
+
+<section>
+<h2>Agentes Económicos</h2>
+
+<p>
+Os agentes económicos são os participantes da atividade económica.
+</p>
+
+<ul>
+<li><strong>Famílias:</strong> consomem bens e serviços e fornecem trabalho.</li>
+<li><strong>Empresas:</strong> produzem bens e serviços.</li>
+<li><strong>Estado:</strong> cobra impostos, presta serviços públicos e regula a economia.</li>
+<li><strong>Resto do mundo:</strong> representa relações económicas com outros países.</li>
+</ul>
+</section>
+
+<section>
+<h2>Economia e Direito</h2>
+
+<p>
+A Economia e o Direito estão profundamente ligados.
+</p>
+
+<p>
+O Direito cria regras que influenciam decisões económicas. A Economia ajuda a compreender os efeitos dessas regras na sociedade.
+</p>
+
+<p>Exemplos:</p>
+
+<ul>
+<li>Leis laborais afetam contratação e salários.</li>
+<li>Impostos afetam consumo, poupança e investimento.</li>
+<li>Regras de arrendamento afetam mercado habitacional.</li>
+<li>Direito comercial regula empresas e contratos.</li>
+<li>Direito da insolvência regula dificuldades económicas das empresas.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+
+<p>
+Um solicitador deve compreender noções básicas de Economia porque muitos problemas jurídicos têm uma dimensão económica.
+</p>
+
+<p>Exemplos:</p>
+
+<ul>
+<li>Contratos de compra e venda.</li>
+<li>Arrendamentos.</li>
+<li>Dívidas e cobranças.</li>
+<li>Heranças com património.</li>
+<li>Empresas e sociedades.</li>
+<li>Insolvência e recuperação económica.</li>
+<li>Registos relacionados com propriedade e atividade empresarial.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Compreender Economia ajuda a perceber melhor o impacto prático das decisões jurídicas.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+
+<ul>
+<li>Pensar que Economia é apenas dinheiro.</li>
+<li>Confundir preço com valor.</li>
+<li>Esquecer que o tempo também é um recurso escasso.</li>
+<li>Achar que uma decisão sem pagamento direto não tem custo.</li>
+<li>Ignorar que as leis produzem efeitos económicos.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Explique o conceito de custo de oportunidade e apresente um exemplo aplicado à vida de um estudante trabalhador.
+</div>
+
+<p>
+Uma boa resposta deve referir que o custo de oportunidade corresponde ao valor da melhor alternativa sacrificada quando se toma uma decisão.
+</p>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+
+<div class="exemplo">
+<p>
+Joana trabalha a tempo inteiro e decide inscrever-se numa formação jurídica online. Para estudar, passa a dedicar três noites por semana ao curso, deixando de fazer horas extra no trabalho.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Que recurso escasso está presente neste caso?</li>
+<li>Qual pode ser o custo de oportunidade da decisão de Joana?</li>
+<li>Porque esta decisão pode continuar a ser racional?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+O recurso escasso é sobretudo o tempo, mas também pode estar envolvido rendimento. O custo de oportunidade pode ser o valor das horas extra que Joana deixa de receber. Ainda assim, a decisão pode ser racional se a formação aumentar o seu conhecimento, oportunidades futuras ou realização pessoal.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+
+<ol>
+<li>A Economia estuda a utilização de recursos escassos para satisfazer necessidades humanas.</li>
+<li>A escassez obriga à escolha.</li>
+<li>O custo de oportunidade é aquilo de que se abdica ao escolher.</li>
+<li>Famílias, empresas, Estado e resto do mundo são agentes económicos.</li>
+<li>Economia e Direito estão ligados através de contratos, impostos, trabalho, empresas e propriedade.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+
+<ol>
+<li>O que estuda a Economia?</li>
+<li>O que significa escassez?</li>
+<li>O que é custo de oportunidade?</li>
+<li>Indica dois agentes económicos.</li>
+<li>Porque a Economia é importante para a Solicitadoria?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+
+<ol>
+<li>Estuda como recursos escassos são usados para satisfazer necessidades humanas.</li>
+<li>Significa que os recursos são limitados face às necessidades existentes.</li>
+<li>É o valor da melhor alternativa sacrificada quando se faz uma escolha.</li>
+<li>Famílias, empresas, Estado ou resto do mundo.</li>
+<li>Porque muitos atos jurídicos envolvem contratos, bens, dívidas, empresas, impostos e decisões económicas.</li>
+</ol>
+</section>
+
+<section>
+<h2>Ligações Úteis</h2>
+<ul>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica</a></li>
+<li><a href="../../glossario/index.html">Glossário Jurídico</a></li>
+<li><a href="../../casos/index.html">Casos Práticos</a></li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras.html">📚 Plano de Estudos</a> |
+<a href="../../cadeiras/cadeira-03-introducao-economia.html">📚 Cadeira</a> |
+<a href="aula-02.html">➡ Aula 02</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<div class="cadeira-card"><h3>📚 Introdução à Economia</h3><p>0 / 10 aulas concluídas</p><span class="badge nao-iniciada">⚪ Não iniciada</span></div>',
+    '<div class="cadeira-card"><h3>📚 Introdução à Economia</h3><p>1 / 10 aulas concluídas</p><span class="badge desenvolvimento">🟡 Em desenvolvimento</span><br><br><a class="botao" href="cadeiras/cadeira-03-introducao-economia.html">Entrar</a></div>'
+)
+
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Introducao a Economia e Aula 01"
+git push
+
+echo "Introdução à Economia criada com Aula 01 completa."
