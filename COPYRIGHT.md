@@ -7,7 +7,7 @@ Ano de início:
 2026
 
 Descrição:
-Projeto independente de estudo de Direito e Solicitadoria.
+Projeto independente de estudo jurídico criado por Pàjó.
 
 Proteção:
 Todo o conteúdo encontra-se protegido por direitos de autor.
