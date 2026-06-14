@@ -1,7 +1,7 @@
 UNIVERSIDADE DA VIDA
 
 Autor:
-Paulo Gusi (Pàjó)
+Paulo Silva (Pàjó)
 
 Ano de início:
 2026

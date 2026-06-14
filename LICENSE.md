@@ -1,4 +1,4 @@
-Copyright © 2026 Paulo Gusi / Pàjó
+Copyright © 2026 Paulo Silva
 
 Todos os direitos reservados.
 
