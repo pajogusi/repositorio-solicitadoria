@@ -4,7 +4,7 @@ cd ~/universidade-da-vida-direito
 
 echo "Atualizar nome do projeto..."
 
-find . -type f \( -name "*.html" -o -name "*.md" \) -exec sed -i 's/Universidade da Vida/Repositório de Solicitadoria/g' {} +
+find . -type f \( -name "*.html" -o -name "*.md" \) -exec sed -i 's/Repositório de Solicitadoria/Repositório de Solicitadoria/g' {} +
 
 find . -type f \( -name "*.html" -o -name "*.md" \) -exec sed -i 's/Projeto de estudo independente criado por Pàjó/Projeto independente de estudo jurídico criado por Pàjó/g' {} +
 

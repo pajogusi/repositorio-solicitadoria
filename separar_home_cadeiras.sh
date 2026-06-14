@@ -94,16 +94,16 @@ cat > index.html << 'EOF'
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
-<title>Universidade da Vida</title>
+<title>Repositório de Solicitadoria</title>
 <link rel="stylesheet" href="style.css?v=25">
 </head>
 <body>
 <main>
 
-<h1>Universidade da Vida</h1>
+<h1>Repositório de Solicitadoria</h1>
 
 <div class="dashboard">
-<h2>📚 Universidade da Vida</h2>
+<h2>📚 Repositório de Solicitadoria</h2>
 <p class="autor">Projeto de estudo independente criado por Pàjó</p>
 
 <div class="stats">
@@ -165,13 +165,13 @@ cat > index.html << 'EOF'
 
 <div class="apoio">
 <h3>☕ Apoiar o Projeto</h3>
-<p>A Universidade da Vida é um projeto independente criado para fins educativos.</p>
+<p>A Repositório de Solicitadoria é um projeto independente criado para fins educativos.</p>
 <p>PayPal: <strong>pajogusi.uk@gmail.com</strong></p>
 <p>Obrigado pelo teu apoio.</p>
 </div>
 
 <div class="footer-copyright">
-© 2026 Paulo Gusi / Pàjó - Todos os direitos reservados.
+© 2026 Paulo Silva / Pàjó - Todos os direitos reservados.
 <br>
 Conteúdo disponibilizado apenas para estudo pessoal.
 </div>

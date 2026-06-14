@@ -7,13 +7,13 @@ cat > index.html << 'EOF'
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
-<title>Universidade da Vida</title>
+<title>Repositório de Solicitadoria</title>
 <link rel="stylesheet" href="style.css?v=19">
 </head>
 <body>
 <main>
 
-<h1>Universidade da Vida</h1>
+<h1>Repositório de Solicitadoria</h1>
 
 <p>Projeto independente de estudo de Direito e Solicitadoria.</p>
 

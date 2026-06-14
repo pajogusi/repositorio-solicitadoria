@@ -23,7 +23,7 @@ echo '
 <h3>☕ Apoiar o Projeto</h3>
 
 <p>
-A Universidade da Vida é um projeto independente criado para fins educativos.
+A Repositório de Solicitadoria é um projeto independente criado para fins educativos.
 </p>
 
 <p>

@@ -65,7 +65,7 @@ hr {
 }
 
 body::before {
-    content: "Universidade da Vida - Direito e Solicitadoria Independente";
+    content: "Repositório de Solicitadoria - Direito e Solicitadoria Independente";
     display: block;
     background: #0b2c4d;
     color: white;

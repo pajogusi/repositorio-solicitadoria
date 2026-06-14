@@ -4,7 +4,7 @@ cd ~/universidade-da-vida-direito
 
 echo "Procurar referências antigas..."
 
-grep -Rni "Universidade da Vida" .
+grep -Rni "Repositório de Solicitadoria" .
 grep -Rni "universidade da vida" .
 grep -Rni "Universidade" .
 
@@ -16,7 +16,7 @@ find . -type f \( \
 -name "*.md" -o \
 -name "*.css" -o \
 -name "*.js" \
-\) -exec sed -i 's/Universidade da Vida/Repositório de Solicitadoria/g' {} +
+\) -exec sed -i 's/Repositório de Solicitadoria/Repositório de Solicitadoria/g' {} +
 
 find . -type f \( \
 -name "*.html" -o \
@@ -34,11 +34,11 @@ find . -type f \( \
 
 echo ""
 echo "Referências restantes:"
-grep -Rni "Universidade da Vida" . || true
+grep -Rni "Repositório de Solicitadoria" . || true
 grep -Rni "universidade da vida" . || true
 
 git add .
-git commit -m "Remover referencias a Universidade da Vida"
+git commit -m "Remover referencias a Repositório de Solicitadoria"
 echo ""
 echo "Agora executa:"
 echo "git push"

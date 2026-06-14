@@ -57,10 +57,10 @@ EOF
 
 cp index.html index_backup.html
 
-sed -i '/<h1>Universidade da Vida</h1>/a\ \
+sed -i '/<h1>Repositório de Solicitadoria</h1>/a\ \
 
 <div class="dashboard">\
-<h2>📚 Universidade da Vida</h2>\
+<h2>📚 Repositório de Solicitadoria</h2>\
 <p class="autor">Projeto de estudo independente criado por Pàjó</p>\
 <div class="stats">\
 <div class="stat-card"><strong>2</strong><br>Cadeiras concluídas</div>\

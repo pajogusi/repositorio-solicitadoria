@@ -20,7 +20,7 @@ cat > glossario/index.html << 'EOF'
 <h1>Glossário Jurídico</h1>
 
 <p>
-Glossário simples de conceitos essenciais usados nas aulas da Universidade da Vida.
+Glossário simples de conceitos essenciais usados nas aulas da Repositório de Solicitadoria.
 </p>
 
 <div class="aviso">

@@ -12,7 +12,7 @@ html = path.read_text(encoding="utf-8")
 
 dashboard = """
 <div class="dashboard">
-<h2>📚 Universidade da Vida</h2>
+<h2>📚 Repositório de Solicitadoria</h2>
 <p class="autor">Projeto de estudo independente criado por Pàjó</p>
 
 <div class="stats">
@@ -31,7 +31,7 @@ dashboard = """
 """
 
 if '<div class="dashboard">' not in html:
-    html = html.replace("<h1>Universidade da Vida</h1>", "<h1>Universidade da Vida</h1>\n" + dashboard)
+    html = html.replace("<h1>Repositório de Solicitadoria</h1>", "<h1>Repositório de Solicitadoria</h1>\n" + dashboard)
 
 path.write_text(html, encoding="utf-8")
 PY

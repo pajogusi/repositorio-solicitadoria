@@ -15,7 +15,7 @@ cat > cadeiras/cadeira-01-introducao-direito-i.html << 'EOF'
 
 <h1>Introdução ao Direito I</h1>
 
-<p>Esta é a primeira cadeira da Universidade da Vida - Direito e Solicitadoria Independente.</p>
+<p>Esta é a primeira cadeira da Repositório de Solicitadoria - Direito e Solicitadoria Independente.</p>
 
 <h2>Objetivos da cadeira</h2>
 <ul>

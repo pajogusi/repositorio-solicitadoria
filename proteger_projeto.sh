@@ -5,7 +5,7 @@ cd ~/universidade-da-vida-direito
 echo "Criar LICENSE.md..."
 
 cat > LICENSE.md << 'EOF'
-Copyright © 2026 Paulo Gusi / Pàjó
+Copyright © 2026 Paulo Silva / Pàjó
 
 Todos os direitos reservados.
 
@@ -25,7 +25,7 @@ cat > COPYRIGHT.md << 'EOF'
 UNIVERSIDADE DA VIDA
 
 Autor:
-Paulo Gusi (Pàjó)
+Paulo Silva (Pàjó)
 
 Ano de início:
 2026
@@ -59,7 +59,7 @@ EOF
 
 echo '
 <div class="footer-copyright">
-© 2026 Paulo Gusi / Pàjó - Todos os direitos reservados.
+© 2026 Paulo Silva / Pàjó - Todos os direitos reservados.
 <br>
 Conteúdo disponibilizado apenas para estudo pessoal.
 </div>
