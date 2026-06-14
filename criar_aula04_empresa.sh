@@ -1,0 +1,356 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/estudo-empresa/aula-04.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 04 - Recursos da Empresa</title>
+<link rel="stylesheet" href="../../style.css?v=64">
+</head>
+<body>
+<main>
+
+<h1>Aula 04 - Recursos da Empresa</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o conceito de recursos empresariais.</li>
+<li>Identificar recursos humanos, materiais, financeiros e tecnológicos.</li>
+<li>Perceber a importância da organização dos recursos.</li>
+<li>Relacionar recursos empresariais com produtividade e risco.</li>
+<li>Aplicar estes conceitos à Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Uma empresa não funciona apenas com uma ideia. Precisa de recursos para transformar essa ideia numa atividade económica real.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+Os recursos da empresa são os meios utilizados para produzir bens, prestar serviços, gerar rendimento e cumprir obrigações.
+</div>
+</section>
+
+<section>
+<h2>O que são Recursos da Empresa?</h2>
+<p>
+Recursos empresariais são todos os meios que a empresa utiliza para desenvolver a sua atividade.
+</p>
+
+<p>
+Estes recursos podem ser tangíveis, como máquinas e dinheiro, ou intangíveis, como conhecimento, marca e organização.
+</p>
+</section>
+
+<section>
+<h2>Recursos Humanos</h2>
+<p>
+Os recursos humanos correspondem às pessoas que trabalham na empresa.
+</p>
+
+<ul>
+<li>Trabalhadores.</li>
+<li>Gerentes.</li>
+<li>Administradores.</li>
+<li>Sócios que trabalham na empresa.</li>
+<li>Prestadores de serviços.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Numa pastelaria, os recursos humanos incluem pasteleiros, empregados de balcão, gerente e pessoal administrativo.
+</div>
+</section>
+
+<section>
+<h2>Recursos Materiais</h2>
+<p>
+São os bens físicos utilizados na atividade da empresa.
+</p>
+
+<ul>
+<li>Instalações.</li>
+<li>Máquinas.</li>
+<li>Viaturas.</li>
+<li>Ferramentas.</li>
+<li>Mobiliário.</li>
+<li>Matérias-primas.</li>
+<li>Produtos em stock.</li>
+</ul>
+
+<p>
+Estes recursos podem pertencer à empresa, estar alugados, locados ou ser utilizados através de contrato.
+</p>
+</section>
+
+<section>
+<h2>Recursos Financeiros</h2>
+<p>
+São os meios monetários disponíveis para financiar a atividade empresarial.
+</p>
+
+<ul>
+<li>Capital inicial.</li>
+<li>Receitas de vendas.</li>
+<li>Crédito bancário.</li>
+<li>Investimento dos sócios.</li>
+<li>Lucros reinvestidos.</li>
+<li>Subsídios ou apoios públicos.</li>
+</ul>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+Uma empresa pode ter bons produtos e bons clientes, mas se não gerir bem os recursos financeiros pode entrar em dificuldade.
+</div>
+</section>
+
+<section>
+<h2>Recursos Tecnológicos</h2>
+<p>
+Incluem equipamentos, software, sistemas de informação e ferramentas digitais.
+</p>
+
+<ul>
+<li>Computadores.</li>
+<li>Software de faturação.</li>
+<li>Websites.</li>
+<li>Sistemas de gestão.</li>
+<li>Equipamentos automatizados.</li>
+<li>Bases de dados.</li>
+</ul>
+
+<p>
+Hoje, mesmo pequenas empresas dependem frequentemente de tecnologia para faturar, comunicar, vender e cumprir obrigações legais.
+</p>
+</section>
+
+<section>
+<h2>Recursos Intangíveis</h2>
+<p>
+Nem todos os recursos da empresa são físicos.
+</p>
+
+<ul>
+<li>Marca.</li>
+<li>Reputação.</li>
+<li>Conhecimento técnico.</li>
+<li>Carteira de clientes.</li>
+<li>Segredos comerciais.</li>
+<li>Licenças.</li>
+<li>Experiência acumulada.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Uma empresa pode valer muito não apenas pelos seus equipamentos, mas pela sua marca, clientela e reputação no mercado.
+</div>
+</section>
+
+<section>
+<h2>Organização dos Recursos</h2>
+<p>
+Ter recursos não chega. É necessário organizá-los.
+</p>
+
+<p>
+A empresa precisa de coordenar pessoas, dinheiro, bens, tempo, tecnologia e informação.
+</p>
+
+<ul>
+<li>Planeamento.</li>
+<li>Gestão financeira.</li>
+<li>Distribuição de tarefas.</li>
+<li>Controlo de custos.</li>
+<li>Gestão de contratos.</li>
+<li>Cumprimento legal.</li>
+</ul>
+</section>
+
+<section>
+<h2>Recursos e Produtividade</h2>
+<p>
+Produtividade significa obter melhor resultado com os recursos disponíveis.
+</p>
+
+<div class="destaque">
+<strong>Exemplo simples:</strong><br>
+Se uma empresa produz mais com os mesmos recursos, ou mantém produção com menos desperdício, aumenta a sua produtividade.
+</div>
+
+<p>
+A produtividade pode melhorar através de formação, tecnologia, melhor organização e redução de custos inúteis.
+</p>
+</section>
+
+<section>
+<h2>Recursos e Risco Empresarial</h2>
+<p>
+A má gestão de recursos pode gerar riscos.
+</p>
+
+<ul>
+<li>Falta de liquidez.</li>
+<li>Dívidas.</li>
+<li>Incumprimento contratual.</li>
+<li>Conflitos laborais.</li>
+<li>Perda de clientes.</li>
+<li>Problemas fiscais.</li>
+<li>Insolvência.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<p>
+A Solicitadoria cruza-se frequentemente com os recursos da empresa.
+</p>
+
+<ul>
+<li>Contratos de trabalho.</li>
+<li>Contratos de arrendamento comercial.</li>
+<li>Compra e venda de equipamentos.</li>
+<li>Registo de sociedades.</li>
+<li>Cessão de quotas.</li>
+<li>Cobrança de dívidas.</li>
+<li>Insolvência e recuperação.</li>
+<li>Registos relacionados com património empresarial.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Conhecer os recursos da empresa ajuda o solicitador a compreender melhor o património, os riscos, as obrigações e os contratos envolvidos.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Pensar que o único recurso importante é o dinheiro.</li>
+<li>Ignorar o valor da marca e da reputação.</li>
+<li>Não distinguir recursos próprios de recursos financiados por dívida.</li>
+<li>Subvalorizar os recursos humanos.</li>
+<li>Esquecer que tecnologia também é recurso empresarial.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Identifique os principais recursos de uma empresa e explique a importância de cada um para a atividade empresarial.
+</div>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+<div class="exemplo">
+<p>
+Uma empresa de limpezas possui carrinhas, equipamentos, trabalhadores, contratos com clientes, software de faturação e uma marca conhecida na região.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Identifique recursos materiais.</li>
+<li>Identifique recursos humanos.</li>
+<li>Identifique recursos tecnológicos.</li>
+<li>Identifique recursos intangíveis.</li>
+<li>Que problemas podem surgir se os recursos financeiros forem mal geridos?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+As carrinhas e equipamentos são recursos materiais. Os trabalhadores são recursos humanos. O software de faturação é recurso tecnológico. A marca e os contratos com clientes são recursos intangíveis. Má gestão financeira pode causar dívidas, falta de liquidez, incumprimento e risco de insolvência.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>Recursos empresariais são os meios usados pela empresa para funcionar.</li>
+<li>Incluem recursos humanos, materiais, financeiros, tecnológicos e intangíveis.</li>
+<li>A organização dos recursos é essencial para a produtividade.</li>
+<li>A má gestão de recursos pode gerar riscos jurídicos e económicos.</li>
+<li>A Solicitadoria lida com contratos, património, dívidas e registos ligados aos recursos empresariais.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖️ Base Legal</h2>
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=524&tabela=leis" target="_blank">Código das Sociedades Comerciais</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=775&tabela=leis" target="_blank">Código Civil</a></li>
+<li><a href="https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475" target="_blank">Código do Trabalho</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Noções gerais de gestão empresarial.</li>
+<li>Direito Comercial e Direito das Sociedades.</li>
+<li>Contratos civis e comerciais.</li>
+<li>Direito do Trabalho em contexto empresarial.</li>
+</ul>
+</section>
+
+<section>
+<h2>🔗 Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://justica.gov.pt/" target="_blank">Portal da Justiça</a></li>
+<li><a href="https://irn.justica.gov.pt/" target="_blank">IRN</a></li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-04-estudo-empresa.html">📚 Cadeira</a> |
+<a href="aula-03.html">⬅ Aula 03</a> |
+<a href="aula-05.html">➡ Aula 05</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-04-estudo-empresa.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 04 - Recursos da empresa</li>',
+    '<li><a href="../aulas/estudo-empresa/aula-04.html">Aula 04 - Recursos da empresa</a></li>'
+)
+
+html = html.replace(
+    '3 de 10 aulas concluídas',
+    '4 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('3 / 10 aulas concluídas', '4 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 04 Recursos da Empresa"
+git push
+
+echo "Aula 04 criada."
