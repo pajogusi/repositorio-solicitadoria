@@ -355,3 +355,13 @@ margin-top:10px;
         margin: 8px 0;
     }
 }
+
+.logo-container{
+    text-align:center;
+    margin:20px 0;
+}
+
+.logo-container img{
+    max-width:450px;
+    width:90%;
+}
