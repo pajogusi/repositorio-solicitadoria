@@ -1,0 +1,311 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/introducao-economia/aula-08.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 08 - Estado e Economia</title>
+<link rel="stylesheet" href="../../style.css?v=42">
+</head>
+<body>
+<main>
+
+<h1>Aula 08 - Estado e Economia</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o papel económico do Estado.</li>
+<li>Distinguir funções do Estado na economia.</li>
+<li>Compreender impostos, despesa pública e redistribuição.</li>
+<li>Relacionar Estado, Direito e atividade económica.</li>
+<li>Aplicar estes conceitos à Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+O Estado desempenha um papel fundamental na economia moderna. Para além de criar leis, cobra impostos, presta serviços públicos e regula mercados.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+O Estado procura equilibrar liberdade económica, justiça social e interesse público.
+</div>
+</section>
+
+<section>
+<h2>Funções Económicas do Estado</h2>
+
+<h3>1. Função Reguladora</h3>
+<p>
+Cria regras jurídicas para o funcionamento da economia.
+</p>
+
+<ul>
+<li>Proteção do consumidor.</li>
+<li>Direito da concorrência.</li>
+<li>Direito do trabalho.</li>
+<li>Regulação financeira.</li>
+</ul>
+
+<h3>2. Função Prestadora</h3>
+<p>
+Presta serviços públicos essenciais.
+</p>
+
+<ul>
+<li>Saúde.</li>
+<li>Educação.</li>
+<li>Justiça.</li>
+<li>Segurança.</li>
+<li>Infraestruturas.</li>
+</ul>
+
+<h3>3. Função Redistributiva</h3>
+<p>
+Procura reduzir desigualdades através de impostos e apoios sociais.
+</p>
+
+<h3>4. Função Estabilizadora</h3>
+<p>
+Intervém para combater crises económicas, inflação ou desemprego.
+</p>
+</section>
+
+<section>
+<h2>Impostos</h2>
+
+<p>
+Os impostos são prestações obrigatórias pagas ao Estado para financiar serviços públicos.
+</p>
+
+<ul>
+<li>IRS – Imposto sobre o Rendimento das Pessoas Singulares.</li>
+<li>IRC – Imposto sobre o Rendimento das Pessoas Coletivas.</li>
+<li>IVA – Imposto sobre o Valor Acrescentado.</li>
+<li>IMI – Imposto Municipal sobre Imóveis.</li>
+<li>IS – Imposto do Selo.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Quando compramos um produto, normalmente pagamos IVA incluído no preço.
+</div>
+</section>
+
+<section>
+<h2>Despesa Pública</h2>
+
+<p>
+A despesa pública corresponde ao dinheiro gasto pelo Estado.
+</p>
+
+<ul>
+<li>Hospitais.</li>
+<li>Escolas.</li>
+<li>Tribunais.</li>
+<li>Pensões.</li>
+<li>Estradas.</li>
+<li>Segurança pública.</li>
+</ul>
+</section>
+
+<section>
+<h2>Economia de Mercado e Intervenção do Estado</h2>
+
+<p>
+Portugal segue uma economia de mercado, mas com intervenção do Estado em áreas essenciais.
+</p>
+
+<div class="destaque">
+<strong>Equilíbrio:</strong><br>
+Mercado livre não significa ausência de regras. A atividade económica é regulada juridicamente.
+</div>
+</section>
+
+<section>
+<h2>Estado Social</h2>
+
+<p>
+O Estado Social procura assegurar direitos fundamentais e proteção social.
+</p>
+
+<ul>
+<li>Saúde.</li>
+<li>Educação.</li>
+<li>Segurança social.</li>
+<li>Apoio ao desemprego.</li>
+<li>Proteção da infância e velhice.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+
+<ul>
+<li>Impostos sobre imóveis.</li>
+<li>Heranças e sucessões.</li>
+<li>Empresas e obrigações fiscais.</li>
+<li>Licenciamentos administrativos.</li>
+<li>Registos.</li>
+<li>Contratos públicos.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Grande parte da atividade do solicitador envolve relações entre cidadãos, empresas e Administração Pública.
+</div>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Explique quatro funções económicas do Estado e apresente exemplos.
+</div>
+
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+
+<div class="exemplo">
+<p>
+Uma empresa paga IRC, os trabalhadores pagam IRS e os consumidores pagam IVA.
+</p>
+
+<h3>Questões</h3>
+
+<ol>
+<li>Quem paga cada imposto?</li>
+<li>Qual a finalidade dos impostos?</li>
+<li>Que serviços públicos podem ser financiados?</li>
+</ol>
+
+</div>
+
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+
+<ol>
+<li>O Estado regula a economia.</li>
+<li>Os impostos financiam serviços públicos.</li>
+<li>O Estado redistribui rendimento.</li>
+<li>Portugal possui economia de mercado regulada.</li>
+<li>Direito e Economia estão fortemente ligados.</li>
+</ol>
+
+</section>
+
+<section>
+<h2>⚖️ Base Legal</h2>
+
+<ul>
+<li>
+<a href="https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1976-34520775" target="_blank">
+Constituição da República Portuguesa
+</a>
+</li>
+
+<li>
+<a href="https://info.portaldasfinancas.gov.pt/" target="_blank">
+Autoridade Tributária e Aduaneira
+</a>
+</li>
+
+<li>
+<a href="https://eur-lex.europa.eu/" target="_blank">
+EUR-Lex – Direito da União Europeia
+</a>
+</li>
+
+</ul>
+
+<p>
+Artigos constitucionais relevantes:
+</p>
+
+<ul>
+<li>Art. 61.º – Iniciativa económica privada.</li>
+<li>Art. 81.º – Incumbências prioritárias do Estado.</li>
+<li>Art. 103.º – Sistema fiscal.</li>
+<li>Art. 104.º – Tributação.</li>
+</ul>
+
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+
+<ul>
+<li>Constituição da República Portuguesa.</li>
+<li>Lei Geral Tributária.</li>
+<li>Código do IVA.</li>
+<li>Código do IRS.</li>
+<li>Código do IRC.</li>
+</ul>
+
+</section>
+
+<section>
+<h2>🔗 Ligações Oficiais</h2>
+
+<ul>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica</a></li>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://eur-lex.europa.eu/" target="_blank">EUR-Lex</a></li>
+</ul>
+
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-03-introducao-economia.html">📚 Cadeira</a> |
+<a href="aula-07.html">⬅ Aula 07</a> |
+<a href="aula-09.html">➡ Aula 09</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-03-introducao-economia.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 08 - Estado e economia</li>',
+    '<li><a href="../aulas/introducao-economia/aula-08.html">Aula 08 - Estado e economia</a></li>'
+)
+
+html = html.replace(
+    '7 de 10 aulas concluídas',
+    '8 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('7 / 10 aulas concluídas', '8 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 08 Estado e Economia"
+git push
+
+echo "Aula 08 criada com Base Legal."
