@@ -320,3 +320,38 @@ margin-top:10px;
     margin-top: -10px;
     margin-bottom: 30px;
 }
+
+.top-menu {
+    background: #0b2c4d;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.top-menu a {
+    color: white !important;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-menu a:hover {
+    text-decoration: underline;
+}
+
+.site-footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85em;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 700px) {
+    .top-menu a {
+        display: block;
+        margin: 8px 0;
+    }
+}
