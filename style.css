@@ -375,3 +375,32 @@ margin-top:10px;
     max-width:450px;
     width:90%;
 }
+
+/* Melhorias de navegação e cartões */
+.top-menu {
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+}
+
+main > .cadeira-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+main > .cadeira-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 16px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 900px) {
+    .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .cards-grid .cadeira-card {
+        margin: 0;
+    }
+}
