@@ -59,7 +59,7 @@ menu_root = '''
 footer = '''
 <footer class="site-footer">
 <p><strong>Repositório de Solicitadoria</strong></p>
-<p>Projeto independente de estudo jurídico criado por Pàjó.</p>
+<p>Projeto independente de estudo jurídico criado por Paulo Silva.</p>
 <p>© 2026 Paulo Silva / Pàjó - Todos os direitos reservados.</p>
 </footer>
 '''

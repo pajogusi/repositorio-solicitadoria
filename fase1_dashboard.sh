@@ -61,7 +61,7 @@ sed -i '/<h1>Repositório de Solicitadoria</h1>/a\ \
 
 <div class="dashboard">\
 <h2>📚 Repositório de Solicitadoria</h2>\
-<p class="autor">Projeto de estudo independente criado por Pàjó</p>\
+<p class="autor">Projeto de estudo independente criado por Paulo Silva</p>\
 <div class="stats">\
 <div class="stat-card"><strong>2</strong><br>Cadeiras concluídas</div>\
 <div class="stat-card"><strong>20</strong><br>Aulas concluídas</div>\

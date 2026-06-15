@@ -6,7 +6,7 @@ echo "Atualizar nome do projeto..."
 
 find . -type f \( -name "*.html" -o -name "*.md" \) -exec sed -i 's/Repositório de Solicitadoria/Repositório de Solicitadoria/g' {} +
 
-find . -type f \( -name "*.html" -o -name "*.md" \) -exec sed -i 's/Projeto de estudo independente criado por Pàjó/Projeto independente de estudo jurídico criado por Pàjó/g' {} +
+find . -type f \( -name "*.html" -o -name "*.md" \) -exec sed -i 's/Projeto de estudo independente criado por Paulo Silva/Projeto independente de estudo jurídico criado por Paulo Silva/g' {} +
 
 python3 << 'PY'
 from pathlib import Path

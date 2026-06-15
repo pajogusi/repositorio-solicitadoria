@@ -30,7 +30,7 @@ find . -type f \( \
 -name "*.md" -o \
 -name "*.css" -o \
 -name "*.js" \
-\) -exec sed -i 's/Projeto independente de estudo de Direito e Solicitadoria/Projeto independente de estudo jurídico criado por Pàjó/g' {} +
+\) -exec sed -i 's/Projeto independente de estudo de Direito e Solicitadoria/Projeto independente de estudo jurídico criado por Paulo Silva/g' {} +
 
 echo ""
 echo "Referências restantes:"

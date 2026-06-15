@@ -7,7 +7,7 @@ Ano de início:
 2026
 
 Descrição:
-Projeto independente de estudo jurídico criado por Pàjó.
+Projeto independente de estudo jurídico criado por Paulo Silva.
 
 Proteção:
 Todo o conteúdo encontra-se protegido por direitos de autor.

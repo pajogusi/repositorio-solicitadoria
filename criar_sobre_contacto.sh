@@ -18,7 +18,7 @@ cat > paginas/sobre.html << 'EOF'
 <h1>Sobre o Projeto</h1>
 
 <p>
-O Repositório de Solicitadoria é um projeto independente de estudo jurídico criado por Pàjó.
+O Repositório de Solicitadoria é um projeto independente de estudo jurídico criado por Paulo Silva.
 </p>
 
 <p>
@@ -113,7 +113,7 @@ for path in Path(".").rglob("*.html"):
     footer = '''
 <footer class="site-footer">
 <p><strong>Repositório de Solicitadoria</strong></p>
-<p>Projeto independente de estudo jurídico criado por Pàjó.</p>
+<p>Projeto independente de estudo jurídico criado por Paulo Silva.</p>
 <p>© 2026 Paulo Silva / Pàjó - Todos os direitos reservados.</p>
 </footer>
 '''
