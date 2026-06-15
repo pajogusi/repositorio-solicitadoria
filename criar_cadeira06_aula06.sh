@@ -1,0 +1,467 @@
+#!/bin/bash
+
+# ==========================================================
+# Repositório de Solicitadoria
+# Cadeira 6: Análise e Produção de Textos
+# Aula 06: Resumo e síntese de textos jurídicos
+# Autor oficial: Paulo Silva
+# ==========================================================
+
+set -e
+
+echo "=========================================="
+echo "A criar Aula 06 - Resumo e síntese de textos jurídicos"
+echo "=========================================="
+
+mkdir -p aulas/analise-producao-textos
+
+cat > aulas/analise-producao-textos/aula06.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 06 — Resumo e síntese de textos jurídicos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Análise e Produção de Textos</h1>
+    <p>Aula 06 — Resumo e síntese de textos jurídicos</p>
+  </header>
+
+  <nav>
+    <a href="../../index.html">Início</a>
+    <a href="../../cadeiras.html">Cadeiras</a>
+    <a href="../../biblioteca.html">Biblioteca Jurídica</a>
+    <a href="../../glossario.html">Glossário Jurídico</a>
+    <a href="../../casos-praticos.html">Casos Práticos</a>
+    <a href="../../quiz.html">Quiz Interativo</a>
+    <a href="../../mapa-site.html">Mapa do Site</a>
+    <a href="../../aviso-legal.html">Aviso Legal</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>1. A importância do resumo no estudo jurídico</h2>
+
+      <p>
+        Resumir um texto jurídico é reduzir o seu conteúdo ao essencial, mantendo as ideias
+        principais, os conceitos relevantes e a lógica do raciocínio.
+      </p>
+
+      <p>
+        No estudo do Direito, o resumo é uma ferramenta fundamental. Ajuda a compreender leis,
+        acórdãos, pareceres, contratos, manuais e documentos administrativos sem perder a estrutura
+        principal do texto.
+      </p>
+
+      <p>
+        Um bom resumo não é uma cópia mais curta. É uma reconstrução organizada do conteúdo.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Diferença entre resumo e síntese</h2>
+
+      <p>
+        O resumo apresenta as ideias principais de um texto, seguindo normalmente a ordem do texto
+        original. A síntese vai mais longe: reúne, reorganiza e relaciona ideias, podendo cruzar
+        informação de vários textos.
+      </p>
+
+      <ul>
+        <li><strong>Resumo:</strong> reduz um texto ao essencial.</li>
+        <li><strong>Síntese:</strong> combina ideias e apresenta uma visão organizada do tema.</li>
+      </ul>
+
+      <p>
+        No contexto jurídico, o resumo é útil para estudar um texto específico. A síntese é útil
+        para preparar respostas, trabalhos, pareceres ou revisões de matéria.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. O que deve permanecer num resumo jurídico?</h2>
+
+      <p>
+        Um resumo jurídico deve preservar os elementos que têm relevância para a compreensão do
+        problema jurídico.
+      </p>
+
+      <ul>
+        <li>O tema principal.</li>
+        <li>Os factos juridicamente relevantes.</li>
+        <li>As normas ou princípios aplicáveis.</li>
+        <li>Os conceitos técnicos importantes.</li>
+        <li>O raciocínio central do autor ou da decisão.</li>
+        <li>A conclusão ou consequência jurídica.</li>
+      </ul>
+
+      <p>
+        Elementos secundários, repetições, exemplos acessórios ou frases decorativas podem ser
+        retirados, desde que não alterem o sentido do texto.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. O que deve ser evitado?</h2>
+
+      <p>
+        Um erro frequente é resumir cortando frases ao acaso. Isso pode destruir a lógica do texto.
+      </p>
+
+      <p>
+        Também se deve evitar:
+      </p>
+
+      <ul>
+        <li>Copiar parágrafos inteiros sem seleção.</li>
+        <li>Retirar conclusões sem manter os fundamentos.</li>
+        <li>Ignorar prazos, exceções ou condições importantes.</li>
+        <li>Trocar termos técnicos por palavras menos rigorosas.</li>
+        <li>Acrescentar opinião pessoal quando o objetivo é apenas resumir.</li>
+        <li>Omitir a conclusão principal do texto.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Método simples para resumir textos jurídicos</h2>
+
+      <p>
+        Um método prático pode seguir estes passos:
+      </p>
+
+      <ol>
+        <li>Ler o texto completo uma primeira vez.</li>
+        <li>Identificar o tema central.</li>
+        <li>Sublinhar conceitos jurídicos importantes.</li>
+        <li>Separar factos, normas, argumentos e conclusão.</li>
+        <li>Eliminar repetições e detalhes secundários.</li>
+        <li>Reescrever por palavras próprias.</li>
+        <li>Confirmar se o sentido original foi mantido.</li>
+      </ol>
+
+      <p>
+        O objetivo não é escrever menos por escrever menos. É tornar o texto mais claro e manejável.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Exemplo de resumo</h2>
+
+      <p>
+        Texto original:
+      </p>
+
+      <blockquote>
+        “O arrendatário obrigou-se, nos termos do contrato celebrado entre as partes, a pagar a
+        renda mensal até ao primeiro dia de cada mês. Contudo, a renda vencida em 1 de maio de
+        2026 não foi paga até à presente data, apesar de já terem sido feitas duas comunicações
+        escritas pelo senhorio.”
+      </blockquote>
+
+      <p>
+        Resumo possível:
+      </p>
+
+      <blockquote>
+        “O arrendatário não pagou a renda vencida em 1 de maio de 2026, incumprindo a obrigação
+        contratual de pagamento mensal.”
+      </blockquote>
+
+      <p>
+        O resumo mantém o essencial: sujeito, obrigação, data e incumprimento.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. Síntese de textos jurídicos</h2>
+
+      <p>
+        A síntese é especialmente útil quando se estudam vários textos sobre o mesmo tema. Por
+        exemplo, uma lei, um manual e uma decisão judicial podem tratar do mesmo assunto de formas
+        diferentes.
+      </p>
+
+      <p>
+        A síntese permite juntar essas informações numa explicação única e organizada.
+      </p>
+
+      <p>
+        Em vez de repetir cada texto separadamente, a síntese pergunta:
+      </p>
+
+      <ul>
+        <li>Que ideia comum aparece nos textos?</li>
+        <li>Que diferenças existem entre eles?</li>
+        <li>Que conceitos são essenciais?</li>
+        <li>Que conclusão geral posso retirar?</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>8. Exemplo de síntese</h2>
+
+      <p>
+        Imagina três textos sobre incumprimento contratual:
+      </p>
+
+      <ul>
+        <li>Um explica que o contrato cria obrigações entre as partes.</li>
+        <li>Outro refere que a falta de cumprimento pode gerar responsabilidade.</li>
+        <li>Outro apresenta um exemplo de atraso no pagamento.</li>
+      </ul>
+
+      <p>
+        Síntese possível:
+      </p>
+
+      <blockquote>
+        “O incumprimento contratual ocorre quando uma parte não realiza a prestação a que se obrigou.
+        Esse incumprimento pode resultar da falta de pagamento, atraso na entrega ou violação de
+        outra obrigação contratual, podendo gerar responsabilidade para a parte faltosa.”
+      </blockquote>
+
+      <p>
+        A síntese reúne ideias de vários textos numa explicação coerente.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. Resumir acórdãos e decisões</h2>
+
+      <p>
+        Resumir uma decisão judicial exige atenção especial. Não basta copiar a conclusão. É preciso
+        perceber o problema, os factos relevantes, a questão jurídica e o fundamento da decisão.
+      </p>
+
+      <p>
+        Um resumo simples de decisão pode seguir esta estrutura:
+      </p>
+
+      <ol>
+        <li>Identificação do problema.</li>
+        <li>Factos principais.</li>
+        <li>Questão jurídica discutida.</li>
+        <li>Fundamentação essencial.</li>
+        <li>Decisão final.</li>
+      </ol>
+
+      <p>
+        Esta estrutura ajuda a estudar jurisprudência sem se perder em detalhes secundários.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>10. Resumir normas jurídicas</h2>
+
+      <p>
+        Ao resumir uma norma, deve manter-se a sua estrutura jurídica essencial: sujeito, obrigação,
+        condição, exceção e consequência.
+      </p>
+
+      <p>
+        Exemplo:
+      </p>
+
+      <blockquote>
+        “O interessado deve apresentar o pedido no prazo de 30 dias, salvo quando a lei preveja
+        prazo especial.”
+      </blockquote>
+
+      <p>
+        Resumo possível:
+      </p>
+
+      <blockquote>
+        “O pedido deve ser apresentado em 30 dias, exceto se existir prazo legal especial.”
+      </blockquote>
+
+      <p>
+        O resumo é mais curto, mas mantém a regra, o prazo e a exceção.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>11. Erros frequentes em resumos e sínteses</h2>
+
+      <ul>
+        <li>Fazer um resumo demasiado longo.</li>
+        <li>Retirar elementos essenciais.</li>
+        <li>Alterar o sentido do texto original.</li>
+        <li>Confundir resumo com opinião pessoal.</li>
+        <li>Não distinguir ideias principais de detalhes secundários.</li>
+        <li>Fazer síntese sem relacionar ideias.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>12. Resumo da aula</h2>
+
+      <ul>
+        <li>Resumir é reduzir um texto ao essencial sem alterar o seu sentido.</li>
+        <li>Sintetizar é reunir e organizar ideias, muitas vezes de vários textos.</li>
+        <li>Num texto jurídico, devem manter-se factos, normas, conceitos e conclusões relevantes.</li>
+        <li>Resumos jurídicos exigem precisão, clareza e fidelidade ao texto original.</li>
+        <li>Uma boa síntese ajuda a compreender temas jurídicos de forma integrada.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>13. Mini-questões</h2>
+
+      <ol>
+        <li>Qual é a diferença entre resumo e síntese?</li>
+        <li>Que elementos devem permanecer num resumo jurídico?</li>
+        <li>Porque não se deve resumir apenas cortando frases?</li>
+        <li>Que cuidados são necessários ao resumir uma decisão judicial?</li>
+        <li>Indica dois erros frequentes em resumos jurídicos.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>14. Exercício prático</h2>
+
+      <p>
+        Resume o seguinte texto em duas frases:
+      </p>
+
+      <blockquote>
+        “No dia 3 de março de 2026, Carla celebrou com Miguel um contrato de prestação de serviços
+        para reparação de um computador portátil. Ficou acordado que o trabalho seria concluído até
+        10 de março de 2026, mediante o pagamento de 120 euros. Contudo, até 25 de março de 2026,
+        o serviço não tinha sido realizado, nem Miguel apresentou justificação para o atraso.”
+      </blockquote>
+
+      <p>
+        O resumo deve manter:
+      </p>
+
+      <ul>
+        <li>As partes envolvidas.</li>
+        <li>A obrigação assumida.</li>
+        <li>O prazo acordado.</li>
+        <li>O incumprimento verificado.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <p>
+        <a href="aula05.html">Aula anterior</a> |
+        <a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Paulo Silva — Repositório de Solicitadoria</p>
+  </footer>
+</body>
+</html>
+EOF
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("cadeiras/analise-producao-textos/index.html")
+
+if not path.exists():
+    print("ERRO: página da cadeira não encontrada.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    "<li>Aula 06 — Resumo e síntese de textos jurídicos</li>",
+    '<li><a href="../../aulas/analise-producao-textos/aula06.html">Aula 06 — Resumo e síntese de textos jurídicos</a></li>'
+)
+
+path.write_text(html, encoding="utf-8")
+print("Página da cadeira atualizada com link da Aula 06.")
+
+aula05 = Path("aulas/analise-producao-textos/aula05.html")
+if aula05.exists():
+    a5 = aula05.read_text(encoding="utf-8")
+    if 'aula06.html' not in a5:
+        a5 = a5.replace(
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a>',
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a> | <a href="aula06.html">Próxima aula</a>'
+        )
+        aula05.write_text(a5, encoding="utf-8")
+        print("Aula 05 atualizada com link para Aula 06.")
+PY
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("cadeiras.html")
+
+if not path.exists():
+    print("ERRO: cadeiras.html não encontrado.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+cartao_novo = (
+    '<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    '<p>6 / 10 aulas concluídas</p>'
+    '<span class="badge em-desenvolvimento">🟡 Em desenvolvimento</span>'
+    '<br><br><a class="botao" href="cadeiras/analise-producao-textos/index.html">Entrar</a></div>'
+)
+
+padrao = (
+    r'<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    r'<p>.*?</p>'
+    r'<span class="badge .*?">.*?</span>'
+    r'(?:<br><br><a class="botao" href=".*?">Entrar</a>)?'
+    r'</div>'
+)
+
+html, n = re.subn(padrao, cartao_novo, html, count=1, flags=re.DOTALL)
+
+if n == 0:
+    print("ERRO: não consegui atualizar o cartão da Cadeira 6.")
+    raise SystemExit(1)
+
+path.write_text(html, encoding="utf-8")
+print("cadeiras.html atualizado para 6 / 10.")
+PY
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("index.html")
+
+if not path.exists():
+    print("AVISO: index.html não encontrado.")
+    raise SystemExit
+
+html = path.read_text(encoding="utf-8")
+original = html
+
+html = html.replace("55 aulas", "56 aulas")
+html = html.replace("55 Aulas", "56 Aulas")
+html = re.sub(r'(<[^>]*>\s*)55(\s*</[^>]*>)', r'\g<1>56\2', html, count=1)
+
+if html != original:
+    path.write_text(html, encoding="utf-8")
+    print("index.html atualizado para 56 aulas.")
+else:
+    print("index.html não atualizado automaticamente.")
+PY
+
+git add .
+
+git commit -m "Adicionar Aula 06 de Análise e Produção de Textos" || echo "Nada novo para commit."
+
+git push
+
+echo "=========================================="
+echo "Aula 06 criada com sucesso."
+echo "Cadeira 6 atualizada para 6 / 10."
+echo "Total previsto: 56 aulas."
+echo "=========================================="
