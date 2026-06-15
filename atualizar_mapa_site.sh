@@ -1,3 +1,8 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > paginas/mapa.html << 'EOF'
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -115,3 +120,10 @@
 </main>
 </body>
 </html>
+EOF
+
+git add .
+git commit -m "Atualizar mapa do site"
+git push
+
+echo "Mapa do site atualizado."
