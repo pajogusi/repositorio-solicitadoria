@@ -1,0 +1,231 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/sociologia-direito/aula-09.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 09 - Caso Prático Orientado</title>
+<link rel="stylesheet" href="../../style.css?v=88">
+</head>
+<body>
+<main>
+
+<h1>Aula 09 - Caso Prático Orientado</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Aplicar os conceitos estudados em Sociologia do Direito.</li>
+<li>Relacionar Direito, sociedade, conflito e mudança social.</li>
+<li>Identificar normas sociais e jurídicas num caso concreto.</li>
+<li>Compreender controlo social formal e informal.</li>
+<li>Desenvolver raciocínio sociológico-jurídico.</li>
+</ul>
+</section>
+
+<section>
+<h2>O Caso</h2>
+<div class="exemplo">
+<p>
+Num bairro urbano, vários moradores queixam-se do aumento de alojamentos locais. Alegam subida das rendas, ruído noturno, perda de vizinhança tradicional e dificuldade de acesso à habitação.
+</p>
+
+<p>
+Os proprietários defendem que têm direito a explorar economicamente os seus imóveis. A autarquia decide criar regras mais restritivas para novas licenças de alojamento local.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Análise Sociológica</h2>
+<ul>
+<li><strong>Problema social:</strong> tensão entre habitação, turismo, propriedade e vida comunitária.</li>
+<li><strong>Conflito de interesses:</strong> moradores, proprietários, turistas, comerciantes e autarquia.</li>
+<li><strong>Mudança social:</strong> transformação do uso dos imóveis e alteração da vida urbana.</li>
+<li><strong>Resposta jurídica:</strong> criação de regras administrativas e limites ao exercício da atividade.</li>
+<li><strong>Controlo social:</strong> fiscalização, licenciamento, sanções e pressão comunitária.</li>
+</ul>
+</section>
+
+<section>
+<h2>Normas Sociais e Jurídicas no Caso</h2>
+
+<h3>Normas sociais</h3>
+<ul>
+<li>Expectativas de respeito pelo descanso dos moradores.</li>
+<li>Preservação da vida comunitária.</li>
+<li>Reprovação social de comportamentos considerados abusivos.</li>
+</ul>
+
+<h3>Normas jurídicas</h3>
+<ul>
+<li>Regras de licenciamento.</li>
+<li>Regulamentos municipais.</li>
+<li>Direito de propriedade.</li>
+<li>Regras administrativas e fiscais.</li>
+<li>Eventuais normas de arrendamento e habitação.</li>
+</ul>
+</section>
+
+<section>
+<h2>Controlo Social</h2>
+<p>
+Neste caso existem formas de controlo social informal e formal.
+</p>
+
+<ul>
+<li><strong>Informal:</strong> reclamações, pressão dos moradores, críticas públicas.</li>
+<li><strong>Formal:</strong> regulamentos, fiscalização, licenças, coimas e decisões administrativas.</li>
+</ul>
+</section>
+
+<section>
+<h2>Perspetiva de Durkheim</h2>
+<p>
+Durkheim ajudaria a analisar este caso como uma tensão na coesão social do bairro.
+</p>
+
+<p>
+A comunidade procura preservar solidariedade, hábitos e formas de convivência. O Direito surge como instrumento para reorganizar a vida coletiva.
+</p>
+</section>
+
+<section>
+<h2>Perspetiva de Weber</h2>
+<p>
+Weber permitiria compreender a intervenção da autarquia como exemplo de dominação legal-racional.
+</p>
+
+<p>
+A decisão é tomada através de normas, competências administrativas, licenciamento, fiscalização e procedimentos formais.
+</p>
+</section>
+
+<section>
+<h2>Perspetiva de Marx</h2>
+<p>
+Marx chamaria atenção para os interesses económicos presentes no conflito.
+</p>
+
+<p>
+A exploração económica dos imóveis pode gerar rendimento para proprietários, mas também agravar desigualdades no acesso à habitação.
+</p>
+</section>
+
+<section>
+<h2>Questões Orientadoras</h2>
+<ol>
+<li>Que problema social está na origem do conflito?</li>
+<li>Que normas sociais estão presentes?</li>
+<li>Que normas jurídicas podem ser aplicáveis?</li>
+<li>Existe controlo social formal e informal?</li>
+<li>Como Durkheim, Weber e Marx poderiam interpretar o caso?</li>
+<li>Que papel pode desempenhar a Solicitadoria?</li>
+</ol>
+</section>
+
+<section>
+<h2>Resposta Orientadora</h2>
+<p>
+O caso envolve mudança social, conflito de interesses e resposta jurídica. O aumento do alojamento local altera a vida comunitária, afeta o mercado habitacional e gera tensão entre propriedade privada e interesse coletivo.
+</p>
+
+<p>
+A Solicitadoria pode intervir em contratos, licenciamento, registos, apoio documental, esclarecimento de obrigações legais, procedimentos administrativos e resolução de conflitos.
+</p>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<ul>
+<li>Apoio a proprietários na regularização da atividade.</li>
+<li>Esclarecimento sobre obrigações legais e administrativas.</li>
+<li>Preparação de documentação.</li>
+<li>Intervenção em contratos e registos.</li>
+<li>Apoio em reclamações ou procedimentos administrativos.</li>
+<li>Análise de conflitos entre particulares e entidades públicas.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+O solicitador deve compreender não apenas a norma aplicável, mas também o contexto social que está por trás do conflito.
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>Os conflitos jurídicos têm frequentemente origem social.</li>
+<li>Normas sociais e jurídicas podem atuar em simultâneo.</li>
+<li>O Direito funciona como instrumento de controlo social formal.</li>
+<li>Autores clássicos ajudam a interpretar diferentes dimensões do conflito.</li>
+<li>A Solicitadoria beneficia de uma leitura social dos problemas jurídicos.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖️ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://www.dgsi.pt/" target="_blank">DGSI — Jurisprudência</a></li>
+<li><a href="https://justica.gov.pt/" target="_blank">Portal da Justiça</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Sociologia do Direito e conflitos urbanos.</li>
+<li>Direito, habitação e transformação social.</li>
+<li>Controlo social formal e informal.</li>
+<li>Durkheim, Weber e Marx aplicados a casos jurídicos.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-05-sociologia-direito.html">📚 Cadeira</a> |
+<a href="aula-08.html">⬅ Aula 08</a> |
+<a href="quiz-final.html">➡ Aula 10</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-05-sociologia-direito.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 09 - Caso prático orientado</li>',
+    '<li><a href="../aulas/sociologia-direito/aula-09.html">Aula 09 - Caso prático orientado</a></li>'
+)
+
+html = html.replace(
+    '8 de 10 aulas concluídas',
+    '9 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('8 / 10 aulas concluídas', '9 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 09 Caso Pratico Sociologia do Direito"
+git push
+
+echo "Aula 09 de Sociologia do Direito criada."
