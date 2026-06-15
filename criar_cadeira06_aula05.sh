@@ -1,0 +1,472 @@
+#!/bin/bash
+
+# ==========================================================
+# Repositório de Solicitadoria
+# Cadeira 6: Análise e Produção de Textos
+# Aula 05: Interpretação e análise textual
+# Autor oficial: Paulo Silva
+# ==========================================================
+
+set -e
+
+echo "=========================================="
+echo "A criar Aula 05 - Interpretação e análise textual"
+echo "=========================================="
+
+mkdir -p aulas/analise-producao-textos
+
+cat > aulas/analise-producao-textos/aula05.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 05 — Interpretação e análise textual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Análise e Produção de Textos</h1>
+    <p>Aula 05 — Interpretação e análise textual</p>
+  </header>
+
+  <nav>
+    <a href="../../index.html">Início</a>
+    <a href="../../cadeiras.html">Cadeiras</a>
+    <a href="../../biblioteca.html">Biblioteca Jurídica</a>
+    <a href="../../glossario.html">Glossário Jurídico</a>
+    <a href="../../casos-praticos.html">Casos Práticos</a>
+    <a href="../../quiz.html">Quiz Interativo</a>
+    <a href="../../mapa-site.html">Mapa do Site</a>
+    <a href="../../aviso-legal.html">Aviso Legal</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>1. O que é interpretar um texto jurídico?</h2>
+
+      <p>
+        Interpretar um texto jurídico significa procurar compreender o seu sentido, alcance e
+        finalidade. Não basta ler as palavras. É necessário perceber o que o texto quer regular,
+        a quem se aplica e que consequências pode produzir.
+      </p>
+
+      <p>
+        A interpretação é essencial porque muitos textos jurídicos não resolvem automaticamente
+        todos os casos. As palavras podem ser gerais, técnicas, ambíguas ou depender do contexto.
+      </p>
+
+      <p>
+        Interpretar bem é ler com atenção, relacionar ideias e evitar conclusões apressadas.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Ler não é o mesmo que analisar</h2>
+
+      <p>
+        Ler é entrar em contacto com o texto. Analisar é desmontar o texto para compreender a sua
+        estrutura, os seus conceitos, os seus argumentos e as suas consequências.
+      </p>
+
+      <p>
+        Um estudante pode ler uma norma, um contrato ou uma decisão judicial e ainda assim não
+        compreender totalmente o seu alcance. A análise exige método.
+      </p>
+
+      <p>
+        Ao analisar um texto jurídico, devemos perguntar:
+      </p>
+
+      <ul>
+        <li>Qual é o tema principal?</li>
+        <li>Quem são os sujeitos envolvidos?</li>
+        <li>Que direitos ou deveres aparecem no texto?</li>
+        <li>Há prazos, condições ou exceções?</li>
+        <li>Qual é a consequência jurídica prevista?</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. Identificar o tema central</h2>
+
+      <p>
+        O primeiro passo da análise textual é identificar o tema central. O texto trata de um
+        contrato? De responsabilidade civil? De incumprimento? De direitos fundamentais? De um
+        procedimento administrativo?
+      </p>
+
+      <p>
+        Sem identificar o tema, a leitura fica solta e desorganizada. O tema funciona como ponto
+        de orientação para todo o raciocínio.
+      </p>
+
+      <p>
+        Exemplo:
+      </p>
+
+      <blockquote>
+        “O arrendatário deve pagar a renda até ao primeiro dia útil do mês anterior àquele a que diga respeito.”
+      </blockquote>
+
+      <p>
+        O tema central é o pagamento da renda no contrato de arrendamento.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. Distinguir factos, normas e conclusões</h2>
+
+      <p>
+        Uma boa análise textual exige separar três elementos:
+      </p>
+
+      <ul>
+        <li><strong>Factos:</strong> acontecimentos ou situações concretas.</li>
+        <li><strong>Normas:</strong> regras jurídicas aplicáveis.</li>
+        <li><strong>Conclusões:</strong> consequências retiradas da aplicação das normas aos factos.</li>
+      </ul>
+
+      <p>
+        Misturar estes elementos torna o texto confuso. Primeiro compreende-se o que aconteceu.
+        Depois identifica-se a regra aplicável. Só depois se retira uma conclusão.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Atenção às palavras técnicas</h2>
+
+      <p>
+        Os textos jurídicos usam termos técnicos que podem ter significado próprio. Palavras como
+        “nulidade”, “anulabilidade”, “prescrição”, “caducidade”, “posse”, “culpa” ou “dolo” não
+        devem ser interpretadas apenas pelo seu uso comum.
+      </p>
+
+      <p>
+        Quando surge uma palavra técnica, é necessário confirmar o seu sentido jurídico. Caso
+        contrário, a interpretação pode ficar errada.
+      </p>
+
+      <p>
+        Um erro comum é achar que se percebe uma palavra porque ela parece familiar. No Direito,
+        isso é perigoso.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Contexto do texto</h2>
+
+      <p>
+        Nenhum texto jurídico deve ser analisado isoladamente quando faz parte de um conjunto maior.
+        Uma cláusula deve ser lida dentro do contrato. Um artigo deve ser lido dentro do diploma.
+        Uma decisão deve ser lida tendo em conta os factos do caso.
+      </p>
+
+      <p>
+        O contexto ajuda a perceber o verdadeiro alcance do texto. Uma frase isolada pode parecer
+        ter um sentido, mas ganhar outro quando lida com o restante documento.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. Identificar condições e exceções</h2>
+
+      <p>
+        Muitos textos jurídicos contêm condições, limites ou exceções. Estas partes são essenciais.
+        Ignorá-las pode mudar completamente a conclusão.
+      </p>
+
+      <p>
+        Expressões como “salvo”, “exceto”, “desde que”, “sem prejuízo de”, “quando”, “caso” ou
+        “nos termos de” devem ser lidas com especial atenção.
+      </p>
+
+      <p>
+        Exemplo:
+      </p>
+
+      <blockquote>
+        “O contrato renova-se automaticamente, salvo denúncia por qualquer das partes com antecedência mínima de 60 dias.”
+      </blockquote>
+
+      <p>
+        A regra é a renovação automática. A exceção é a denúncia feita com antecedência mínima de
+        60 dias.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. Análise de argumentos num texto</h2>
+
+      <p>
+        Quando o texto apresenta uma posição ou decisão, é importante identificar os argumentos
+        usados para a sustentar.
+      </p>
+
+      <p>
+        Devemos procurar:
+      </p>
+
+      <ul>
+        <li>Qual é a conclusão defendida.</li>
+        <li>Que factos são usados para apoiar essa conclusão.</li>
+        <li>Que normas ou princípios são invocados.</li>
+        <li>Se existe ligação lógica entre os argumentos e a conclusão.</li>
+        <li>Se há argumentos contrários que foram ignorados.</li>
+      </ul>
+
+      <p>
+        Esta análise é muito útil em pareceres, decisões judiciais, reclamações e petições.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. Método simples de análise textual</h2>
+
+      <p>
+        Para analisar um texto jurídico, pode usar-se este método:
+      </p>
+
+      <ol>
+        <li>Ler o texto uma primeira vez sem sublinhar nada.</li>
+        <li>Identificar o tema principal.</li>
+        <li>Sublinhar palavras técnicas e conceitos importantes.</li>
+        <li>Separar factos, normas e conclusões.</li>
+        <li>Identificar condições, exceções e prazos.</li>
+        <li>Verificar se a conclusão está bem fundamentada.</li>
+        <li>Resumir o texto por palavras próprias.</li>
+      </ol>
+
+      <p>
+        Este método evita leituras apressadas e ajuda a construir uma compreensão mais segura.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>10. Exemplo prático de análise</h2>
+
+      <p>
+        Texto:
+      </p>
+
+      <blockquote>
+        “O comprador deve comunicar ao vendedor qualquer defeito do bem no prazo de 30 dias após
+        o seu conhecimento, sob pena de perder o direito de reclamar.”
+      </blockquote>
+
+      <p>
+        Análise:
+      </p>
+
+      <ul>
+        <li><strong>Tema:</strong> comunicação de defeito na compra e venda.</li>
+        <li><strong>Sujeito obrigado:</strong> comprador.</li>
+        <li><strong>Destinatário:</strong> vendedor.</li>
+        <li><strong>Prazo:</strong> 30 dias após o conhecimento do defeito.</li>
+        <li><strong>Consequência:</strong> perda do direito de reclamar.</li>
+      </ul>
+
+      <p>
+        Este exemplo mostra que uma frase curta pode conter vários elementos jurídicos importantes.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>11. Erros frequentes na interpretação</h2>
+
+      <ul>
+        <li>Ler apenas uma parte do texto e ignorar o restante contexto.</li>
+        <li>Confundir linguagem comum com linguagem técnica.</li>
+        <li>Ignorar exceções ou condições.</li>
+        <li>Retirar conclusões antes de identificar os factos.</li>
+        <li>Interpretar o texto de acordo com aquilo que se queria que ele dissesse.</li>
+        <li>Não confirmar o significado de conceitos jurídicos importantes.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>12. Resumo da aula</h2>
+
+      <ul>
+        <li>Interpretar é compreender o sentido, alcance e finalidade de um texto jurídico.</li>
+        <li>Analisar exige separar tema, factos, normas, argumentos e conclusões.</li>
+        <li>Palavras técnicas devem ser lidas com atenção ao seu sentido jurídico.</li>
+        <li>Condições, exceções e prazos podem alterar a conclusão do texto.</li>
+        <li>Um bom método de análise evita erros e leituras apressadas.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>13. Mini-questões</h2>
+
+      <ol>
+        <li>Qual é a diferença entre ler e analisar um texto jurídico?</li>
+        <li>Porque é importante identificar o tema central?</li>
+        <li>Que diferença existe entre factos, normas e conclusões?</li>
+        <li>Porque devemos ter atenção a palavras como “salvo” ou “exceto”?</li>
+        <li>Indica três erros frequentes na interpretação textual.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>14. Exercício prático</h2>
+
+      <p>
+        Analisa o seguinte texto:
+      </p>
+
+      <blockquote>
+        “O prestador de serviços deve concluir o trabalho até 15 de setembro de 2026. Caso o prazo
+        não seja cumprido por motivo imputável ao prestador, o cliente pode exigir a redução do
+        preço acordado.”
+      </blockquote>
+
+      <p>
+        Identifica:
+      </p>
+
+      <ul>
+        <li>O tema principal.</li>
+        <li>O sujeito obrigado.</li>
+        <li>O prazo relevante.</li>
+        <li>A condição prevista.</li>
+        <li>A consequência jurídica.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <p>
+        <a href="aula04.html">Aula anterior</a> |
+        <a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Paulo Silva — Repositório de Solicitadoria</p>
+  </footer>
+</body>
+</html>
+EOF
+
+# ==========================================================
+# Atualizar página da cadeira
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("cadeiras/analise-producao-textos/index.html")
+
+if not path.exists():
+    print("ERRO: página da cadeira não encontrada.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    "<li>Aula 05 — Interpretação e análise textual</li>",
+    '<li><a href="../../aulas/analise-producao-textos/aula05.html">Aula 05 — Interpretação e análise textual</a></li>'
+)
+
+path.write_text(html, encoding="utf-8")
+print("Página da cadeira atualizada com link da Aula 05.")
+
+# Link próxima aula em aula04
+aula04 = Path("aulas/analise-producao-textos/aula04.html")
+if aula04.exists():
+    a4 = aula04.read_text(encoding="utf-8")
+    if 'aula05.html' not in a4:
+        a4 = a4.replace(
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a>',
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a> | <a href="aula05.html">Próxima aula</a>'
+        )
+        aula04.write_text(a4, encoding="utf-8")
+        print("Aula 04 atualizada com link para Aula 05.")
+PY
+
+# ==========================================================
+# Atualizar cadeiras.html com estrutura correta
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("cadeiras.html")
+
+if not path.exists():
+    print("ERRO: cadeiras.html não encontrado.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+cartao_novo = (
+    '<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    '<p>5 / 10 aulas concluídas</p>'
+    '<span class="badge em-desenvolvimento">🟡 Em desenvolvimento</span>'
+    '<br><br><a class="botao" href="cadeiras/analise-producao-textos/index.html">Entrar</a></div>'
+)
+
+padrao = (
+    r'<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    r'<p>.*?</p>'
+    r'<span class="badge .*?">.*?</span>'
+    r'(?:<br><br><a class="botao" href=".*?">Entrar</a>)?'
+    r'</div>'
+)
+
+html, n = re.subn(padrao, cartao_novo, html, count=1, flags=re.DOTALL)
+
+if n == 0:
+    print("ERRO: não consegui atualizar o cartão da Cadeira 6.")
+    raise SystemExit(1)
+
+path.write_text(html, encoding="utf-8")
+print("cadeiras.html atualizado para 5 / 10.")
+PY
+
+# ==========================================================
+# Atualizar index.html quando possível
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("index.html")
+
+if not path.exists():
+    print("AVISO: index.html não encontrado.")
+    raise SystemExit
+
+html = path.read_text(encoding="utf-8")
+original = html
+
+html = html.replace("54 aulas", "55 aulas")
+html = html.replace("54 Aulas", "55 Aulas")
+html = re.sub(r'(<[^>]*>\s*)54(\s*</[^>]*>)', r'\g<1>55\2', html, count=1)
+
+if html != original:
+    path.write_text(html, encoding="utf-8")
+    print("index.html atualizado para 55 aulas.")
+else:
+    print("index.html não atualizado automaticamente.")
+PY
+
+# ==========================================================
+# Git
+# ==========================================================
+
+git add .
+
+git commit -m "Adicionar Aula 05 de Análise e Produção de Textos" || echo "Nada novo para commit."
+
+git push
+
+echo "=========================================="
+echo "Aula 05 criada com sucesso."
+echo "Cadeira 6 atualizada para 5 / 10."
+echo "Total previsto: 55 aulas."
+echo "=========================================="
