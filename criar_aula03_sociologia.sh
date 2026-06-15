@@ -1,0 +1,335 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/sociologia-direito/aula-03.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 03 - Normas Sociais e Normas Jurídicas</title>
+<link rel="stylesheet" href="../../style.css?v=82">
+</head>
+<body>
+<main>
+
+<h1>Aula 03 - Normas Sociais e Normas Jurídicas</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o conceito de norma social.</li>
+<li>Distinguir normas sociais de normas jurídicas.</li>
+<li>Identificar exemplos de regras sociais, morais, religiosas e jurídicas.</li>
+<li>Perceber o papel da sanção no cumprimento das normas.</li>
+<li>Relacionar normas sociais e jurídicas com a Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+A vida em sociedade é regulada por vários tipos de normas. Nem todas são jurídicas.
+</p>
+
+<p>
+Há regras de educação, costumes, regras morais, regras religiosas e regras jurídicas.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+As normas sociais orientam comportamentos em sociedade; as normas jurídicas são regras obrigatórias reconhecidas e impostas pelo Estado.
+</div>
+</section>
+
+<section>
+<h2>Normas Sociais</h2>
+<p>
+Normas sociais são regras de comportamento aceites por determinado grupo ou sociedade.
+</p>
+
+<p>
+Podem não estar escritas, mas influenciam fortemente a forma como as pessoas agem.
+</p>
+
+<ul>
+<li>Cumprimentar alguém.</li>
+<li>Respeitar filas.</li>
+<li>Usar determinada forma de tratamento.</li>
+<li>Evitar comportamentos considerados ofensivos.</li>
+<li>Seguir costumes locais.</li>
+</ul>
+</section>
+
+<section>
+<h2>Normas Morais</h2>
+<p>
+As normas morais estão ligadas à consciência, aos valores pessoais e à ideia de bem e mal.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Ajudar uma pessoa em dificuldade pode ser visto como dever moral, mesmo quando não existe obrigação jurídica direta.
+</div>
+</section>
+
+<section>
+<h2>Normas Religiosas</h2>
+<p>
+As normas religiosas resultam de crenças, doutrinas ou práticas de uma comunidade religiosa.
+</p>
+
+<p>
+Podem influenciar comportamentos individuais e coletivos, mas não se confundem automaticamente com normas jurídicas.
+</p>
+</section>
+
+<section>
+<h2>Normas Jurídicas</h2>
+<p>
+As normas jurídicas são regras de conduta criadas ou reconhecidas pelo Estado.
+</p>
+
+<p>
+Têm carácter obrigatório e podem ser impostas através de sanções legais.
+</p>
+
+<ul>
+<li>Leis.</li>
+<li>Regulamentos.</li>
+<li>Códigos.</li>
+<li>Normas constitucionais.</li>
+<li>Normas fiscais, civis, penais, laborais e administrativas.</li>
+</ul>
+</section>
+
+<section>
+<h2>Diferenças Principais</h2>
+
+<table>
+<tr>
+<th>Normas Sociais</th>
+<th>Normas Jurídicas</th>
+</tr>
+<tr>
+<td>Resultam de costumes e práticas sociais.</td>
+<td>São criadas ou reconhecidas pelo Estado.</td>
+</tr>
+<tr>
+<td>A sanção pode ser reprovação social.</td>
+<td>A sanção pode ser multa, coima, indemnização ou pena.</td>
+</tr>
+<tr>
+<td>Nem sempre estão escritas.</td>
+<td>Normalmente estão formalizadas.</td>
+</tr>
+<tr>
+<td>Variam muito entre grupos sociais.</td>
+<td>Têm aplicação jurídica no ordenamento.</td>
+</tr>
+</table>
+</section>
+
+<section>
+<h2>Sanção Social e Sanção Jurídica</h2>
+
+<h3>Sanção social</h3>
+<p>
+É a reação da sociedade a determinado comportamento.
+</p>
+
+<ul>
+<li>Crítica.</li>
+<li>Reprovação.</li>
+<li>Exclusão social.</li>
+<li>Perda de confiança.</li>
+</ul>
+
+<h3>Sanção jurídica</h3>
+<p>
+É a consequência prevista pelo Direito para o incumprimento de uma norma jurídica.
+</p>
+
+<ul>
+<li>Multa.</li>
+<li>Coima.</li>
+<li>Indemnização.</li>
+<li>Anulação de ato.</li>
+<li>Pena criminal.</li>
+</ul>
+</section>
+
+<section>
+<h2>Relação entre Normas Sociais e Jurídicas</h2>
+<p>
+Muitas normas jurídicas nascem de valores e práticas sociais.
+</p>
+
+<p>
+Por exemplo, a proteção da família, da propriedade, da segurança e da dignidade humana reflete valores sociais transformados em normas jurídicas.
+</p>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+Nem tudo o que é socialmente reprovável é ilegal, e nem tudo o que é legal é necessariamente aceite socialmente.
+</div>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<p>
+O solicitador deve distinguir aquilo que é juridicamente obrigatório daquilo que é apenas socialmente esperado.
+</p>
+
+<ul>
+<li>Conflitos familiares.</li>
+<li>Partilhas.</li>
+<li>Contratos informais.</li>
+<li>Promessas verbais.</li>
+<li>Relações de vizinhança.</li>
+<li>Incumprimentos e expectativas sociais.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Na prática, muitos conflitos chegam ao Direito porque expectativas sociais não foram respeitadas ou porque as pessoas confundem obrigação moral com obrigação jurídica.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Pensar que tudo o que é errado moralmente é ilegal.</li>
+<li>Pensar que toda regra social tem força jurídica.</li>
+<li>Confundir reprovação social com sanção legal.</li>
+<li>Ignorar que o Direito pode transformar valores sociais em normas jurídicas.</li>
+<li>Não distinguir obrigação moral de obrigação contratual.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Distinga normas sociais e normas jurídicas, apresentando exemplos e explicando a diferença entre sanção social e sanção jurídica.
+</div>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+<div class="exemplo">
+<p>
+Carlos prometeu verbalmente ajudar um amigo numa mudança de casa, mas no dia combinado não apareceu. O amigo ficou revoltado e disse que Carlos “tinha obrigação” de cumprir.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Existe aqui uma norma social?</li>
+<li>Existe necessariamente uma obrigação jurídica?</li>
+<li>Que tipo de sanção pode surgir?</li>
+<li>Que diferença existe entre deceção moral e incumprimento jurídico?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+Existe uma expectativa social ou moral de cumprimento da promessa. Porém, nem toda promessa informal gera obrigação jurídica. Pode existir reprovação social, perda de confiança ou conflito pessoal, mas isso não significa automaticamente responsabilidade jurídica.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>A sociedade é regulada por vários tipos de normas.</li>
+<li>Normas sociais orientam comportamentos aceites por grupos sociais.</li>
+<li>Normas jurídicas são obrigatórias e reconhecidas pelo Estado.</li>
+<li>A sanção social difere da sanção jurídica.</li>
+<li>A Solicitadoria exige distinção clara entre obrigação social, moral e jurídica.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>O que são normas sociais?</li>
+<li>O que distingue uma norma jurídica?</li>
+<li>Dá dois exemplos de sanções sociais.</li>
+<li>Dá dois exemplos de sanções jurídicas.</li>
+<li>Porque esta distinção é importante para a Solicitadoria?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>São regras de comportamento aceites por determinado grupo ou sociedade.</li>
+<li>É criada ou reconhecida pelo Estado e pode ser imposta através de sanção jurídica.</li>
+<li>Crítica, reprovação, exclusão social ou perda de confiança.</li>
+<li>Multa, coima, indemnização, anulação de ato ou pena criminal.</li>
+<li>Porque muitos conflitos envolvem confusão entre dever social, moral e obrigação jurídica.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖️ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://www.dgsi.pt/" target="_blank">DGSI — Jurisprudência</a></li>
+<li><a href="https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1976-34520775" target="_blank">Constituição da República Portuguesa</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Normas sociais, morais e jurídicas.</li>
+<li>Sanção social e sanção jurídica.</li>
+<li>Função normativa do Direito.</li>
+<li>Direito e controlo social.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-05-sociologia-direito.html">📚 Cadeira</a> |
+<a href="aula-02.html">⬅ Aula 02</a> |
+<a href="aula-04.html">➡ Aula 04</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-05-sociologia-direito.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 03 - Normas sociais e normas jurídicas</li>',
+    '<li><a href="../aulas/sociologia-direito/aula-03.html">Aula 03 - Normas sociais e normas jurídicas</a></li>'
+)
+
+html = html.replace(
+    '2 de 10 aulas concluídas',
+    '3 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('2 / 10 aulas concluídas', '3 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 03 Normas Sociais e Juridicas"
+git push
+
+echo "Aula 03 de Sociologia do Direito criada."
