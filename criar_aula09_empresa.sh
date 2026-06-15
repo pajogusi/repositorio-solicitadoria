@@ -1,0 +1,173 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/estudo-empresa/aula-09.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 09 - Caso Prático Orientado</title>
+<link rel="stylesheet" href="../../style.css?v=69">
+</head>
+<body>
+<main>
+
+<h1>Aula 09 - Caso Prático Orientado</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Aplicar os conhecimentos adquiridos ao longo da cadeira.</li>
+<li>Identificar problemas empresariais e jurídicos.</li>
+<li>Relacionar empresa, gestão, recursos e risco.</li>
+<li>Desenvolver raciocínio jurídico-prático.</li>
+</ul>
+</section>
+
+<section>
+<h2>O Caso</h2>
+
+<div class="exemplo">
+<p>
+Ana e Pedro decidem criar uma empresa de manutenção informática em Portugal.
+Constituem uma sociedade por quotas com capital social de 10.000 euros.
+A empresa arrenda um escritório, compra equipamentos, contrata dois trabalhadores e celebra contratos com vários clientes.
+</p>
+
+<p>
+Ao fim de um ano surgem dificuldades:
+</p>
+
+<ul>
+<li>Um cliente não paga uma fatura importante.</li>
+<li>Um trabalhador apresenta reclamação laboral.</li>
+<li>Um fornecedor entrega equipamentos defeituosos.</li>
+<li>A empresa enfrenta dificuldades de tesouraria.</li>
+</ul>
+
+</div>
+</section>
+
+<section>
+<h2>Análise Empresarial</h2>
+
+<ul>
+<li><strong>Forma jurídica:</strong> sociedade por quotas.</li>
+<li><strong>Recursos humanos:</strong> trabalhadores e gerentes.</li>
+<li><strong>Recursos materiais:</strong> escritório e equipamentos.</li>
+<li><strong>Recursos financeiros:</strong> capital social e receitas.</li>
+<li><strong>Mercado:</strong> prestação de serviços informáticos.</li>
+<li><strong>Riscos:</strong> financeiros, laborais e comerciais.</li>
+</ul>
+
+</section>
+
+<section>
+<h2>Questões Orientadoras</h2>
+
+<ol>
+<li>Que tipo de empresa foi criada?</li>
+<li>Que recursos empresariais existem?</li>
+<li>Que riscos jurídicos surgiram?</li>
+<li>Que contratos podem estar envolvidos?</li>
+<li>Como pode a Solicitadoria apoiar a empresa?</li>
+</ol>
+
+</section>
+
+<section>
+<h2>Resposta Orientadora</h2>
+
+<p>
+Foi constituída uma sociedade por quotas, regulada pelo Código das Sociedades Comerciais.
+Existem recursos humanos, materiais, financeiros e tecnológicos.
+Surgem riscos comerciais, laborais e financeiros.
+Podem estar envolvidos contratos de trabalho, arrendamento, compra e venda e prestação de serviços.
+</p>
+
+<p>
+O solicitador pode apoiar na cobrança de créditos, análise contratual, registos comerciais e resolução de conflitos.
+</p>
+
+</section>
+
+<section>
+<h2>Competências Desenvolvidas</h2>
+
+<ul>
+<li>Análise jurídica.</li>
+<li>Interpretação prática.</li>
+<li>Identificação de riscos.</li>
+<li>Raciocínio empresarial.</li>
+<li>Aplicação da legislação.</li>
+</ul>
+
+</section>
+
+<section>
+<h2>⚖️ Base Legal</h2>
+
+<ul>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=524&tabela=leis" target="_blank">Código das Sociedades Comerciais</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=775&tabela=leis" target="_blank">Código Civil</a></li>
+<li><a href="https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475" target="_blank">Código do Trabalho</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+
+</section>
+
+<section>
+<h2>🔗 Ligações Oficiais</h2>
+
+<ul>
+<li><a href="https://justica.gov.pt/" target="_blank">Portal da Justiça</a></li>
+<li><a href="https://irn.justica.gov.pt/" target="_blank">IRN</a></li>
+<li><a href="https://www.act.gov.pt/" target="_blank">ACT</a></li>
+</ul>
+
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-04-estudo-empresa.html">📚 Cadeira</a> |
+<a href="aula-08.html">⬅ Aula 08</a> |
+<a href="quiz-final.html">➡ Aula 10</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-04-estudo-empresa.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 09 - Caso prático orientado</li>',
+    '<li><a href="../aulas/estudo-empresa/aula-09.html">Aula 09 - Caso prático orientado</a></li>'
+)
+
+html = html.replace(
+    '8 de 10 aulas concluídas',
+    '9 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('8 / 10 aulas concluídas', '9 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 09 Caso Pratico Estudo da Empresa"
+git push
+
+echo "Aula 09 criada."
