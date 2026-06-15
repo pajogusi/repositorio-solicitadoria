@@ -1,0 +1,332 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/sociologia-direito/aula-04.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 04 - Direito e Controlo Social</title>
+<link rel="stylesheet" href="../../style.css?v=83">
+</head>
+<body>
+<main>
+
+<h1>Aula 04 - Direito e Controlo Social</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o conceito de controlo social.</li>
+<li>Distinguir controlo social formal e informal.</li>
+<li>Perceber o papel do Direito no controlo social.</li>
+<li>Identificar sanções jurídicas e sociais.</li>
+<li>Relacionar controlo social com a prática da Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Todas as sociedades precisam de mecanismos para orientar comportamentos e evitar conflitos permanentes.
+</p>
+
+<p>
+O controlo social é o conjunto de formas através das quais a sociedade procura garantir que os seus membros respeitam certas regras.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+O Direito é uma das formas mais importantes de controlo social formal.
+</div>
+</section>
+
+<section>
+<h2>O que é Controlo Social?</h2>
+<p>
+Controlo social é o conjunto de mecanismos usados para influenciar, orientar ou corrigir comportamentos dentro de uma sociedade.
+</p>
+
+<ul>
+<li>Família.</li>
+<li>Escola.</li>
+<li>Religião.</li>
+<li>Opinião pública.</li>
+<li>Costumes.</li>
+<li>Direito.</li>
+<li>Tribunais.</li>
+<li>Polícia.</li>
+</ul>
+</section>
+
+<section>
+<h2>Controlo Social Informal</h2>
+<p>
+O controlo social informal resulta de costumes, valores, hábitos e reações sociais.
+</p>
+
+<ul>
+<li>Crítica social.</li>
+<li>Reprovação familiar.</li>
+<li>Perda de confiança.</li>
+<li>Pressão do grupo.</li>
+<li>Exclusão social.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Uma pessoa que falta repetidamente a compromissos pode não sofrer sanção jurídica, mas pode perder credibilidade perante os outros.
+</div>
+</section>
+
+<section>
+<h2>Controlo Social Formal</h2>
+<p>
+O controlo social formal é exercido por instituições reconhecidas, através de regras organizadas e sanções definidas.
+</p>
+
+<ul>
+<li>Estado.</li>
+<li>Tribunais.</li>
+<li>Administração Pública.</li>
+<li>Autoridades policiais.</li>
+<li>Entidades reguladoras.</li>
+</ul>
+
+<p>
+O Direito pertence ao controlo social formal porque contém normas obrigatórias e sanções juridicamente previstas.
+</p>
+</section>
+
+<section>
+<h2>O Direito como Controlo Social</h2>
+<p>
+O Direito orienta comportamentos dizendo o que é permitido, proibido ou obrigatório.
+</p>
+
+<ul>
+<li>Proíbe certos comportamentos.</li>
+<li>Impõe deveres.</li>
+<li>Reconhece direitos.</li>
+<li>Estabelece sanções.</li>
+<li>Cria procedimentos para resolver conflitos.</li>
+</ul>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+O Direito não serve apenas para punir. Também organiza, protege, previne e regula relações sociais.
+</div>
+</section>
+
+<section>
+<h2>Sanções Jurídicas</h2>
+<p>
+A sanção jurídica é a consequência prevista pelo Direito para o incumprimento de uma norma.
+</p>
+
+<ul>
+<li>Multa.</li>
+<li>Coima.</li>
+<li>Indemnização.</li>
+<li>Anulação de ato jurídico.</li>
+<li>Resolução de contrato.</li>
+<li>Pena criminal.</li>
+<li>Perda de direitos.</li>
+</ul>
+</section>
+
+<section>
+<h2>Prevenção e Repressão</h2>
+
+<h3>Função preventiva</h3>
+<p>
+O Direito tenta evitar comportamentos ilícitos através da previsão de regras e sanções.
+</p>
+
+<h3>Função repressiva</h3>
+<p>
+Quando a norma é violada, o Direito pode aplicar consequências jurídicas.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+As regras de trânsito previnem acidentes. As coimas sancionam o incumprimento.
+</div>
+</section>
+
+<section>
+<h2>Controlo Social e Liberdade</h2>
+<p>
+O controlo social é necessário, mas deve respeitar direitos fundamentais.
+</p>
+
+<p>
+Uma sociedade sem regras pode cair no caos. Mas uma sociedade com controlo excessivo pode pôr em causa a liberdade.
+</p>
+
+<div class="destaque">
+<strong>Equilíbrio:</strong><br>
+O Direito deve equilibrar ordem social, segurança, liberdade e dignidade da pessoa humana.
+</div>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<p>
+Na prática da Solicitadoria, o controlo social aparece em muitas situações.
+</p>
+
+<ul>
+<li>Cumprimento de contratos.</li>
+<li>Cobrança de dívidas.</li>
+<li>Registos obrigatórios.</li>
+<li>Processos executivos.</li>
+<li>Contraordenações.</li>
+<li>Responsabilidade civil.</li>
+<li>Procedimentos administrativos.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+O solicitador ajuda cidadãos e empresas a cumprir normas, prevenir conflitos e reagir juridicamente quando há incumprimentos.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Pensar que controlo social é apenas repressão.</li>
+<li>Confundir controlo social informal com sanção jurídica.</li>
+<li>Achar que o Direito serve apenas para punir.</li>
+<li>Ignorar a função preventiva das normas jurídicas.</li>
+<li>Esquecer que o controlo jurídico deve respeitar direitos fundamentais.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Explique o conceito de controlo social e distinga controlo social formal de controlo social informal.
+</div>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+<div class="exemplo">
+<p>
+Um comerciante vende produtos sem cumprir as regras legais de rotulagem e segurança. Após várias reclamações, é alvo de fiscalização e recebe uma coima.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Existe controlo social formal ou informal?</li>
+<li>Que tipo de sanção foi aplicada?</li>
+<li>Qual a função preventiva da norma?</li>
+<li>Como pode a Solicitadoria intervir?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+Existe controlo social formal, exercido por autoridade competente. A coima é uma sanção jurídica. A norma pretende proteger consumidores e garantir segurança. A Solicitadoria pode apoiar na regularização documental, resposta ao procedimento e prevenção de novos incumprimentos.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>Controlo social orienta comportamentos em sociedade.</li>
+<li>O controlo informal resulta de costumes e pressão social.</li>
+<li>O controlo formal é exercido por instituições e normas oficiais.</li>
+<li>O Direito é uma forma central de controlo social formal.</li>
+<li>A Solicitadoria ajuda no cumprimento e aplicação prática das normas.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>O que é controlo social?</li>
+<li>Qual a diferença entre controlo formal e informal?</li>
+<li>Dá dois exemplos de sanções jurídicas.</li>
+<li>O Direito serve apenas para punir?</li>
+<li>Porque este tema interessa à Solicitadoria?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>É o conjunto de mecanismos que orientam ou corrigem comportamentos sociais.</li>
+<li>O formal é exercido por instituições e normas oficiais; o informal resulta de costumes e reações sociais.</li>
+<li>Multa, coima, indemnização, pena criminal ou anulação de ato.</li>
+<li>Não. Também organiza, protege, previne e regula relações.</li>
+<li>Porque o solicitador trabalha com cumprimento de normas, contratos, registos, responsabilidades e conflitos.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖️ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://www.dgsi.pt/" target="_blank">DGSI — Jurisprudência</a></li>
+<li><a href="https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1976-34520775" target="_blank">Constituição da República Portuguesa</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Controlo social formal e informal.</li>
+<li>Direito e sanção jurídica.</li>
+<li>Função preventiva e repressiva do Direito.</li>
+<li>Direitos fundamentais e limites do controlo social.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-05-sociologia-direito.html">📚 Cadeira</a> |
+<a href="aula-03.html">⬅ Aula 03</a> |
+<a href="aula-05.html">➡ Aula 05</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-05-sociologia-direito.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 04 - Direito e controlo social</li>',
+    '<li><a href="../aulas/sociologia-direito/aula-04.html">Aula 04 - Direito e controlo social</a></li>'
+)
+
+html = html.replace(
+    '3 de 10 aulas concluídas',
+    '4 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('3 / 10 aulas concluídas', '4 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 04 Direito e Controlo Social"
+git push
+
+echo "Aula 04 de Sociologia do Direito criada."
