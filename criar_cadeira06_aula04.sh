@@ -1,0 +1,477 @@
+#!/bin/bash
+
+# ==========================================================
+# Repositório de Solicitadoria
+# Cadeira 6: Análise e Produção de Textos
+# Aula 04: Técnicas de argumentação e persuasão
+# Autor oficial: Paulo Silva
+# ==========================================================
+
+set -e
+
+echo "=========================================="
+echo "A criar Aula 04 - Técnicas de argumentação e persuasão"
+echo "=========================================="
+
+mkdir -p aulas/analise-producao-textos
+
+cat > aulas/analise-producao-textos/aula04.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 04 — Técnicas de argumentação e persuasão</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Análise e Produção de Textos</h1>
+    <p>Aula 04 — Técnicas de argumentação e persuasão</p>
+  </header>
+
+  <nav>
+    <a href="../../index.html">Início</a>
+    <a href="../../cadeiras.html">Cadeiras</a>
+    <a href="../../biblioteca.html">Biblioteca Jurídica</a>
+    <a href="../../glossario.html">Glossário Jurídico</a>
+    <a href="../../casos-praticos.html">Casos Práticos</a>
+    <a href="../../quiz.html">Quiz Interativo</a>
+    <a href="../../mapa-site.html">Mapa do Site</a>
+    <a href="../../aviso-legal.html">Aviso Legal</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>1. Argumentar no contexto jurídico</h2>
+
+      <p>
+        Argumentar é apresentar razões para defender uma ideia, uma posição ou uma conclusão.
+        No contexto jurídico, a argumentação serve para demonstrar que determinada solução é
+        mais correta, mais justa ou mais adequada à lei e aos factos.
+      </p>
+
+      <p>
+        Um argumento jurídico não deve ser apenas uma opinião. Deve apoiar-se em factos,
+        normas jurídicas, princípios, contratos, documentos, jurisprudência ou raciocínios
+        coerentes.
+      </p>
+
+      <p>
+        A boa argumentação jurídica não grita. Organiza, demonstra e convence.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Diferença entre afirmar e argumentar</h2>
+
+      <p>
+        Afirmar é dizer algo. Argumentar é explicar por que razão essa afirmação deve ser aceite.
+      </p>
+
+      <p>
+        Exemplo de mera afirmação:
+      </p>
+
+      <blockquote>
+        “O contrato foi incumprido.”
+      </blockquote>
+
+      <p>
+        Exemplo de argumentação:
+      </p>
+
+      <blockquote>
+        “O contrato foi incumprido porque a parte obrigada não entregou o bem na data acordada,
+        apesar de essa obrigação constar expressamente da cláusula terceira do contrato.”
+      </blockquote>
+
+      <p>
+        A segunda versão é mais forte porque apresenta uma razão concreta: existe uma obrigação,
+        essa obrigação tinha prazo e esse prazo não foi cumprido.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. Estrutura básica de um argumento jurídico</h2>
+
+      <p>
+        Um argumento jurídico simples pode seguir esta estrutura:
+      </p>
+
+      <ol>
+        <li><strong>Facto:</strong> o que aconteceu.</li>
+        <li><strong>Norma ou obrigação:</strong> regra aplicável ao caso.</li>
+        <li><strong>Ligação entre facto e norma:</strong> explicação do enquadramento.</li>
+        <li><strong>Conclusão:</strong> consequência jurídica defendida.</li>
+      </ol>
+
+      <p>
+        Esta estrutura ajuda a evitar textos confusos e conclusões sem fundamento.
+      </p>
+
+      <p>
+        Exemplo:
+      </p>
+
+      <blockquote>
+        “O pagamento deveria ter sido efetuado até 1 de maio. Até essa data, o devedor não pagou.
+        Assim, existe incumprimento da obrigação de pagamento.”
+      </blockquote>
+    </section>
+
+    <section class="card">
+      <h2>4. Argumentos baseados em factos</h2>
+
+      <p>
+        Os factos são a base da argumentação jurídica. Sem factos, a argumentação fica abstrata
+        e fraca.
+      </p>
+
+      <p>
+        É importante selecionar apenas os factos relevantes. Nem tudo o que aconteceu interessa
+        juridicamente. O texto deve destacar os acontecimentos que ajudam a resolver o problema.
+      </p>
+
+      <p>
+        Factos relevantes costumam responder a perguntas como:
+      </p>
+
+      <ul>
+        <li>Quem fez?</li>
+        <li>O que fez?</li>
+        <li>Quando fez?</li>
+        <li>Onde ocorreu?</li>
+        <li>Qual era a obrigação?</li>
+        <li>Que consequência resultou?</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Argumentos baseados na lei</h2>
+
+      <p>
+        A lei é uma das principais fontes da argumentação jurídica. Quando se invoca uma norma,
+        deve explicar-se por que razão essa norma se aplica ao caso concreto.
+      </p>
+
+      <p>
+        Não basta citar artigos de lei sem explicação. Um texto cheio de artigos, mas sem raciocínio,
+        pode parecer técnico, mas não é necessariamente convincente.
+      </p>
+
+      <p>
+        O correto é fazer a ponte entre a norma e os factos:
+      </p>
+
+      <blockquote>
+        “Tendo em conta que a obrigação de pagamento estava vencida e não foi cumprida, os factos
+        descritos apontam para uma situação de incumprimento.”
+      </blockquote>
+    </section>
+
+    <section class="card">
+      <h2>6. Argumentos baseados em princípios</h2>
+
+      <p>
+        Além das normas concretas, o Direito também utiliza princípios. Princípios como boa-fé,
+        proporcionalidade, igualdade, segurança jurídica e proteção da confiança ajudam a orientar
+        a interpretação e aplicação do Direito.
+      </p>
+
+      <p>
+        Os princípios são especialmente úteis quando a situação não é resolvida apenas por uma
+        leitura mecânica da lei.
+      </p>
+
+      <p>
+        Exemplo:
+      </p>
+
+      <blockquote>
+        “A atuação da parte deve ser apreciada à luz do princípio da boa-fé, uma vez que criou na
+        outra parte a confiança legítima de que a obrigação seria cumprida.”
+      </blockquote>
+    </section>
+
+    <section class="card">
+      <h2>7. Persuasão jurídica</h2>
+
+      <p>
+        Persuadir é procurar convencer o destinatário de que determinada posição é a mais adequada.
+        No Direito, a persuasão deve ser racional, organizada e fundamentada.
+      </p>
+
+      <p>
+        A persuasão jurídica não deve depender de exageros, ataques pessoais ou dramatização.
+        Deve depender da força dos factos, da qualidade da fundamentação e da clareza da conclusão.
+      </p>
+
+      <p>
+        Um texto jurídico persuasivo é aquele que torna difícil ignorar a lógica do raciocínio.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. Técnicas úteis de argumentação</h2>
+
+      <ul>
+        <li><strong>Começar pelo ponto principal:</strong> deixar claro o que se pretende defender.</li>
+        <li><strong>Organizar os argumentos por ordem lógica:</strong> do facto para a conclusão.</li>
+        <li><strong>Usar exemplos concretos:</strong> ajudam a tornar o raciocínio mais claro.</li>
+        <li><strong>Antecipar objeções:</strong> responder a possíveis argumentos contrários.</li>
+        <li><strong>Evitar exageros:</strong> a credibilidade é mais forte do que a dramatização.</li>
+        <li><strong>Concluir de forma direta:</strong> o leitor deve perceber a solução defendida.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>9. Contra-argumentação</h2>
+
+      <p>
+        Contra-argumentar é responder a uma posição contrária. Esta técnica é importante porque
+        mostra que quem escreve compreende a complexidade do problema.
+      </p>
+
+      <p>
+        Uma boa contra-argumentação não ignora o argumento adverso. Reconhece-o, analisa-o e explica
+        por que razão não deve prevalecer.
+      </p>
+
+      <p>
+        Exemplo:
+      </p>
+
+      <blockquote>
+        “Embora o devedor alegue dificuldades financeiras, esse facto não elimina a obrigação de
+        pagamento assumida contratualmente, sobretudo quando não foi acordada qualquer alteração
+        ao prazo de cumprimento.”
+      </blockquote>
+    </section>
+
+    <section class="card">
+      <h2>10. Erros frequentes na argumentação jurídica</h2>
+
+      <ul>
+        <li>Confundir opinião pessoal com argumento jurídico.</li>
+        <li>Apresentar conclusões sem explicar o raciocínio.</li>
+        <li>Citar normas sem explicar a sua aplicação ao caso.</li>
+        <li>Usar linguagem agressiva ou emocional.</li>
+        <li>Ignorar factos relevantes que enfraquecem a posição defendida.</li>
+        <li>Repetir a mesma ideia várias vezes sem acrescentar fundamento.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>11. Exemplo prático de argumentação</h2>
+
+      <p>
+        Situação:
+      </p>
+
+      <blockquote>
+        “Uma empresa comprometeu-se a entregar uma encomenda até 30 de abril. A entrega só ocorreu
+        em 20 de maio, sem justificação apresentada ao cliente.”
+      </blockquote>
+
+      <p>
+        Argumentação possível:
+      </p>
+
+      <blockquote>
+        “A empresa assumiu uma obrigação com prazo determinado, comprometendo-se a entregar a
+        encomenda até 30 de abril. Como a entrega apenas ocorreu em 20 de maio, verifica-se atraso
+        no cumprimento da obrigação. A ausência de justificação reforça a responsabilidade da empresa
+        pelo incumprimento pontual.”
+      </blockquote>
+
+      <p>
+        Este argumento é organizado porque apresenta o facto, identifica a obrigação, demonstra o
+        incumprimento e retira uma conclusão.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>12. Resumo da aula</h2>
+
+      <ul>
+        <li>Argumentar é apresentar razões para defender uma conclusão.</li>
+        <li>No Direito, os argumentos devem apoiar-se em factos, normas e princípios.</li>
+        <li>Uma boa argumentação liga os factos à consequência jurídica.</li>
+        <li>A persuasão jurídica deve ser racional, clara e fundamentada.</li>
+        <li>Contra-argumentar é responder de forma organizada a posições contrárias.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>13. Mini-questões</h2>
+
+      <ol>
+        <li>Qual é a diferença entre afirmar e argumentar?</li>
+        <li>Quais são os elementos básicos de um argumento jurídico?</li>
+        <li>Porque não basta citar uma norma legal?</li>
+        <li>O que é contra-argumentação?</li>
+        <li>Que erros devem ser evitados na argumentação jurídica?</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>14. Exercício prático</h2>
+
+      <p>
+        Constrói um argumento jurídico simples a partir da seguinte situação:
+      </p>
+
+      <blockquote>
+        “Luís emprestou 500 euros a Rui, que prometeu devolver a quantia no prazo de 30 dias.
+        Passados 60 dias, Rui ainda não devolveu o dinheiro.”
+      </blockquote>
+
+      <p>
+        O teu argumento deve indicar:
+      </p>
+
+      <ul>
+        <li>O facto relevante.</li>
+        <li>A obrigação assumida.</li>
+        <li>O incumprimento.</li>
+        <li>A conclusão ou pedido possível.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <p>
+        <a href="aula03.html">Aula anterior</a> |
+        <a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Paulo Silva — Repositório de Solicitadoria</p>
+  </footer>
+</body>
+</html>
+EOF
+
+# ==========================================================
+# Atualizar página da cadeira
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("cadeiras/analise-producao-textos/index.html")
+
+if not path.exists():
+    print("ERRO: página da cadeira não encontrada.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    "<li>Aula 04 — Técnicas de argumentação e persuasão</li>",
+    '<li><a href="../../aulas/analise-producao-textos/aula04.html">Aula 04 — Técnicas de argumentação e persuasão</a></li>'
+)
+
+path.write_text(html, encoding="utf-8")
+print("Página da cadeira atualizada com link da Aula 04.")
+
+# Link próxima aula em aula03
+aula03 = Path("aulas/analise-producao-textos/aula03.html")
+if aula03.exists():
+    a3 = aula03.read_text(encoding="utf-8")
+    if 'aula04.html' not in a3:
+        a3 = a3.replace(
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a>',
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a> | <a href="aula04.html">Próxima aula</a>'
+        )
+        aula03.write_text(a3, encoding="utf-8")
+        print("Aula 03 atualizada com link para Aula 04.")
+PY
+
+# ==========================================================
+# Atualizar cadeiras.html com estrutura correta
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("cadeiras.html")
+
+if not path.exists():
+    print("ERRO: cadeiras.html não encontrado.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+cartao_novo = (
+    '<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    '<p>4 / 10 aulas concluídas</p>'
+    '<span class="badge em-desenvolvimento">🟡 Em desenvolvimento</span>'
+    '<br><br><a class="botao" href="cadeiras/analise-producao-textos/index.html">Entrar</a></div>'
+)
+
+padrao = (
+    r'<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    r'<p>.*?</p>'
+    r'<span class="badge .*?">.*?</span>'
+    r'(?:<br><br><a class="botao" href=".*?">Entrar</a>)?'
+    r'</div>'
+)
+
+html, n = re.subn(padrao, cartao_novo, html, count=1, flags=re.DOTALL)
+
+if n == 0:
+    print("ERRO: não consegui atualizar o cartão da Cadeira 6.")
+    raise SystemExit(1)
+
+path.write_text(html, encoding="utf-8")
+print("cadeiras.html atualizado para 4 / 10.")
+PY
+
+# ==========================================================
+# Atualizar index.html quando possível
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("index.html")
+
+if not path.exists():
+    print("AVISO: index.html não encontrado.")
+    raise SystemExit
+
+html = path.read_text(encoding="utf-8")
+original = html
+
+html = html.replace("53 aulas", "54 aulas")
+html = html.replace("53 Aulas", "54 Aulas")
+html = re.sub(r'(<[^>]*>\s*)53(\s*</[^>]*>)', r'\g<1>54\2', html, count=1)
+
+if html != original:
+    path.write_text(html, encoding="utf-8")
+    print("index.html atualizado para 54 aulas.")
+else:
+    print("index.html não atualizado automaticamente.")
+PY
+
+# ==========================================================
+# Git
+# ==========================================================
+
+git add .
+
+git commit -m "Adicionar Aula 04 de Análise e Produção de Textos" || echo "Nada novo para commit."
+
+git push
+
+echo "=========================================="
+echo "Aula 04 criada com sucesso."
+echo "Cadeira 6 atualizada para 4 / 10."
+echo "Total previsto: 54 aulas."
+echo "=========================================="
