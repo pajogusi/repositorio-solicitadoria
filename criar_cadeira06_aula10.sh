@@ -1,0 +1,593 @@
+#!/bin/bash
+
+# ==========================================================
+# Repositório de Solicitadoria
+# Cadeira 6: Análise e Produção de Textos
+# Aula 10: Revisão geral e quiz final
+# Autor oficial: Paulo Silva
+# ==========================================================
+
+set -e
+
+echo "=========================================="
+echo "A criar Aula 10 - Revisão geral e quiz final"
+echo "=========================================="
+
+mkdir -p aulas/analise-producao-textos
+
+cat > aulas/analise-producao-textos/aula10.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 10 — Revisão geral e quiz final</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Análise e Produção de Textos</h1>
+    <p>Aula 10 — Revisão geral e quiz final</p>
+  </header>
+
+  <nav>
+    <a href="../../index.html">Início</a>
+    <a href="../../cadeiras.html">Cadeiras</a>
+    <a href="../../biblioteca.html">Biblioteca Jurídica</a>
+    <a href="../../glossario.html">Glossário Jurídico</a>
+    <a href="../../casos-praticos.html">Casos Práticos</a>
+    <a href="../../quiz.html">Quiz Interativo</a>
+    <a href="../../mapa-site.html">Mapa do Site</a>
+    <a href="../../aviso-legal.html">Aviso Legal</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>1. Objetivo da revisão final</h2>
+
+      <p>
+        Esta aula encerra a cadeira de Análise e Produção de Textos. O objetivo é rever os principais
+        conteúdos estudados e consolidar competências fundamentais de leitura, interpretação,
+        estruturação e produção de textos jurídicos.
+      </p>
+
+      <p>
+        Ao longo da cadeira foram trabalhados temas essenciais para qualquer estudante de Direito
+        ou Solicitadoria: clareza, precisão, estrutura, argumentação, análise textual, resumo,
+        documentos jurídicos e erros frequentes na escrita.
+      </p>
+
+      <p>
+        A escrita jurídica não é decoração. É ferramenta de trabalho. Serve para comunicar com rigor,
+        defender posições, formular pedidos e evitar ambiguidades.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. O texto jurídico</h2>
+
+      <p>
+        O texto jurídico é produzido no âmbito do Direito ou destinado a produzir, explicar,
+        interpretar ou aplicar consequências jurídicas.
+      </p>
+
+      <p>
+        Pode surgir em leis, contratos, requerimentos, pareceres, petições, notificações, sentenças,
+        regulamentos ou documentos administrativos.
+      </p>
+
+      <p>
+        As suas principais características são:
+      </p>
+
+      <ul>
+        <li><strong>Precisão:</strong> uso de palavras exatas e adequadas.</li>
+        <li><strong>Clareza:</strong> facilidade de compreensão pelo destinatário.</li>
+        <li><strong>Objetividade:</strong> foco nos factos, normas e conclusões relevantes.</li>
+        <li><strong>Coerência:</strong> ligação lógica entre as ideias.</li>
+        <li><strong>Fundamentação:</strong> justificação das posições assumidas.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. Clareza e precisão</h2>
+
+      <p>
+        Clareza e precisão são duas qualidades essenciais da linguagem jurídica.
+      </p>
+
+      <p>
+        A clareza permite compreender o texto. A precisão evita dúvidas sobre factos, prazos,
+        valores, pessoas, obrigações e consequências.
+      </p>
+
+      <p>
+        Um texto jurídico deve evitar expressões vagas como “em breve”, “muitas vezes” ou “valor
+        elevado”, quando for possível usar dados concretos.
+      </p>
+
+      <blockquote>
+        “O pagamento deve ser feito no prazo de 10 dias.”
+      </blockquote>
+
+      <p>
+        Esta formulação é melhor do que:
+      </p>
+
+      <blockquote>
+        “O pagamento deve ser feito em breve.”
+      </blockquote>
+    </section>
+
+    <section class="card">
+      <h2>4. Estrutura de documentos jurídicos</h2>
+
+      <p>
+        Um documento jurídico deve ter uma organização lógica. A estrutura ajuda o leitor a
+        compreender o problema e a seguir o raciocínio.
+      </p>
+
+      <p>
+        Uma estrutura simples pode incluir:
+      </p>
+
+      <ol>
+        <li>Identificação do destinatário.</li>
+        <li>Identificação de quem escreve.</li>
+        <li>Assunto.</li>
+        <li>Exposição dos factos.</li>
+        <li>Enquadramento jurídico ou contratual.</li>
+        <li>Pedido ou conclusão.</li>
+        <li>Data e assinatura.</li>
+      </ol>
+
+      <p>
+        Factos, fundamentos e pedido devem estar separados. Misturar tudo no mesmo parágrafo
+        enfraquece o documento.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>5. Argumentação jurídica</h2>
+
+      <p>
+        Argumentar é apresentar razões para defender uma conclusão. No Direito, a argumentação deve
+        apoiar-se em factos, normas, princípios e raciocínio lógico.
+      </p>
+
+      <p>
+        Um argumento jurídico simples pode seguir esta sequência:
+      </p>
+
+      <ol>
+        <li>Facto relevante.</li>
+        <li>Norma, princípio ou obrigação aplicável.</li>
+        <li>Ligação entre o facto e a norma.</li>
+        <li>Conclusão.</li>
+      </ol>
+
+      <p>
+        Afirmar não é o mesmo que argumentar. Dizer “houve incumprimento” é uma afirmação. Explicar
+        qual era a obrigação, qual era o prazo e como esse prazo foi violado é argumentar.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. Interpretação e análise textual</h2>
+
+      <p>
+        Interpretar é compreender o sentido, o alcance e a finalidade de um texto jurídico.
+        Analisar é desmontar o texto para identificar tema, sujeitos, factos, normas, condições,
+        exceções e consequências.
+      </p>
+
+      <p>
+        Um bom método de análise passa por:
+      </p>
+
+      <ul>
+        <li>Identificar o tema central.</li>
+        <li>Distinguir factos, normas e conclusões.</li>
+        <li>Verificar prazos, condições e exceções.</li>
+        <li>Confirmar o significado dos termos técnicos.</li>
+        <li>Ler o texto dentro do seu contexto.</li>
+      </ul>
+
+      <p>
+        Palavras como “salvo”, “exceto”, “desde que” ou “sem prejuízo de” devem ser lidas com
+        especial atenção.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. Resumo e síntese</h2>
+
+      <p>
+        Resumir é reduzir um texto ao essencial, mantendo o sentido original. Sintetizar é reunir,
+        reorganizar e relacionar ideias, muitas vezes provenientes de vários textos.
+      </p>
+
+      <p>
+        Num resumo jurídico devem permanecer:
+      </p>
+
+      <ul>
+        <li>O tema principal.</li>
+        <li>Os factos relevantes.</li>
+        <li>As normas ou princípios aplicáveis.</li>
+        <li>Os conceitos técnicos essenciais.</li>
+        <li>A conclusão ou consequência jurídica.</li>
+      </ul>
+
+      <p>
+        Um resumo não deve alterar o sentido do texto. Uma síntese não deve ser apenas uma colagem
+        de frases soltas.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. Pareceres, requerimentos e petições</h2>
+
+      <p>
+        Foram estudados três tipos importantes de documentos jurídicos:
+      </p>
+
+      <table>
+        <tr>
+          <th>Documento</th>
+          <th>Finalidade</th>
+          <th>Elemento central</th>
+        </tr>
+        <tr>
+          <td>Parecer</td>
+          <td>Analisar uma questão jurídica</td>
+          <td>Fundamentação e conclusão</td>
+        </tr>
+        <tr>
+          <td>Requerimento</td>
+          <td>Formular um pedido</td>
+          <td>Pedido claro</td>
+        </tr>
+        <tr>
+          <td>Petição</td>
+          <td>Apresentar uma pretensão formal</td>
+          <td>Factos, fundamentos e pedido</td>
+        </tr>
+      </table>
+
+      <p>
+        O parecer explica. O requerimento pede. A petição apresenta uma pretensão formal mais
+        estruturada.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>9. Erros frequentes na escrita jurídica</h2>
+
+      <p>
+        Alguns erros enfraquecem muito a escrita jurídica:
+      </p>
+
+      <ul>
+        <li>Frases demasiado longas.</li>
+        <li>Linguagem vaga.</li>
+        <li>Confundir factos com opiniões.</li>
+        <li>Usar termos técnicos sem os compreender.</li>
+        <li>Falta de estrutura.</li>
+        <li>Pedidos pouco claros.</li>
+        <li>Repetições desnecessárias.</li>
+        <li>Tom agressivo ou emocional.</li>
+        <li>Falta de revisão final.</li>
+      </ul>
+
+      <p>
+        Um texto jurídico deve ser firme, mas respeitoso. Objetivo, mas completo. Técnico, mas
+        compreensível.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>10. Caso prático final</h2>
+
+      <p>
+        Lê a seguinte situação:
+      </p>
+
+      <blockquote>
+        Marta contratou uma empresa para pintar a sua sala pelo valor de 450 euros. Ficou acordado
+        que o serviço seria realizado até 30 de junho de 2026. Marta pagou 200 euros antecipadamente.
+        No dia combinado, a empresa não compareceu. Após duas tentativas de contacto, a empresa
+        respondeu que só poderia realizar o serviço no mês seguinte. Marta pretende pedir a realização
+        imediata do serviço ou a devolução do valor pago.
+      </blockquote>
+
+      <p>
+        Tarefa:
+      </p>
+
+      <ol>
+        <li>Identifica as partes.</li>
+        <li>Indica os factos relevantes.</li>
+        <li>Identifica o problema principal.</li>
+        <li>Escolhe o tipo de documento adequado.</li>
+        <li>Formula um pedido claro.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>11. Modelo de resposta ao caso prático</h2>
+
+      <blockquote>
+        <p><strong>Assunto:</strong> Pedido de resolução de incumprimento na prestação de serviços</p>
+
+        <p>
+          Marta vem expor que contratou a empresa para pintar a sua sala pelo valor de 450 euros,
+          tendo sido acordado que o serviço seria realizado até 30 de junho de 2026.
+        </p>
+
+        <p>
+          No momento da contratação, Marta procedeu ao pagamento antecipado de 200 euros.
+        </p>
+
+        <p>
+          Contudo, na data acordada, a empresa não compareceu para realizar o serviço. Após duas
+          tentativas de contacto, foi informado que o serviço apenas poderia ser realizado no mês
+          seguinte.
+        </p>
+
+        <p>
+          Face ao exposto, solicita-se a realização imediata do serviço no prazo de 5 dias ou, em
+          alternativa, a devolução da quantia de 200 euros já paga.
+        </p>
+      </blockquote>
+
+      <p>
+        Este modelo apresenta factos, datas, valor pago, incumprimento e pedido final.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>12. Quiz final</h2>
+
+      <ol>
+        <li>
+          O que distingue um texto jurídico de um texto comum?
+        </li>
+        <li>
+          Qual é a diferença entre clareza e precisão?
+        </li>
+        <li>
+          Porque é importante separar factos, fundamentos e pedido?
+        </li>
+        <li>
+          O que é argumentar juridicamente?
+        </li>
+        <li>
+          Qual é a diferença entre resumo e síntese?
+        </li>
+        <li>
+          Para que serve um parecer jurídico?
+        </li>
+        <li>
+          Qual é a função principal de um requerimento?
+        </li>
+        <li>
+          Que elementos devem constar numa petição simples?
+        </li>
+        <li>
+          Indica três erros frequentes na escrita jurídica.
+        </li>
+        <li>
+          Porque é obrigatória a revisão final de um documento jurídico?
+        </li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>13. Correção orientadora do quiz</h2>
+
+      <ol>
+        <li>
+          O texto jurídico trata de matérias jurídicas e pode produzir, explicar ou aplicar
+          consequências jurídicas.
+        </li>
+        <li>
+          Clareza significa facilidade de compreensão; precisão significa uso exato das palavras,
+          dados e conceitos.
+        </li>
+        <li>
+          Porque essa separação torna o texto mais organizado, compreensível e juridicamente útil.
+        </li>
+        <li>
+          É apresentar razões fundamentadas em factos, normas e princípios para defender uma conclusão.
+        </li>
+        <li>
+          O resumo reduz um texto ao essencial; a síntese relaciona e reorganiza ideias.
+        </li>
+        <li>
+          Serve para analisar uma questão jurídica e apresentar uma conclusão fundamentada.
+        </li>
+        <li>
+          Serve para formular um pedido a uma entidade, pessoa, serviço ou autoridade.
+        </li>
+        <li>
+          Deve conter identificação das partes, factos, fundamentos, pedido, data e assinatura.
+        </li>
+        <li>
+          Exemplos: linguagem vaga, frases longas, falta de estrutura, tom emocional, termos técnicos
+          mal usados.
+        </li>
+        <li>
+          Porque permite corrigir erros de nomes, datas, valores, estrutura, linguagem e coerência.
+        </li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>14. Conclusão da cadeira</h2>
+
+      <p>
+        A cadeira de Análise e Produção de Textos mostrou que escrever juridicamente é uma competência
+        prática. Não basta conhecer conceitos. É preciso saber comunicar esses conceitos com ordem,
+        rigor e finalidade.
+      </p>
+
+      <p>
+        Um bom texto jurídico deve permitir que o leitor perceba:
+      </p>
+
+      <ul>
+        <li>Quem intervém.</li>
+        <li>O que aconteceu.</li>
+        <li>Qual é a questão jurídica.</li>
+        <li>Que fundamentos existem.</li>
+        <li>Que pedido ou conclusão se apresenta.</li>
+      </ul>
+
+      <p>
+        Esta competência será útil em todas as cadeiras seguintes, especialmente nas áreas de Direito
+        Civil, Direito Administrativo, Direito Processual, Direito Fiscal e prática jurídica.
+      </p>
+    </section>
+
+    <section class="card">
+      <p>
+        <a href="aula09.html">Aula anterior</a> |
+        <a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a> |
+        <a href="../../cadeiras.html">Voltar às cadeiras</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Paulo Silva — Repositório de Solicitadoria</p>
+  </footer>
+</body>
+</html>
+EOF
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("cadeiras/analise-producao-textos/index.html")
+
+if not path.exists():
+    print("ERRO: página da cadeira não encontrada.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    "<li>Aula 10 — Revisão geral e quiz final</li>",
+    '<li><a href="../../aulas/analise-producao-textos/aula10.html">Aula 10 — Revisão geral e quiz final</a></li>'
+)
+
+html = html.replace(
+    "<strong>Estado:</strong> em desenvolvimento.",
+    "<strong>Estado:</strong> concluída."
+)
+
+html = html.replace(
+    "<strong>Estado:</strong> em desenvolvimento",
+    "<strong>Estado:</strong> concluída"
+)
+
+path.write_text(html, encoding="utf-8")
+print("Página da cadeira atualizada com link da Aula 10 e estado concluída.")
+
+aula09 = Path("aulas/analise-producao-textos/aula09.html")
+if aula09.exists():
+    a9 = aula09.read_text(encoding="utf-8")
+    if 'aula10.html' not in a9:
+        a9 = a9.replace(
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a>',
+            '<a href="../../cadeiras/analise-producao-textos/index.html">Voltar à cadeira</a> | <a href="aula10.html">Próxima aula</a>'
+        )
+        aula09.write_text(a9, encoding="utf-8")
+        print("Aula 09 atualizada com link para Aula 10.")
+PY
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("cadeiras.html")
+
+if not path.exists():
+    print("ERRO: cadeiras.html não encontrado.")
+    raise SystemExit(1)
+
+html = path.read_text(encoding="utf-8")
+
+cartao_novo = (
+    '<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    '<p>10 / 10 aulas concluídas</p>'
+    '<span class="badge concluida">🟢 Concluída</span>'
+    '<br><br><a class="botao" href="cadeiras/analise-producao-textos/index.html">Entrar</a></div>'
+)
+
+padrao = (
+    r'<div class="cadeira-card"><h3>📚 Análise e Produção de Textos</h3>'
+    r'<p>.*?</p>'
+    r'<span class="badge .*?">.*?</span>'
+    r'(?:<br><br><a class="botao" href=".*?">Entrar</a>)?'
+    r'</div>'
+)
+
+html, n = re.subn(padrao, cartao_novo, html, count=1, flags=re.DOTALL)
+
+if n == 0:
+    print("ERRO: não consegui atualizar o cartão da Cadeira 6.")
+    raise SystemExit(1)
+
+path.write_text(html, encoding="utf-8")
+print("cadeiras.html atualizado para 10 / 10 e Cadeira 6 concluída.")
+PY
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("index.html")
+
+if not path.exists():
+    print("AVISO: index.html não encontrado.")
+    raise SystemExit
+
+html = path.read_text(encoding="utf-8")
+original = html
+
+# Total de aulas: 60
+html = html.replace("59 aulas", "60 aulas")
+html = html.replace("59 Aulas", "60 Aulas")
+html = re.sub(r'(<[^>]*>\s*)59(\s*</[^>]*>)', r'\g<1>60\2', html, count=1)
+
+# Cadeiras concluídas: 6, se encontrar padrão simples
+html = html.replace("5 cadeiras concluídas", "6 cadeiras concluídas")
+html = html.replace("5 Cadeiras Concluídas", "6 Cadeiras Concluídas")
+
+# Progresso global aproximado: 33%, se encontrar 28%
+html = html.replace("28%", "33%")
+
+if html != original:
+    path.write_text(html, encoding="utf-8")
+    print("index.html atualizado quando possível: 60 aulas, 6 cadeiras, 33%.")
+else:
+    print("index.html não atualizado automaticamente.")
+PY
+
+git add .
+
+git commit -m "Concluir Cadeira 6 Análise e Produção de Textos" || echo "Nada novo para commit."
+
+git push
+
+echo "=========================================="
+echo "Aula 10 criada com sucesso."
+echo "Cadeira 6 concluída."
+echo "Cadeira 6: 10 / 10 aulas."
+echo "Total previsto: 60 aulas."
+echo "Cadeiras concluídas: 6."
+echo "Progresso global previsto: 33%."
+echo "=========================================="
