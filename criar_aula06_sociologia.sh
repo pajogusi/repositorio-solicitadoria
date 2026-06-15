@@ -1,0 +1,353 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/sociologia-direito/aula-06.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 06 - Max Weber e a Racionalização do Direito</title>
+<link rel="stylesheet" href="../../style.css?v=85">
+</head>
+<body>
+<main>
+
+<h1>Aula 06 - Max Weber e a Racionalização do Direito</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Conhecer o contributo de Max Weber para a Sociologia do Direito.</li>
+<li>Compreender o conceito de racionalização.</li>
+<li>Identificar os tipos de dominação legítima.</li>
+<li>Relacionar burocracia, Estado moderno e Direito.</li>
+<li>Aplicar estes conceitos à Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Max Weber foi um dos autores fundamentais da Sociologia moderna. O seu pensamento é especialmente importante para compreender o Estado moderno, a burocracia, a autoridade e a racionalização do Direito.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+Para Weber, o Direito moderno está ligado à racionalização, à organização burocrática e à autoridade legal-racional.
+</div>
+</section>
+
+<section>
+<h2>Quem foi Max Weber?</h2>
+<p>
+Max Weber foi um sociólogo alemão que estudou a relação entre sociedade, poder, economia, religião, burocracia e Direito.
+</p>
+
+<p>
+O seu trabalho ajuda a compreender como as sociedades modernas passaram a organizar-se através de regras formais, instituições, procedimentos escritos e autoridade legal.
+</p>
+</section>
+
+<section>
+<h2>Racionalização</h2>
+<p>
+A racionalização é o processo pelo qual a vida social passa a ser organizada de forma cada vez mais calculada, previsível e baseada em regras.
+</p>
+
+<p>
+No Direito, isso significa maior importância de:
+</p>
+
+<ul>
+<li>Leis escritas.</li>
+<li>Procedimentos formais.</li>
+<li>Competências definidas.</li>
+<li>Registos.</li>
+<li>Prazos.</li>
+<li>Documentos.</li>
+<li>Decisões fundamentadas.</li>
+</ul>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+O Direito moderno procura previsibilidade: saber quais são as regras, quem decide, como se decide e quais são as consequências jurídicas.
+</div>
+</section>
+
+<section>
+<h2>Tipos de Dominação Legítima</h2>
+<p>
+Weber estudou formas de autoridade ou dominação legítima. Identificou três tipos principais:
+</p>
+
+<ul>
+<li>Dominação tradicional.</li>
+<li>Dominação carismática.</li>
+<li>Dominação legal-racional.</li>
+</ul>
+</section>
+
+<section>
+<h2>Dominação Tradicional</h2>
+<p>
+Baseia-se no costume, na tradição e na continuidade histórica.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+A autoridade de um chefe tradicional pode ser aceite porque “sempre foi assim” ou porque a tradição reconhece esse poder.
+</div>
+</section>
+
+<section>
+<h2>Dominação Carismática</h2>
+<p>
+Baseia-se nas qualidades pessoais atribuídas a uma pessoa, como liderança, inspiração, coragem ou capacidade de mobilização.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Um líder pode ser seguido pela confiança pessoal que inspira, mais do que por regras formais.
+</div>
+</section>
+
+<section>
+<h2>Dominação Legal-Racional</h2>
+<p>
+É típica do Estado moderno. Baseia-se em normas jurídicas, cargos, competências e procedimentos.
+</p>
+
+<ul>
+<li>A autoridade vem da lei.</li>
+<li>As funções estão definidas.</li>
+<li>As decisões seguem procedimentos.</li>
+<li>Os cargos são separados das pessoas.</li>
+<li>A obediência é devida à regra, não à pessoa em si.</li>
+</ul>
+
+<div class="destaque">
+<strong>Resumo:</strong><br>
+Na dominação legal-racional, obedece-se à lei e às instituições formalmente competentes.
+</div>
+</section>
+
+<section>
+<h2>Burocracia</h2>
+<p>
+Para Weber, a burocracia é uma forma típica de organização das sociedades modernas.
+</p>
+
+<p>
+Apesar de muitas vezes a palavra “burocracia” ser usada de forma negativa, para Weber ela representa organização racional.
+</p>
+
+<ul>
+<li>Hierarquia.</li>
+<li>Competências definidas.</li>
+<li>Regras escritas.</li>
+<li>Documentação.</li>
+<li>Especialização.</li>
+<li>Continuidade administrativa.</li>
+</ul>
+</section>
+
+<section>
+<h2>Direito e Burocracia</h2>
+<p>
+O Direito moderno depende fortemente de procedimentos burocráticos.
+</p>
+
+<ul>
+<li>Registos civis.</li>
+<li>Registos prediais.</li>
+<li>Registos comerciais.</li>
+<li>Processos judiciais.</li>
+<li>Procedimentos administrativos.</li>
+<li>Licenciamentos.</li>
+<li>Notificações.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+A compra de um imóvel não depende apenas da vontade das partes. Exige documentos, escritura ou documento equivalente, pagamento de impostos e registo.
+</div>
+</section>
+
+<section>
+<h2>Previsibilidade Jurídica</h2>
+<p>
+A racionalização do Direito permite maior previsibilidade.
+</p>
+
+<p>
+As pessoas e empresas conseguem planear melhor quando conhecem as regras aplicáveis.
+</p>
+
+<ul>
+<li>Contratos tornam obrigações mais claras.</li>
+<li>Registos dão publicidade e segurança.</li>
+<li>Prazos organizam procedimentos.</li>
+<li>Tribunais aplicam normas previamente definidas.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<p>
+A Solicitadoria trabalha diretamente com a racionalização e burocratização do Direito.
+</p>
+
+<ul>
+<li>Preparação de documentos.</li>
+<li>Registos.</li>
+<li>Contratos.</li>
+<li>Procedimentos administrativos.</li>
+<li>Execuções.</li>
+<li>Comunicações formais.</li>
+<li>Cumprimento de prazos.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+O solicitador atua num mundo jurídico organizado por regras, prazos, formulários, documentos e competências formais.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Pensar que burocracia é sempre inútil.</li>
+<li>Ignorar a importância dos procedimentos.</li>
+<li>Confundir autoridade pessoal com autoridade legal.</li>
+<li>Desvalorizar documentos e registos.</li>
+<li>Esquecer que o Direito moderno depende de previsibilidade.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Explique o conceito de dominação legal-racional em Max Weber e relacione-o com o Direito moderno.
+</div>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+<div class="exemplo">
+<p>
+Uma pessoa pretende vender um imóvel. Apesar de comprador e vendedor estarem de acordo, é necessário reunir documentos, verificar a situação registral, pagar impostos e proceder ao registo da aquisição.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Como este caso demonstra a racionalização do Direito?</li>
+<li>Que elementos burocráticos estão presentes?</li>
+<li>Porque os procedimentos aumentam segurança jurídica?</li>
+<li>Qual o papel da Solicitadoria?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+O caso demonstra racionalização porque a transmissão não depende apenas da vontade informal das partes. Exige regras, documentos, impostos, registos e procedimentos formais. A Solicitadoria pode apoiar na preparação documental, verificação jurídica e cumprimento dos atos necessários.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>Weber estudou autoridade, burocracia e racionalização.</li>
+<li>A racionalização organiza a vida social através de regras previsíveis.</li>
+<li>A dominação legal-racional assenta na lei e nas instituições.</li>
+<li>O Direito moderno depende de burocracia, documentos e procedimentos.</li>
+<li>A Solicitadoria atua diretamente neste universo jurídico formalizado.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>O que significa racionalização?</li>
+<li>Quais são os três tipos de dominação legítima em Weber?</li>
+<li>O que caracteriza a dominação legal-racional?</li>
+<li>Porque a burocracia é importante para o Direito moderno?</li>
+<li>Como esta matéria se relaciona com a Solicitadoria?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>É o processo de organização da vida social através de regras, cálculo, previsibilidade e procedimentos.</li>
+<li>Tradicional, carismática e legal-racional.</li>
+<li>Baseia-se na lei, em cargos, competências e procedimentos formais.</li>
+<li>Porque permite organização, documentação, previsibilidade e segurança jurídica.</li>
+<li>Porque o solicitador trabalha com registos, contratos, documentos, prazos e procedimentos formais.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖️ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://www.dgsi.pt/" target="_blank">DGSI — Jurisprudência</a></li>
+<li><a href="https://irn.justica.gov.pt/" target="_blank">IRN — Registos e Notariado</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Max Weber — Economia e Sociedade.</li>
+<li>Dominação tradicional, carismática e legal-racional.</li>
+<li>Burocracia e Estado moderno.</li>
+<li>Racionalização do Direito.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-05-sociologia-direito.html">📚 Cadeira</a> |
+<a href="aula-05.html">⬅ Aula 05</a> |
+<a href="aula-07.html">➡ Aula 07</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-05-sociologia-direito.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 06 - Max Weber e a racionalização do Direito</li>',
+    '<li><a href="../aulas/sociologia-direito/aula-06.html">Aula 06 - Max Weber e a racionalização do Direito</a></li>'
+)
+
+html = html.replace(
+    '5 de 10 aulas concluídas',
+    '6 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('5 / 10 aulas concluídas', '6 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 06 Weber e Racionalizacao do Direito"
+git push
+
+echo "Aula 06 de Sociologia do Direito criada."
