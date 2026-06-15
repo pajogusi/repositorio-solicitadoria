@@ -1,0 +1,306 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/sociologia-direito/aula-02.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 02 - Direito como Fenómeno Social</title>
+<link rel="stylesheet" href="../../style.css?v=81">
+</head>
+<body>
+<main>
+
+<h1>Aula 02 - Direito como Fenómeno Social</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o Direito como fenómeno social.</li>
+<li>Perceber que o Direito nasce da vida em sociedade.</li>
+<li>Identificar a relação entre conflitos sociais e normas jurídicas.</li>
+<li>Compreender como a sociedade influencia a criação das leis.</li>
+<li>Relacionar esta matéria com a prática da Solicitadoria.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+O Direito não existe no vazio. Surge porque as pessoas vivem em sociedade, criam relações, entram em conflito, fazem contratos, constituem famílias, trabalham, compram, vendem e disputam interesses.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+Dizer que o Direito é um fenómeno social significa reconhecer que ele nasce da convivência humana e procura regular a vida em sociedade.
+</div>
+</section>
+
+<section>
+<h2>O Direito nasce da sociedade</h2>
+<p>
+Sempre que existe vida coletiva, surgem regras. Algumas são informais, como costumes e hábitos sociais. Outras são formais, como as normas jurídicas criadas pelo Estado.
+</p>
+
+<p>
+O Direito aparece quando a sociedade precisa de regras obrigatórias para organizar relações e resolver conflitos.
+</p>
+
+<ul>
+<li>Regras de propriedade.</li>
+<li>Regras de família.</li>
+<li>Regras de trabalho.</li>
+<li>Regras de trânsito.</li>
+<li>Regras comerciais.</li>
+<li>Regras penais.</li>
+</ul>
+</section>
+
+<section>
+<h2>Conflito Social e Direito</h2>
+<p>
+Muitas normas jurídicas surgem para responder a conflitos sociais.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Se duas pessoas reclamam o mesmo bem, o Direito cria regras sobre propriedade, posse, prova e resolução do conflito.
+</div>
+
+<p>
+Sem Direito, muitos conflitos seriam resolvidos pela força, pela pressão social ou pela vontade do mais forte.
+</p>
+</section>
+
+<section>
+<h2>O Direito como instrumento de organização</h2>
+<p>
+O Direito organiza a sociedade através de normas que definem comportamentos permitidos, proibidos e obrigatórios.
+</p>
+
+<ul>
+<li>Permite celebrar contratos.</li>
+<li>Protege a propriedade.</li>
+<li>Regula o casamento e a filiação.</li>
+<li>Define crimes e sanções.</li>
+<li>Organiza tribunais e procedimentos.</li>
+<li>Regula empresas e atividade económica.</li>
+</ul>
+</section>
+
+<section>
+<h2>Mudança Social e Mudança Jurídica</h2>
+<p>
+Quando a sociedade muda, o Direito também tende a mudar.
+</p>
+
+<p>Exemplos:</p>
+
+<ul>
+<li>Novas tecnologias levaram a regras sobre proteção de dados.</li>
+<li>Mudanças familiares influenciaram o Direito da Família.</li>
+<li>Novas formas de trabalho trouxeram discussões sobre teletrabalho e plataformas digitais.</li>
+<li>Preocupações ambientais influenciaram legislação ambiental.</li>
+</ul>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+O Direito acompanha a sociedade, mas muitas vezes com atraso.
+</div>
+</section>
+
+<section>
+<h2>Direito e Valores Sociais</h2>
+<p>
+As leis refletem valores dominantes numa sociedade em determinado momento histórico.
+</p>
+
+<p>
+Valores como igualdade, liberdade, segurança, dignidade humana e justiça influenciam o conteúdo das normas jurídicas.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+A proteção constitucional da dignidade da pessoa humana reflete uma opção social e jurídica fundamental.
+</div>
+</section>
+
+<section>
+<h2>Direito e Controlo Social</h2>
+<p>
+O Direito também funciona como mecanismo de controlo social.
+</p>
+
+<p>
+Ao prever sanções, o Direito orienta comportamentos e desencoraja condutas consideradas prejudiciais.
+</p>
+
+<ul>
+<li>Multas.</li>
+<li>Coimas.</li>
+<li>Responsabilidade civil.</li>
+<li>Sanções penais.</li>
+<li>Perda de direitos.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<p>
+O solicitador trabalha com normas jurídicas, mas também com pessoas e conflitos sociais concretos.
+</p>
+
+<ul>
+<li>Conflitos entre senhorios e arrendatários.</li>
+<li>Partilhas de heranças.</li>
+<li>Dívidas e incumprimentos.</li>
+<li>Conflitos familiares com efeitos patrimoniais.</li>
+<li>Empresas em dificuldade.</li>
+<li>Registos e documentação de bens.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Compreender o Direito como fenómeno social ajuda o solicitador a interpretar melhor os problemas reais por trás dos processos e documentos.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Pensar que o Direito é apenas texto legal.</li>
+<li>Ignorar os conflitos sociais que originam normas jurídicas.</li>
+<li>Separar completamente lei e sociedade.</li>
+<li>Acreditar que a lei muda automaticamente quando a sociedade muda.</li>
+<li>Esquecer que o Direito também pode influenciar comportamentos sociais.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Explique em que sentido o Direito pode ser considerado um fenómeno social, apresentando dois exemplos.
+</div>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+<div class="exemplo">
+<p>
+Numa cidade, o aumento do alojamento local provoca subida das rendas e conflitos entre moradores, proprietários e comerciantes. O legislador aprova novas regras para limitar certas atividades e proteger residentes.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Que problema social está presente?</li>
+<li>Como o Direito responde a esse problema?</li>
+<li>Que interesses estão em conflito?</li>
+<li>Que papel pode ter um solicitador neste contexto?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+O problema social envolve habitação, turismo, propriedade e equilíbrio urbano. O Direito responde através de regras sobre alojamento, licenciamento, arrendamento e atividade económica. O solicitador pode apoiar em contratos, registos, procedimentos administrativos e interpretação das obrigações aplicáveis.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>O Direito nasce da vida em sociedade.</li>
+<li>As normas jurídicas respondem a conflitos e necessidades sociais.</li>
+<li>A sociedade influencia a criação e evolução das leis.</li>
+<li>O Direito também orienta comportamentos sociais.</li>
+<li>A Solicitadoria exige compreensão jurídica e social dos problemas.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>Porque se diz que o Direito é um fenómeno social?</li>
+<li>Dá dois exemplos de conflitos sociais regulados pelo Direito.</li>
+<li>Como a mudança social pode influenciar a lei?</li>
+<li>O Direito serve apenas para punir?</li>
+<li>Porque esta matéria interessa à Solicitadoria?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>Porque nasce da convivência humana e regula relações sociais.</li>
+<li>Conflitos de propriedade, arrendamento, trabalho, família, consumo ou trânsito.</li>
+<li>Novas necessidades sociais podem levar à criação ou alteração de normas jurídicas.</li>
+<li>Não. Também organiza, protege, orienta e resolve conflitos.</li>
+<li>Porque o solicitador lida com pessoas, conflitos, documentos e relações sociais concretas.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖️ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://www.dgsi.pt/" target="_blank">DGSI — Jurisprudência</a></li>
+<li><a href="https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1976-34520775" target="_blank">Constituição da República Portuguesa</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Direito como fenómeno social.</li>
+<li>Funções sociais do Direito.</li>
+<li>Controlo social e mudança jurídica.</li>
+<li>Relação entre normas jurídicas e conflitos sociais.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-05-sociologia-direito.html">📚 Cadeira</a> |
+<a href="aula-01.html">⬅ Aula 01</a> |
+<a href="aula-03.html">➡ Aula 03</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-05-sociologia-direito.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 02 - Direito como fenómeno social</li>',
+    '<li><a href="../aulas/sociologia-direito/aula-02.html">Aula 02 - Direito como fenómeno social</a></li>'
+)
+
+html = html.replace(
+    '1 de 10 aulas concluídas',
+    '2 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('1 / 10 aulas concluídas', '2 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 02 Direito como Fenomeno Social"
+git push
+
+echo "Aula 02 de Sociologia do Direito criada."
