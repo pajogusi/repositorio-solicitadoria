@@ -1,0 +1,331 @@
+#!/bin/bash
+
+cd ~/universidade-da-vida-direito
+
+cat > aulas/sociologia-direito/aula-07.html << 'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Aula 07 - Karl Marx e a Crítica ao Direito</title>
+<link rel="stylesheet" href="../../style.css?v=86">
+</head>
+<body>
+<main>
+
+<h1>Aula 07 - Karl Marx e a Crítica ao Direito</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Conhecer a perspetiva de Karl Marx sobre sociedade, economia e Direito.</li>
+<li>Compreender os conceitos de classe social, conflito e ideologia.</li>
+<li>Relacionar Direito com estruturas económicas e poder social.</li>
+<li>Identificar críticas marxistas ao Direito formal.</li>
+<li>Aplicar estes conceitos à análise jurídica e social.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Karl Marx foi um dos pensadores mais influentes da Sociologia, da Economia e da teoria política. A sua análise centra-se nas relações económicas, nas classes sociais e nos conflitos de poder.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+Para Marx, o Direito não é neutro: reflete, em grande medida, as estruturas económicas e as relações de poder existentes na sociedade.
+</div>
+</section>
+
+<section>
+<h2>Quem foi Karl Marx?</h2>
+<p>
+Karl Marx foi um filósofo, economista e sociólogo alemão do século XIX.
+</p>
+
+<p>
+A sua obra analisou o capitalismo, a exploração do trabalho, a propriedade privada, a luta de classes e o papel das instituições sociais.
+</p>
+</section>
+
+<section>
+<h2>Sociedade e Classes Sociais</h2>
+<p>
+Para Marx, a sociedade capitalista divide-se sobretudo entre classes sociais com interesses diferentes.
+</p>
+
+<ul>
+<li><strong>Burguesia:</strong> classe que detém os meios de produção.</li>
+<li><strong>Proletariado:</strong> classe que vende a sua força de trabalho.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Numa fábrica, os proprietários detêm capital, máquinas e instalações. Os trabalhadores vendem o seu trabalho em troca de salário.
+</div>
+</section>
+
+<section>
+<h2>Infraestrutura e Superestrutura</h2>
+<p>
+Marx distingue entre infraestrutura económica e superestrutura social.
+</p>
+
+<h3>Infraestrutura</h3>
+<p>
+Corresponde à base económica da sociedade: produção, trabalho, propriedade e relações económicas.
+</p>
+
+<h3>Superestrutura</h3>
+<p>
+Inclui instituições, ideias, política, religião, cultura e Direito.
+</p>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+Na visão marxista, o Direito pertence à superestrutura e tende a refletir as condições económicas dominantes.
+</div>
+</section>
+
+<section>
+<h2>Direito e Poder</h2>
+<p>
+A crítica marxista entende que o Direito pode servir para manter relações de poder e proteger determinados interesses económicos.
+</p>
+
+<p>
+Isto não significa que todas as normas sejam inúteis ou falsas, mas que é necessário perguntar: quem beneficia com determinada regra?
+</p>
+
+<ul>
+<li>Quem controla a propriedade?</li>
+<li>Quem tem poder económico?</li>
+<li>Quem suporta os riscos?</li>
+<li>Quem tem acesso real à justiça?</li>
+</ul>
+</section>
+
+<section>
+<h2>Igualdade Formal e Desigualdade Real</h2>
+<p>
+Uma crítica importante de inspiração marxista é a distinção entre igualdade formal e desigualdade material.
+</p>
+
+<p>
+A lei pode tratar todos como iguais no plano formal, mas as pessoas podem ter recursos muito diferentes na realidade.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Duas partes podem ter o mesmo direito de recorrer aos tribunais. Porém, se uma tem recursos económicos elevados e a outra não consegue suportar custos jurídicos, a igualdade prática pode ser limitada.
+</div>
+</section>
+
+<section>
+<h2>Direito do Trabalho</h2>
+<p>
+O Direito do Trabalho é um campo onde a crítica marxista é especialmente relevante.
+</p>
+
+<p>
+A relação entre empregador e trabalhador não é apenas contratual; envolve poder económico, dependência salarial e necessidade de proteção da parte mais fraca.
+</p>
+
+<ul>
+<li>Salário.</li>
+<li>Horário de trabalho.</li>
+<li>Segurança no trabalho.</li>
+<li>Despedimento.</li>
+<li>Direitos coletivos.</li>
+<li>Sindicatos.</li>
+</ul>
+</section>
+
+<section>
+<h2>Propriedade Privada</h2>
+<p>
+Marx atribui grande importância à propriedade dos meios de produção.
+</p>
+
+<p>
+O Direito protege a propriedade privada, mas a Sociologia do Direito pergunta também quais os efeitos sociais dessa proteção.
+</p>
+
+<div class="destaque">
+<strong>Reflexão:</strong><br>
+O Direito da propriedade organiza a sociedade, mas também distribui poder económico e social.
+</div>
+</section>
+
+<section>
+<h2>Ideologia Jurídica</h2>
+<p>
+Para Marx, certas ideias podem funcionar como ideologia: apresentam como natural ou neutro aquilo que resulta de relações históricas e sociais.
+</p>
+
+<p>
+Na análise jurídica, isto exige olhar para além do texto da lei e compreender os interesses sociais e económicos envolvidos.
+</p>
+</section>
+
+<section>
+<h2>Aplicação à Solicitadoria</h2>
+<p>
+A Solicitadoria lida frequentemente com situações onde existem desigualdades económicas ou informacionais entre partes.
+</p>
+
+<ul>
+<li>Contratos de trabalho.</li>
+<li>Arrendamentos.</li>
+<li>Dívidas.</li>
+<li>Execuções.</li>
+<li>Insolvência.</li>
+<li>Heranças.</li>
+<li>Relações entre empresas e consumidores.</li>
+</ul>
+
+<div class="destaque">
+<strong>Importância profissional:</strong><br>
+Compreender a crítica social ao Direito ajuda o solicitador a perceber que a aplicação da lei ocorre sempre num contexto económico e social concreto.
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Pensar que Marx analisou apenas economia.</li>
+<li>Ignorar a ligação entre Direito e poder social.</li>
+<li>Confundir igualdade formal com igualdade real.</li>
+<li>Achar que toda crítica ao Direito rejeita o Direito.</li>
+<li>Não perceber a importância do contexto económico dos conflitos jurídicos.</li>
+</ul>
+</section>
+
+<section>
+<h2>Pergunta de Exame</h2>
+<div class="exemplo">
+<strong>Pergunta:</strong><br>
+Explique a crítica marxista ao Direito, relacionando os conceitos de classe social, poder económico e igualdade formal.
+</div>
+</section>
+
+<section>
+<h2>Caso Prático</h2>
+<div class="exemplo">
+<p>
+Uma empresa apresenta a um trabalhador um contrato com cláusulas complexas. O trabalhador aceita porque precisa urgentemente do emprego, embora não compreenda totalmente todas as condições.
+</p>
+
+<h3>Questões</h3>
+<ol>
+<li>Existe igualdade formal entre as partes?</li>
+<li>Existe igualdade material?</li>
+<li>Que crítica sociológica pode ser feita?</li>
+<li>Que papel pode ter o Direito do Trabalho?</li>
+</ol>
+
+<h3>Resposta orientadora</h3>
+<p>
+Formalmente, ambas as partes celebram um contrato. Materialmente, pode existir desigualdade económica e informacional. A crítica marxista chama atenção para relações de poder que podem existir por trás da liberdade contratual. O Direito do Trabalho procura proteger a parte mais vulnerável da relação laboral.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>Marx relaciona Direito, economia e poder social.</li>
+<li>A sociedade capitalista é analisada através do conflito entre classes sociais.</li>
+<li>O Direito pertence à superestrutura e pode refletir interesses económicos dominantes.</li>
+<li>A igualdade formal pode esconder desigualdades materiais.</li>
+<li>A análise sociológica ajuda a compreender os efeitos reais das normas jurídicas.</li>
+</ol>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>Quem foi Karl Marx?</li>
+<li>O que significa infraestrutura económica?</li>
+<li>O que é superestrutura?</li>
+<li>Qual a diferença entre igualdade formal e igualdade material?</li>
+<li>Porque Marx é importante para a Sociologia do Direito?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>Foi um pensador alemão que analisou capitalismo, classes sociais, trabalho e poder económico.</li>
+<li>É a base económica da sociedade: produção, trabalho, propriedade e relações económicas.</li>
+<li>É o conjunto de instituições e ideias, incluindo política, cultura, religião e Direito.</li>
+<li>Igualdade formal é igualdade perante a lei; igualdade material considera condições reais de vida e poder.</li>
+<li>Porque mostra como o Direito pode refletir estruturas económicas e relações de poder.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖️ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475" target="_blank">Código do Trabalho</a></li>
+<li><a href="https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1976-34520775" target="_blank">Constituição da República Portuguesa</a></li>
+<li><a href="https://www.dgsi.pt/" target="_blank">DGSI — Jurisprudência</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Karl Marx — O Capital.</li>
+<li>Karl Marx e Friedrich Engels — Manifesto do Partido Comunista.</li>
+<li>Direito, ideologia e relações de classe.</li>
+<li>Igualdade formal e desigualdade material.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-05-sociologia-direito.html">📚 Cadeira</a> |
+<a href="aula-06.html">⬅ Aula 06</a> |
+<a href="aula-08.html">➡ Aula 08</a>
+</nav>
+
+</main>
+</body>
+</html>
+EOF
+
+python3 << 'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-05-sociologia-direito.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    '<li>Aula 07 - Karl Marx e a crítica ao Direito</li>',
+    '<li><a href="../aulas/sociologia-direito/aula-07.html">Aula 07 - Karl Marx e a crítica ao Direito</a></li>'
+)
+
+html = html.replace(
+    '6 de 10 aulas concluídas',
+    '7 de 10 aulas concluídas'
+)
+
+path.write_text(html, encoding="utf-8")
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+html = html.replace('6 / 10 aulas concluídas', '7 / 10 aulas concluídas', 1)
+path.write_text(html, encoding="utf-8")
+PY
+
+git add .
+git commit -m "Criar Aula 07 Marx e Critica ao Direito"
+git push
+
+echo "Aula 07 de Sociologia do Direito criada."
