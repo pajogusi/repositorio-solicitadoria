@@ -1,3 +1,122 @@
+#!/bin/bash
+
+# ==========================================================
+# Repositório de Solicitadoria
+# Cadeira 9: Direito Administrativo I
+# Aula 01: O que é o Direito Administrativo
+# Autor oficial: Paulo Silva
+# Modelo oficial: top-menu, style.css?v=90, main, botão topo
+# ==========================================================
+
+set -e
+
+echo "=========================================="
+echo "A criar Cadeira 9 - Direito Administrativo I"
+echo "Aula 01 - O que é o Direito Administrativo"
+echo "=========================================="
+
+mkdir -p aulas/direito-administrativo-i
+
+# ==========================================================
+# Página da cadeira
+# ==========================================================
+
+cat > cadeiras/cadeira-09-direito-administrativo-i.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Direito Administrativo I</title>
+<link rel="stylesheet" href="../style.css?v=90">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+</head>
+<body>
+<main>
+
+<nav class="top-menu">
+<a href="../index.html">🏠 Início</a>
+<a href="../cadeiras.html">📚 Plano de Estudos</a>
+<a href="../biblioteca/codigos-juridicos.html">⚖ Biblioteca</a>
+<a href="../glossario/index.html">📖 Glossário</a>
+<a href="../casos/index.html">🧩 Casos</a>
+<a href="../quiz-interativo.html">🎯 Quiz</a>
+<a href="../paginas/sobre.html">ℹ Sobre</a>
+<a href="../paginas/contacto.html">📧 Contacto</a>
+<a href="../paginas/mapa.html">🗺 Mapa</a>
+<a href="../paginas/aviso-legal.html">⚖ Aviso Legal</a>
+</nav>
+
+<h1>Direito Administrativo I</h1>
+
+<section class="box">
+<h2>Apresentação da Cadeira</h2>
+<p>
+A cadeira de Direito Administrativo I introduz o estudo da Administração Pública, da sua organização,
+dos seus princípios fundamentais e das principais formas de atuação administrativa.
+</p>
+
+<p>
+O Direito Administrativo regula a atividade administrativa do Estado e de outras entidades públicas,
+especialmente quando atuam na prossecução do interesse público.
+</p>
+</section>
+
+<section>
+<h2>Objetivos da Cadeira</h2>
+<ul>
+<li>Compreender o conceito de Direito Administrativo.</li>
+<li>Conhecer a noção de Administração Pública.</li>
+<li>Identificar os princípios fundamentais da atividade administrativa.</li>
+<li>Distinguir órgãos, serviços e agentes administrativos.</li>
+<li>Compreender o poder administrativo e a prossecução do interesse público.</li>
+<li>Introduzir os conceitos de ato administrativo, regulamento administrativo e procedimento administrativo.</li>
+<li>Aplicar os conceitos estudados a situações práticas simples.</li>
+</ul>
+</section>
+
+<section>
+<h2>Aulas</h2>
+<ol>
+<li><a href="../aulas/direito-administrativo-i/aula-01.html">Aula 01 - O que é o Direito Administrativo</a></li>
+<li>Aula 02 - Administração Pública</li>
+<li>Aula 03 - Princípios da atividade administrativa</li>
+<li>Aula 04 - Órgãos, serviços e agentes administrativos</li>
+<li>Aula 05 - Poder administrativo e interesse público</li>
+<li>Aula 06 - Ato administrativo</li>
+<li>Aula 07 - Regulamento administrativo</li>
+<li>Aula 08 - Procedimento administrativo</li>
+<li>Aula 09 - Caso prático orientado</li>
+<li>Aula 10 - Revisão geral e quiz final</li>
+</ol>
+</section>
+
+<section>
+<h2>Estado</h2>
+<p><strong>Em desenvolvimento.</strong></p>
+<p><strong>Progresso da cadeira:</strong> 1 de 10 aulas concluídas</p>
+<span class="badge em-desenvolvimento">🟡 Em desenvolvimento</span>
+</section>
+
+<hr>
+
+<nav>
+<a href="../index.html">🏠 Início</a> |
+<a href="../cadeiras.html">📚 Plano de Estudos</a> |
+<a href="../aulas/direito-administrativo-i/aula-01.html">📘 Aula 01</a>
+</nav>
+
+</main>
+
+<a href="#" class="back-to-top">↑ Topo</a>
+</body>
+</html>
+EOF
+
+# ==========================================================
+# Aula 01
+# ==========================================================
+
+cat > aulas/direito-administrativo-i/aula-01.html <<'EOF'
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -388,6 +507,84 @@ Saber interpretar uma decisão administrativa, cumprir prazos e preparar requeri
 </main>
 
 <a href="#" class="back-to-top">↑ Topo</a>
-<script data-goatcounter="https://pajogusi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
+EOF
+
+# ==========================================================
+# Atualizar cadeiras.html
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+
+cartao_novo = (
+    '<div class="cadeira-card"><h3>📚 Direito Administrativo I</h3>'
+    '<p>1 / 10 aulas concluídas</p>'
+    '<span class="badge em-desenvolvimento">🟡 Em desenvolvimento</span>'
+    '<br><br><a class="botao" href="cadeiras/cadeira-09-direito-administrativo-i.html">Entrar</a></div>'
+)
+
+padrao = (
+    r'<div class="cadeira-card"><h3>📚 Direito Administrativo I</h3>'
+    r'<p>.*?</p>'
+    r'<span class="badge .*?">.*?</span>'
+    r'(?:<br><br><a class="botao" href=".*?">Entrar</a>)?'
+    r'</div>'
+)
+
+html, n = re.subn(padrao, cartao_novo, html, count=1, flags=re.DOTALL)
+
+if n == 0:
+    raise SystemExit("ERRO: não consegui atualizar o cartão de Direito Administrativo I em cadeiras.html.")
+
+path.write_text(html, encoding="utf-8")
+print("cadeiras.html atualizado com Direito Administrativo I.")
+PY
+
+# ==========================================================
+# Atualizar index.html
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("index.html")
+html = path.read_text(encoding="utf-8")
+
+html = re.sub(
+    r'<div class="stat-card"><strong>\d+ / 380</strong><br>Aulas concluídas</div>',
+    '<div class="stat-card"><strong>81 / 380</strong><br>Aulas concluídas</div>',
+    html,
+    count=1
+)
+
+# 81/380 = 21,3%, mantém 21%
+path.write_text(html, encoding="utf-8")
+print("index.html atualizado para 81 / 380 aulas.")
+PY
+
+# ==========================================================
+# Git
+# ==========================================================
+
+git add aulas/direito-administrativo-i/aula-01.html \
+        cadeiras/cadeira-09-direito-administrativo-i.html \
+        cadeiras.html \
+        index.html
+
+git commit -m "Iniciar Direito Administrativo I com Aula 01" || echo "Nada novo para commit."
+
+git push
+
+echo "=========================================="
+echo "Direito Administrativo I criada."
+echo "Aula 01 criada."
+echo "Total: 81 / 380 aulas."
+echo "Progresso mantém 21%."
+echo "=========================================="
