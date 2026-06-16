@@ -1,0 +1,521 @@
+#!/bin/bash
+
+# ==========================================================
+# Repositório de Solicitadoria
+# Cadeira 7: Introdução ao Direito II
+# Aula 05: Factos jurídicos
+# Autor oficial: Paulo Silva
+# Modelo oficial: top-menu, style.css?v=90, main, botão topo
+# ==========================================================
+
+set -e
+
+echo "=========================================="
+echo "A criar Aula 05 - Factos jurídicos"
+echo "=========================================="
+
+mkdir -p aulas/introducao-direito-ii
+
+cat > aulas/introducao-direito-ii/aula-05.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 05 - Factos jurídicos</title>
+<link rel="stylesheet" href="../../style.css?v=90">
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+</head>
+<body>
+<main>
+
+<nav class="top-menu">
+<a href="../../index.html">🏠 Início</a>
+<a href="../../cadeiras.html">📚 Plano de Estudos</a>
+<a href="../../biblioteca/codigos-juridicos.html">⚖ Biblioteca</a>
+<a href="../../glossario/index.html">📖 Glossário</a>
+<a href="../../casos/index.html">🧩 Casos</a>
+<a href="../../quiz-interativo.html">🎯 Quiz</a>
+<a href="../../paginas/sobre.html">ℹ Sobre</a>
+<a href="../../paginas/contacto.html">📧 Contacto</a>
+<a href="../../paginas/mapa.html">🗺 Mapa</a>
+<a href="../../paginas/aviso-legal.html">⚖ Aviso Legal</a>
+</nav>
+
+<h1>Aula 05 - Factos jurídicos</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o conceito de facto jurídico.</li>
+<li>Distinguir factos jurídicos de factos sem relevância jurídica.</li>
+<li>Conhecer a diferença entre factos naturais e factos humanos.</li>
+<li>Perceber como os factos jurídicos criam, modificam ou extinguem relações jurídicas.</li>
+<li>Aplicar o conceito a exemplos práticos.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Nas aulas anteriores estudámos a relação jurídica, os seus sujeitos e o seu objeto. Agora vamos estudar
+o elemento que muitas vezes dá origem à relação jurídica: o facto jurídico.
+</p>
+
+<p>
+Nem tudo o que acontece no mundo interessa ao Direito. Há acontecimentos sem qualquer consequência
+jurídica. Outros, porém, produzem efeitos reconhecidos pela ordem jurídica.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+Facto jurídico é todo o acontecimento que produz efeitos jurídicos.
+</div>
+</section>
+
+<section>
+<h2>O que é um facto jurídico?</h2>
+<p>
+Um facto jurídico é um acontecimento, natural ou humano, ao qual o Direito atribui consequências.
+</p>
+
+<p>
+Essas consequências podem consistir no nascimento, modificação ou extinção de direitos, deveres,
+obrigações, responsabilidades ou relações jurídicas.
+</p>
+
+<p>
+Por outras palavras, o facto jurídico é o acontecimento que faz o Direito reagir.
+</p>
+</section>
+
+<section>
+<h2>Factos sem relevância jurídica</h2>
+<p>
+Muitos acontecimentos da vida quotidiana não têm relevância jurídica.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Uma pessoa acordar às 7 horas, beber café ou dar um passeio normalmente não produz efeitos jurídicos.
+São factos da vida, mas não factos jurídicos.
+</div>
+
+<p>
+Só há facto jurídico quando o acontecimento é relevante para o Direito.
+</p>
+</section>
+
+<section>
+<h2>Factos com relevância jurídica</h2>
+<p>
+Um acontecimento passa a ter relevância jurídica quando a ordem jurídica lhe atribui efeitos.
+</p>
+
+<p>Exemplos:</p>
+<ul>
+<li>O nascimento de uma pessoa.</li>
+<li>A morte de uma pessoa.</li>
+<li>A celebração de um contrato.</li>
+<li>O pagamento de uma dívida.</li>
+<li>O incumprimento de uma obrigação.</li>
+<li>A prática de um dano.</li>
+<li>O decurso de um prazo.</li>
+<li>A entrega de uma declaração.</li>
+</ul>
+</section>
+
+<section>
+<h2>Função dos factos jurídicos</h2>
+<p>
+Os factos jurídicos podem produzir vários tipos de efeitos.
+</p>
+
+<ul>
+<li><strong>Constituir relações jurídicas:</strong> criar direitos e deveres.</li>
+<li><strong>Modificar relações jurídicas:</strong> alterar sujeitos, objeto ou conteúdo.</li>
+<li><strong>Extinguir relações jurídicas:</strong> terminar direitos, deveres ou obrigações.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+A assinatura de um contrato pode criar uma relação jurídica. O pagamento pode extinguir uma obrigação.
+A alteração de uma cláusula pode modificar a relação existente.
+</div>
+</section>
+
+<section>
+<h2>Factos jurídicos naturais</h2>
+<p>
+Factos jurídicos naturais são acontecimentos que ocorrem independentemente da vontade humana, mas aos
+quais o Direito atribui consequências.
+</p>
+
+<p>Exemplos:</p>
+<ul>
+<li>Nascimento.</li>
+<li>Morte.</li>
+<li>Decurso do tempo.</li>
+<li>Fenómenos naturais que causam danos.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+A morte de uma pessoa pode abrir uma sucessão, transmitindo direitos e obrigações aos seus herdeiros.
+</div>
+</section>
+
+<section>
+<h2>Factos jurídicos humanos</h2>
+<p>
+Factos jurídicos humanos são acontecimentos resultantes da conduta humana.
+</p>
+
+<p>
+Podem ser voluntários ou involuntários, lícitos ou ilícitos, dependendo da situação.
+</p>
+
+<p>Exemplos:</p>
+<ul>
+<li>Celebrar um contrato.</li>
+<li>Pagar uma dívida.</li>
+<li>Entregar um imóvel.</li>
+<li>Escrever um testamento.</li>
+<li>Praticar um dano.</li>
+<li>Faltar ao cumprimento de uma obrigação.</li>
+</ul>
+</section>
+
+<section>
+<h2>Factos jurídicos voluntários</h2>
+<p>
+São factos praticados com intervenção da vontade humana.
+</p>
+
+<p>
+Quando uma pessoa celebra um contrato, apresenta um requerimento ou reconhece uma dívida, está a praticar
+um facto voluntário com relevância jurídica.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Pedro vende a sua bicicleta a Sofia por 100 euros. A declaração de vontade de vender e comprar produz
+efeitos jurídicos.
+</div>
+</section>
+
+<section>
+<h2>Factos jurídicos involuntários</h2>
+<p>
+Há factos humanos que podem produzir efeitos jurídicos mesmo quando a pessoa não pretende diretamente
+produzir esses efeitos.
+</p>
+
+<p>
+Por exemplo, alguém pode causar um dano por distração. Mesmo que não tenha querido causar prejuízo,
+o Direito pode atribuir consequências à sua conduta.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Um condutor, por descuido, danifica o carro de outra pessoa. O facto pode gerar responsabilidade civil.
+</div>
+</section>
+
+<section>
+<h2>Factos lícitos e ilícitos</h2>
+<p>
+Os factos jurídicos podem ainda ser classificados como lícitos ou ilícitos.
+</p>
+
+<h3>Factos lícitos</h3>
+<p>
+São factos conformes ao Direito. Produzem efeitos jurídicos sem violar normas jurídicas.
+</p>
+
+<p>Exemplos:</p>
+<ul>
+<li>Celebrar um contrato válido.</li>
+<li>Pagar uma dívida.</li>
+<li>Fazer uma doação permitida por lei.</li>
+</ul>
+
+<h3>Factos ilícitos</h3>
+<p>
+São factos contrários ao Direito. Podem gerar responsabilidade, sanções ou outras consequências.
+</p>
+
+<p>Exemplos:</p>
+<ul>
+<li>Incumprir uma obrigação.</li>
+<li>Causar dano a outra pessoa.</li>
+<li>Praticar um ato proibido por lei.</li>
+</ul>
+</section>
+
+<section>
+<h2>Factos constitutivos, modificativos e extintivos</h2>
+<p>
+Segundo os efeitos que produzem, os factos jurídicos podem ser:
+</p>
+
+<ul>
+<li><strong>Constitutivos:</strong> criam uma relação jurídica ou direito.</li>
+<li><strong>Modificativos:</strong> alteram uma relação jurídica existente.</li>
+<li><strong>Extintivos:</strong> extinguem uma relação jurídica, direito ou obrigação.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Um contrato de arrendamento cria uma relação jurídica. A alteração da renda modifica essa relação.
+O fim do contrato extingue-a.
+</div>
+</section>
+
+<section>
+<h2>O decurso do tempo como facto jurídico</h2>
+<p>
+O tempo pode ter grande importância jurídica. O decurso de um prazo pode criar, modificar ou extinguir
+direitos.
+</p>
+
+<p>
+Alguns direitos devem ser exercidos dentro de determinado prazo. Se o prazo passar, podem surgir efeitos
+como caducidade, prescrição ou perda de uma faculdade.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Se uma pessoa tem um prazo de 30 dias para apresentar uma reclamação e não o faz, pode perder a possibilidade
+de exercer esse direito naquele procedimento.
+</div>
+</section>
+
+<section>
+<h2>Exemplo prático orientado</h2>
+<div class="exemplo">
+<p>
+Ana comprou um telemóvel a Bruno por 250 euros. Bruno entregou o telemóvel e Ana pagou o preço.
+</p>
+
+<ul>
+<li><strong>Facto jurídico constitutivo:</strong> acordo de compra e venda.</li>
+<li><strong>Efeito jurídico:</strong> criação de direitos e deveres entre Ana e Bruno.</li>
+<li><strong>Facto jurídico extintivo:</strong> pagamento do preço e entrega do telemóvel.</li>
+<li><strong>Efeito jurídico:</strong> cumprimento das obrigações principais.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Importância para a Solicitadoria</h2>
+<p>
+A identificação do facto jurídico é essencial para compreender qualquer situação prática.
+</p>
+
+<p>
+Antes de aplicar normas, é necessário perceber o que aconteceu e que efeitos jurídicos esse acontecimento
+pode produzir.
+</p>
+
+<p>
+O solicitador deve saber distinguir factos relevantes de factos irrelevantes, bem como identificar se
+um facto cria, modifica ou extingue direitos e deveres.
+</p>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Chamar facto jurídico a qualquer acontecimento.</li>
+<li>Ignorar se o facto produz efeitos jurídicos.</li>
+<li>Confundir facto jurídico com norma jurídica.</li>
+<li>Não distinguir factos naturais de factos humanos.</li>
+<li>Não perceber se o facto constitui, modifica ou extingue uma relação jurídica.</li>
+</ul>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>O que é um facto jurídico?</li>
+<li>Dá um exemplo de facto sem relevância jurídica.</li>
+<li>Qual é a diferença entre facto natural e facto humano?</li>
+<li>O que é um facto jurídico extintivo?</li>
+<li>Porque o decurso do tempo pode ser juridicamente relevante?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>É um acontecimento ao qual o Direito atribui efeitos jurídicos.</li>
+<li>Beber café, passear ou acordar cedo, se não houver consequência jurídica associada.</li>
+<li>O facto natural ocorre independentemente da vontade humana; o facto humano resulta de conduta humana.</li>
+<li>É um facto que extingue uma relação jurídica, direito ou obrigação.</li>
+<li>Porque o fim de um prazo pode criar, extinguir ou limitar direitos e deveres.</li>
+</ol>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>Facto jurídico é um acontecimento com efeitos jurídicos.</li>
+<li>Nem todos os acontecimentos são juridicamente relevantes.</li>
+<li>Os factos jurídicos podem ser naturais ou humanos.</li>
+<li>Podem criar, modificar ou extinguir relações jurídicas.</li>
+<li>Identificar o facto jurídico é essencial para aplicar corretamente o Direito.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_main.php" target="_blank">Procuradoria-Geral Distrital de Lisboa — Legislação</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Teoria geral dos factos jurídicos.</li>
+<li>Factos naturais e factos humanos.</li>
+<li>Factos constitutivos, modificativos e extintivos.</li>
+<li>Noções introdutórias de prescrição e caducidade.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-07-introducao-direito-ii.html">📚 Cadeira</a> |
+<a href="aula-04.html">⬅ Aula anterior</a> |
+<a href="aula-06.html">➡ Próxima aula</a>
+</nav>
+
+</main>
+
+<a href="#" class="back-to-top">↑ Topo</a>
+</body>
+</html>
+EOF
+
+# ==========================================================
+# Atualizar página da cadeira
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-07-introducao-direito-ii.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    "<li>Aula 05 - Factos jurídicos</li>",
+    '<li><a href="../aulas/introducao-direito-ii/aula-05.html">Aula 05 - Factos jurídicos</a></li>'
+)
+
+html = html.replace(
+    "<p><strong>Progresso da cadeira:</strong> 4 de 10 aulas concluídas</p>",
+    "<p><strong>Progresso da cadeira:</strong> 5 de 10 aulas concluídas</p>"
+)
+
+path.write_text(html, encoding="utf-8")
+print("Página da cadeira atualizada para Aula 05.")
+PY
+
+# ==========================================================
+# Garantir link da Aula 04 para Aula 05
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("aulas/introducao-direito-ii/aula-04.html")
+
+if path.exists():
+    html = path.read_text(encoding="utf-8")
+
+    if "aula-05.html" not in html:
+        html = html.replace(
+            '<a href="aula-03.html">⬅ Aula anterior</a>',
+            '<a href="aula-03.html">⬅ Aula anterior</a> |\n<a href="aula-05.html">➡ Próxima aula</a>'
+        )
+
+    path.write_text(html, encoding="utf-8")
+    print("Aula 04 verificada com link para Aula 05.")
+else:
+    print("AVISO: Aula 04 não encontrada.")
+PY
+
+# ==========================================================
+# Atualizar cadeiras.html
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+
+cartao_novo = (
+    '<div class="cadeira-card"><h3>📚 Introdução ao Direito II</h3>'
+    '<p>5 / 10 aulas concluídas</p>'
+    '<span class="badge em-desenvolvimento">🟡 Em desenvolvimento</span>'
+    '<br><br><a class="botao" href="cadeiras/cadeira-07-introducao-direito-ii.html">Entrar</a></div>'
+)
+
+padrao = (
+    r'<div class="cadeira-card"><h3>📚 Introdução ao Direito II</h3>'
+    r'<p>.*?</p>'
+    r'<span class="badge .*?">.*?</span>'
+    r'(?:<br><br><a class="botao" href=".*?">Entrar</a>)?'
+    r'</div>'
+)
+
+html, n = re.subn(padrao, cartao_novo, html, count=1, flags=re.DOTALL)
+
+if n == 0:
+    raise SystemExit("ERRO: não consegui atualizar o cartão de Introdução ao Direito II em cadeiras.html.")
+
+path.write_text(html, encoding="utf-8")
+print("cadeiras.html atualizado para 5 / 10.")
+PY
+
+# ==========================================================
+# Atualizar index.html
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("index.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace("<strong>64</strong><br>Aulas concluídas", "<strong>65</strong><br>Aulas concluídas")
+
+# 65/180 = 36,1%, mantém 36%
+path.write_text(html, encoding="utf-8")
+print("index.html atualizado para 65 aulas.")
+PY
+
+# ==========================================================
+# Git
+# ==========================================================
+
+git add .
+
+git commit -m "Adicionar Aula 05 de Introdução ao Direito II" || echo "Nada novo para commit."
+
+git push
+
+echo "=========================================="
+echo "Aula 05 criada com sucesso."
+echo "Introdução ao Direito II atualizada para 5 / 10."
+echo "Total previsto: 65 aulas."
+echo "Progresso mantém 36%."
+echo "=========================================="
