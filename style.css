@@ -512,3 +512,25 @@ main > .cadeira-card:hover {
 .botao-paypal:hover {
     opacity: 0.9;
 }
+
+/* QR Code PayPal */
+.paypal-qr-wrap {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.paypal-qr {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+.paypal-nota {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #555555;
+}
