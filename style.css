@@ -446,3 +446,41 @@ main > .cadeira-card:hover {
     background: #e2e3e5;
     color: #383d41;
 }
+
+
+/* ==========================================================
+   Blocos pedagógicos — melhoria visual
+   ========================================================== */
+
+.destaque {
+  border-left: 4px solid #0056b3;
+  padding: 12px 14px;
+  background-color: #f8f9fa;
+  margin: 18px 0;
+  border-radius: 6px;
+}
+
+.exemplo {
+  border-left: 4px solid #198754;
+  padding: 12px 14px;
+  background-color: #f6fbf7;
+  margin: 18px 0;
+  border-radius: 6px;
+}
+
+.quiz {
+  border-left: 4px solid #ffc107;
+  padding: 12px 14px;
+  background-color: #fffdf3;
+  margin: 18px 0;
+  border-radius: 6px;
+}
+
+.respostas {
+  border-left: 4px solid #6f42c1;
+  padding: 12px 14px;
+  background-color: #faf7ff;
+  margin: 18px 0;
+  border-radius: 6px;
+}
+
