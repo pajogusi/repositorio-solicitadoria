@@ -1,0 +1,508 @@
+#!/bin/bash
+
+# ==========================================================
+# Repositório de Solicitadoria
+# Cadeira 7: Introdução ao Direito II
+# Aula 04: Objeto da relação jurídica
+# Autor oficial: Paulo Silva
+# Modelo oficial: top-menu, style.css?v=90, main, botão topo
+# ==========================================================
+
+set -e
+
+echo "=========================================="
+echo "A criar Aula 04 - Objeto da relação jurídica"
+echo "=========================================="
+
+mkdir -p aulas/introducao-direito-ii
+
+cat > aulas/introducao-direito-ii/aula-04.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 04 - Objeto da relação jurídica</title>
+<link rel="stylesheet" href="../../style.css?v=90">
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+</head>
+<body>
+<main>
+
+<nav class="top-menu">
+<a href="../../index.html">🏠 Início</a>
+<a href="../../cadeiras.html">📚 Plano de Estudos</a>
+<a href="../../biblioteca/codigos-juridicos.html">⚖ Biblioteca</a>
+<a href="../../glossario/index.html">📖 Glossário</a>
+<a href="../../casos/index.html">🧩 Casos</a>
+<a href="../../quiz-interativo.html">🎯 Quiz</a>
+<a href="../../paginas/sobre.html">ℹ Sobre</a>
+<a href="../../paginas/contacto.html">📧 Contacto</a>
+<a href="../../paginas/mapa.html">🗺 Mapa</a>
+<a href="../../paginas/aviso-legal.html">⚖ Aviso Legal</a>
+</nav>
+
+<h1>Aula 04 - Objeto da relação jurídica</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Compreender o conceito de objeto da relação jurídica.</li>
+<li>Distinguir objeto imediato e objeto mediato.</li>
+<li>Identificar prestações, coisas e condutas como possíveis objetos jurídicos.</li>
+<li>Compreender os requisitos do objeto juridicamente relevante.</li>
+<li>Aplicar o conceito de objeto a exemplos práticos.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Depois de estudarmos os sujeitos da relação jurídica, importa compreender sobre o que incide essa relação.
+Esse elemento chama-se objeto.
+</p>
+
+<p>
+O objeto da relação jurídica é aquilo sobre que recaem os direitos, deveres, poderes ou obrigações
+dos sujeitos.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+O objeto da relação jurídica responde à pergunta: sobre o que incidem os direitos e deveres das partes?
+</div>
+</section>
+
+<section>
+<h2>Conceito de objeto da relação jurídica</h2>
+<p>
+O objeto da relação jurídica é o elemento sobre o qual se projetam as posições jurídicas dos sujeitos.
+Pode consistir numa coisa, numa prestação, numa conduta, numa abstenção, num direito ou noutro interesse
+juridicamente protegido.
+</p>
+
+<p>
+Numa relação jurídica, os sujeitos não estão ligados no vazio. Estão ligados por causa de algo:
+um bem, uma obrigação, uma entrega, um pagamento, uma prestação de serviço ou outro interesse protegido
+pelo Direito.
+</p>
+</section>
+
+<section>
+<h2>Exemplo simples</h2>
+<div class="exemplo">
+<p>
+Ana vende um computador portátil a Bruno por 500 euros.
+</p>
+
+<ul>
+<li><strong>Sujeitos:</strong> Ana e Bruno.</li>
+<li><strong>Objeto:</strong> o computador e o pagamento do preço.</li>
+<li><strong>Conteúdo:</strong> Ana deve entregar o computador; Bruno deve pagar 500 euros.</li>
+</ul>
+</div>
+
+<p>
+Neste exemplo, a relação jurídica incide sobre a entrega de uma coisa e o pagamento de uma quantia.
+</p>
+</section>
+
+<section>
+<h2>Objeto imediato e objeto mediato</h2>
+<p>
+Em muitas situações, distingue-se entre objeto imediato e objeto mediato da relação jurídica.
+</p>
+
+<h3>Objeto imediato</h3>
+<p>
+O objeto imediato é a prestação ou conduta que o sujeito deve realizar, permitir ou suportar.
+</p>
+
+<h3>Objeto mediato</h3>
+<p>
+O objeto mediato é a coisa, bem ou realidade material sobre a qual a prestação incide.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Num contrato de compra e venda de automóvel, o objeto imediato pode ser a obrigação de entregar o veículo
+e pagar o preço. O objeto mediato é o próprio automóvel.
+</div>
+</section>
+
+<section>
+<h2>Coisas como objeto</h2>
+<p>
+Muitas relações jurídicas têm por objeto coisas. Uma coisa pode ser um bem móvel, um imóvel ou outro
+bem suscetível de apropriação e valorização jurídica.
+</p>
+
+<p>Exemplos:</p>
+<ul>
+<li>Um automóvel.</li>
+<li>Uma casa.</li>
+<li>Um terreno.</li>
+<li>Um computador.</li>
+<li>Um telemóvel.</li>
+<li>Uma quantia em dinheiro.</li>
+</ul>
+
+<p>
+As coisas são particularmente importantes no Direito das Coisas, no Direito das Obrigações, nos contratos
+e nos registos.
+</p>
+</section>
+
+<section>
+<h2>Prestações como objeto</h2>
+<p>
+A prestação é uma conduta devida por uma pessoa a outra. Pode consistir em dar, fazer ou não fazer.
+</p>
+
+<ul>
+<li><strong>Dar:</strong> entregar uma coisa ou pagar uma quantia.</li>
+<li><strong>Fazer:</strong> prestar um serviço, construir, reparar, transportar.</li>
+<li><strong>Não fazer:</strong> abster-se de determinada conduta.</li>
+</ul>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Num contrato de reparação de veículo, a prestação principal é reparar o veículo. O pagamento do preço
+é a prestação correspondente do cliente.
+</div>
+</section>
+
+<section>
+<h2>Condutas como objeto</h2>
+<p>
+O objeto da relação jurídica pode ser uma conduta humana juridicamente relevante.
+</p>
+
+<p>
+Essa conduta pode ser positiva, quando alguém deve fazer algo, ou negativa, quando alguém deve abster-se
+de fazer algo.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Num contrato de confidencialidade, uma pessoa pode ficar obrigada a não divulgar determinada informação.
+Aqui, o objeto envolve uma abstenção.
+</div>
+</section>
+
+<section>
+<h2>Direitos e interesses como objeto</h2>
+<p>
+Em certas situações, a relação jurídica pode incidir sobre direitos ou interesses juridicamente protegidos.
+</p>
+
+<p>
+Por exemplo, a transmissão de uma quota numa sociedade, a cessão de um crédito ou a proteção de um direito
+de personalidade envolvem objetos que não são simples coisas materiais.
+</p>
+
+<p>
+O importante é perceber que o objeto deve ter relevância jurídica e ser reconhecido pelo Direito.
+</p>
+</section>
+
+<section>
+<h2>Requisitos do objeto</h2>
+<p>
+Para que o objeto de uma relação jurídica seja válido, em muitos casos deve cumprir certos requisitos.
+</p>
+
+<ul>
+<li><strong>Possibilidade:</strong> o objeto deve ser possível.</li>
+<li><strong>Licitude:</strong> o objeto não pode ser contrário à lei.</li>
+<li><strong>Determinabilidade:</strong> deve ser determinado ou determinável.</li>
+<li><strong>Valor jurídico:</strong> deve ser juridicamente relevante.</li>
+</ul>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+Um objeto impossível, ilícito ou totalmente indeterminado pode comprometer a validade da relação jurídica ou do ato que lhe deu origem.
+</div>
+</section>
+
+<section>
+<h2>Objeto impossível</h2>
+<p>
+O objeto é impossível quando não pode ser realizado, física ou juridicamente.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Celebrar um contrato para vender um bem que já deixou de existir pode levantar um problema de impossibilidade,
+dependendo das circunstâncias.
+</div>
+
+<p>
+A impossibilidade pode afetar a validade ou o cumprimento da relação jurídica.
+</p>
+</section>
+
+<section>
+<h2>Objeto ilícito</h2>
+<p>
+O objeto é ilícito quando é contrário à lei, à ordem pública ou aos bons costumes.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+Um acordo para praticar um ato proibido por lei não pode ser tratado como objeto válido de uma relação jurídica lícita.
+</div>
+
+<p>
+O Direito não protege relações jurídicas fundadas em objetos ilícitos.
+</p>
+</section>
+
+<section>
+<h2>Objeto determinado ou determinável</h2>
+<p>
+O objeto deve ser identificado ou, pelo menos, identificável através de critérios objetivos.
+</p>
+
+<p>
+Não é necessário que todos os elementos estejam definidos desde o início, mas deve ser possível determinar
+o objeto com segurança.
+</p>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+A venda de “um dos automóveis pertencentes ao vendedor, a escolher pelo comprador até determinada data”
+pode ser determinável, se existirem critérios suficientes para identificar o bem.
+</div>
+</section>
+
+<section>
+<h2>Importância para a Solicitadoria</h2>
+<p>
+Identificar corretamente o objeto é essencial na prática jurídica.
+</p>
+
+<p>
+Na elaboração de contratos, requerimentos, registos, escrituras ou documentos particulares, é necessário
+saber exatamente sobre o que recai a relação jurídica.
+</p>
+
+<p>
+Um objeto mal identificado pode gerar dúvidas, litígios, dificuldades de prova ou problemas de validade.
+</p>
+</section>
+
+<section>
+<h2>Exemplo prático orientado</h2>
+<div class="exemplo">
+<p>
+Rita contratou uma empresa para instalar uma porta de segurança na sua casa pelo preço de 750 euros.
+A empresa comprometeu-se a realizar o serviço até ao final do mês.
+</p>
+
+<ul>
+<li><strong>Sujeitos:</strong> Rita e a empresa.</li>
+<li><strong>Objeto imediato:</strong> instalação da porta e pagamento do preço.</li>
+<li><strong>Objeto mediato:</strong> a porta de segurança e a obra de instalação.</li>
+<li><strong>Conteúdo:</strong> a empresa deve instalar; Rita deve pagar.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Confundir sujeitos com objeto da relação jurídica.</li>
+<li>Não distinguir prestação de coisa.</li>
+<li>Ignorar se o objeto é lícito ou possível.</li>
+<li>Descrever o objeto de forma vaga ou incompleta.</li>
+<li>Não identificar corretamente o bem ou prestação em causa.</li>
+</ul>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>O que é o objeto da relação jurídica?</li>
+<li>Qual é a diferença entre objeto imediato e objeto mediato?</li>
+<li>Dá um exemplo de prestação de dar.</li>
+<li>Que requisitos deve ter o objeto juridicamente relevante?</li>
+<li>Porque é importante identificar bem o objeto numa relação jurídica?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>É aquilo sobre que incidem os direitos, deveres ou obrigações dos sujeitos.</li>
+<li>O objeto imediato é a prestação ou conduta; o objeto mediato é a coisa ou bem sobre que a prestação incide.</li>
+<li>Entregar uma coisa ou pagar uma quantia em dinheiro.</li>
+<li>Deve ser possível, lícito, determinado ou determinável e juridicamente relevante.</li>
+<li>Porque evita dúvidas, litígios e problemas de validade ou cumprimento.</li>
+</ol>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>O objeto é um elemento essencial da relação jurídica.</li>
+<li>Pode consistir numa coisa, prestação, conduta, direito ou interesse protegido.</li>
+<li>O objeto imediato refere-se à prestação; o mediato refere-se ao bem ou realidade sobre que a prestação incide.</li>
+<li>O objeto deve ser possível, lícito e determinado ou determinável.</li>
+<li>A identificação correta do objeto é essencial na prática jurídica.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="https://www.pgdlisboa.pt/leis/lei_main.php" target="_blank">Procuradoria-Geral Distrital de Lisboa — Legislação</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Teoria geral da relação jurídica.</li>
+<li>Objeto da relação jurídica.</li>
+<li>Prestação, coisa e conduta juridicamente relevante.</li>
+<li>Requisitos do objeto nos atos jurídicos.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-07-introducao-direito-ii.html">📚 Cadeira</a> |
+<a href="aula-03.html">⬅ Aula anterior</a> |
+<a href="aula-05.html">➡ Próxima aula</a>
+</nav>
+
+</main>
+
+<a href="#" class="back-to-top">↑ Topo</a>
+</body>
+</html>
+EOF
+
+# ==========================================================
+# Atualizar página da cadeira
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("cadeiras/cadeira-07-introducao-direito-ii.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace(
+    "<li>Aula 04 - Objeto da relação jurídica</li>",
+    '<li><a href="../aulas/introducao-direito-ii/aula-04.html">Aula 04 - Objeto da relação jurídica</a></li>'
+)
+
+html = html.replace(
+    "<p><strong>Progresso da cadeira:</strong> 3 de 10 aulas concluídas</p>",
+    "<p><strong>Progresso da cadeira:</strong> 4 de 10 aulas concluídas</p>"
+)
+
+path.write_text(html, encoding="utf-8")
+print("Página da cadeira atualizada para Aula 04.")
+PY
+
+# ==========================================================
+# Garantir link da Aula 03 para Aula 04
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("aulas/introducao-direito-ii/aula-03.html")
+
+if path.exists():
+    html = path.read_text(encoding="utf-8")
+
+    if "aula-04.html" not in html:
+        html = html.replace(
+            '<a href="aula-02.html">⬅ Aula anterior</a>',
+            '<a href="aula-02.html">⬅ Aula anterior</a> |\n<a href="aula-04.html">➡ Próxima aula</a>'
+        )
+
+    path.write_text(html, encoding="utf-8")
+    print("Aula 03 verificada com link para Aula 04.")
+else:
+    print("AVISO: Aula 03 não encontrada.")
+PY
+
+# ==========================================================
+# Atualizar cadeiras.html
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path("cadeiras.html")
+html = path.read_text(encoding="utf-8")
+
+cartao_novo = (
+    '<div class="cadeira-card"><h3>📚 Introdução ao Direito II</h3>'
+    '<p>4 / 10 aulas concluídas</p>'
+    '<span class="badge em-desenvolvimento">🟡 Em desenvolvimento</span>'
+    '<br><br><a class="botao" href="cadeiras/cadeira-07-introducao-direito-ii.html">Entrar</a></div>'
+)
+
+padrao = (
+    r'<div class="cadeira-card"><h3>📚 Introdução ao Direito II</h3>'
+    r'<p>.*?</p>'
+    r'<span class="badge .*?">.*?</span>'
+    r'(?:<br><br><a class="botao" href=".*?">Entrar</a>)?'
+    r'</div>'
+)
+
+html, n = re.subn(padrao, cartao_novo, html, count=1, flags=re.DOTALL)
+
+if n == 0:
+    raise SystemExit("ERRO: não consegui atualizar o cartão de Introdução ao Direito II em cadeiras.html.")
+
+path.write_text(html, encoding="utf-8")
+print("cadeiras.html atualizado para 4 / 10.")
+PY
+
+# ==========================================================
+# Atualizar index.html
+# ==========================================================
+
+python3 <<'PY'
+from pathlib import Path
+
+path = Path("index.html")
+html = path.read_text(encoding="utf-8")
+
+html = html.replace("<strong>63</strong><br>Aulas concluídas", "<strong>64</strong><br>Aulas concluídas")
+
+# 64/180 = 35,5%, arredondado visualmente para 36%
+html = html.replace('<div class="progress-bar">35%</div>', '<div class="progress-bar">36%</div>')
+
+path.write_text(html, encoding="utf-8")
+print("index.html atualizado para 64 aulas e 36%.")
+PY
+
+# ==========================================================
+# Git
+# ==========================================================
+
+git add .
+
+git commit -m "Adicionar Aula 04 de Introdução ao Direito II" || echo "Nada novo para commit."
+
+git push
+
+echo "=========================================="
+echo "Aula 04 criada com sucesso."
+echo "Introdução ao Direito II atualizada para 4 / 10."
+echo "Total previsto: 64 aulas."
+echo "Progresso previsto: 36%."
+echo "=========================================="
