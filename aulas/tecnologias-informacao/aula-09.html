@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aula 09 - Caso prático orientado</title>
+<link rel="stylesheet" href="../../style.css?v=90">
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+</head>
+<body>
+<main>
+
+<nav class="top-menu">
+<a href="../../index.html">🏠 Início</a>
+<a href="../../cadeiras.html">📚 Plano de Estudos</a>
+<a href="../../biblioteca/codigos-juridicos.html">⚖ Biblioteca</a>
+<a href="../../glossario/index.html">📖 Glossário</a>
+<a href="../../casos/index.html">🧩 Casos</a>
+<a href="../../quiz-interativo.html">🎯 Quiz</a>
+<a href="../../paginas/sobre.html">ℹ Sobre</a>
+<a href="../../paginas/contacto.html">📧 Contacto</a>
+<a href="../../paginas/mapa.html">🗺 Mapa</a>
+<a href="../../paginas/aviso-legal.html">⚖ Aviso Legal</a>
+</nav>
+
+<h1>Aula 09 - Caso prático orientado</h1>
+
+<section class="box">
+<h2>Objetivos da Aula</h2>
+<ul>
+<li>Aplicar conceitos de tecnologias da informação a uma situação prática.</li>
+<li>Identificar riscos digitais em ambiente jurídico.</li>
+<li>Analisar organização de ficheiros, email, cloud e segurança.</li>
+<li>Reconhecer problemas de proteção de dados.</li>
+<li>Propor medidas corretivas simples.</li>
+<li>Relacionar tecnologia com responsabilidade profissional.</li>
+</ul>
+</section>
+
+<section>
+<h2>Introdução</h2>
+<p>
+Esta aula aplica os principais conceitos estudados na cadeira.
+</p>
+
+<p>
+O caso mostra uma situação comum: um pequeno escritório ou profissional que usa tecnologia diariamente,
+mas sem regras suficientes de organização, segurança e controlo documental.
+</p>
+
+<div class="destaque">
+<strong>Ideia principal:</strong><br>
+A tecnologia mal usada não aumenta produtividade; aumenta risco.
+</div>
+</section>
+
+<section>
+<h2>O caso prático</h2>
+<div class="exemplo">
+<p>
+Um escritório de apoio jurídico trabalha com contratos, certidões, faturas, recibos, emails de clientes,
+documentos de identificação e comprovativos bancários.
+</p>
+
+<p>
+Os documentos são guardados no ambiente de trabalho do computador principal. Alguns ficheiros têm nomes como
+“scan”, “contrato final”, “novo documento” e “cliente antigo”.
+</p>
+
+<p>
+O escritório usa uma conta de email partilhada por vários colaboradores. A password é simples e não existe autenticação multifator.
+Também usa uma pasta cloud partilhada por link, sem controlo claro de permissões.
+</p>
+
+<p>
+Um colaborador enviou por engano a minuta de contrato de um cliente para outro cliente. Além disso, não existem backups regulares.
+</p>
+</div>
+</section>
+
+<section>
+<h2>1. Identificação dos problemas principais</h2>
+<p>
+O caso apresenta vários problemas digitais.
+</p>
+
+<ul>
+<li>Má organização de ficheiros.</li>
+<li>Nomes de ficheiros vagos.</li>
+<li>Falta de controlo de versões.</li>
+<li>Password fraca.</li>
+<li>Ausência de autenticação multifator.</li>
+<li>Email partilhado sem controlo.</li>
+<li>Cloud com permissões indefinidas.</li>
+<li>Envio de documento para destinatário errado.</li>
+<li>Ausência de backups regulares.</li>
+<li>Risco de violação de dados pessoais e confidencialidade.</li>
+</ul>
+</section>
+
+<section>
+<h2>2. Organização documental</h2>
+<p>
+Guardar tudo no ambiente de trabalho é uma prática arriscada.
+</p>
+
+<p>
+A solução passa por criar uma estrutura organizada por clientes, processos, anos e tipos de documentos.
+</p>
+
+<div class="exemplo">
+<pre>
+Clientes/
+  Cliente_X/
+    2026_contrato_servicos/
+      minutas/
+      documentos_recebidos/
+      documentos_enviados/
+      comprovativos/
+      versao_final/
+</pre>
+</div>
+</section>
+
+<section>
+<h2>3. Nomeação de ficheiros</h2>
+<p>
+Nomes como “scan” ou “final” não identificam o conteúdo.
+</p>
+
+<p>
+Devem ser usados nomes claros, com data, tipo de documento, cliente e versão.
+</p>
+
+<div class="destaque">
+<strong>Modelo recomendado:</strong><br>
+AAAA-MM-DD_tipo-documento_cliente_versao.pdf
+</div>
+
+<div class="exemplo">
+<strong>Exemplo:</strong><br>
+2026-07-15_contrato-prestacao-servicos_cliente-x_vfinal.pdf
+</div>
+</section>
+
+<section>
+<h2>4. Controlo de versões</h2>
+<p>
+O erro de enviar a minuta errada pode resultar de mau controlo de versões.
+</p>
+
+<p>
+É necessário distinguir minuta, versão revista, versão final e versão assinada.
+</p>
+
+<ul>
+<li>v01_minuta</li>
+<li>v02_revista</li>
+<li>v03_cliente</li>
+<li>vfinal</li>
+<li>assinado</li>
+</ul>
+</section>
+
+<section>
+<h2>5. Email partilhado</h2>
+<p>
+Uma conta partilhada pode dificultar responsabilidade e controlo.
+</p>
+
+<p>
+É importante saber quem enviou, quando enviou, que documento enviou e para quem enviou.
+</p>
+
+<p>
+Sempre que possível, deve haver contas individuais, permissões controladas e regras internas de envio.
+</p>
+</section>
+
+<section>
+<h2>6. Password fraca</h2>
+<p>
+Uma password simples coloca a conta em risco.
+</p>
+
+<p>
+A solução passa por passwords fortes, únicas e guardadas de forma segura.
+</p>
+
+<div class="destaque">
+<strong>Ponto essencial:</strong><br>
+Uma conta de email profissional comprometida pode expor clientes, documentos, prazos, instruções e informação confidencial.
+</div>
+</section>
+
+<section>
+<h2>7. Autenticação multifator</h2>
+<p>
+A autenticação multifator deve ser ativada em contas importantes.
+</p>
+
+<p>
+Mesmo que a password seja descoberta, a segunda camada de segurança dificulta o acesso indevido.
+</p>
+</section>
+
+<section>
+<h2>8. Cloud sem controlo</h2>
+<p>
+Uma pasta cloud partilhada por link, sem controlo de permissões, é perigosa.
+</p>
+
+<p>
+Deve definir-se quem pode ver, editar, descarregar ou partilhar.
+</p>
+
+<ul>
+<li>Evitar links públicos.</li>
+<li>Dar acesso só a quem precisa.</li>
+<li>Remover acessos antigos.</li>
+<li>Separar pastas por cliente/processo.</li>
+<li>Verificar permissões regularmente.</li>
+</ul>
+</section>
+
+<section>
+<h2>9. Envio para destinatário errado</h2>
+<p>
+Enviar documentos de um cliente para outro é um incidente sério.
+</p>
+
+<p>
+Pode envolver violação de confidencialidade, proteção de dados e dever profissional de cuidado.
+</p>
+
+<div class="destaque">
+<strong>Medida preventiva:</strong><br>
+Antes de enviar, confirmar destinatário, assunto, anexo, versão e conteúdo do documento.
+</div>
+</section>
+
+<section>
+<h2>10. Falta de backup</h2>
+<p>
+Sem backup, o escritório está vulnerável a avaria, roubo, ataque informático ou apagamento acidental.
+</p>
+
+<p>
+Deve existir uma estratégia de cópia de segurança regular.
+</p>
+
+<ul>
+<li>Backup automático.</li>
+<li>Backup externo.</li>
+<li>Backup cloud seguro.</li>
+<li>Teste de recuperação.</li>
+<li>Regras de retenção.</li>
+</ul>
+</section>
+
+<section>
+<h2>11. Proteção de dados</h2>
+<p>
+O escritório trata dados pessoais e informação confidencial.
+</p>
+
+<p>
+Documentos de identificação, dados fiscais, moradas, emails, contratos e comprovativos exigem cuidado.
+</p>
+
+<p>
+O princípio da minimização também deve ser respeitado: recolher e tratar apenas o necessário.
+</p>
+</section>
+
+<section>
+<h2>12. Medidas corretivas imediatas</h2>
+<ul>
+<li>Reorganizar ficheiros por cliente e processo.</li>
+<li>Renomear documentos relevantes com modelo uniforme.</li>
+<li>Ativar autenticação multifator.</li>
+<li>Substituir passwords fracas.</li>
+<li>Rever permissões da cloud.</li>
+<li>Criar procedimento de verificação antes de envio.</li>
+<li>Implementar backups regulares.</li>
+<li>Registar incidentes e corrigir procedimentos.</li>
+</ul>
+</section>
+
+<section>
+<h2>13. Procedimento de envio seguro</h2>
+<p>
+Antes de enviar email com documentos, deve ser feita uma verificação simples.
+</p>
+
+<ol>
+<li>O destinatário está correto?</li>
+<li>O assunto identifica o processo?</li>
+<li>O anexo é o documento certo?</li>
+<li>É a versão final?</li>
+<li>Contém dados de outro cliente?</li>
+<li>Deve seguir em PDF?</li>
+<li>É necessário proteger com password?</li>
+<li>Foi arquivada prova de envio?</li>
+</ol>
+</section>
+
+<section>
+<h2>14. Resposta orientada</h2>
+<div class="exemplo">
+<p>
+O escritório apresenta falhas graves de organização digital e segurança. A utilização do ambiente de trabalho como arquivo,
+nomes de ficheiros vagos, ausência de backups, password fraca, inexistência de autenticação multifator e cloud sem controlo
+aumentam o risco de perda de documentos, acesso indevido e violação de confidencialidade.
+</p>
+</div>
+</section>
+
+<section>
+<h2>15. Conclusão modelo</h2>
+<div class="destaque">
+<p>
+A situação exige correção imediata. Devem ser implementadas regras de organização documental, controlo de versões,
+segurança de contas, autenticação multifator, revisão de permissões cloud, backups e procedimento de dupla verificação antes do envio.
+</p>
+
+<p>
+Na prática jurídica, estes cuidados não são opcionais: protegem clientes, prova, prazos, dados pessoais e responsabilidade profissional.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Erros Frequentes</h2>
+<ul>
+<li>Tratar segurança digital como problema secundário.</li>
+<li>Achar que basta guardar tudo “no computador”.</li>
+<li>Não controlar permissões cloud.</li>
+<li>Partilhar passwords.</li>
+<li>Não verificar anexos.</li>
+<li>Não fazer backup.</li>
+<li>Não reconhecer incidentes de dados.</li>
+</ul>
+</section>
+
+<section class="quiz">
+<h2>Mini-Quiz</h2>
+<ol>
+<li>Quais são três problemas identificados no caso?</li>
+<li>Porque nomes de ficheiros vagos são perigosos?</li>
+<li>Porque uma password fraca é risco profissional?</li>
+<li>Que medidas devem ser tomadas na cloud?</li>
+<li>Que verificação deve ser feita antes de enviar anexos?</li>
+<li>Porque o envio para destinatário errado é grave?</li>
+</ol>
+</section>
+
+<section class="respostas">
+<h2>Respostas Comentadas</h2>
+<ol>
+<li>Má organização, falta de backup, password fraca, ausência de MFA, cloud sem permissões claras ou envio errado.</li>
+<li>Porque dificultam pesquisa, controlo de versões e identificação do documento correto.</li>
+<li>Porque pode permitir acesso indevido a emails, documentos e dados confidenciais.</li>
+<li>Rever permissões, evitar links públicos, remover acessos antigos e limitar acesso a quem precisa.</li>
+<li>Confirmar destinatário, documento, versão, conteúdo, formato e necessidade de proteção adicional.</li>
+<li>Porque pode violar confidencialidade, proteção de dados e deveres profissionais.</li>
+</ol>
+</section>
+
+<section>
+<h2>Resumo em 5 Pontos</h2>
+<ol>
+<li>O caso mostra riscos comuns de má gestão digital.</li>
+<li>Organização documental, nomes claros e versões controladas reduzem erros.</li>
+<li>Password forte, autenticação multifator e permissões cloud são essenciais.</li>
+<li>Backups protegem contra perda de dados.</li>
+<li>Na Solicitadoria, segurança digital é responsabilidade profissional e jurídica.</li>
+</ol>
+</section>
+
+<section>
+<h2>⚖ Base Legal e Ligações Oficiais</h2>
+<ul>
+<li><a href="https://www.cnpd.pt/" target="_blank">Comissão Nacional de Proteção de Dados</a></li>
+<li><a href="https://www.cncs.gov.pt/" target="_blank">Centro Nacional de Cibersegurança</a></li>
+<li><a href="https://www.autenticacao.gov.pt/" target="_blank">Autenticação.gov</a></li>
+<li><a href="https://justica.gov.pt/" target="_blank">Justiça.gov.pt</a></li>
+<li><a href="https://diariodarepublica.pt/" target="_blank">Diário da República</a></li>
+<li><a href="../../biblioteca/codigos-juridicos.html">Biblioteca Jurídica do Repositório</a></li>
+</ul>
+</section>
+
+<section>
+<h2>📚 Leitura Recomendada</h2>
+<ul>
+<li>Organização digital profissional.</li>
+<li>Proteção de dados pessoais.</li>
+<li>Segurança informática básica.</li>
+<li>Cloud e permissões.</li>
+<li>Procedimentos internos de envio documental.</li>
+</ul>
+</section>
+
+<hr>
+
+<nav>
+<a href="../../index.html">🏠 Início</a> |
+<a href="../../cadeiras/cadeira-12-tecnologias-informacao.html">📚 Cadeira</a> |
+<a href="aula-08.html">⬅ Aula anterior</a> |
+<a href="quiz-final.html">➡ Próxima aula</a>
+</nav>
+
+</main>
+
+<a href="#" class="back-to-top">↑ Topo</a>
+<script data-goatcounter="https://pajogusi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
