@@ -534,3 +534,16 @@ main > .cadeira-card:hover {
     font-size: 0.85rem;
     color: #555555;
 }
+
+/* Correção mobile: o menu superior não deve ficar fixo/sticky sobre o conteúdo */
+@media (max-width: 768px) {
+  .top-menu {
+    position: static !important;
+    top: auto !important;
+    z-index: auto !important;
+  }
+
+  main {
+    padding-top: 0 !important;
+  }
+}
