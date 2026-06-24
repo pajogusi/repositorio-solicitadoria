@@ -547,3 +547,27 @@ main > .cadeira-card:hover {
     padding-top: 0 !important;
   }
 }
+
+/* Botão de apoio ao projeto */
+.btn-apoiar {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #003366;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.18);
+}
+
+.btn-apoiar:hover {
+  text-decoration: none;
+  filter: brightness(1.08);
+}
+
+.paypal-nota {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+}
+
