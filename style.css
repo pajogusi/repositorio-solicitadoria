@@ -1,573 +1,189 @@
+:root {
+  --bg: #f5f7fa;
+  --text: #1f2933;
+  --card: #ffffff;
+  --primary: #123c69;
+  --secondary: #2f80ed;
+  --muted: #5f6c7b;
+  --warning: #fff3cd;
+  --danger: #f8d7da;
+  --success: #d4edda;
+  --info: #dbeafe;
+  --border: #d0d7de;
+}
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    width: 95%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #f4f6f8;
-    color: #222;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
 }
 
-body::before {
-    content: "Repositório de Solicitadoria - Direito e Solicitadoria Independente";
-    display: block;
-    background: #0b2c4d;
-    color: white;
-    padding: 18px;
-    margin-bottom: 25px;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 10px;
+header {
+  background: var(--primary);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
-main {
-    background: white;
-    padding: 40px;
-    border-radius: 14px;
-    box-shadow: 0 0 18px rgba(0,0,0,0.08);
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
 }
 
-h1 {
-    color: #0b2c4d;
-    font-size: 2.4rem;
-    border-bottom: 3px solid #0b2c4d;
-    padding-bottom: 10px;
-}
-
-h2 {
-    color: #123f68;
-    margin-top: 30px;
-}
-
-ul, ol {
-    background: #f9fbfd;
-    padding: 20px 35px;
-    border-radius: 10px;
-    border: 1px solid #dde3ea;
-}
-
-a {
-    color: #005fa3;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+header p {
+  margin: 0;
+  font-size: 1.1rem;
 }
 
 nav {
-    background: #f9fbfd;
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #dde3ea;
-    margin-top: 25px;
+  background: #0b2545;
+  padding: 0.75rem;
+  text-align: center;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin-top: 30px;
+nav a {
+  color: white;
+  margin: 0.35rem 0.6rem;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
 }
 
-@media (max-width: 700px) {
-    body {
-        width: 100%;
-        padding: 10px;
-    }
-
-    main {
-        padding: 22px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    nav a {
-        display: block;
-        margin: 8px 0;
-    }
-}
-
-.aviso {
-    background: #fff3cd;
-    border: 1px solid #ffec99;
-    border-left: 6px solid #f0ad4e;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 25px 0;
-}
-
-.aviso h2 {
-    margin-top: 0;
-    color: #7a4d00;
-}
-
-/* Fundo simbólico da Justiça */
-body::after {
-    content: "⚖️";
-    position: fixed;
-    right: 5%;
-    bottom: 5%;
-    font-size: 22rem;
-    opacity: 0.06;
-    z-index: -1;
-    pointer-events: none;
-}
-
-body {
-    position: relative;
-    overflow-x: hidden;
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
-    position: relative;
-    z-index: 1;
+  max-width: 1100px;
+  margin: auto;
+  padding: 1.5rem;
 }
 
-/* Correção: símbolo da justiça como marca de água dentro da página */
-body::after {
-    display: none;
+section {
+  margin-bottom: 2rem;
 }
 
-main::after {
-    content: "⚖️";
-    position: fixed;
-    right: 8%;
-    bottom: 8%;
-    font-size: 18rem;
-    opacity: 0.08;
-    z-index: 0;
-    pointer-events: none;
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
 }
 
-main > * {
-    position: relative;
-    z-index: 1;
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-/* Ajuste final da marca de água */
-main::after {
-    right: 2%;
-    bottom: 10%;
-    font-size: 13rem;
-    opacity: 0.07;
+.card h3 {
+  margin-top: 0;
+  color: var(--primary);
 }
 
-.cadeira-card{
-background:white;
-padding:20px;
-margin:20px 0;
-border-radius:12px;
-box-shadow:0 2px 8px rgba(0,0,0,0.08);
+.card a {
+  font-weight: bold;
+  color: var(--secondary);
 }
 
-.botao{
-display:inline-block;
-background:#0b2c4d;
-color:white !important;
-padding:10px 20px;
-border-radius:8px;
-text-decoration:none;
-font-weight:bold;
+.box {
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  border: 1px solid var(--border);
 }
 
-.botao:hover{
-background:#154b82;
+.box.info {
+  background: var(--info);
 }
 
-.construcao{
-color:#a66a00;
-font-weight:bold;
+.box.warning {
+  background: var(--warning);
 }
 
-.aviso{
-background:#fff4d8;
-border:1px solid #e0c070;
-padding:20px;
-border-radius:12px;
-margin-bottom:30px;
+.box.danger {
+  background: var(--danger);
 }
 
-.apoio {
-    margin-top: 40px;
-    padding: 20px;
-    background: #f5f5f5;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 0.95em;
+.box.success {
+  background: var(--success);
 }
 
-.apoio h3 {
-    margin-top: 0;
+.source-link {
+  background: #eef2ff;
+  border-left: 5px solid var(--secondary);
+  padding: 0.8rem;
+  margin: 1rem 0;
 }
 
-.footer-copyright{
-margin-top:40px;
-padding:20px;
-font-size:0.85em;
-text-align:center;
-color:#666;
-border-top:1px solid #ddd;
+.source-link a {
+  color: var(--primary);
+  font-weight: bold;
 }
 
-.dashboard{
-background:#eef4fb;
-padding:25px;
-border-radius:12px;
-margin:20px 0;
-text-align:center;
+footer {
+  background: #0b2545;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
 }
 
-.stats{
-display:flex;
-flex-wrap:wrap;
-gap:15px;
-justify-content:center;
-margin-top:15px;
+footer a {
+  color: white;
 }
 
-.stat-card{
-background:white;
-padding:15px;
-border-radius:10px;
-min-width:180px;
-box-shadow:0 2px 6px rgba(0,0,0,0.1);
+.top-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: var(--primary);
+  color: white;
+  padding: 0.7rem 0.9rem;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.progress-container{
-width:100%;
-background:#ddd;
-border-radius:10px;
-overflow:hidden;
-margin-top:20px;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
 }
 
-.progress-bar{
-width:17%;
-height:24px;
-background:#0b2c4d;
-color:white;
-text-align:center;
-line-height:24px;
-font-size:0.9em;
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.75rem;
+  text-align: left;
 }
 
-.autor{
-font-style:italic;
-color:#555;
-margin-top:10px;
-}
-
-.search-box {
-    margin: 25px 0;
-    padding: 20px;
-    background: #eef4fb;
-    border-radius: 12px;
-}
-
-.search-box input {
-    width: 100%;
-    padding: 12px;
-    font-size: 1em;
-    border: 1px solid #bbb;
-    border-radius: 8px;
-}
-
-.search-results {
-    margin-top: 15px;
-}
-
-.quiz-interativo {
-    background: #f9fbfd;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #dde3ea;
-    margin: 20px 0;
-}
-
-.quiz-interativo button {
-    margin-top: 15px;
-    background: #0b2c4d;
-    color: white;
-    border: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.quiz-interativo button:hover {
-    background: #154b82;
-}
-
-.resultado-quiz {
-    margin-top: 15px;
-    font-weight: bold;
-}
-
-.slogan {
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #0b2c4d;
-    margin-top: -10px;
-    margin-bottom: 30px;
-}
-
-.top-menu {
-    background: #0b2c4d;
-    padding: 12px;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.top-menu a {
-    color: white !important;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.top-menu a:hover {
-    text-decoration: underline;
-}
-
-.site-footer {
-    margin-top: 40px;
-    padding: 20px;
-    text-align: center;
-    font-size: 0.85em;
-    color: #666;
-    border-top: 1px solid #ddd;
+th {
+  background: #e9eef5;
 }
 
 @media (max-width: 700px) {
-    .top-menu a {
-        display: block;
-        margin: 8px 0;
-    }
-}
+  header h1 {
+    font-size: 1.7rem;
+  }
 
-.logo-container{
-    text-align:center;
-    margin:20px 0;
-}
-
-.logo-container img{
-    max-width:450px;
-    width:90%;
-}
-
-.logo-container{
-    text-align:center;
-    margin:20px 0;
-}
-
-.logo-container img{
-    max-width:450px;
-    width:90%;
-}
-
-/* Melhorias de navegação e cartões */
-.top-menu {
-    position: sticky;
-    top: 10px;
-    z-index: 100;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
-}
-
-main > .cadeira-card {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-main > .cadeira-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 16px rgba(0,0,0,0.15);
-}
-
-@media (min-width: 900px) {
-    .cards-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 20px;
-    }
-
-    .cards-grid .cadeira-card {
-        margin: 0;
-    }
-}
-
-.back-to-top {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    background: #0b2c4d;
-    color: white !important;
-    padding: 12px 16px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
-    z-index: 200;
-}
-
-.back-to-top:hover {
-    background: #154b82;
-}
-
-.badge {
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.85em;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.badge.concluida {
-    background: #d4edda;
-    color: #155724;
-}
-
-.badge.desenvolvimento {
-    background: #fff3cd;
-    color: #856404;
-}
-
-.badge.nao-iniciada {
-    background: #e2e3e5;
-    color: #383d41;
-}
-
-
-/* ==========================================================
-   Blocos pedagógicos — melhoria visual
-   ========================================================== */
-
-.destaque {
-  border-left: 4px solid #0056b3;
-  padding: 12px 14px;
-  background-color: #f8f9fa;
-  margin: 18px 0;
-  border-radius: 6px;
-}
-
-.exemplo {
-  border-left: 4px solid #198754;
-  padding: 12px 14px;
-  background-color: #f6fbf7;
-  margin: 18px 0;
-  border-radius: 6px;
-}
-
-.quiz {
-  border-left: 4px solid #ffc107;
-  padding: 12px 14px;
-  background-color: #fffdf3;
-  margin: 18px 0;
-  border-radius: 6px;
-}
-
-.respostas {
-  border-left: 4px solid #6f42c1;
-  padding: 12px 14px;
-  background-color: #faf7ff;
-  margin: 18px 0;
-  border-radius: 6px;
-}
-
-
-/* Apoio ao projeto / PayPal */
-.apoio-projeto {
-    margin: 30px 0;
-    padding: 20px;
-    border-left: 5px solid #0070ba;
-    background: #f5f9ff;
-    border-radius: 8px;
-}
-
-.apoio-projeto h2 {
-    margin-top: 0;
-}
-
-.botao-paypal {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 12px 18px;
-    background: #0070ba;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-.botao-paypal:hover {
-    opacity: 0.9;
-}
-
-/* QR Code PayPal */
-.paypal-qr-wrap {
-    margin-top: 12px;
-    text-align: left;
-}
-
-.paypal-qr {
-    max-width: 120px;
-    width: 120px;
-    height: auto;
-    padding: 8px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.10);
-}
-
-.paypal-nota {
-    margin-top: 8px;
-    font-size: 0.85rem;
-    color: #555555;
-}
-
-/* Correção mobile: o menu superior não deve ficar fixo/sticky sobre o conteúdo */
-@media (max-width: 768px) {
-  .top-menu {
-    position: static !important;
-    top: auto !important;
-    z-index: auto !important;
+  nav a {
+    display: block;
+    margin: 0.4rem 0;
   }
 
   main {
-    padding-top: 0 !important;
+    padding: 1rem;
+  }
+
+  .top-button {
+    right: 12px;
+    bottom: 12px;
   }
 }
-
-/* Botão de apoio ao projeto */
-.btn-apoiar {
-  display: inline-block;
-  padding: 12px 18px;
-  border-radius: 10px;
-  background: #003366;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.18);
-}
-
-.btn-apoiar:hover {
-  text-decoration: none;
-  filter: brightness(1.08);
-}
-
-.paypal-nota {
-  font-size: 0.95rem;
-  color: #555;
-  margin-top: 10px;
-}
-
