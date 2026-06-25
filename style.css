@@ -571,3 +571,39 @@ main > .cadeira-card:hover {
   margin-top: 10px;
 }
 
+
+/* Avisos legais reforçados */
+.aviso-legal-curto,
+.aviso-contacto,
+.aviso-legal-reforco {
+  border-left: 5px solid #b45309;
+  background: #fff7ed;
+}
+
+.aviso-legal-curto h2,
+.aviso-contacto h2,
+.aviso-legal-reforco h2 {
+  color: #7c2d12;
+}
+
+.aviso-rodape {
+  max-width: 1100px;
+  margin: 30px auto 10px auto;
+  padding: 14px 18px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #3b3b3b;
+  background: #fff7ed;
+  border-left: 4px solid #b45309;
+  border-radius: 8px;
+}
+
+.aviso-rodape strong {
+  color: #7c2d12;
+}
+
+.aviso-legal-mini {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
