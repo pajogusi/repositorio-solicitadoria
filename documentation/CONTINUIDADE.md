@@ -10,7 +10,7 @@ Estado global:
 
 ```text
 20 / 38 cadeiras concluídas
-207 / 380 aulas concluídas
+208 / 380 aulas concluídas
 Direito Processual Civil II — 10 / 10 — Concluída
 ```
 
@@ -28,7 +28,7 @@ Na próxima conversa ou sessão de trabalho:
 2. Confirmar estado do Git.
 3. Confirmar contadores.
 4. Confirmar que Direito Processual Civil II está concluída.
-5. Continuar Direito Fiscal II com a Aula 08.
+5. Continuar Direito Fiscal II com a Aula 09.
 6. Criar Aula 01.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
