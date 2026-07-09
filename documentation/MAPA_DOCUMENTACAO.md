@@ -23,7 +23,7 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 20 / 38 cadeiras concluídas
 200 / 380 aulas concluídas
 Última cadeira concluída: Direito Processual Civil II
-Próxima cadeira: Direito Processual Civil III
+Próxima cadeira: Direito Fiscal II
 ```
 
 ---

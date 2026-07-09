@@ -17,7 +17,7 @@ Direito Processual Civil II — 10 / 10 — Concluída
 ## Próxima cadeira
 
 ```text
-Direito Processual Civil III
+Direito Fiscal II
 ```
 
 ## Regras para continuar
@@ -28,7 +28,7 @@ Na próxima conversa ou sessão de trabalho:
 2. Confirmar estado do Git.
 3. Confirmar contadores.
 4. Confirmar que Direito Processual Civil II está concluída.
-5. Criar apresentação completa de Direito Processual Civil III.
+5. Criar apresentação completa de Direito Fiscal II.
 6. Criar Aula 01.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.

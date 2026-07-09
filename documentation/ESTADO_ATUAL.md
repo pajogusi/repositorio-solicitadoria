@@ -10,7 +10,7 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Aulas concluídas | **200 / 380** |
 | Percentagem aproximada do percurso | **52,6%** |
 | Cadeira mais recente concluída | **Direito Processual Civil II** |
-| Próxima cadeira | **Direito Processual Civil III** |
+| Próxima cadeira | **Direito Fiscal II** |
 
 ---
 
@@ -57,7 +57,7 @@ Aulas: **10 / 10**
 
 ## Próximo passo
 
-Iniciar **Direito Processual Civil III**.
+Iniciar **Direito Fiscal II**.
 
 Antes de iniciar:
 

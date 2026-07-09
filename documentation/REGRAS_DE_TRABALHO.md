@@ -119,4 +119,4 @@ Estrutura recomendada:
 - Cadeiras concluídas: **20 / 38**
 - Aulas concluídas: **200 / 380**
 - Última cadeira concluída: **Direito Processual Civil II**
-- Próxima cadeira: **Direito Processual Civil III**
+- Próxima cadeira: **Direito Fiscal II**

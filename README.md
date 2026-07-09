@@ -17,7 +17,7 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Aulas concluídas | **200 / 380** |
 | Cadeira mais recente concluída | **Direito Processual Civil II** |
 | Estado da cadeira | **10 / 10 aulas — Concluída** |
-| Próxima cadeira prevista | **Direito Processual Civil III** |
+| Próxima cadeira prevista | **Direito Fiscal II** |
 
 ---
 
