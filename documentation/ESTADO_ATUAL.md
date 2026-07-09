@@ -7,8 +7,8 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **20 / 38** |
-| Aulas concluídas | **204 / 380** |
-| Percentagem aproximada do percurso | **53,7%** |
+| Aulas concluídas | **205 / 380** |
+| Percentagem aproximada do percurso | **53,9%** |
 | Cadeira mais recente concluída | **Direito Processual Civil II** |
 | Próxima cadeira | **Direito Fiscal II** |
 
@@ -57,12 +57,12 @@ Aulas: **10 / 10**
 
 ## Próximo passo
 
-Continuar **Direito Fiscal II** com a Aula 05.
+Continuar **Direito Fiscal II** com a Aula 06.
 
 Antes de iniciar:
 
 1. Confirmar `git status` limpo.
-2. Confirmar `index.html` com **20 / 38** e **204 / 380**.
+2. Confirmar `index.html` com **20 / 38** e **205 / 380**.
 3. Confirmar `cadeiras.html` com Direito Processual Civil II em **10 / 10 — Concluída**.
 4. Criar página de apresentação da nova cadeira.
 5. Criar Aula 01.

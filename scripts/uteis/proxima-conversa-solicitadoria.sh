@@ -15,11 +15,11 @@ Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
 - 20 / 38 cadeiras concluídas
-- 204 / 380 aulas concluídas
-- Progresso global: 53,7%
+- 205 / 380 aulas concluídas
+- Progresso global: 53,9%
 - Última cadeira concluída: Direito Processual Civil II — 10 / 10
-- Cadeira atual: Direito Fiscal II — 4 / 10 aulas concluídas
-- Próxima aula: Aula 05 — IVA: operações tributáveis, isenções e dedução
+- Cadeira atual: Direito Fiscal II — 5 / 10 aulas concluídas
+- Próxima aula: Aula 06 — IMI, IMT e Imposto do Selo
 
 SEQUÊNCIA CORRETA
 21. Direito Fiscal II
@@ -41,7 +41,7 @@ REGRAS
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "204 / 380\|53,2\|Direito Fiscal II\|aula-04" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
+grep -n "205 / 380\|53,2\|Direito Fiscal II\|aula-05" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
 
 echo
 echo "GIT"
