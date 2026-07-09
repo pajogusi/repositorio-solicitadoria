@@ -3,10 +3,10 @@
 Estado fechado:
 
 - 20 / 38 cadeiras concluídas
-- 205 / 380 aulas concluídas
-- Progresso global: 53,9%
+- 206 / 380 aulas concluídas
+- Progresso global: 54,2%
 - Última cadeira concluída: Direito Processual Civil II — 10 / 10
-- Cadeira atual: Direito Fiscal II — 5 / 10 aulas concluídas
+- Cadeira atual: Direito Fiscal II — 6 / 10 aulas concluídas
 
 Sequência correta:
 
@@ -20,4 +20,4 @@ Na próxima conversa, correr:
 
 ./scripts/uteis/proxima-conversa-solicitadoria.sh
 
-- Próxima aula: Aula 06 — IMI, IMT e Imposto do Selo
+- Próxima aula: Aula 07 — Benefícios fiscais e regimes especiais
