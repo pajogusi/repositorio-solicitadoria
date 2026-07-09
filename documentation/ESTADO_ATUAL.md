@@ -68,3 +68,22 @@ Antes de iniciar:
 5. Criar Aula 01.
 6. Atualizar mapa, contadores e navegação.
 7. Commit/push.
+
+<!-- ESTRATEGIA_POS_CONSTRUCAO:START -->
+
+## Estratégia Pós-Construção
+
+Após a conclusão de Direito Fiscal II, foi registada a estratégia de produtividade para a fase final do projeto.
+
+Decisão:
+- Não iniciar ainda a criação sistemática de jurisprudência.
+- Não interromper a produção das cadeiras para rever juridicamente cada página.
+- Concluir primeiro as 38 cadeiras e 380 aulas.
+- Depois iniciar revisão jurídica, melhoria dos quizzes e páginas próprias de jurisprudência por cadeira.
+
+Documento criado:
+- `documentation/ESTRATEGIA_REVISAO_JURIDICA.md`
+
+
+<!-- ESTRATEGIA_POS_CONSTRUCAO:END -->
+
