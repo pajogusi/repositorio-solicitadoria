@@ -14,12 +14,12 @@ URL: https://pajogusi.github.io/repositorio-solicitadoria/
 Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
-- 20 / 38 cadeiras concluídas
-- 209 / 380 aulas concluídas
-- Progresso global: 55,0%
-- Última cadeira concluída: Direito Processual Civil II — 10 / 10
-- Cadeira atual: Direito Fiscal II — 9 / 10 aulas concluídas
-- Próxima aula: Aula 10 — Caso prático integrado e revisão final
+- 21 / 38 cadeiras concluídas
+- 210 / 380 aulas concluídas
+- Progresso global: 55,3%
+- Última cadeira concluída: Direito Fiscal II — 10 / 10
+- Próxima cadeira: Direito da Família e das Sucessões I — 0 / 10 aulas concluídas
+- Próxima etapa: criar apresentação da cadeira e Aula 01 de Direito da Família e das Sucessões I
 
 SEQUÊNCIA CORRETA
 21. Direito Fiscal II
@@ -36,12 +36,12 @@ REGRAS
 - Criar uma aula de cada vez.
 - Atualizar apresentação da cadeira, cadeiras.html, index.html e paginas/mapa.html.
 - Não iniciar Direito Processual Civil III agora.
-- Continuar Direito Fiscal II até 10 / 10.
+- Direito Fiscal II concluída; próxima cadeira: Direito da Família e das Sucessões I.
 
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "209 / 380\|53,2\|Direito Fiscal II\|aula-09" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
+grep -n "210 / 380\|53,2\|Direito Fiscal II\|aula-10" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
 
 echo
 echo "GIT"

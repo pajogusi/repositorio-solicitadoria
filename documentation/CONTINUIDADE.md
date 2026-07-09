@@ -9,8 +9,8 @@ O repositório encontra-se com **Direito Processual Civil II concluída**.
 Estado global:
 
 ```text
-20 / 38 cadeiras concluídas
-209 / 380 aulas concluídas
+21 / 38 cadeiras concluídas
+210 / 380 aulas concluídas
 Direito Processual Civil II — 10 / 10 — Concluída
 ```
 
@@ -28,7 +28,7 @@ Na próxima conversa ou sessão de trabalho:
 2. Confirmar estado do Git.
 3. Confirmar contadores.
 4. Confirmar que Direito Processual Civil II está concluída.
-5. Continuar Direito Fiscal II com a Aula 10.
+5. Iniciar Direito da Família e das Sucessões I com a página de apresentação e a Aula 01.
 6. Criar Aula 01.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
