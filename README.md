@@ -14,10 +14,10 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **20 / 38** |
-| Aulas concluídas | **200 / 380** |
+| Aulas concluídas | **201 / 380** |
 | Cadeira mais recente concluída | **Direito Processual Civil II** |
 | Estado da cadeira | **10 / 10 aulas — Concluída** |
-| Próxima cadeira prevista | **Direito Fiscal II** |
+| Cadeira atual | **Direito Fiscal II — 1 / 10** |
 
 ---
 

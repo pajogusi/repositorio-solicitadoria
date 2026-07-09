@@ -1,41 +1,48 @@
 #!/usr/bin/env bash
-set -e
-cd "$(git rev-parse --show-toplevel)"
-echo "Data e hora: $(TZ=Europe/London date "+%d/%m/%Y — %H:%M %Z")"
-echo ""
-echo "CONTEXTO PARA A PRÓXIMA CONVERSA"
-echo ""
-echo "Projeto: Repositório de Solicitadoria"
-echo "Autor público: Paulo Silva (Pàjó)"
-echo "URL: https://pajogusi.github.io/repositorio-solicitadoria/"
-echo "Pasta local: ~/universidade-da-vida-direito"
-echo ""
-echo "ESTADO FECHADO"
-echo "- 20 / 38 cadeiras concluídas"
-echo "- 200 / 380 aulas concluídas"
-echo "- Progresso global: 52,6%"
-echo "- Última cadeira concluída: Direito Processual Civil II — 10 / 10"
-echo "- Próxima cadeira correta: Direito Fiscal II"
-echo ""
-echo "SEQUÊNCIA CORRETA"
-echo "21. Direito Fiscal II"
-echo "22. Direito da Família e das Sucessões I"
-echo "23. Direito das Sociedades"
-echo "24. Princípios de Finanças"
-echo "25. Direito Processual Civil III"
-echo ""
-echo "REGRAS"
-echo "- Começar novas conversas com data e hora."
-echo "- Confirmar sempre primeiro em que máquina estamos."
-echo "- Se for paulo@paulo-755XDA: já está no portátil, não usar SSH para 192.168.1.195."
-echo "- Se for dell@overdrive-core: está no Centro."
-echo "- Criar uma aula de cada vez."
-echo "- Atualizar apresentação da cadeira, cadeiras.html, index.html e paginas/mapa.html."
-echo "- Não iniciar Direito Processual Civil III agora. A próxima é Direito Fiscal II."
-echo ""
-echo "VALIDAÇÃO ATUAL"
-grep -n "Cadeiras concluídas\|Aulas concluídas" index.html || true
-grep -n "Direito Processual Civil II\|Direito Fiscal II\|Direito Processual Civil III" cadeiras.html || true
-echo ""
+set -euo pipefail
+
+cd "$(dirname "$0")/../.."
+
+echo "Data e hora: $(date +'%d/%m/%Y — %H:%M %Z')"
+echo
+cat <<'TXT'
+CONTEXTO PARA A PRÓXIMA CONVERSA
+
+Projeto: Repositório de Solicitadoria
+Autor público: Paulo Silva (Pàjó)
+URL: https://pajogusi.github.io/repositorio-solicitadoria/
+Pasta local: ~/universidade-da-vida-direito
+
+ESTADO ATUAL
+- 20 / 38 cadeiras concluídas
+- 201 / 380 aulas concluídas
+- Progresso global: 52,9%
+- Última cadeira concluída: Direito Processual Civil II — 10 / 10
+- Cadeira atual: Direito Fiscal II — 1 / 10 aulas concluídas
+- Próxima aula: Aula 02 — Sujeitos, residência fiscal e incidência
+
+SEQUÊNCIA CORRETA
+21. Direito Fiscal II
+22. Direito da Família e das Sucessões I
+23. Direito das Sociedades
+24. Princípios de Finanças
+25. Direito Processual Civil III
+
+REGRAS
+- Começar novas conversas com data e hora.
+- Confirmar sempre primeiro em que máquina estamos.
+- Se for paulo@paulo-755XDA: já está no portátil, não usar SSH para 192.168.1.195.
+- Se for dell@overdrive-core: está no Centro.
+- Criar uma aula de cada vez.
+- Atualizar apresentação da cadeira, cadeiras.html, index.html e paginas/mapa.html.
+- Não iniciar Direito Processual Civil III agora.
+- Continuar Direito Fiscal II até 10 / 10.
+
+VALIDAÇÃO ATUAL
+TXT
+
+grep -n "201 / 380\|52,9\|Direito Fiscal II\|aula-01" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
+
+echo
 echo "GIT"
 git status --short
