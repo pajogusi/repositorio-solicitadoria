@@ -14,7 +14,7 @@ URL: https://pajogusi.github.io/repositorio-solicitadoria/
 Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
-- 21 / 38 cadeiras concluídas
+- 22 / 38 cadeiras concluídas
 - 214 / 380 aulas concluídas
 - Progresso global: 56,3%
 - Última cadeira concluída: Direito Fiscal II — 10 / 10
