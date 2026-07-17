@@ -15,11 +15,11 @@ Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
 - 21 / 38 cadeiras concluídas
-- 211 / 380 aulas concluídas
-- Progresso global: 55,5%
+- 212 / 380 aulas concluídas
+- Progresso global: 55,8%
 - Última cadeira concluída: Direito Fiscal II — 10 / 10
-- Cadeira atual: Direito da Família e das Sucessões I — 1 / 10 aulas concluídas
-- Próxima aula: Aula 02 — Casamento e união de facto
+- Cadeira atual: Direito da Família e das Sucessões I — 2 / 10 aulas concluídas
+- Próxima aula: Aula 03 — Efeitos pessoais e patrimoniais do casamento
 
 SEQUÊNCIA CORRETA
 21. Direito Fiscal II
@@ -41,7 +41,7 @@ REGRAS
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "211 / 380\|55,5\|Direito da Família e das Sucessões I\|aula-01" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
+grep -n "212 / 380\|55,5\|Direito da Família e das Sucessões I\|aula-01" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
 
 echo
 echo "GIT"
