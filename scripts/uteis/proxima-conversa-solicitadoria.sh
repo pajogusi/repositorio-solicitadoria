@@ -41,7 +41,7 @@ REGRAS
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "211 / 380\|53,2\|Direito Fiscal II\|aula-10" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
+grep -n "211 / 380\|55,5\|Direito da Família e das Sucessões I\|aula-01" index.html cadeiras.html paginas/mapa.html README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md 2>/dev/null || true
 
 echo
 echo "GIT"
