@@ -100,3 +100,15 @@ Workflow técnico consolidado:
 
 <!-- REGISTO_2026_07_09_REVISAO_JURIDICA:END -->
 
+
+
+## Regra de jurisprudência do 3.º ano
+
+A partir do 3.º ano, as cadeiras podem incluir uma página própria de jurisprudência essencial.
+
+Regra operacional:
+- 1 página de jurisprudência por cadeira.
+- Máximo de 3 acórdãos por cadeira.
+- Cada acórdão deve ter: tema, questão jurídica, entendimento do tribunal, nota de estudo e ligação oficial.
+- A jurisprudência é complemento de estudo, não substitui lei, doutrina, formação oficial ou aconselhamento jurídico.
+- Não afundar as aulas com acórdãos longos; manter a matéria principal nas aulas e a jurisprudência numa página própria.
