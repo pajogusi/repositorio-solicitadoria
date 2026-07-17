@@ -14,10 +14,10 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **21 / 38** |
-| Aulas concluídas | **212 / 380** |
+| Aulas concluídas | **213 / 380** |
 | Cadeira mais recente concluída | **Direito Processual Civil II** |
 | Estado da cadeira | **10 / 10 aulas — Concluída** |
-| Cadeira atual | **Direito da Família e das Sucessões I — 2 / 10** |
+| Cadeira atual | **Direito da Família e das Sucessões I — 3 / 10** |
 
 ---
 

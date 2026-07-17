@@ -3,10 +3,10 @@
 Estado fechado:
 
 - 21 / 38 cadeiras concluídas
-- 212 / 380 aulas concluídas
-- Progresso global: 55,8%
+- 213 / 380 aulas concluídas
+- Progresso global: 56,1%
 - Última cadeira concluída: Direito Fiscal II — 10 / 10
-- Cadeira atual: Direito da Família e das Sucessões I — 2 / 10 aulas concluídas
+- Cadeira atual: Direito da Família e das Sucessões I — 3 / 10 aulas concluídas
 
 Sequência correta:
 
@@ -20,7 +20,7 @@ Na próxima conversa, correr:
 
 ./scripts/uteis/proxima-conversa-solicitadoria.sh
 
-- Próxima aula: Aula 03 — Efeitos pessoais e patrimoniais do casamento
+- Próxima aula: Aula 04 — Regimes de bens e convenções antenupciais
 
 <!-- REGISTO_2026_07_09_REVISAO_JURIDICA:START -->
 
