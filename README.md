@@ -13,7 +13,7 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 
 | Indicador | Estado |
 |---|---:|
-| Cadeiras concluídas | **24 / 38** |
+| Cadeiras concluídas | **25 / 38** |
 | Aulas concluídas | **214 / 380** |
 | Cadeira mais recente concluída | **Direito Processual Civil II** |
 | Estado da cadeira | **10 / 10 aulas — Concluída** |

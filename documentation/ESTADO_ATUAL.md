@@ -6,7 +6,7 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 
 | Indicador | Estado |
 |---|---:|
-| Cadeiras concluídas | **24 / 38** |
+| Cadeiras concluídas | **25 / 38** |
 | Aulas concluídas | **214 / 380** |
 | Percentagem aproximada do percurso | **56,3%** |
 | Cadeira mais recente concluída | **Direito Fiscal II** |
@@ -64,7 +64,7 @@ Continuar **Direito da Família e das Sucessões I** com a Aula 05.
 Antes de iniciar:
 
 1. Confirmar `git status` limpo.
-2. Confirmar `index.html` com **24 / 38** e **214 / 380**.
+2. Confirmar `index.html` com **25 / 38** e **214 / 380**.
 3. Confirmar `cadeiras.html` com Direito Fiscal II em **10 / 10 — Concluída**.
 4. Confirmar `cadeiras.html` com Direito da Família e das Sucessões I em **1 / 10 — Em curso**.
 5. Criar Aula 02.

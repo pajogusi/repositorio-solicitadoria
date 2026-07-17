@@ -9,7 +9,7 @@ O repositório encontra-se com **Direito Processual Civil II concluída**.
 Estado global:
 
 ```text
-24 / 38 cadeiras concluídas
+25 / 38 cadeiras concluídas
 214 / 380 aulas concluídas
 Direito Processual Civil II — 10 / 10 — Concluída
 ```
@@ -72,7 +72,7 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 
 Estado confirmado:
 - Direito Fiscal II concluída — 10 / 10.
-- Total global: 24 / 38 cadeiras.
+- Total global: 25 / 38 cadeiras.
 - Aulas oficiais: 211 / 380.
 - Progresso: 56,3%.
 - Cadeira atual: Direito da Família e das Sucessões I — 4 / 10.
