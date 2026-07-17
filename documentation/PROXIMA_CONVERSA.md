@@ -3,10 +3,10 @@
 Estado fechado:
 
 - 21 / 38 cadeiras concluídas
-- 210 / 380 aulas concluídas
-- Progresso global: 55,3%
+- 211 / 380 aulas concluídas
+- Progresso global: 55,5%
 - Última cadeira concluída: Direito Fiscal II — 10 / 10
-- Próxima cadeira: Direito da Família e das Sucessões I — 0 / 10 aulas concluídas
+- Cadeira atual: Direito da Família e das Sucessões I — 1 / 10 aulas concluídas
 
 Sequência correta:
 
@@ -20,7 +20,7 @@ Na próxima conversa, correr:
 
 ./scripts/uteis/proxima-conversa-solicitadoria.sh
 
-- Próxima etapa: criar apresentação da cadeira e Aula 01 de Direito da Família e das Sucessões I
+- Próxima aula: Aula 02 — Casamento e união de facto
 
 <!-- REGISTO_2026_07_09_REVISAO_JURIDICA:START -->
 
@@ -31,9 +31,9 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 Estado confirmado:
 - Direito Fiscal II concluída — 10 / 10.
 - Total global: 21 / 38 cadeiras.
-- Aulas oficiais: 210 / 380.
-- Progresso: 55,3%.
-- Próxima cadeira: Direito da Família e das Sucessões I.
+- Aulas oficiais: 211 / 380.
+- Progresso: 55,5%.
+- Cadeira atual: Direito da Família e das Sucessões I — 1 / 10.
 
 Métricas técnicas confirmadas:
 - 246 páginas HTML publicáveis.
