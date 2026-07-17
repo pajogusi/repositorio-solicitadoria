@@ -2,7 +2,7 @@
 
 Estado fechado:
 
-- 22 / 38 cadeiras concluídas
+- 23 / 38 cadeiras concluídas
 - 214 / 380 aulas concluídas
 - Progresso global: 56,3%
 - Última cadeira concluída: Direito Fiscal II — 10 / 10
@@ -30,7 +30,7 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 
 Estado confirmado:
 - Direito Fiscal II concluída — 10 / 10.
-- Total global: 22 / 38 cadeiras.
+- Total global: 23 / 38 cadeiras.
 - Aulas oficiais: 211 / 380.
 - Progresso: 55,5%.
 - Cadeira atual: Direito da Família e das Sucessões I — 1 / 10.
