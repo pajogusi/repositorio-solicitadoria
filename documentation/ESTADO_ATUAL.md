@@ -7,10 +7,10 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **25 / 38** |
-| Aulas concluídas | **257 / 380** |
-| Percentagem aproximada do percurso | **67,6%** |
+| Aulas concluídas | **258 / 380** |
+| Percentagem aproximada do percurso | **67,9%** |
 | Cadeira mais recente concluída | **Direito Processual Civil III** |
-| Cadeira atual | **Direito da Família e das Sucessões II — 7 / 10** |
+| Cadeira atual | **Direito da Família e das Sucessões II — 8 / 10** |
 
 ---
 
@@ -30,7 +30,7 @@ Aulas: **10 / 10**
 5. Aula 05 — IVA: operações tributáveis, isenções e dedução
 6. Aula 06 — IMI, IMT e Imposto do Selo
 7. Aula 07 — Testamento, legados e capacidade sucessória
-8. Aula 08 — Garantias dos contribuintes e meios de reação
+8. Aula 08 — Administração da herança, cabeça de casal e relação de bens
 9. Aula 09 — Infrações tributárias e responsabilidade fiscal
 10. Aula 10 — Caso prático integrado e revisão final
 
@@ -59,12 +59,12 @@ Aulas: **10 / 10**
 
 ## Próximo passo
 
-Continuar **Direito da Família e das Sucessões II** com a Aula 08.
+Continuar **Direito da Família e das Sucessões II** com a Aula 09.
 
 Antes de iniciar:
 
 1. Confirmar `git status` limpo.
-2. Confirmar `index.html` com **25 / 38** e **257 / 380**.
+2. Confirmar `index.html` com **25 / 38** e **258 / 380**.
 3. Confirmar `cadeiras.html` com Direito Processual Civil III em **10 / 10 — Concluída** e Direito da Família e das Sucessões II em **6 / 10 — Em curso**.
 4. Confirmar `cadeiras.html` com Direito da Família e das Sucessões I em **1 / 10 — Em curso**.
 5. Criar Aula 02.

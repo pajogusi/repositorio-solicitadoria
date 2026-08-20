@@ -13,12 +13,12 @@ Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
 - 25 / 38 cadeiras concluídas
-- 257 / 380 aulas concluídas
-- Progresso global: 67,6%
+- 258 / 380 aulas concluídas
+- Progresso global: 67,9%
 - Semestres concluídos: 4 / 6
 - Última cadeira concluída: Direito Processual Civil III — 10 / 10
-- Cadeira atual: Direito da Família e das Sucessões II — 7 / 10 aulas concluídas
-- Próxima aula: Aula 08 — Administração da herança, cabeça de casal e relação de bens
+- Cadeira atual: Direito da Família e das Sucessões II — 8 / 10 aulas concluídas
+- Próxima aula: Aula 09 — Partilha, inventário e sonegação de bens
 
 SEQUÊNCIA CORRETA
 21. Direito Fiscal II
@@ -41,7 +41,7 @@ REGRAS
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "25 / 38\|257 / 380\|67,6%\|Semestres concluídos" index.html || true
+grep -n "25 / 38\|258 / 380\|67,9%\|Semestres concluídos" index.html || true
 grep -n "Direito Processual Civil III\|Direito da Família e das Sucessões II" cadeiras.html || true
-grep -n "Direito da Família e das Sucessões II\|aula-07.html\|jurisprudencia/direito-familia-sucessoes-ii" paginas/mapa.html || true
-grep -n "257 / 380\|67,6%\|Direito da Família e das Sucessões II — 7 / 10\|Aula 08" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true
+grep -n "Direito da Família e das Sucessões II\|aula-08.html\|jurisprudencia/direito-familia-sucessoes-ii" paginas/mapa.html || true
+grep -n "258 / 380\|67,9%\|Direito da Família e das Sucessões II — 8 / 10\|Aula 09" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true
