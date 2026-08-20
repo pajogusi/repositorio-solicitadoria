@@ -10,7 +10,7 @@ Estado global:
 
 ```text
 25 / 38 cadeiras concluídas
-258 / 380 aulas concluídas
+259 / 380 aulas concluídas
 Direito Processual Civil III — 10 / 10 — Concluída
 ```
 
@@ -28,7 +28,7 @@ Na próxima conversa ou sessão de trabalho:
 2. Confirmar estado do Git.
 3. Confirmar contadores.
 4. Confirmar que Direito Processual Civil III está concluída e que Direito da Família e das Sucessões II está em 6 / 10.
-5. Continuar Direito da Família e das Sucessões II com a Aula 09.
+5. Continuar Direito da Família e das Sucessões II com a Aula 10.
 6. Criar Aula 07.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
@@ -73,9 +73,9 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 Estado confirmado:
 - Direito Processual Civil III concluída — 10 / 10.
 - Total global: 25 / 38 cadeiras.
-- Aulas oficiais: 258 / 380.
-- Progresso: 67,9%.
-- Cadeira atual: Direito da Família e das Sucessões II — 8 / 10.
+- Aulas oficiais: 259 / 380.
+- Progresso: 68,2%.
+- Cadeira atual: Direito da Família e das Sucessões II — 9 / 10.
 
 Métricas técnicas confirmadas:
 - 246 páginas HTML publicáveis.
