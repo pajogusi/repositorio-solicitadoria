@@ -1,6 +1,6 @@
 # Estado Atual — Repositório de Solicitadoria
 
-Atualizado em: **09/07/2026 — 10:47 BST**
+Atualizado em: **20/08/2026 — 10:01 BST**
 
 ## Estado global
 
@@ -9,8 +9,9 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Cadeiras concluídas | **26 / 38** |
 | Aulas concluídas | **263 / 380** |
 | Percentagem aproximada do percurso | **69,2%** |
-| Cadeira mais recente concluída | **Direito Processual Civil III** |
-| Cadeira atual | **Direito da Família e das Sucessões II — 10 / 10** |
+| Semestres concluídos | **4 / 6** |
+| Última cadeira concluída | **Direito da Família e das Sucessões II — 10 / 10** |
+| Cadeira atual | **Direito do Notariado — 3 / 10** |
 
 ---
 
@@ -21,18 +22,24 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 Estado: **Concluída**  
 Aulas: **10 / 10**
 
+---
+
+## Cadeira atual
+
+### Direito do Notariado
+
+Estado: **Em curso**  
+Aulas concluídas: **3 / 10**
+
 #### Aulas concluídas
 
-1. Aula 01 — Enquadramento da tributação do rendimento e do consumo
-2. Aula 02 — Sujeitos, residência fiscal e incidência
-3. Aula 03 — IRS: categorias de rendimentos e estrutura geral
-4. Aula 04 — IRC: sociedades, lucro tributável e obrigações fiscais
-5. Aula 05 — IVA: operações tributáveis, isenções e dedução
-6. Aula 06 — IMI, IMT e Imposto do Selo
-7. Aula 07 — Testamento, legados e capacidade sucessória
-8. Aula 08 — Administração da herança, cabeça de casal e relação de bens
-9. Aula 09 — Infrações tributárias e responsabilidade fiscal
-10. Aula 10 — Caso prático integrado e revisão final
+1. Aula 01 — Função notarial, fé pública e sistema do notariado português
+2. Aula 02 — Notário, cartório notarial, competência e deveres profissionais
+3. Aula 03 — Instrumentos notariais: escrituras, termos, reconhecimentos, autenticações e certidões
+
+#### Próxima aula
+
+4. Aula 04 — Identificação, capacidade, representação e poderes dos intervenientes
 
 ---
 
@@ -40,20 +47,14 @@ Aulas: **10 / 10**
 
 - `index.html`
 - `cadeiras.html`
-- `cadeiras/cadeira-21-direito-fiscal-ii.html`
-- `cadeiras/cadeira-22-direito-familia-sucessoes-i.html`
-- `aulas/direito-fiscal-ii/aula-01.html`
-- `aulas/direito-fiscal-ii/aula-02.html`
-- `aulas/direito-fiscal-ii/aula-03.html`
-- `aulas/direito-fiscal-ii/aula-04.html`
-- `aulas/direito-fiscal-ii/aula-05.html`
-- `aulas/direito-fiscal-ii/aula-06.html`
-- `aulas/direito-fiscal-ii/aula-07.html`
-- `aulas/direito-fiscal-ii/aula-08.html`
-- `aulas/direito-fiscal-ii/aula-09.html`
-- `aulas/direito-fiscal-ii/aula-10.html`
-- `aulas/direito-familia-sucessoes-i/aula-01.html`
+- `cadeiras/cadeira-27-direito-notariado.html`
+- `aulas/direito-notariado/aula-01.html`
+- `aulas/direito-notariado/aula-02.html`
+- `aulas/direito-notariado/aula-03.html`
 - `paginas/mapa.html`
+- `README.md`
+- `documentation/CONTINUIDADE.md`
+- `documentation/PROXIMA_CONVERSA.md`
 
 ---
 
@@ -63,12 +64,12 @@ Continuar **Direito do Notariado** com a Aula 04.
 
 Antes de iniciar:
 
-1. Confirmar `git status` limpo.
+1. Confirmar `git status --short` limpo.
 2. Confirmar `index.html` com **26 / 38** e **263 / 380**.
-3. Confirmar `cadeiras.html` com Direito Processual Civil III em **10 / 10 — Concluída** e Direito da Família e das Sucessões II em **6 / 10 — Em curso**.
-4. Confirmar `cadeiras.html` com Direito da Família e das Sucessões I em **1 / 10 — Em curso**.
-5. Criar Aula 02.
-6. Atualizar apresentação da cadeira, mapa, contadores e navegação.
+3. Confirmar `cadeiras.html` com **Direito do Notariado — 3 / 10 — Em curso**.
+4. Criar apenas a Aula 04.
+5. Atualizar apresentação da cadeira, mapa, contadores e navegação.
+6. Validar sempre `git diff -- cadeiras.html` antes do commit.
 7. Commit/push.
 
 <!-- ESTRATEGIA_POS_CONSTRUCAO:START -->

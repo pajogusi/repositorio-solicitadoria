@@ -21,7 +21,7 @@ Na próxima conversa, correr:
 
 ./scripts/uteis/proxima-conversa-solicitadoria.sh
 
-- Cadeira atual: Direito do Notariado — 3 / 10 aulas concluídas — Aula 01
+- Cadeira atual: Direito do Notariado — 3 / 10 aulas concluídas
 
 <!-- REGISTO_2026_07_09_REVISAO_JURIDICA:START -->
 
