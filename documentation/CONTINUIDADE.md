@@ -1,23 +1,23 @@
 # Continuidade — Repositório de Solicitadoria
 
-Atualizado em: **09/07/2026 — 10:47 BST**
+Atualizado em: **20/08/2026 — 10:58 BST**
 
 ## Estado fechado
 
-O repositório encontra-se com **Direito Processual Civil III concluída** e **Direito da Família e das Sucessões II em curso**.
+O repositório encontra-se com **Direito da Família e das Sucessões II concluída** e **Direito do Notariado em curso**.
 
 Estado global:
 
 ```text
 26 / 38 cadeiras concluídas
-264 / 380 aulas concluídas
-Direito Processual Civil III — 10 / 10 — Concluída
+265 / 380 aulas concluídas
+Direito do Notariado — 5 / 10 — Em curso
 ```
 
-## Próxima cadeira
+## Cadeira atual
 
 ```text
-Direito Fiscal II
+Direito do Notariado — próxima aula: Aula 06
 ```
 
 ## Regras para continuar
@@ -27,9 +27,9 @@ Na próxima conversa ou sessão de trabalho:
 1. Começar com data e hora.
 2. Confirmar estado do Git.
 3. Confirmar contadores.
-4. Confirmar que Direito do Notariado está em 4 / 10 — Em curso.
-5. Continuar Direito do Notariado com a Aula 05.
-6. Criar Aula 05.
+4. Confirmar que Direito do Notariado está em 5 / 10 — Em curso.
+5. Continuar Direito do Notariado com a Aula 06.
+6. Criar Aula 06.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
 9. Atualizar `paginas/mapa.html`.
@@ -45,8 +45,8 @@ Na próxima conversa ou sessão de trabalho:
 cd ~/universidade-da-vida-direito
 git status
 grep -n "Cadeiras concluídas\|Aulas concluídas" index.html
-grep -n "Direito Processual Civil III\|Direito da Família e das Sucessões II" cadeiras.html
-ls -1 aulas/direito-processual-civil-ii/
+grep -n "Direito do Notariado" cadeiras.html
+ls -1 aulas/direito-notariado/
 ```
 
 ### A partir do Centro
@@ -73,9 +73,9 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 Estado confirmado:
 - Direito Processual Civil III concluída — 10 / 10.
 - Total global: 26 / 38 cadeiras.
-- Aulas oficiais: 264 / 380.
-- Progresso: 69,5%.
-- Cadeira atual: Direito da Família e das Sucessões II — 10 / 10.
+- Aulas oficiais: 265 / 380.
+- Progresso: 69,7%.
+- Cadeira atual: Direito do Notariado — 5 / 10 — Em curso.
 
 Métricas técnicas confirmadas:
 - 246 páginas HTML publicáveis.

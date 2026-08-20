@@ -9,15 +9,15 @@ Não substitui formação académica oficial, consulta da legislação vigente n
 
 ## Estado atual
 
-Atualizado em: **09/07/2026 — 10:47 BST**
+Atualizado em: **20/08/2026 — 10:55 BST**
 
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **26 / 38** |
-| Aulas concluídas | **264 / 380** |
-| Cadeira mais recente concluída | **Direito Processual Civil III** |
+| Aulas concluídas | **265 / 380** |
+| Cadeira mais recente concluída | **Direito da Família e das Sucessões II** |
 | Estado da cadeira | **10 / 10 aulas — Concluída** |
-| Cadeira atual | **Direito da Família e das Sucessões II — 10 / 10** |
+| Cadeira atual | **Direito do Notariado — 5 / 10** |
 
 ---
 
