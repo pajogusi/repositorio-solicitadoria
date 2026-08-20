@@ -3,10 +3,10 @@
 Estado fechado:
 
 - 26 / 38 cadeiras concluídas
-- 265 / 380 aulas concluídas
-- Progresso global: 69,7%
+- 266 / 380 aulas concluídas
+- Progresso global: 70,0%
 - Última cadeira concluída: Direito da Família e das Sucessões II — 10 / 10
-- Cadeira atual: Direito do Notariado — 5 / 10 aulas concluídas
+- Cadeira atual: Direito do Notariado — 6 / 10 aulas concluídas
 
 Sequência correta:
 
@@ -21,7 +21,7 @@ Na próxima conversa, correr:
 
 ./scripts/uteis/proxima-conversa-solicitadoria.sh
 
-- Cadeira atual: Direito do Notariado — 5 / 10 aulas concluídas
+- Cadeira atual: Direito do Notariado — 6 / 10 aulas concluídas
 
 <!-- REGISTO_2026_07_09_REVISAO_JURIDICA:START -->
 
@@ -32,9 +32,9 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 Estado confirmado:
 - Direito Fiscal II concluída — 10 / 10.
 - Total global: 26 / 38 cadeiras.
-- Aulas oficiais: 265 / 380.
-- Progresso: 69,7%.
-- Cadeira atual: Direito do Notariado — 5 / 10 — Em curso.
+- Aulas oficiais: 266 / 380.
+- Progresso: 70,0%.
+- Cadeira atual: Direito do Notariado — 6 / 10 — Em curso.
 
 Métricas técnicas confirmadas:
 - 246 páginas HTML publicáveis.

@@ -13,12 +13,12 @@ Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
 - 26 / 38 cadeiras concluídas
-- 265 / 380 aulas concluídas
-- Progresso global: 69,7%
+- 266 / 380 aulas concluídas
+- Progresso global: 70,0%
 - Semestres concluídos: 4 / 6
 - Última cadeira concluída: Direito da Família e das Sucessões II — 10 / 10
-- Cadeira atual: Direito do Notariado — 5 / 10 aulas concluídas
-- Próxima aula: Aula 06 — Escritura pública e documentos particulares autenticados
+- Cadeira atual: Direito do Notariado — 6 / 10 aulas concluídas
+- Próxima aula: Aula 07 — Reconhecimentos, certificações e procurações notariais
 
 PROGRAMA DE DIREITO DO NOTARIADO
 1. Aula 01 — Função notarial, fé pública e sistema do notariado português
@@ -45,7 +45,7 @@ REGRAS
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "26 / 38\|265 / 380\|69,7%\|Semestres concluídos" index.html || true
+grep -n "26 / 38\|266 / 380\|70,0%\|Semestres concluídos" index.html || true
 grep -n "Direito do Notariado" cadeiras.html || true
 grep -n "Direito do Notariado\|aula-03.html\|jurisprudencia/direito-notariado" paginas/mapa.html || true
-grep -n "265 / 380\|69,7%\|Direito do Notariado — 5 / 10\|Aula 06" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true
+grep -n "266 / 380\|70,0%\|Direito do Notariado — 6 / 10\|Aula 06" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true

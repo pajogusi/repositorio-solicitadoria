@@ -14,10 +14,10 @@ Atualizado em: **20/08/2026 — 10:55 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **26 / 38** |
-| Aulas concluídas | **265 / 380** |
+| Aulas concluídas | **266 / 380** |
 | Cadeira mais recente concluída | **Direito da Família e das Sucessões II** |
 | Estado da cadeira | **10 / 10 aulas — Concluída** |
-| Cadeira atual | **Direito do Notariado — 5 / 10** |
+| Cadeira atual | **Direito do Notariado — 6 / 10** |
 
 ---
 

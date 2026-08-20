@@ -10,8 +10,8 @@ Estado global:
 
 ```text
 26 / 38 cadeiras concluídas
-265 / 380 aulas concluídas
-Direito do Notariado — 5 / 10 — Em curso
+266 / 380 aulas concluídas
+Direito do Notariado — 6 / 10 — Em curso
 ```
 
 ## Cadeira atual
@@ -28,7 +28,7 @@ Na próxima conversa ou sessão de trabalho:
 2. Confirmar estado do Git.
 3. Confirmar contadores.
 4. Confirmar que Direito do Notariado está em 5 / 10 — Em curso.
-5. Continuar Direito do Notariado com a Aula 06.
+5. Continuar Direito do Notariado com a Aula 07.
 6. Criar Aula 06.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
@@ -73,9 +73,9 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 Estado confirmado:
 - Direito Processual Civil III concluída — 10 / 10.
 - Total global: 26 / 38 cadeiras.
-- Aulas oficiais: 265 / 380.
-- Progresso: 69,7%.
-- Cadeira atual: Direito do Notariado — 5 / 10 — Em curso.
+- Aulas oficiais: 266 / 380.
+- Progresso: 70,0%.
+- Cadeira atual: Direito do Notariado — 6 / 10 — Em curso.
 
 Métricas técnicas confirmadas:
 - 246 páginas HTML publicáveis.

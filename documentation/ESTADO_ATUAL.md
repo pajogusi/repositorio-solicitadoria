@@ -7,11 +7,11 @@ Atualizado em: **20/08/2026 — 10:01 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **26 / 38** |
-| Aulas concluídas | **265 / 380** |
-| Percentagem aproximada do percurso | **69,7%** |
+| Aulas concluídas | **266 / 380** |
+| Percentagem aproximada do percurso | **70,0%** |
 | Semestres concluídos | **4 / 6** |
 | Última cadeira concluída | **Direito da Família e das Sucessões II — 10 / 10** |
-| Cadeira atual | **Direito do Notariado — 5 / 10** |
+| Cadeira atual | **Direito do Notariado — 6 / 10** |
 
 ---
 
@@ -29,7 +29,7 @@ Aulas: **10 / 10**
 ### Direito do Notariado
 
 Estado: **Em curso**  
-Aulas concluídas: **5 / 10**
+Aulas concluídas: **6 / 10**
 
 #### Aulas concluídas
 
@@ -64,14 +64,14 @@ Aulas concluídas: **5 / 10**
 
 ## Próximo passo
 
-Continuar **Direito do Notariado** com a Aula 06.
+Continuar **Direito do Notariado** com a Aula 07.
 
 Antes de iniciar:
 
 1. Confirmar `git status --short` limpo.
-2. Confirmar `index.html` com **26 / 38** e **265 / 380**.
-3. Confirmar `cadeiras.html` com **Direito do Notariado — 5 / 10 — Em curso**.
-4. Criar apenas a Aula 06.
+2. Confirmar `index.html` com **26 / 38** e **266 / 380**.
+3. Confirmar `cadeiras.html` com **Direito do Notariado — 6 / 10 — Em curso**.
+4. Criar apenas a Aula 07.
 5. Atualizar apresentação da cadeira, mapa, contadores e navegação.
 6. Validar sempre `git diff -- cadeiras.html` antes do commit.
 7. Commit/push.
