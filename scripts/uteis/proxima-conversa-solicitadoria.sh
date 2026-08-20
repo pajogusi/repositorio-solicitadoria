@@ -13,21 +13,29 @@ Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
 - 26 / 38 cadeiras concluídas
-- 260 / 380 aulas concluídas
-- Progresso global: 68,4%
+- 261 / 380 aulas concluídas
+- Progresso global: 68,7%
 - Semestres concluídos: 4 / 6
 - Última cadeira concluída: Direito da Família e das Sucessões II — 10 / 10
-- Próxima cadeira: Direito do Notariado
-- Próxima aula: Aula 01 — apresentação e início de Direito do Notariado
+- Cadeira atual: Direito do Notariado — 1 / 10 aulas concluídas
+- Próxima aula: Aula 02 — Notário, cartório notarial, competência e deveres profissionais
 
 SEQUÊNCIA CORRETA
-21. Direito Fiscal II
-22. Direito da Família e das Sucessões I
-23. Direito das Sociedades
-24. Princípios de Finanças
 25. Direito Processual Civil III
 26. Direito da Família e das Sucessões II
 27. Direito do Notariado
+
+PROGRAMA DE DIREITO DO NOTARIADO
+1. Aula 01 — Função notarial, fé pública e sistema do notariado português
+2. Aula 02 — Notário, cartório notarial, competência e deveres profissionais
+3. Aula 03 — Instrumentos notariais: escrituras, termos, reconhecimentos, autenticações e certidões
+4. Aula 04 — Identificação, capacidade, representação e poderes dos intervenientes
+5. Aula 05 — Formalidades comuns dos atos notariais e leitura/assinatura
+6. Aula 06 — Escritura pública e documentos particulares autenticados
+7. Aula 07 — Procurações, substabelecimentos, autorizações e representação voluntária
+8. Aula 08 — Atos notariais em matéria de família, sucessões e imóveis
+9. Aula 09 — Arquivo notarial, certidões, recusas e responsabilidade
+10. Aula 10 — Caso prático integrado e revisão final
 
 REGRAS
 - Começar novas conversas com data e hora.
@@ -37,12 +45,12 @@ REGRAS
 - Criar uma aula de cada vez.
 - Atualizar apresentação da cadeira, cadeiras.html, index.html e paginas/mapa.html.
 - Validar sempre git diff -- cadeiras.html antes do commit.
-- Não iniciar nova cadeira sem confirmar que Direito da Família e das Sucessões II está 10 / 10 e concluída.
+- Não iniciar nova cadeira antes de concluir Direito do Notariado.
 
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "26 / 38\|260 / 380\|68,4%\|Semestres concluídos" index.html || true
-grep -n "Direito Processual Civil III\|Direito da Família e das Sucessões II\|Direito do Notariado" cadeiras.html || true
-grep -n "Direito da Família e das Sucessões II\|aula-10.html\|jurisprudencia/direito-familia-sucessoes-ii" paginas/mapa.html || true
-grep -n "260 / 380\|68,4%\|Direito da Família e das Sucessões II — 10 / 10\|Direito do Notariado" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true
+grep -n "26 / 38\|261 / 380\|68,7%\|Semestres concluídos" index.html || true
+grep -n "Direito da Família e das Sucessões II\|Direito do Notariado" cadeiras.html || true
+grep -n "Direito do Notariado\|aula-01.html\|jurisprudencia/direito-notariado" paginas/mapa.html || true
+grep -n "261 / 380\|68,7%\|Direito do Notariado — 1 / 10\|Aula 02" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true
