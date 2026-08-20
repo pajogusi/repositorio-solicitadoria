@@ -12,13 +12,13 @@ URL: https://pajogusi.github.io/repositorio-solicitadoria/
 Pasta local: ~/universidade-da-vida-direito
 
 ESTADO ATUAL
-- 25 / 38 cadeiras concluídas
-- 259 / 380 aulas concluídas
-- Progresso global: 68,2%
+- 26 / 38 cadeiras concluídas
+- 260 / 380 aulas concluídas
+- Progresso global: 68,4%
 - Semestres concluídos: 4 / 6
-- Última cadeira concluída: Direito Processual Civil III — 10 / 10
-- Cadeira atual: Direito da Família e das Sucessões II — 9 / 10 aulas concluídas
-- Próxima aula: Aula 10 — Caso prático integrado e revisão final
+- Última cadeira concluída: Direito da Família e das Sucessões II — 10 / 10
+- Próxima cadeira: Direito do Notariado
+- Próxima aula: Aula 01 — apresentação e início de Direito do Notariado
 
 SEQUÊNCIA CORRETA
 21. Direito Fiscal II
@@ -27,6 +27,7 @@ SEQUÊNCIA CORRETA
 24. Princípios de Finanças
 25. Direito Processual Civil III
 26. Direito da Família e das Sucessões II
+27. Direito do Notariado
 
 REGRAS
 - Começar novas conversas com data e hora.
@@ -36,12 +37,12 @@ REGRAS
 - Criar uma aula de cada vez.
 - Atualizar apresentação da cadeira, cadeiras.html, index.html e paginas/mapa.html.
 - Validar sempre git diff -- cadeiras.html antes do commit.
-- Não iniciar nova cadeira antes de concluir Direito da Família e das Sucessões II.
+- Não iniciar nova cadeira sem confirmar que Direito da Família e das Sucessões II está 10 / 10 e concluída.
 
 VALIDAÇÃO ATUAL
 TXT
 
-grep -n "25 / 38\|259 / 380\|68,2%\|Semestres concluídos" index.html || true
-grep -n "Direito Processual Civil III\|Direito da Família e das Sucessões II" cadeiras.html || true
-grep -n "Direito da Família e das Sucessões II\|aula-09.html\|jurisprudencia/direito-familia-sucessoes-ii" paginas/mapa.html || true
-grep -n "259 / 380\|68,2%\|Direito da Família e das Sucessões II — 9 / 10\|Aula 10" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true
+grep -n "26 / 38\|260 / 380\|68,4%\|Semestres concluídos" index.html || true
+grep -n "Direito Processual Civil III\|Direito da Família e das Sucessões II\|Direito do Notariado" cadeiras.html || true
+grep -n "Direito da Família e das Sucessões II\|aula-10.html\|jurisprudencia/direito-familia-sucessoes-ii" paginas/mapa.html || true
+grep -n "260 / 380\|68,4%\|Direito da Família e das Sucessões II — 10 / 10\|Direito do Notariado" README.md documentation/ESTADO_ATUAL.md documentation/CONTINUIDADE.md documentation/PROXIMA_CONVERSA.md || true

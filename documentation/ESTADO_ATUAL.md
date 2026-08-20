@@ -6,11 +6,11 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 
 | Indicador | Estado |
 |---|---:|
-| Cadeiras concluídas | **25 / 38** |
-| Aulas concluídas | **259 / 380** |
-| Percentagem aproximada do percurso | **68,2%** |
+| Cadeiras concluídas | **26 / 38** |
+| Aulas concluídas | **260 / 380** |
+| Percentagem aproximada do percurso | **68,4%** |
 | Cadeira mais recente concluída | **Direito Processual Civil III** |
-| Cadeira atual | **Direito da Família e das Sucessões II — 9 / 10** |
+| Cadeira atual | **Direito da Família e das Sucessões II — 10 / 10** |
 
 ---
 
@@ -59,12 +59,12 @@ Aulas: **10 / 10**
 
 ## Próximo passo
 
-Continuar **Direito da Família e das Sucessões II** com a Aula 10.
+Iniciar **Direito do Notariado** com a Aula 01.
 
 Antes de iniciar:
 
 1. Confirmar `git status` limpo.
-2. Confirmar `index.html` com **25 / 38** e **259 / 380**.
+2. Confirmar `index.html` com **26 / 38** e **260 / 380**.
 3. Confirmar `cadeiras.html` com Direito Processual Civil III em **10 / 10 — Concluída** e Direito da Família e das Sucessões II em **6 / 10 — Em curso**.
 4. Confirmar `cadeiras.html` com Direito da Família e das Sucessões I em **1 / 10 — Em curso**.
 5. Criar Aula 02.
