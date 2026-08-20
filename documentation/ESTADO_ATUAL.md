@@ -7,11 +7,11 @@ Atualizado em: **20/08/2026 — 10:01 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **26 / 38** |
-| Aulas concluídas | **263 / 380** |
-| Percentagem aproximada do percurso | **69,2%** |
+| Aulas concluídas | **264 / 380** |
+| Percentagem aproximada do percurso | **69,5%** |
 | Semestres concluídos | **4 / 6** |
 | Última cadeira concluída | **Direito da Família e das Sucessões II — 10 / 10** |
-| Cadeira atual | **Direito do Notariado — 3 / 10** |
+| Cadeira atual | **Direito do Notariado — 4 / 10** |
 
 ---
 
@@ -40,6 +40,7 @@ Aulas concluídas: **3 / 10**
 #### Próxima aula
 
 4. Aula 04 — Identificação, capacidade, representação e poderes dos intervenientes
+5. Aula 05 — Formalidades comuns dos atos notariais e leitura/assinatura
 
 ---
 
@@ -51,6 +52,7 @@ Aulas concluídas: **3 / 10**
 - `aulas/direito-notariado/aula-01.html`
 - `aulas/direito-notariado/aula-02.html`
 - `aulas/direito-notariado/aula-03.html`
+- `aulas/direito-notariado/aula-04.html`
 - `paginas/mapa.html`
 - `README.md`
 - `documentation/CONTINUIDADE.md`
@@ -60,14 +62,14 @@ Aulas concluídas: **3 / 10**
 
 ## Próximo passo
 
-Continuar **Direito do Notariado** com a Aula 04.
+Continuar **Direito do Notariado** com a Aula 05.
 
 Antes de iniciar:
 
 1. Confirmar `git status --short` limpo.
-2. Confirmar `index.html` com **26 / 38** e **263 / 380**.
-3. Confirmar `cadeiras.html` com **Direito do Notariado — 3 / 10 — Em curso**.
-4. Criar apenas a Aula 04.
+2. Confirmar `index.html` com **26 / 38** e **264 / 380**.
+3. Confirmar `cadeiras.html` com **Direito do Notariado — 4 / 10 — Em curso**.
+4. Criar apenas a Aula 05.
 5. Atualizar apresentação da cadeira, mapa, contadores e navegação.
 6. Validar sempre `git diff -- cadeiras.html` antes do commit.
 7. Commit/push.

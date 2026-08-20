@@ -10,7 +10,7 @@ Estado global:
 
 ```text
 26 / 38 cadeiras concluídas
-263 / 380 aulas concluídas
+264 / 380 aulas concluídas
 Direito Processual Civil III — 10 / 10 — Concluída
 ```
 
@@ -73,8 +73,8 @@ Registo estratégico feito após conclusão de Direito Fiscal II.
 Estado confirmado:
 - Direito Processual Civil III concluída — 10 / 10.
 - Total global: 26 / 38 cadeiras.
-- Aulas oficiais: 263 / 380.
-- Progresso: 69,2%.
+- Aulas oficiais: 264 / 380.
+- Progresso: 69,5%.
 - Cadeira atual: Direito da Família e das Sucessões II — 10 / 10.
 
 Métricas técnicas confirmadas:
