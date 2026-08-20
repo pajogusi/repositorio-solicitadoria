@@ -27,9 +27,9 @@ Na próxima conversa ou sessão de trabalho:
 1. Começar com data e hora.
 2. Confirmar estado do Git.
 3. Confirmar contadores.
-4. Confirmar que Direito Processual Civil III está concluída e que Direito da Família e das Sucessões II está em 6 / 10.
-5. Continuar Direito do Notariado com a Aula 04.
-6. Criar Aula 07.
+4. Confirmar que Direito do Notariado está em 4 / 10 — Em curso.
+5. Continuar Direito do Notariado com a Aula 05.
+6. Criar Aula 05.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
 9. Atualizar `paginas/mapa.html`.
