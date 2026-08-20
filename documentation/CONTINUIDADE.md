@@ -10,7 +10,7 @@ Estado global:
 
 ```text
 25 / 38 cadeiras concluídas
-214 / 380 aulas concluídas
+256 / 380 aulas concluídas
 Direito Processual Civil II — 10 / 10 — Concluída
 ```
 
@@ -28,7 +28,7 @@ Na próxima conversa ou sessão de trabalho:
 2. Confirmar estado do Git.
 3. Confirmar contadores.
 4. Confirmar que Direito Processual Civil II está concluída.
-5. Continuar Direito da Família e das Sucessões I com a Aula 05.
+5. Continuar Direito da Família e das Sucessões II com a Aula 07.
 6. Criar Aula 01.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
@@ -74,8 +74,8 @@ Estado confirmado:
 - Direito Fiscal II concluída — 10 / 10.
 - Total global: 25 / 38 cadeiras.
 - Aulas oficiais: 211 / 380.
-- Progresso: 56,3%.
-- Cadeira atual: Direito da Família e das Sucessões I — 4 / 10.
+- Progresso: 67,4%.
+- Cadeira atual: Direito da Família e das Sucessões II — 6 / 10.
 
 Métricas técnicas confirmadas:
 - 246 páginas HTML publicáveis.
