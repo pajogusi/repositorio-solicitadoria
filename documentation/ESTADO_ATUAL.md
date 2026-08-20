@@ -7,10 +7,10 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **25 / 38** |
-| Aulas concluídas | **256 / 380** |
-| Percentagem aproximada do percurso | **67,4%** |
+| Aulas concluídas | **257 / 380** |
+| Percentagem aproximada do percurso | **67,6%** |
 | Cadeira mais recente concluída | **Direito Processual Civil III** |
-| Cadeira atual | **Direito da Família e das Sucessões II — 6 / 10** |
+| Cadeira atual | **Direito da Família e das Sucessões II — 7 / 10** |
 
 ---
 
@@ -59,12 +59,12 @@ Aulas: **10 / 10**
 
 ## Próximo passo
 
-Continuar **Direito da Família e das Sucessões II** com a Aula 07.
+Continuar **Direito da Família e das Sucessões II** com a Aula 08.
 
 Antes de iniciar:
 
 1. Confirmar `git status` limpo.
-2. Confirmar `index.html` com **25 / 38** e **256 / 380**.
+2. Confirmar `index.html` com **25 / 38** e **257 / 380**.
 3. Confirmar `cadeiras.html` com Direito Processual Civil III em **10 / 10 — Concluída** e Direito da Família e das Sucessões II em **6 / 10 — Em curso**.
 4. Confirmar `cadeiras.html` com Direito da Família e das Sucessões I em **1 / 10 — Em curso**.
 5. Criar Aula 02.
