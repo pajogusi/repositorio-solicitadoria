@@ -7,11 +7,11 @@ Atualizado em: **20/08/2026 — 10:01 BST**
 | Indicador | Estado |
 |---|---:|
 | Cadeiras concluídas | **26 / 38** |
-| Aulas concluídas | **264 / 380** |
-| Percentagem aproximada do percurso | **69,5%** |
+| Aulas concluídas | **265 / 380** |
+| Percentagem aproximada do percurso | **69,7%** |
 | Semestres concluídos | **4 / 6** |
 | Última cadeira concluída | **Direito da Família e das Sucessões II — 10 / 10** |
-| Cadeira atual | **Direito do Notariado — 4 / 10** |
+| Cadeira atual | **Direito do Notariado — 5 / 10** |
 
 ---
 
@@ -29,18 +29,19 @@ Aulas: **10 / 10**
 ### Direito do Notariado
 
 Estado: **Em curso**  
-Aulas concluídas: **3 / 10**
+Aulas concluídas: **5 / 10**
 
 #### Aulas concluídas
 
 1. Aula 01 — Função notarial, fé pública e sistema do notariado português
 2. Aula 02 — Notário, cartório notarial, competência e deveres profissionais
 3. Aula 03 — Instrumentos notariais: escrituras, termos, reconhecimentos, autenticações e certidões
+4. Aula 04 — Identificação, capacidade, representação e poderes dos intervenientes
+5. Aula 05 — Formalidades comuns dos atos notariais e leitura/assinatura
 
 #### Próxima aula
 
-4. Aula 04 — Identificação, capacidade, representação e poderes dos intervenientes
-5. Aula 05 — Formalidades comuns dos atos notariais e leitura/assinatura
+6. Aula 06 — Escritura pública e documentos particulares autenticados
 
 ---
 
@@ -53,6 +54,7 @@ Aulas concluídas: **3 / 10**
 - `aulas/direito-notariado/aula-02.html`
 - `aulas/direito-notariado/aula-03.html`
 - `aulas/direito-notariado/aula-04.html`
+- `aulas/direito-notariado/aula-05.html`
 - `paginas/mapa.html`
 - `README.md`
 - `documentation/CONTINUIDADE.md`
@@ -62,14 +64,14 @@ Aulas concluídas: **3 / 10**
 
 ## Próximo passo
 
-Continuar **Direito do Notariado** com a Aula 05.
+Continuar **Direito do Notariado** com a Aula 06.
 
 Antes de iniciar:
 
 1. Confirmar `git status --short` limpo.
-2. Confirmar `index.html` com **26 / 38** e **264 / 380**.
-3. Confirmar `cadeiras.html` com **Direito do Notariado — 4 / 10 — Em curso**.
-4. Criar apenas a Aula 05.
+2. Confirmar `index.html` com **26 / 38** e **265 / 380**.
+3. Confirmar `cadeiras.html` com **Direito do Notariado — 5 / 10 — Em curso**.
+4. Criar apenas a Aula 06.
 5. Atualizar apresentação da cadeira, mapa, contadores e navegação.
 6. Validar sempre `git diff -- cadeiras.html` antes do commit.
 7. Commit/push.
