@@ -15,7 +15,7 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 |---|---:|
 | Cadeiras concluídas | **25 / 38** |
 | Aulas concluídas | **256 / 380** |
-| Cadeira mais recente concluída | **Direito Processual Civil II** |
+| Cadeira mais recente concluída | **Direito Processual Civil III** |
 | Estado da cadeira | **10 / 10 aulas — Concluída** |
 | Cadeira atual | **Direito da Família e das Sucessões II — 6 / 10** |
 
@@ -51,9 +51,9 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 
 ---
 
-## Cadeira mais recente: Direito Processual Civil II
+## Cadeira mais recente: Direito Processual Civil III
 
-A cadeira **Direito Processual Civil II** foi concluída com 10 aulas:
+A cadeira **Direito Processual Civil III** foi concluída com 10 aulas:
 
 1. A ação declarativa comum: estrutura, fases e tramitação inicial  
 2. Articulados: petição inicial, contestação, réplica e articulados supervenientes  

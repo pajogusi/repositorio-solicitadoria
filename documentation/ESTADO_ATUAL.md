@@ -9,14 +9,14 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 | Cadeiras concluídas | **25 / 38** |
 | Aulas concluídas | **256 / 380** |
 | Percentagem aproximada do percurso | **67,4%** |
-| Cadeira mais recente concluída | **Direito Fiscal II** |
+| Cadeira mais recente concluída | **Direito Processual Civil III** |
 | Cadeira atual | **Direito da Família e das Sucessões II — 6 / 10** |
 
 ---
 
 ## Última cadeira concluída
 
-### Direito Fiscal II
+### Direito da Família e das Sucessões II
 
 Estado: **Concluída**  
 Aulas: **10 / 10**
@@ -29,7 +29,7 @@ Aulas: **10 / 10**
 4. Aula 04 — IRC: sociedades, lucro tributável e obrigações fiscais
 5. Aula 05 — IVA: operações tributáveis, isenções e dedução
 6. Aula 06 — IMI, IMT e Imposto do Selo
-7. Aula 07 — Benefícios fiscais e regimes especiais
+7. Aula 07 — Testamento, legados e capacidade sucessória
 8. Aula 08 — Garantias dos contribuintes e meios de reação
 9. Aula 09 — Infrações tributárias e responsabilidade fiscal
 10. Aula 10 — Caso prático integrado e revisão final
@@ -65,7 +65,7 @@ Antes de iniciar:
 
 1. Confirmar `git status` limpo.
 2. Confirmar `index.html` com **25 / 38** e **256 / 380**.
-3. Confirmar `cadeiras.html` com Direito Fiscal II em **10 / 10 — Concluída**.
+3. Confirmar `cadeiras.html` com Direito Processual Civil III em **10 / 10 — Concluída** e Direito da Família e das Sucessões II em **6 / 10 — Em curso**.
 4. Confirmar `cadeiras.html` com Direito da Família e das Sucessões I em **1 / 10 — Em curso**.
 5. Criar Aula 02.
 6. Atualizar apresentação da cadeira, mapa, contadores e navegação.

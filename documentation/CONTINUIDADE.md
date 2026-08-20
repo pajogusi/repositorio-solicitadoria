@@ -4,14 +4,14 @@ Atualizado em: **09/07/2026 — 10:47 BST**
 
 ## Estado fechado
 
-O repositório encontra-se com **Direito Processual Civil II concluída**.
+O repositório encontra-se com **Direito Processual Civil III concluída** e **Direito da Família e das Sucessões II em curso**.
 
 Estado global:
 
 ```text
 25 / 38 cadeiras concluídas
 256 / 380 aulas concluídas
-Direito Processual Civil II — 10 / 10 — Concluída
+Direito Processual Civil III — 10 / 10 — Concluída
 ```
 
 ## Próxima cadeira
@@ -27,9 +27,9 @@ Na próxima conversa ou sessão de trabalho:
 1. Começar com data e hora.
 2. Confirmar estado do Git.
 3. Confirmar contadores.
-4. Confirmar que Direito Processual Civil II está concluída.
+4. Confirmar que Direito Processual Civil III está concluída e que Direito da Família e das Sucessões II está em 6 / 10.
 5. Continuar Direito da Família e das Sucessões II com a Aula 07.
-6. Criar Aula 01.
+6. Criar Aula 07.
 7. Atualizar `cadeiras.html`.
 8. Atualizar `index.html`.
 9. Atualizar `paginas/mapa.html`.
@@ -45,7 +45,7 @@ Na próxima conversa ou sessão de trabalho:
 cd ~/universidade-da-vida-direito
 git status
 grep -n "Cadeiras concluídas\|Aulas concluídas" index.html
-grep -n "Direito Processual Civil II" cadeiras.html
+grep -n "Direito Processual Civil III\|Direito da Família e das Sucessões II" cadeiras.html
 ls -1 aulas/direito-processual-civil-ii/
 ```
 
@@ -71,9 +71,9 @@ ssh paulo@192.168.1.195 'cd ~/universidade-da-vida-direito && git status'
 Registo estratégico feito após conclusão de Direito Fiscal II.
 
 Estado confirmado:
-- Direito Fiscal II concluída — 10 / 10.
+- Direito Processual Civil III concluída — 10 / 10.
 - Total global: 25 / 38 cadeiras.
-- Aulas oficiais: 211 / 380.
+- Aulas oficiais: 256 / 380.
 - Progresso: 67,4%.
 - Cadeira atual: Direito da Família e das Sucessões II — 6 / 10.
 
