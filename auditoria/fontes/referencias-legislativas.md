@@ -29,3 +29,11 @@ As consolidações foram usadas com as notas de alteração e, nos casos S4/S5, 
 S3 foi novamente consultada neste lote para CC, arts. 1.º–4.º, 8.º–11.º, 342.º, 348.º, 402.º–406.º, 428.º, 879.º e 913.º. O art. 2.º sobre assentos aparece revogado; não serve como base atual. A consolidação indica entrada em vigor geral do CC em 01/06/1967 e última alteração global 23/06/2026. Esses metadados não substituem a aplicação temporal de cada regime especial. Não se validou a solução do caso de venda a consumidor nem os regimes deontológicos ou processuais apenas mencionados.
 
 As conclusões são paráfrases breves e observações próprias sobre as aulas; não se reproduzem diplomas integrais. As fontes e as reservas originais de Notariado mantêm-se.
+
+## Lote Direito Constitucional — consulta de 02/11/2026
+
+| ID | Fonte e diploma | Disposições confrontadas / alcance |
+|---|---|---|
+| S15 | [Tribunal Constitucional — Acórdão 346/2025](https://www.tribunalconstitucional.pt/tc/acordaos/20250346.html) | Passagem sobre interesse jurídico relevante e fiscalização de normas revogadas/caducas. Não foi auditado o mérito integral do litígio tributário. Não é uma alteração legislativa nem uma declaração geral sobre todos os pedidos. |
+
+S12 foi consultada adicionalmente para CRP, arts. 1.º–3.º, 12.º–13.º, 17.º–18.º, 32.º, 62.º, 64.º, 73.º, 110.º–112.º, 120.º, 133.º, 136.º–137.º, 147.º, 182.º–183.º, 198.º, 202.º–205.º e 277.º–283.º, no âmbito explicitado nos relatórios. Entrada em vigor original da CRP: 25/04/1976, art. 296.º; não é a data de vigência de todas as redações posteriores. Não foi reconstruída aqui toda a cadeia de revisões ou todo o processo ordinário do Tribunal Constitucional. Não se validaram processos concretos apenas pela norma constitucional.

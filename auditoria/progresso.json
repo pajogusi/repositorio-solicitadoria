@@ -555,13 +555,24 @@
       "titulo": "Aula 01 - O que é a Constituição?",
       "ficheiro": "aulas/direito-constitucional/aula-01.html",
       "sha256": "136476481d6eaff955bf5ab6554c330f613a80f4f697b9e8c1de9c0a5c6bec91",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-01.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-01:P01",
+          "prioridade": "P2",
+          "descricao": "Omissão constitucional sem exercício ou delimitação dos efeitos",
+          "evidencia": "linhas 137–155 e 170–190; CRP art. 283.º",
+          "proposta": "Acrescentar caso de omissão e resposta sobre legitimidade e comunicação ao legislador, sem ensinar substituição judicial automática.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-02",
@@ -570,13 +581,24 @@
       "titulo": "Aula 02 - Estado de Direito Democrático",
       "ficheiro": "aulas/direito-constitucional/aula-02.html",
       "sha256": "c2ffc126b12a6a8795a6dd13227fc4279bf074d7f1c98a1ec35652d7dc99563c",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-02.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-02:P01",
+          "prioridade": "P2",
+          "descricao": "Perguntas sem soluções e exemplo de controlo impreciso",
+          "evidencia": "linha 56 e secção Mini-perguntas, 76–84; CRP art. 204.º",
+          "proposta": "Distinguir não aplicação concreta de declaração geral e fornecer solução comentada às cinco perguntas.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-03",
@@ -585,13 +607,24 @@
       "titulo": "Aula 03 - Princípios Fundamentais da Constituição Portuguesa",
       "ficheiro": "aulas/direito-constitucional/aula-03.html",
       "sha256": "3db0196a9f39e3d8f0afd4a85fc4ed8ab8ceb2ed94f10b4526f508cbe1639d4b",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-03.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-03:P01",
+          "prioridade": "P2",
+          "descricao": "Profundidade e respostas insuficientes",
+          "evidencia": "secções Principais princípios e Mini-perguntas, linha 81 e seguintes; CRP arts. 3.º/13.º",
+          "proposta": "Explicar soberania e igualdade com caso contrastante, remissões e respostas justificadas.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-04",
@@ -600,13 +633,40 @@
       "titulo": "Aula 04 - Direitos, Liberdades e Garantias",
       "ficheiro": "aulas/direito-constitucional/aula-04.html",
       "sha256": "4df2baca037839e5ae35a94606e86d0f60ef50158765c70ade409c4c644e3f8e",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-04.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-04:P01",
+          "prioridade": "P1",
+          "descricao": "Presunção de inocência sem referência ao trânsito em julgado",
+          "evidencia": "linha 73; CRP art. 32.º, n.º 2",
+          "proposta": "Precisar o marco e acrescentar caso de condenação ainda recorrível.",
+          "estado": "propostas"
+        },
+        {
+          "id": "direito-constitucional:aula-04:P02",
+          "prioridade": "P1",
+          "descricao": "Categorias de direitos e respetivo regime insuficientemente distinguidos",
+          "evidencia": "linhas 35–47; CRP arts. 17.º–18.º/62.º/64.º/73.º",
+          "proposta": "Separar catálogo sistemático de extensão por analogia e explicar restrições e vinculação pública/privada.",
+          "estado": "propostas"
+        },
+        {
+          "id": "direito-constitucional:aula-04:P03",
+          "prioridade": "P2",
+          "descricao": "Bloco legislativo deslocado e sem ressalvas concretas",
+          "evidencia": "linhas 166–180; CRP art. 112.º, n.os 2–3",
+          "proposta": "Integrar por remissão na matéria de órgãos e explicitar subordinação nas hipóteses constitucionais.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-05",
@@ -615,13 +675,24 @@
       "titulo": "Aula 05 - Direitos Económicos, Sociais e Culturais",
       "ficheiro": "aulas/direito-constitucional/aula-05.html",
       "sha256": "84b233bdabd519fb37af20db608f1c3f82b4e6dc0e6b901f229507ae2adfd25e",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-05.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-05:P01",
+          "prioridade": "P2",
+          "descricao": "Comparação e recursos sem aplicação fundamentada",
+          "evidencia": "linhas 50–70 e Mini-perguntas, 92–100; CRP arts. 17.º–18.º/64.º",
+          "proposta": "Distinguir dimensões de defesa/prestação, vinculação constitucional e requisitos legais; acrescentar resposta comentada.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-06",
@@ -630,13 +701,24 @@
       "titulo": "Aula 06 - Órgãos de Soberania",
       "ficheiro": "aulas/direito-constitucional/aula-06.html",
       "sha256": "df278c487bff577b9a0ab0e4c849a8b79d7ed6d5937e4bdafdfe30cbe54465a6",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-06.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-06:P01",
+          "prioridade": "P2",
+          "descricao": "Competências sobrepostas sem demonstração prática",
+          "evidencia": "linhas 61–90 e Mini-perguntas, 109–117; CRP arts. 111.º/198.º",
+          "proposta": "Acrescentar exemplo fundamentado de Governo legislador e Assembleia fiscalizadora e soluções às perguntas.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-07",
@@ -645,13 +727,32 @@
       "titulo": "Aula 07 - Assembleia da República e Governo",
       "ficheiro": "aulas/direito-constitucional/aula-07.html",
       "sha256": "b2ce62e99a4b55c6238413d92388bd676510e4f425830eb9ddd8fedafe85c75f",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-07.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-07:P01",
+          "prioridade": "P2",
+          "descricao": "Composição constitucional do Governo incompleta",
+          "evidencia": "linha 65; CRP art. 183.º, n.os 1–2",
+          "proposta": "Incluir Subsecretários e possibilidade de Vice-Primeiros-Ministros; distinguir previsão constitucional e composição atual.",
+          "estado": "propostas"
+        },
+        {
+          "id": "direito-constitucional:aula-07:P02",
+          "prioridade": "P1",
+          "descricao": "Competência legislativa própria do Governo omitida na explicação central",
+          "evidencia": "linhas 69–75/88–106; CRP art. 198.º",
+          "proposta": "Explicar decretos-leis e limites da competência, com caso e respostas fundamentadas.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-08",
@@ -660,13 +761,24 @@
       "titulo": "Aula 08 - Presidente da República e Tribunais",
       "ficheiro": "aulas/direito-constitucional/aula-08.html",
       "sha256": "e6e65ed59a2e6477791e6bc23d0fd020f6794c5823e0b4fa342b8bb815e1bd69",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-08.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-08:P01",
+          "prioridade": "P2",
+          "descricao": "Itinerário normativo e controlo preventivo pouco claros",
+          "evidencia": "linhas 57–66 e 117; CRP arts. 136.º–137.º/278.º",
+          "proposta": "Distinguir etapas e consequências e resolver as cinco perguntas; não atribuir promulgação a atos que só exigem assinatura.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-09",
@@ -675,13 +787,33 @@
       "titulo": "Aula 09 - Fiscalização da Constitucionalidade",
       "ficheiro": "aulas/direito-constitucional/aula-09.html",
       "sha256": "f98d3a1dbca99e0e00df7c479cbded0530f547a32d1ab5cadc0644ef988b685a",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-09.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S15"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-09:P01",
+          "prioridade": "P1",
+          "descricao": "Critério temporal de fiscalização sucessiva demasiado restrito",
+          "evidencia": "linhas 65–82; CRP art. 278.º; S15, secção de interesse processual",
+          "proposta": "Definir controlo preventivo pela fase própria e explicar sucessiva concreta/abstrata, incluindo normas revogadas quando exista interesse.",
+          "estado": "propostas"
+        },
+        {
+          "id": "direito-constitucional:aula-09:P02",
+          "prioridade": "P1",
+          "descricao": "Efeitos e vias de fiscalização não diferenciados",
+          "evidencia": "secção Consequências e Mini-perguntas; CRP arts. 204.º/280.º–283.º",
+          "proposta": "Distinguir vias, legitimidade, efeitos inter partes/gerais e ressalvas, com respostas fundamentadas.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-10",
@@ -690,13 +822,33 @@
       "titulo": "Aula 10 - Revisão Geral e Quiz Final",
       "ficheiro": "aulas/direito-constitucional/quiz-final.html",
       "sha256": "833170613141e87231f736985c53f5bd3b212fd5618df6cb10c67b20337bd5d8",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/direito-constitucional/aula-10.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S15"
+      ],
+      "problemas": [
+        {
+          "id": "direito-constitucional:aula-10:P01",
+          "prioridade": "P1",
+          "descricao": "Solução final repete critério temporal incompleto",
+          "evidencia": "linha 104; CRP arts. 278.º–283.º; S15",
+          "proposta": "Harmonizar pergunta/solução 17 com aula 09 e não exigir vigência atual para toda a fiscalização sucessiva.",
+          "estado": "propostas"
+        },
+        {
+          "id": "direito-constitucional:aula-10:P02",
+          "prioridade": "P2",
+          "descricao": "Grelha sem critérios de aplicação e cotação",
+          "evidencia": "linhas 85–107 e 123; análise pedagógica",
+          "proposta": "Acrescentar fundamentos, critérios e caso prático, mantendo separado o progresso académico.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-01",
@@ -4813,7 +4965,14 @@
       "aulas": 10,
       "operacao": "leitura integral e confronto no âmbito descrito",
       "recuperacao": "git log -1 --format=%H -- auditoria/relatorios/introducao-direito-i.md"
+    },
+    {
+      "data": "2026-11-02",
+      "disciplina": "direito-constitucional",
+      "aulas": 10,
+      "operacao": "leitura integral e confronto no âmbito descrito",
+      "recuperacao": "git log -1 --format=%H -- auditoria/relatorios/direito-constitucional.md"
     }
   ],
-  "ultima_aula_concluida": "introducao-direito-i:aula-10"
+  "ultima_aula_concluida": "direito-constitucional:aula-10"
 }
