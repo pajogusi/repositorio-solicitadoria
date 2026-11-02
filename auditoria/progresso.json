@@ -1577,13 +1577,33 @@
       "titulo": "Aula 01 - O que é a Sociologia do Direito?",
       "ficheiro": "aulas/sociologia-direito/aula-01.html",
       "sha256": "44014996580824cb0bc2b948c351068ab6b3023eb20ddd17d96fb56175c71b68",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-01.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S33",
+        "S40"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-01:P01",
+          "prioridade": "P2",
+          "descricao": "Método empírico e limites do contraste pouco desenvolvidos",
+          "evidencia": "linhas 56–88 e 116–125; S33, capítulo II",
+          "proposta": "Acrescentar uma tarefa com pergunta, indicador, observação e limites, esclarecendo que as abordagens se podem complementar.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-01:P02",
+          "prioridade": "P3",
+          "descricao": "Leitura e avaliação pouco rastreáveis",
+          "evidencia": "linhas 155–159 e 173–211",
+          "proposta": "Identificar obras e passagens acessíveis e critérios para a resposta de exame, preservando o exemplo existente.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-02",
@@ -1592,13 +1612,34 @@
       "titulo": "Aula 02 - Direito como Fenómeno Social",
       "ficheiro": "aulas/sociologia-direito/aula-02.html",
       "sha256": "892a73036060a05ba9f8a53e40f390e70b3f0482361997e12e2a7a5ea3014dea",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-02.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S33",
+        "S38",
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-02:P01",
+          "prioridade": "P2",
+          "descricao": "Solução do caso não discrimina os interesses pedidos",
+          "evidencia": "linhas 242–260, especialmente questão 3 e resposta",
+          "proposta": "Mapear interesses e separar factos assumidos, valores e normas, sem inventar um regulamento local.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-02:P02",
+          "prioridade": "P2",
+          "descricao": "Validade e eficácia ficam sem aplicação verificável",
+          "evidencia": "linhas 182–218 e 275–293; S33",
+          "proposta": "Criar exercício que contraste validade, cumprimento observado e efeitos, identificando a fonte dos dados e do enquadramento teórico.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-03",
@@ -1607,13 +1648,34 @@
       "titulo": "Aula 03 - Normas Sociais e Normas Jurídicas",
       "ficheiro": "aulas/sociologia-direito/aula-03.html",
       "sha256": "b97cc579624771209e3d80af87e23f6a04ba793636011c5c9b4c21df2a0fa68f",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-03.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S33",
+        "S34"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-03:P01",
+          "prioridade": "P2",
+          "descricao": "Comparação pode esconder a dimensão social das normas jurídicas",
+          "evidencia": "linhas 51–62/117–139; S33, capítulo I",
+          "proposta": "Explicitar sentido amplo de norma social e comparar normas jurídicas com normas sociais não jurídicas.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-03:P02",
+          "prioridade": "P2",
+          "descricao": "Caso e lista de sanções precisam de contrastes fundamentados",
+          "evidencia": "linhas 158–169 e 229–245; S3 art. 219.º e S34",
+          "proposta": "Acrescentar variação factual sobre vinculação e distinguir consequências restitutivas, invalidade e punição, sem presumir que oralidade exclui obrigação.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-04",
@@ -1622,13 +1684,33 @@
       "titulo": "Aula 04 - Direito e Controlo Social",
       "ficheiro": "aulas/sociologia-direito/aula-04.html",
       "sha256": "1bb74f5d67e7937adf8ec116bf6149ad952810647ccad103e71be29fda06ae98",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-04.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S34"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-04:P01",
+          "prioridade": "P2",
+          "descricao": "Efeitos jurídicos de finalidades diversas sem distinção suficiente",
+          "evidencia": "linhas 133–146; S34, livro I, capítulo III",
+          "proposta": "Explicar diferença entre sanção punitiva, reparação e invalidade/resolução, indicando que cada efeito depende dos respetivos pressupostos.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-04:P02",
+          "prioridade": "P2",
+          "descricao": "Caso não exercita garantias nem o canal das queixas",
+          "evidencia": "linhas 169–180/226–242; S12 arts. 18.º e 32.º, n.º 10",
+          "proposta": "Acrescentar perguntas e resposta sobre audiência/defesa e diferenciar pressão social de reclamação administrativa, sem escolher norma setorial sem dados.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-05",
@@ -1637,13 +1719,33 @@
       "titulo": "Aula 05 - Émile Durkheim e a Solidariedade Social",
       "ficheiro": "aulas/sociologia-direito/aula-05.html",
       "sha256": "f69d4e42b801d34a5a922c8684f235a413131636a6a9bf0cef9b1299de4369a7",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-05.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S33",
+        "S34"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-05:P01",
+          "prioridade": "P2",
+          "descricao": "Tipologia por ramos pode substituir a análise da função",
+          "evidencia": "linhas 149–203/248–264; S34",
+          "proposta": "Apresentar dois efeitos no mesmo contexto e explicar coexistência de repressão e restituição, preservando as qualificações típicas do texto.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-05:P02",
+          "prioridade": "P3",
+          "descricao": "Referência não permite localizar todos os conceitos",
+          "evidencia": "linhas 63–80/313–318; S33 e S34",
+          "proposta": "Identificar edição e capítulos de ambas as obras, distinguindo facto social da análise da divisão do trabalho e acrescentar critérios à pergunta de exame.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-06",
@@ -1652,13 +1754,33 @@
       "titulo": "Aula 06 - Max Weber e a Racionalização do Direito",
       "ficheiro": "aulas/sociologia-direito/aula-06.html",
       "sha256": "be201db887b1fec9794e6d5fdd5003eb672bb8e1d609d4a0c55620942f851437",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-06.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S35",
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-06:P01",
+          "prioridade": "P2",
+          "descricao": "Tipos ideais e crença na legitimidade insuficientemente explícitos",
+          "evidencia": "linhas 89–144 e 293–297; S35 capítulo III, § 2",
+          "proposta": "Explicitar natureza ideal e acrescentar a crença na legalidade, distinguindo legitimidade sociológica, validade e justiça.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-06:P02",
+          "prioridade": "P2",
+          "descricao": "Formalização imobiliária agregada sem distinguir funções",
+          "evidencia": "linhas 166–185/247–264; S3 art. 875.º",
+          "proposta": "Distinguir forma do negócio, verificação documental e registo, sem dar lista fiscal/registral por completa; fundamentar a resposta à pergunta sobre segurança.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-07",
@@ -1667,13 +1789,34 @@
       "titulo": "Aula 07 - Karl Marx e a Crítica ao Direito",
       "ficheiro": "aulas/sociologia-direito/aula-07.html",
       "sha256": "1d7f496a90a014e57e787bd032ab7d59a43cf3f69db7d360a86b3cd96997099a",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-07.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S36",
+        "S37",
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-07:P01",
+          "prioridade": "P2",
+          "descricao": "Aplicação teórica e decisão jurídica pouco diferenciadas no exercício",
+          "evidencia": "linhas 120–150/224–240; S12 arts. 13.º/20.º",
+          "proposta": "Separar diagnóstico de desigualdade, factos a observar e efeitos jurídicos a investigar, sem presumir invalidade ou inexistência de proteção.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-07:P02",
+          "prioridade": "P3",
+          "descricao": "Bibliografia sem localização das teses explicadas",
+          "evidencia": "linhas 80–100/290–296; S36 e S37",
+          "proposta": "Acrescentar textos e passagens, contexto histórico e limites da aplicação ao caso laboral contemporâneo.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-08",
@@ -1682,13 +1825,34 @@
       "titulo": "Aula 08 - Mudança Social e Evolução Jurídica",
       "ficheiro": "aulas/sociologia-direito/aula-08.html",
       "sha256": "b0ed2f00c38441b6dc58fea77443de8e82423e4403ed5583566c3c45c7ef9ba9",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-08.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S39",
+        "S40"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-08:P01",
+          "prioridade": "P2",
+          "descricao": "Caso enumera áreas sem explicar suficientemente a necessidade de adaptação",
+          "evidencia": "linhas 230–248, questão 3 e resposta",
+          "proposta": "Relacionar cada mudança tecnológica com problema social e resposta jurídica documentada, mantendo fora da solução uma certificação de conformidade sem factos.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-08:P02",
+          "prioridade": "P2",
+          "descricao": "Listas de mudanças e fontes não permitem seguir uma evolução concreta",
+          "evidencia": "linhas 102–169/296–302; S12 art. 8.º, n.º 4, S39/S40",
+          "proposta": "Acrescentar exemplo datado e fonte específica, distinguir documento/assinatura e modos de influência europeia; verificar articulados atuais antes de propor regras operacionais.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-09",
@@ -1697,13 +1861,36 @@
       "titulo": "Aula 09 - Caso Prático Orientado",
       "ficheiro": "aulas/sociologia-direito/aula-09.html",
       "sha256": "a0512168a91d6cf6e73a5877cb8511cf253c90ace75440457f8ac0bd1235dfc1",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "não verificada",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-09.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S38",
+        "S12",
+        "S34",
+        "S35",
+        "S36"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-09:P01",
+          "prioridade": "P2",
+          "descricao": "Caso sem base factual e normativa para concluir sobre a decisão municipal",
+          "evidencia": "linhas 40–59/73–80/107–115; S38 arts. 4.º, n.º 5, 5.º e 15.º-A",
+          "proposta": "Identificar data, município/regulamento e decisão ou assumir expressamente hipótese abstrata; distinguir registo por comunicação prévia e outros títulos, sem inventar uma licença.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-09:P02",
+          "prioridade": "P2",
+          "descricao": "Solução não fundamenta separadamente as seis questões",
+          "evidencia": "linhas 84–149; S34–S36",
+          "proposta": "Criar grelha por questão, distinguir canais das reclamações e planos social/jurídico e teoria/prova; manter a conclusão jurídica em aberto até obter os dados.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-10",
@@ -1712,13 +1899,36 @@
       "titulo": "Aula 10 - Revisão Geral e Quiz Final",
       "ficheiro": "aulas/sociologia-direito/quiz-final.html",
       "sha256": "8c80cf388b1ad2da6f2b9e826a733cb0599aadc4871ae064ea5736d55635498b",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/sociologia-direito/aula-10.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37"
+      ],
+      "problemas": [
+        {
+          "id": "sociologia-direito:aula-10:P01",
+          "prioridade": "P2",
+          "descricao": "Respostas 3 e 9 perdem ressalvas conceptuais essenciais",
+          "evidencia": "linhas 102/108; S33 capítulo I e S35 capítulo III, § 2",
+          "proposta": "Clarificar relação entre normas sociais/jurídicas e acrescentar crença na legalidade e tipos ideais à resposta sobre Weber.",
+          "estado": "propostas"
+        },
+        {
+          "id": "sociologia-direito:aula-10:P02",
+          "prioridade": "P2",
+          "descricao": "Resposta 14 e desenvolvimento sem critérios suficientes",
+          "evidencia": "linhas 92/113 e 119–125",
+          "proposta": "Relacionar mudança social com resposta jurídica em dois exemplos fundamentados e fornecer rubrica comentada para o desenvolvimento, sem alterar a avaliação nesta fase.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-01",
@@ -5408,7 +5618,15 @@
       "operacao": "leitura integral e confronto jurídico/pedagógico no âmbito descrito",
       "recuperacao": "git log --diff-filter=A -1 --format=%H -- auditoria/relatorios/estudo-empresa.md",
       "commit_anterior": "d00cc1028a52de3b260d49032048d6903a9a3d7b"
+    },
+    {
+      "data": "2026-11-02",
+      "disciplina": "sociologia-direito",
+      "aulas": 10,
+      "operacao": "leitura integral e confronto jurídico/pedagógico no âmbito descrito",
+      "recuperacao": "git log --diff-filter=A -1 --format=%H -- auditoria/relatorios/sociologia-direito.md",
+      "commit_anterior": "3020c942ed2b644b2e4c2b01f68fd726a14a4ed4"
     }
   ],
-  "ultima_aula_concluida": "estudo-empresa:aula-10"
+  "ultima_aula_concluida": "sociologia-direito:aula-10"
 }
