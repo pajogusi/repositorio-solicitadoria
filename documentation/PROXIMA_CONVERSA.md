@@ -1,61 +1,13 @@
 # Próxima Conversa — Repositório de Solicitadoria
 
-Estado fechado:
+Referência técnica: 02/11/2026.
 
-- 26 / 38 cadeiras concluídas
-- 266 / 380 aulas concluídas
-- Progresso global: 70,0%
-- Última cadeira concluída: Direito da Família e das Sucessões II — 10 / 10
-- Cadeira atual: Direito do Notariado — 6 / 10 aulas concluídas
-
-Sequência correta:
-
-21. Direito Fiscal II
-22. Direito da Família e das Sucessões I
-23. Direito das Sociedades
-24. Princípios de Finanças
-25. Direito Processual Civil III
-26. Direito da Família e das Sucessões II
-
-Na próxima conversa, correr:
-
-./scripts/uteis/proxima-conversa-solicitadoria.sh
-
-- Cadeira atual: Direito do Notariado — 6 / 10 aulas concluídas
-
-<!-- REGISTO_2026_07_09_REVISAO_JURIDICA:START -->
-
-## Notas Estratégicas para Próxima Conversa
-
-Registo estratégico feito após conclusão de Direito Fiscal II.
-
-Estado confirmado:
-- Direito Fiscal II concluída — 10 / 10.
-- Total global: 26 / 38 cadeiras.
-- Aulas oficiais: 266 / 380.
-- Progresso: 70,0%.
-- Cadeira atual: Direito do Notariado — 6 / 10 — Em curso.
-
-Métricas técnicas confirmadas:
-- 246 páginas HTML publicáveis.
-- 213 ficheiros HTML em `aulas/`.
-- 21 páginas de apresentação de cadeiras.
-- 5 páginas em `paginas/`.
-- 3 páginas adicionais de apoio: glossário, biblioteca e casos.
-- Site sem `.git`: 5,3 MB.
-- HTML total: 4,1 MB.
-
-Decisão de produtividade:
-- Concluir primeiro as 38 cadeiras e as 380 aulas.
-- Deixar jurisprudência para fase posterior.
-- Melhorar quizzes depois de concluída a estrutura principal.
-- Criar futuramente páginas próprias de jurisprudência ligadas à apresentação de cada cadeira.
-
-Workflow técnico consolidado:
-- Centro `dell@overdrive-core`: produção, Git, scripts, commits e push.
-- Portátil `paulo-755XDA`: validação visual do site online.
-- Regra: criar → validar localmente → commit/push → confirmar online → só depois avançar.
-
-
-<!-- REGISTO_2026_07_09_REVISAO_JURIDICA:END -->
-
+- Consultar `ESTADO_ATUAL.md` para o estado confirmado e `REGRAS_DE_TRABALHO.md` para manutenção.
+- 38 disciplinas: 26 concluídas, uma em curso e 11 por iniciar.
+- 266/380 aulas; 70,0%.
+- Notariado: aulas 01 a 06 existentes; aula 07 ainda por criar, fora da Fase 1 técnica.
+- Rever primeiro `git status --short --branch`; preservar quaisquer alterações existentes.
+- Confirmar a sincronização com `python3 scripts/atualizar_dados.py --check`.
+- Não executar os scripts históricos. O utilitário `scripts/uteis/proxima-conversa-solicitadoria.sh` apresenta o contexto e faz verificações de leitura.
+- Merge e publicação no Pages exigem autorização explícita.
+- A auditoria jurídica e pedagógica é a Fase 2; não considerar as auditorias antigas como erros já comprovados ou corrigidos.

@@ -1,96 +1,34 @@
 # Estado Atual — Repositório de Solicitadoria
 
-Atualizado em: **20/08/2026 — 10:01 BST**
+Referência técnica: 02/11/2026, branch da Fase 1. A publicação continua a depender de autorização de merge.
 
-## Estado global
-
-| Indicador | Estado |
+| Indicador | Valor confirmado nos HTML e ficheiros |
 |---|---:|
-| Cadeiras concluídas | **26 / 38** |
-| Aulas concluídas | **266 / 380** |
-| Percentagem aproximada do percurso | **70,0%** |
-| Semestres concluídos | **4 / 6** |
-| Última cadeira concluída | **Direito da Família e das Sucessões II — 10 / 10** |
-| Cadeira atual | **Direito do Notariado — 6 / 10** |
+| Disciplinas previstas | 38 |
+| Concluídas | 26 |
+| Em curso | 1 |
+| Por iniciar | 11 |
+| Aulas do percurso existentes | 266 / 380 |
+| Progresso das aulas | 70,0% |
+| Semestres concluídos no plano | 4 / 6 |
+| Última cadeira concluída | Direito da Família e das Sucessões II |
+| Cadeira em curso | Direito do Notariado — 6 / 10 |
+| Próxima aula ainda inexistente | Notariado — Aula 07 |
 
----
+Há 309 páginas públicas: 269 em `aulas/`, 26 em `cadeiras/`, cinco em `paginas/`, três em `jurisprudencia/`, três páginas de biblioteca/glossário/casos e três na raiz.
+Os 269 HTML de aulas incluem 266 aulas oficiais e três complementos de Obrigações. Os 12 quizzes que substituem a aula 10 são contados como aulas; o quiz adicional de Obrigações não duplica o progresso.
 
-## Última cadeira concluída
+## Componentes técnicos
 
-### Direito da Família e das Sucessões II
+- HTML/CSS/JavaScript estáticos, sem backend, base de dados ou autenticação própria.
+- Pesquisa gerada a partir dos títulos, conteúdo e rótulos das aulas, sem serviço externo.
+- Catálogo gerado a partir do plano e dos ficheiros de aulas; progresso calculado no navegador e fallback HTML sincronizado.
+- Geração: `python3 scripts/atualizar_dados.py`.
+- Verificação: `python3 scripts/atualizar_dados.py --check`.
+- Regressões: `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v`.
 
-Estado: **Concluída**  
-Aulas: **10 / 10**
+## Âmbito
 
----
-
-## Cadeira atual
-
-### Direito do Notariado
-
-Estado: **Em curso**  
-Aulas concluídas: **6 / 10**
-
-#### Aulas concluídas
-
-1. Aula 01 — Função notarial, fé pública e sistema do notariado português
-2. Aula 02 — Notário, cartório notarial, competência e deveres profissionais
-3. Aula 03 — Instrumentos notariais: escrituras, termos, reconhecimentos, autenticações e certidões
-4. Aula 04 — Identificação, capacidade, representação e poderes dos intervenientes
-5. Aula 05 — Formalidades comuns dos atos notariais e leitura/assinatura
-
-#### Próxima aula
-
-6. Aula 06 — Escritura pública e documentos particulares autenticados
-
----
-
-## Ficheiros principais atualizados
-
-- `index.html`
-- `cadeiras.html`
-- `cadeiras/cadeira-27-direito-notariado.html`
-- `aulas/direito-notariado/aula-01.html`
-- `aulas/direito-notariado/aula-02.html`
-- `aulas/direito-notariado/aula-03.html`
-- `aulas/direito-notariado/aula-04.html`
-- `aulas/direito-notariado/aula-05.html`
-- `paginas/mapa.html`
-- `README.md`
-- `documentation/CONTINUIDADE.md`
-- `documentation/PROXIMA_CONVERSA.md`
-
----
-
-## Próximo passo
-
-Continuar **Direito do Notariado** com a Aula 07.
-
-Antes de iniciar:
-
-1. Confirmar `git status --short` limpo.
-2. Confirmar `index.html` com **26 / 38** e **266 / 380**.
-3. Confirmar `cadeiras.html` com **Direito do Notariado — 6 / 10 — Em curso**.
-4. Criar apenas a Aula 07.
-5. Atualizar apresentação da cadeira, mapa, contadores e navegação.
-6. Validar sempre `git diff -- cadeiras.html` antes do commit.
-7. Commit/push.
-
-<!-- ESTRATEGIA_POS_CONSTRUCAO:START -->
-
-## Estratégia Pós-Construção
-
-Após a conclusão de Direito Fiscal II, foi registada a estratégia de produtividade para a fase final do projeto.
-
-Decisão:
-- Não iniciar ainda a criação sistemática de jurisprudência.
-- Não interromper a produção das cadeiras para rever juridicamente cada página.
-- Concluir primeiro as 38 cadeiras e 380 aulas.
-- Depois iniciar revisão jurídica, melhoria dos quizzes e páginas próprias de jurisprudência por cadeira.
-
-Documento criado:
-- `documentation/ESTRATEGIA_REVISAO_JURIDICA.md`
-
-
-<!-- ESTRATEGIA_POS_CONSTRUCAO:END -->
-
+A Fase 1 mantém o conteúdo jurídico, exercícios e avaliações. As alterações às aulas limitam-se a viewport e navegação.
+A navegação para a aula 07 de Notariado permanece indisponível até a página existir; não foi criada uma aula fictícia.
+O conteúdo aguarda auditoria jurídica e pedagógica da Fase 2. As auditorias anteriores são documentos de referência, não validação concluída.

@@ -1,114 +1,30 @@
 # Continuidade — Repositório de Solicitadoria
 
-Atualizado em: **20/08/2026 — 10:58 BST**
+Referência técnica: 02/11/2026.
 
-## Estado fechado
+## Estado confirmado
 
-O repositório encontra-se com **Direito da Família e das Sucessões II concluída** e **Direito do Notariado em curso**.
+38 disciplinas previstas; 26 concluídas, uma em curso e 11 por iniciar.
+266 aulas do percurso existentes em 380 previstas: 70,0%.
+Última cadeira concluída: Direito da Família e das Sucessões II.
+Cadeira atual: Direito do Notariado, aulas 01 a 06 existentes. A próxima é a aula 07.
 
-Estado global:
+## Retomar trabalho
 
-```text
-26 / 38 cadeiras concluídas
-266 / 380 aulas concluídas
-Direito do Notariado — 6 / 10 — Em curso
-```
+1. Confirmar pasta, branch e alterações existentes sem sobrescrever trabalho.
+2. Consultar `ESTADO_ATUAL.md`, `REGRAS_DE_TRABALHO.md` e o README.
+3. Executar `python3 scripts/atualizar_dados.py --check` para detetar divergências entre HTML e dados gerados.
+4. Consultar o diff e os testes antes de qualquer alteração adicional.
+5. Respeitar o âmbito autorizado: Fase 1 técnica; conteúdos jurídicos e pedagógicos reservados à Fase 2.
 
-## Cadeira atual
+Os contadores do navegador são calculados a partir de `data/cadeiras.js`, gerado por verificação dos ficheiros de aulas.
+Depois de editar páginas pesquisáveis, regenerar o índice com `python3 scripts/atualizar_dados.py`.
+Não executar os geradores antigos ou os scripts arquivados para continuar o projeto.
 
-```text
-Direito do Notariado — próxima aula: Aula 06
-```
+## Recuperação e publicação
 
-## Regras para continuar
-
-Na próxima conversa ou sessão de trabalho:
-
-1. Começar com data e hora.
-2. Confirmar estado do Git.
-3. Confirmar contadores.
-4. Confirmar que Direito do Notariado está em 5 / 10 — Em curso.
-5. Continuar Direito do Notariado com a Aula 07.
-6. Criar Aula 06.
-7. Atualizar `cadeiras.html`.
-8. Atualizar `index.html`.
-9. Atualizar `paginas/mapa.html`.
-10. Validar links.
-11. Commit/push.
-12. Confirmar repositório limpo.
-
-## Comandos úteis
-
-### Ver estado
-
-```bash
-cd ~/universidade-da-vida-direito
-git status
-grep -n "Cadeiras concluídas\|Aulas concluídas" index.html
-grep -n "Direito do Notariado" cadeiras.html
-ls -1 aulas/direito-notariado/
-```
-
-### A partir do Centro
-
-```bash
-ssh paulo@192.168.1.195 'cd ~/universidade-da-vida-direito && git status'
-```
-
-## Notas importantes
-
-- Autor público: **Paulo Silva (Pàjó)**.
-- Não usar Paulo Gusi como autor público.
-- Projeto independente.
-- Não substitui licenciatura, formação oficial nem aconselhamento jurídico.
-- GoatCounter obrigatório em páginas novas.
-- Trabalhar uma aula de cada vez.
-
-<!-- REGISTO_2026_07_09_REVISAO_JURIDICA:START -->
-
-## Registo de Continuidade — Revisão Jurídica e Jurisprudência
-
-Registo estratégico feito após conclusão de Direito Fiscal II.
-
-Estado confirmado:
-- Direito Processual Civil III concluída — 10 / 10.
-- Total global: 26 / 38 cadeiras.
-- Aulas oficiais: 266 / 380.
-- Progresso: 70,0%.
-- Cadeira atual: Direito do Notariado — 6 / 10 — Em curso.
-
-Métricas técnicas confirmadas:
-- 246 páginas HTML publicáveis.
-- 213 ficheiros HTML em `aulas/`.
-- 21 páginas de apresentação de cadeiras.
-- 5 páginas em `paginas/`.
-- 3 páginas adicionais de apoio: glossário, biblioteca e casos.
-- Site sem `.git`: 5,3 MB.
-- HTML total: 4,1 MB.
-
-Decisão de produtividade:
-- Concluir primeiro as 38 cadeiras e as 380 aulas.
-- Deixar jurisprudência para fase posterior.
-- Melhorar quizzes depois de concluída a estrutura principal.
-- Criar futuramente páginas próprias de jurisprudência ligadas à apresentação de cada cadeira.
-
-Workflow técnico consolidado:
-- Centro `dell@overdrive-core`: produção, Git, scripts, commits e push.
-- Portátil `paulo-755XDA`: validação visual do site online.
-- Regra: criar → validar localmente → commit/push → confirmar online → só depois avançar.
-
-
-<!-- REGISTO_2026_07_09_REVISAO_JURIDICA:END -->
-
-
-
-## Regra de jurisprudência do 3.º ano
-
-A partir do 3.º ano, as cadeiras podem incluir uma página própria de jurisprudência essencial.
-
-Regra operacional:
-- 1 página de jurisprudência por cadeira.
-- Máximo de 3 acórdãos por cadeira.
-- Cada acórdão deve ter: tema, questão jurídica, entendimento do tribunal, nota de estudo e ligação oficial.
-- A jurisprudência é complemento de estudo, não substitui lei, doutrina, formação oficial ou aconselhamento jurídico.
-- Não afundar as aulas com acórdãos longos; manter a matéria principal nas aulas e a jurisprudência numa página própria.
+Base da Fase 1: `6497eb2fe04a7639a5160b2ede1e0eee9ccf1663`.
+Tag local: `fase1-base-20261102`.
+Branch de intervenção: `codex/fase1-correcoes-tecnicas-20261102`.
+O GitHub Pages serve `main` na raiz. Não fazer merge nem publicar sem autorização.
+Para consultar a base, criar uma nova branch a partir do SHA; não fazer reset ou force-push.

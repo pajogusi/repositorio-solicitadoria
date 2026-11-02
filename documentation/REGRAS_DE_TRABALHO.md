@@ -1,68 +1,33 @@
 # Regras de Trabalho — Repositório de Solicitadoria
 
-Atualizado em: **09/07/2026 — 10:47 BST**
+Atualização técnica: 02/11/2026. A secção de conteúdo abaixo foi preservada.
 
-## Regra inicial das novas conversas
+## Preparação
 
-Sempre que se iniciar uma nova conversa dentro dos projetos, a primeira resposta deve incluir a data e hora atuais:
+- Confirmar máquina, pasta, branch e `git status --short --branch`.
+- Preservar alterações existentes; nunca sobrescrever trabalho local.
+- Criar branch própria e guardar o SHA de base antes de alterar ficheiros.
+- Alterar apenas o âmbito autorizado. Merge e publicação exigem autorização explícita.
 
-```text
-Data e hora: DD/MM/AAAA — HH:MM
-```
+## Manutenção técnica
 
-Timezone padrão: **Europe/London**.
+1. Atualizar apenas os HTML autorizados e confirmar destinos de links.
+2. Manter o plano em `cadeiras.html` coerente com os ficheiros reais.
+3. Executar `python3 scripts/atualizar_dados.py` para regenerar catálogo, pesquisa e resumo.
+4. Executar `python3 scripts/atualizar_dados.py --check` e `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v`.
+5. Testar pesquisa, progresso, navegação e quiz no navegador em computador, tablet e telemóvel.
+6. Rever o diff antes de adicionar ficheiros específicos ao commit.
+7. Enviar apenas a branch autorizada. A raiz de `main` é a origem do Pages.
 
----
+## HTML e dados
 
-## Workflow obrigatório para novas aulas
-
-Antes de criar uma nova aula:
-
-```bash
-git status
-```
-
-O repositório deve estar limpo:
-
-```text
-nothing to commit, working tree clean
-```
-
-Para cada aula:
-
-1. Criar a página HTML da aula.
-2. Atualizar a apresentação da cadeira.
-3. Atualizar `cadeiras.html`.
-4. Atualizar `index.html`.
-5. Atualizar `paginas/mapa.html`.
-6. Validar links e navegação.
-7. Fazer commit.
-8. Fazer push.
-9. Confirmar `git status` limpo.
-
----
-
-## Regras de HTML
-
-Todas as novas páginas devem incluir:
-
-- `style.css?v=91` ou versão superior.
-- Menu superior.
-- Estrutura `<main>`.
-- Link para o mapa.
-- Navegação final.
-- Botão `↑ Topo`.
-- Aviso legal.
-- Rodapé com Paulo Silva.
-- Script GoatCounter antes de `</body>`.
-
-Script obrigatório:
-
-```html
-<script data-goatcounter="https://pajogusi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-```
-
----
+- Usar UTF-8, `lang`, viewport, CSS partilhado e navegação com destinos existentes.
+- Preservar avisos, rodapés, exercícios e avaliações.
+- Páginas futuras aparecem como texto sem ligação até o destino existir.
+- As páginas públicas são os HTML da raiz e de `aulas`, `biblioteca`, `cadeiras`, `casos`, `glossario`, `jurisprudencia` e `paginas`.
+- Não editar manualmente os índices gerados em `data/cadeiras.js` e `data/pesquisa.js`.
+- Os scripts em `scripts/arquivo-raiz/` e `criar_aula04_notariado.py` são históricos e podem sobrescrever ficheiros e/ou fazer commit/push. Não os executar como rotina atual.
+- Testes permanentes em `tests/` fazem parte da manutenção; backups e ficheiros temporários não devem ser adicionados.
 
 ## Regras de conteúdo
 
@@ -92,31 +57,8 @@ Estrutura recomendada:
 
 ---
 
-## Regras de Git
+## Referência e continuidade
 
-- Não usar `git add -A` por defeito.
-- Adicionar ficheiros específicos.
-- Não deixar scripts temporários no repositório.
-- Não commitar backups `.bak`, `.backup` ou scripts de teste.
-- Confirmar estado limpo no final.
-
----
-
-## Regras de cadeiras fechadas
-
-- Não alterar cadeiras já concluídas, salvo erro real.
-- Se houver correção, documentar claramente o motivo.
-- Manter consistência entre:
-  - página da cadeira;
-  - `cadeiras.html`;
-  - `index.html`;
-  - `paginas/mapa.html`.
-
----
-
-## Estado de referência atual
-
-- Cadeiras concluídas: **20 / 38**
-- Aulas concluídas: **200 / 380**
-- Última cadeira concluída: **Direito Processual Civil II**
-- Próxima cadeira: **Direito Fiscal II**
+Estado de referência em 02/11/2026: 38 disciplinas, 26 concluídas, uma em curso, 11 por iniciar; 266/380 aulas, 70,0%.
+Notariado tem seis aulas; a próxima aula editorial é a 07, cuja criação está fora da Fase 1.
+As referências normativas e o conteúdo pedagógico dependem da Fase 2. A classificação editorial «concluída» não comprova validação jurídica.

@@ -250,14 +250,14 @@ margin-top:20px;
 }
 
 .progress-bar{
-width:52.6%;
-height:24px;
-background:#0b2c4d;
-color:white;
-text-align:center;
-line-height:24px;
-font-size:0.9em;
+    display: block;
+    width: 100%;
+    height: 24px;
+    accent-color: #0b2c4d;
 }
+
+#rotuloProgresso { display: block; color: #0b2c4d; font-weight: bold; }
+
 
 .autor{
 font-style:italic;
@@ -607,3 +607,13 @@ main > .cadeira-card:hover {
   line-height: 1.6;
 }
 
+
+/* Pesquisa e navegação técnica — Fase 1. */
+.search-results { max-height: 32rem; overflow-y: auto; overflow-wrap: anywhere; }
+.search-results ol { padding-left: 2rem; }
+.search-results li { margin-bottom: 1rem; }
+.search-results p { margin: .25rem 0; font-size: .95em; }
+.search-box label { display: block; margin-bottom: .5rem; }
+.search-box input { min-width: 0; }
+.indisponivel { opacity: .65; cursor: default; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid #005fa3; outline-offset: 3px; }

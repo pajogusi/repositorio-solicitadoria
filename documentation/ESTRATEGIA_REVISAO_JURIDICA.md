@@ -2,6 +2,8 @@
 
 Data de registo: 09/07/2026
 
+> Documento histórico: decisões e métricas correspondem à data do registo. Consultar `ESTADO_ATUAL.md` para o estado técnico atual. O conteúdo estratégico original foi preservado.
+
 ## Estado no momento do registo
 
 - Projeto: Repositório de Solicitadoria

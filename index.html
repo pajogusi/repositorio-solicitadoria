@@ -2,8 +2,9 @@
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Repositório de Solicitadoria</title>
-<link rel="stylesheet" href="style.css?v=25">
+<link rel="stylesheet" href="style.css?v=fase1-20261102">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
 <body>
@@ -41,14 +42,15 @@ Aprender Direito. Compreender a Lei. Construir Conhecimento.
 <p class="autor">Projeto independente de estudo jurídico criado por Paulo Silva</p>
 
 <div class="stats">
-<div class="stat-card"><strong>26 / 38</strong><br>Cadeiras concluídas</div>
-<div class="stat-card"><strong>266 / 380</strong><br>Aulas concluídas</div>
+<div class="stat-card"><strong id="cadeirasConcluidas">26 / 38</strong><br>Cadeiras concluídas</div>
+<div class="stat-card"><strong id="aulasConcluidas">266 / 380</strong><br>Aulas concluídas</div>
 <div class="stat-card"><strong>4 / 6</strong><br>Semestres concluídos</div>
 <div class="stat-card"><strong>Biblioteca</strong><br>Jurídica ativa</div>
 </div>
 
 <div class="progress-container">
-<div class="progress-bar">70,0%</div>
+<progress id="progressoCurso" class="progress-bar" value="266" max="380" aria-labelledby="rotuloProgresso">70,0%</progress>
+<span id="rotuloProgresso">70,0%</span>
 </div>
 
 <p>Progresso global da licenciatura</p>
@@ -84,8 +86,10 @@ Aprender Direito. Compreender a Lei. Construir Conhecimento.
 
 <div class="search-box">
 <h2>🔍 Pesquisa Global</h2>
-<p>Pesquisa rápida nas cadeiras, biblioteca, glossário e casos práticos.</p>
-<input type="text" id="pesquisaCurso" onkeyup="pesquisarCurso()" placeholder="Pesquisar por Constituição, contrato, tribunal, norma...">
+<p>Pesquisa nos títulos e no conteúdo das aulas, cadeiras e páginas de apoio existentes.</p>
+<label for="pesquisaCurso">Pesquisar títulos e conteúdo</label>
+<input type="search" id="pesquisaCurso" autocomplete="off" placeholder="Pesquisar por Constituição, contrato, tribunal, norma..." aria-controls="resultadosPesquisa">
+<p id="estadoPesquisa" role="status" aria-live="polite"></p>
 <div id="resultadosPesquisa" class="search-results"></div>
 </div>
 
@@ -128,12 +132,15 @@ Aprender Direito. Compreender a Lei. Construir Conhecimento.
 <p>Contacto: <a href="mailto:pajogusi.uk@gmail.com">pajogusi.uk@gmail.com</a></p>
 </div>
 
-<script src="script.js"></script>
+<script defer src="data/cadeiras.js"></script>
+<script defer src="data/progresso.js"></script>
+<script defer src="data/pesquisa.js"></script>
+<script defer src="script.js?v=fase1-20261102"></script>
 
 
 <section class="box">
-  <h2>Última atualização</h2>
-  <p><strong>20/08/2026</strong></p>
+  <h2>Última atualização técnica</h2>
+  <p><strong>02/11/2026</strong></p>
 </section>
 
 <section class="box aviso-legal-curto">
