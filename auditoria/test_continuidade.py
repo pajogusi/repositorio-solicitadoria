@@ -28,7 +28,8 @@ class ContinuidadeTests(unittest.TestCase):
         self.assertIn('IDs de aula duplicados.', verificar(self.registo))
 
     def test_conclusao_sem_relatorio_preenchido(self):
-        self.registo['aulas'][0].update(auditoria='concluída', classificacao='validada', data_auditoria='2026-11-02')
+        aula = next(x for x in self.registo['aulas'] if x['auditoria'] == 'pendente')
+        aula.update(auditoria='concluída', classificacao='validada', data_auditoria='2026-11-02')
         self.assertTrue(any('ainda por preencher' in x for x in verificar(self.registo)))
 
     def test_correcoes_independentes_da_auditoria(self):

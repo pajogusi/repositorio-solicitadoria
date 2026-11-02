@@ -241,13 +241,25 @@
       "titulo": "Aula 01 - O que é o Direito?",
       "ficheiro": "aulas/introducao-direito-i/aula-01.html",
       "sha256": "c5578bb12464d4e5341a489cf08c15cb12c7cb3b3907008251e6a9f5c5f29792",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-01.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-01:P01",
+          "prioridade": "P2",
+          "descricao": "Definição e exercício pouco desenvolvidos",
+          "evidencia": "linhas 143–150 e 235–242; S3 art. 879.º; S12 art. 20.º",
+          "proposta": "Distinguir conjunto normativo de posições individuais e pedir aplicação fundamentada, com remissão concreta.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-02",
@@ -256,13 +268,32 @@
       "titulo": "Aula 02 - Direito, Moral, Ética e Justiça",
       "ficheiro": "aulas/introducao-direito-i/aula-02.html",
       "sha256": "f1e506a2ca5300547567e6b7cc8537d7e287258ab4f46046e1ff24c59e9e3334",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-02.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-02:P01",
+          "prioridade": "P2",
+          "descricao": "Exemplo de legalidade insuficientemente delimitado",
+          "evidencia": "linha 96; análise lógica do próprio exemplo",
+          "proposta": "Distinguir ausência de responsabilidade penal de conformidade civil e profissional, sem inventar uma infração no caso.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-direito-i:aula-02:P02",
+          "prioridade": "P3",
+          "descricao": "Falta caso profissional fundamentado",
+          "evidencia": "secção Aplicação à Solicitadoria e cinco respostas finais",
+          "proposta": "Propor dilema com factos suficientes, dever identificado e justificação da decisão.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-03",
@@ -271,13 +302,33 @@
       "titulo": "Aula 03 - A Norma Jurídica",
       "ficheiro": "aulas/introducao-direito-i/aula-03.html",
       "sha256": "0a9e671c75be9d244c1856f0d4e63089f6ec70236459250a33919fc67ce152f9",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-03.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S14"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-03:P01",
+          "prioridade": "P1",
+          "descricao": "Indemnização apresentada sem pressupostos essenciais",
+          "evidencia": "linhas 167–168; S14, CC arts. 483.º/487.º",
+          "proposta": "Acrescentar factos sobre ilicitude, culpa, dano e nexo, ressalvando responsabilidade objetiva legalmente prevista.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-direito-i:aula-03:P02",
+          "prioridade": "P2",
+          "descricao": "Imperatividade confundida com imposição inderrogável",
+          "evidencia": "linhas 118–126 e resposta 268; S3, CC art. 405.º",
+          "proposta": "Distinguir força normativa, normas imperativas e supletivas; acrescentar microcaso.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-04",
@@ -286,13 +337,33 @@
       "titulo": "Aula 04 - Fontes do Direito",
       "ficheiro": "aulas/introducao-direito-i/aula-04.html",
       "sha256": "138361235ced25dae435cd2e06a7af397645064bf0dd8ac435f840ebd04cd97b",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-04.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-04:P01",
+          "prioridade": "P1",
+          "descricao": "Hierarquia constitucional enganadora",
+          "evidencia": "linhas 217–232; S12, CRP arts. 286.º–287.º",
+          "proposta": "Explicar revisão e texto constitucional; substituir degrau por descrição correta, mantendo limites da revisão.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-direito-i:aula-04:P02",
+          "prioridade": "P2",
+          "descricao": "Fontes diretas e costume sem delimitação",
+          "evidencia": "linhas 103–114 e 190–215; S3 CC arts. 3.º/348.º; S12 CRP art. 8.º",
+          "proposta": "Distinguir usos/costume e contextualizar fontes internacionais e europeias, sem hierarquia fictícia.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-05",
@@ -301,13 +372,24 @@
       "titulo": "Aula 05 - Ramos do Direito",
       "ficheiro": "aulas/introducao-direito-i/aula-05.html",
       "sha256": "c88761b5a3eab0ebc0bd6f6d45924f14c34d34a3b4c8521b496e7641c24e0c6b",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-05.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-05:P01",
+          "prioridade": "P2",
+          "descricao": "Grelha de resposta contradiz a nota técnica",
+          "evidencia": "linha 315 versus secção Nota técnica e quiz-final linha 192",
+          "proposta": "Uniformizar os critérios e aceitar classificação fundamentada, sem apresentar uma preferência doutrinal como norma imperativa.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-06",
@@ -316,13 +398,33 @@
       "titulo": "Aula 06 - Estado, Constituição e Lei",
       "ficheiro": "aulas/introducao-direito-i/aula-06.html",
       "sha256": "c1b2cbff98aba1903cbce571e6b8de04043a8379186250706556e4bee24fb654",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-06.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S13"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-06:P01",
+          "prioridade": "P1",
+          "descricao": "Confusão entre norma e ato administrativo",
+          "evidencia": "linha 182; S13, CPA arts. 135.º/148.º",
+          "proposta": "Separar hierarquia normativa de aplicação individual; acrescentar exemplo regulamento/licença.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-direito-i:aula-06:P02",
+          "prioridade": "P2",
+          "descricao": "Regulamentos independentes ausentes da definição",
+          "evidencia": "linha 278 e tabela; S13, CPA art. 136.º; S12 CRP art. 112.º, n.os 6–7",
+          "proposta": "Qualificar a descrição introdutória e identificar habilitação e regulamentos independentes.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-07",
@@ -331,13 +433,32 @@
       "titulo": "Aula 07 - Tribunais e Aplicação do Direito",
       "ficheiro": "aulas/introducao-direito-i/aula-07.html",
       "sha256": "86f98a6668971158859b59eda2694aec05acf015725e8594e9f47bcf0135a135",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-07.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-07:P01",
+          "prioridade": "P2",
+          "descricao": "Mapa de tribunais sem exercício de competência",
+          "evidencia": "linhas 133–137 e respostas finais; análise pedagógica",
+          "proposta": "Acrescentar caso contrastante com factos suficientes e base legal, sem escolher jurisdição apenas pelo sujeito.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-direito-i:aula-07:P02",
+          "prioridade": "P3",
+          "descricao": "Independência precisa de ligação à fundamentação",
+          "evidencia": "linha 198; S12 CRP arts. 203.º/205.º",
+          "proposta": "Explicitar limites jurídicos e fundamentação da decisão, preservando o ponto sobre ausência de pressões.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-08",
@@ -346,13 +467,24 @@
       "titulo": "Aula 08 - Interpretação da Lei",
       "ficheiro": "aulas/introducao-direito-i/aula-08.html",
       "sha256": "139b84118754f933e490ab5e3dea48075e80cf432370ddde508587b1ab224a00",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-08.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-08:P01",
+          "prioridade": "P2",
+          "descricao": "Objetivo de aplicação não avaliado",
+          "evidencia": "secção Métodos e quiz, linhas 294–302; S3 CC arts. 9.º–11.º",
+          "proposta": "Acrescentar microcaso com texto, critérios concorrentes e resposta fundamentada, delimitando integração e interpretação.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-09",
@@ -361,13 +493,24 @@
       "titulo": "Aula 09 - Caso Prático Orientado",
       "ficheiro": "aulas/introducao-direito-i/aula-09.html",
       "sha256": "3435898cac431f72e5d0c5bffb1ce73aa7b61cf5c4aff2e52067bac47e560fcc",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "não verificada",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-09.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-09:P01",
+          "prioridade": "P2",
+          "descricao": "Regime e solução integral dependem de dados não fixados",
+          "evidencia": "linhas 62–65, 125 e secção Possíveis Soluções; S3 CC arts. 342.º/406.º/428.º/879.º/913.º",
+          "proposta": "Identificar natureza das partes e data; verificar regime especial aplicável, prova e prazos; apresentar solução condicionada com fontes.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-i:aula-10",
@@ -376,13 +519,34 @@
       "titulo": "Aula 10 - Revisão Geral e Quiz Final",
       "ficheiro": "aulas/introducao-direito-i/quiz-final.html",
       "sha256": "17dea51c5f25ffa73d6ebccbbeb3cdba9b88a925061f6cb04d7e4a5deb4ba424",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-direito-i/aula-10.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S13",
+        "S14"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-direito-i:aula-10:P01",
+          "prioridade": "P2",
+          "descricao": "Grelha de avaliação perpetua generalização sobre normas",
+          "evidencia": "linhas 80 e 186; S3 CC art. 405.º; confronto com aula 03",
+          "proposta": "Aceitar distinção fundamentada entre normas imperativas/supletivas e harmonizar resumo e soluções.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-direito-i:aula-10:P02",
+          "prioridade": "P2",
+          "descricao": "Autoavaliação sem critérios de aplicação ou cotação",
+          "evidencia": "linhas 154–202 e 216; análise pedagógica",
+          "proposta": "Definir cotação e critérios de resposta parcial e incluir caso de aplicação sem modificar contadores do curso.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "direito-constitucional:aula-01",
@@ -4634,5 +4798,22 @@
     "aulas/tecnologias-informacao/aula-08.html": "676491fbf1c013c80bbb01761d0a5db429356e05e46bc0133fdc307a45e5e2a7",
     "aulas/tecnologias-informacao/aula-09.html": "7ee740eaa2c3d41406d847ea53b352e2cff5004f9c5b9ee703c758cf5cbdc3fc",
     "aulas/tecnologias-informacao/quiz-final.html": "e2fd63f78f523aeb1df3fd324159d7fd33c9a181444d03174a761412f951d046"
-  }
+  },
+  "historico_lotes": [
+    {
+      "data": "2026-11-02",
+      "disciplina": "direito-notariado",
+      "aulas": 6,
+      "operacao": "recuperação da ronda inicial",
+      "commit": "5e2959d"
+    },
+    {
+      "data": "2026-11-02",
+      "disciplina": "introducao-direito-i",
+      "aulas": 10,
+      "operacao": "leitura integral e confronto no âmbito descrito",
+      "recuperacao": "git log -1 --format=%H -- auditoria/relatorios/introducao-direito-i.md"
+    }
+  ],
+  "ultima_aula_concluida": "introducao-direito-i:aula-10"
 }

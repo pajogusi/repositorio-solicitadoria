@@ -8,6 +8,8 @@ from pathlib import Path
 import re
 import sys
 
+sys.dont_write_bytecode = True
+
 ROOT = Path(__file__).resolve().parents[1]
 AUDITORIA = {'pendente', 'em análise', 'concluída'}
 CLASSES = {'validada', 'correções menores', 'correções jurídicas', 'revisão profunda', 'não verificada'}
@@ -32,6 +34,8 @@ def verificar(registo, root=ROOT):
         if not condicao:
             erros.append(mensagem)
     aulas = registo['aulas']
+    if registo.get('ultima_aula_concluida'):
+        exigir(any(x['id'] == registo['ultima_aula_concluida'] and x['auditoria'] == 'concluída' for x in aulas), 'Última aula concluída inválida.')
     exigir(len(aulas) == 266, 'Inventário deve conter 266 unidades.')
     exigir(len(registo['disciplinas']) == 38, 'Inventário deve conter 38 disciplinas.')
     exigir(len({x['id'] for x in aulas}) == len(aulas), 'IDs de aula duplicados.')
@@ -105,7 +109,7 @@ def main():
             print(f"{d['nome']}: {d['aulas']} existentes; {dict(contagens)}")
         concluidas = [x for x in registo['aulas'] if x['auditoria'] == 'concluída']
         print('Concluídas:', len(concluidas), '/ 266;', dict(Counter(x['classificacao'] for x in concluidas)))
-        print('Última conclusão no registo:', concluidas[-1]['id'] if concluidas else 'nenhuma')
+        print('Última conclusão no registo:', registo.get('ultima_aula_concluida', 'não registada'))
         print('Próxima:', proxima(registo)['id'] if proxima(registo) else 'nenhuma')
     return 0
 

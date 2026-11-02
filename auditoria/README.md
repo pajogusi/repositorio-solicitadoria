@@ -22,7 +22,7 @@ Auditoria: `pendente`, `em análise`, `concluída`. Conteúdo: null enquanto pen
 
 [inventário](inventario.md), [estado por unidade](progresso.json), [resumo](relatorios/resumo-geral.md), [fontes](fontes/referencias-legislativas.md). 38 disciplinas; 266 unidades existentes; 269 HTML preservados contando três complementos. Onze disciplinas ainda não têm aulas, não são consideradas validadas. Para os quizzes que ocupam a décima unidade, conservar ID aula-10 e caminho real quiz-final.html.
 
-As seis análises de Notariado recuperam o relatório de 02/11/2026 do snapshot indicado. Não se repetiu a consulta nem se eliminaram reservas. Datas de consulta das fontes não são datas de entrada em vigor. Os restantes relatórios são modelos PENDENTES, sem avaliação de conteúdo. Nenhuma correção está aprovada ou aplicada.
+As seis análises de Notariado recuperam o relatório de 02/11/2026 do snapshot indicado. Não se repetiu a consulta nem se eliminaram reservas. Datas de consulta das fontes não são datas de entrada em vigor. Os relatórios que permanecem pendentes são modelos sem avaliação de conteúdo; os lotes novos constam do resumo e do histórico em progresso.json. A última unidade concluída está em ultima_aula_concluida. Nenhuma correção está aprovada ou aplicada.
 
 ## Recuperação
 

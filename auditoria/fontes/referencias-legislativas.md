@@ -17,3 +17,15 @@ Todas as consultas abaixo foram efetuadas em **02/11/2026**. As remissões S1–
 | S11 | [Diário da República — Código das Sociedades Comerciais](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1986-34443975) | Consultados arts. 252.º e contexto da gerência. A página geral apresenta “Em atualização”; outra página individual devolve metadados posteriores. A atualidade integral da componente societária fica NÃO VERIFICADA. |
 
 As consolidações foram usadas com as notas de alteração e, nos casos S4/S5, também os atos originais. Não se assumiu vigência pelo título do link. A revogação do art. 4.º do Código não invalida a referência ao art. 4.º do **Estatuto**, que as aulas 01/02 efetivamente fazem. Regimes transitórios de acesso à profissão não foram aplicados ao exercício corrente. A aplicação temporal de casos antigos e regimes especiais de atos à distância permanece NÃO VERIFICADA.
+
+## Lote Introdução ao Direito I — consulta de 02/11/2026
+
+| ID | Fonte e diploma | Disposições confrontadas / alcance |
+|---|---|---|
+| S12 | [Assembleia da República — CRP](https://www.parlamento.pt/Legislacao/PAGINAS/CONSTITUICAOREPUBLICAPORTUGUESA.ASPX) | Arts. 3.º, 8.º, 20.º, 112.º, 202.º–205.º; arts. 286.º–287.º para o mecanismo de revisão. Não foi auditada toda a Constituição. A página inicial respondeu; consultas subsequentes tiveram timeouts, contornados pela mesma página com caminho em maiúsculas e pesquisa oficial. |
+| S13 | [DR — CPA, DL 4/2015](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2015-105602322) | Arts. 135.º, 136.º e 148.º; regulamento, habilitação e ato individual. Consolidado sinaliza em vigor e última alteração global 28/02/2023; não significa alteração desses artigos nessa data. |
+| S14 | [DR — CC, responsabilidade civil](https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075-49809875) | Arts. 483.º e 487.º; pressupostos e culpa, sem auditoria integral dos regimes especiais. |
+
+S3 foi novamente consultada neste lote para CC, arts. 1.º–4.º, 8.º–11.º, 342.º, 348.º, 402.º–406.º, 428.º, 879.º e 913.º. O art. 2.º sobre assentos aparece revogado; não serve como base atual. A consolidação indica entrada em vigor geral do CC em 01/06/1967 e última alteração global 23/06/2026. Esses metadados não substituem a aplicação temporal de cada regime especial. Não se validou a solução do caso de venda a consumidor nem os regimes deontológicos ou processuais apenas mencionados.
+
+As conclusões são paráfrases breves e observações próprias sobre as aulas; não se reproduzem diplomas integrais. As fontes e as reservas originais de Notariado mantêm-se.

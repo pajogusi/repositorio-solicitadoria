@@ -1,6 +1,6 @@
 # Resumo geral — 02/11/2026
 
-Auditoria integral **em curso**: 6/266 relatórios de análise recuperados, 260 pendentes. Zero aulas validadas; 1 com correções menores; 4 com correções jurídicas; 0 revisão profunda; 1 não verificada. Nenhuma correção aplicada.
+Auditoria integral **em curso**: 16/266 relatórios de análise concluídos (6 recuperados e 10 novos), 250 pendentes. Zero aulas validadas; 6 com correções menores; 8 com correções jurídicas; 0 revisão profunda; 2 não verificadas. Nenhuma correção aplicada.
 
 ## Lote recuperado — Direito do Notariado
 
@@ -12,7 +12,7 @@ A sequência das seis aulas é compreensível; há repetições entre 01/03/06 e
 
 ## Continuação
 
-Próxima disciplina: Introdução ao Direito I, começando pela aula 01. As outras 260 unidades estão pendentes, não se inferiu qualidade a partir do inventário. O comando de continuidade calcula sempre o estado real e sinaliza hashes divergentes.
+[Lote Introdução ao Direito I](introducao-direito-i.md): dez unidades analisadas. Próxima disciplina: Direito Constitucional, começando pela aula 01. As outras 250 unidades estão pendentes, não se inferiu qualidade a partir do inventário. O comando de continuidade calcula sempre o estado real e sinaliza hashes divergentes.
 
 ## Recuperação do lote
 
