@@ -1221,13 +1221,33 @@
       "titulo": "Aula 01 - O que é uma empresa?",
       "ficheiro": "aulas/estudo-empresa/aula-01.html",
       "sha256": "41ff4a4b980f2264a773653b4ab8c5f675197b8b6a68d5efac69cfe370bd421f",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-01.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S26"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-01:P01",
+          "prioridade": "P2",
+          "descricao": "Responsabilidade e capital sem exercício de distinção",
+          "evidencia": "linhas 221–232; S3 CC art. 601.º e S26 CSC arts. 197.º–198.º/270.º-F/G",
+          "proposta": "Distinguir capital, património social, entrada do sócio e responsabilidade excecional; acrescentar caso fundamentado.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-01:P02",
+          "prioridade": "P2",
+          "descricao": "Caso não responde à pergunta sobre riscos",
+          "evidencia": "questões 268–273 e resposta 276–278",
+          "proposta": "Completar a quarta resposta e avaliar também estabelecimento/unipessoal sem presumir transmissão automática de todos os elementos.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-02",
@@ -1236,13 +1256,33 @@
       "titulo": "Aula 02 - Empresário, Empresa e Sociedade",
       "ficheiro": "aulas/estudo-empresa/aula-02.html",
       "sha256": "012f76bc73e5ce0a26a82c8ef615d115ed8701dbec828c66816ff07f0fd69cab",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-02.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S26"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-02:P01",
+          "prioridade": "P1",
+          "descricao": "Entradas de trabalho sem distinção do tipo societário",
+          "evidencia": "linha 90; S26 CSC arts. 202.º, n.º 1/277.º, n.º 1",
+          "proposta": "Distinguir indústria, dinheiro/bens e trabalho prestado por outro vínculo; não admitir entrada de indústria em quotas ou anónimas.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-02:P02",
+          "prioridade": "P2",
+          "descricao": "Aquisição da personalidade e transição do empresário pouco precisas",
+          "evidencia": "linha 246; S26 CSC art. 5.º",
+          "proposta": "Fixar registo definitivo e resolver vantagens e contratos anteriores sem presumir transmissão automática.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-03",
@@ -1251,13 +1291,34 @@
       "titulo": "Aula 03 - Tipos de Empresas",
       "ficheiro": "aulas/estudo-empresa/aula-03.html",
       "sha256": "9af7f35669125aa5fdc21fda5a600d005f6df68a4265345d2dc9fab5cfde70e4",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-03.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S26",
+        "S27",
+        "S28"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-03:P01",
+          "prioridade": "P2",
+          "descricao": "Classificações sem critérios aplicáveis a um caso",
+          "evidencia": "linhas 54–78/132–138; S27 DL 133/2013 arts. 5.º/7.º/9.º e S28 DL 372/2007, anexo arts. 2.º/3.º/6.º",
+          "proposta": "Explicitar participação versus controlo, sobreposição de capital misto e critérios de PME; criar caso com dados suficientes e âmbito identificado.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-03:P02",
+          "prioridade": "P2",
+          "descricao": "Caso de escolha de forma sem matriz de consequências",
+          "evidencia": "linhas 291–301; S26 CSC arts. 197.º–198.º/270.º-A/G",
+          "proposta": "Comparar alternativas com factos definidos e limites de responsabilidade, sem recomendar uma forma universalmente superior.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-04",
@@ -1266,13 +1327,33 @@
       "titulo": "Aula 04 - Recursos da Empresa",
       "ficheiro": "aulas/estudo-empresa/aula-04.html",
       "sha256": "15a4503469092fd912b5c7a077c1b22c8526332e93cbe3c59e70d8df7a07aaff",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-04.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S18",
+        "S30"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-04:P01",
+          "prioridade": "P2",
+          "descricao": "Recurso económico não distinguido de direito e vínculo",
+          "evidencia": "linhas 65–74/151–162 e resposta 279; S30 CT art. 11.º",
+          "proposta": "Acrescentar nota e caso que distinga função económica, titularidade/licença e vínculo de trabalho, sem qualificação automática.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-04:P02",
+          "prioridade": "P2",
+          "descricao": "Produtividade sem demonstração aplicável",
+          "evidencia": "linhas 187–198; S18 verbete Produtividade",
+          "proposta": "Acrescentar comparação numérica com fator, produto e qualidade definidos; distinguir redução de custo de produtividade.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-05",
@@ -1281,13 +1362,33 @@
       "titulo": "Aula 05 - Funções da Empresa",
       "ficheiro": "aulas/estudo-empresa/aula-05.html",
       "sha256": "905ef213ac247e9956734443e0ab8a8424b940695a4c1bf3b72eea21a165cd92",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-05.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S30",
+        "S31"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-05:P01",
+          "prioridade": "P2",
+          "descricao": "Solução confunde função e recurso humano",
+          "evidencia": "pergunta 258 e resposta 267; comparação com aula 04",
+          "proposta": "Responder pela atividade de gestão de pessoas e suas interfaces, não apenas pelos motoristas.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-05:P02",
+          "prioridade": "P2",
+          "descricao": "Relação lucro/liquidez precisa de caso fundamentado",
+          "evidencia": "linha 109; S31 CIRE art. 3.º",
+          "proposta": "Distinguir resultado, caixa e capacidade de cumprimento com dados simples, sem declarar insolvência por atraso isolado.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-06",
@@ -1296,13 +1397,33 @@
       "titulo": "Aula 06 - Organização Interna da Empresa",
       "ficheiro": "aulas/estudo-empresa/aula-06.html",
       "sha256": "7ea413f8bf8e6eef9feefa1fa413572b2cc569758f86cc83de67f53d033014ad",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-06.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S26",
+        "S32"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-06:P01",
+          "prioridade": "P2",
+          "descricao": "Competência interna e poder externo não demonstrados",
+          "evidencia": "linhas 67–97/141–152; S26 CSC arts. 259.º–260.º e S32 LGT art. 24.º",
+          "proposta": "Criar caso que separe organograma, representação e pressupostos de responsabilidade, sem imputação automática.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-06:P02",
+          "prioridade": "P2",
+          "descricao": "Objetivo funcional e solução documental pouco desenvolvidos",
+          "evidencia": "objetivo inicial, departamentos e perguntas 220–230",
+          "proposta": "Comparar estruturas e listar documentos por finalidade e responsável, com resposta fundamentada.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-07",
@@ -1311,13 +1432,34 @@
       "titulo": "Aula 07 - Gestão, Risco e Decisão",
       "ficheiro": "aulas/estudo-empresa/aula-07.html",
       "sha256": "d2b8da7b56bc64113df841ae814fed6a1eeedc848b432e641f20ba52a455e8cf",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-07.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S26",
+        "S31",
+        "S32"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-07:P01",
+          "prioridade": "P2",
+          "descricao": "Responsabilidade enumerada sem pressupostos aplicados",
+          "evidencia": "linhas 167–176; S26 CSC arts. 64.º/72.º e S32 LGT art. 24.º",
+          "proposta": "Distinguir risco e dano, dever e culpa e decisão informada, com exemplo e resposta legalmente fundamentada.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-07:P02",
+          "prioridade": "P2",
+          "descricao": "Medidas do caso demasiado genéricas",
+          "evidencia": "perguntas 227–231 e resposta 236; S31 CIRE art. 3.º",
+          "proposta": "Apresentar informação necessária, alternativas e risco residual, sem prometer que contratos ou assessoria evitem a crise.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-08",
@@ -1326,13 +1468,34 @@
       "titulo": "Aula 08 - Empresa, Mercado e Concorrência",
       "ficheiro": "aulas/estudo-empresa/aula-08.html",
       "sha256": "0fcee5da18516e642c126d25f65c7919df454b5ae0e6c8db8fb04dff5526a209",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-08.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S29",
+        "S20",
+        "S21"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-08:P01",
+          "prioridade": "P1",
+          "descricao": "Definição de concorrência desleal demasiado dependente de finalidade genérica",
+          "evidencia": "linha 154; S29 CPI art. 311.º, n.º 1, al. a) e confronto com demais alíneas",
+          "proposta": "Usar critério legal e distinguir elementos de cada hipótese; não exigir intenção específica universal nem suprimir finalidades que certas alíneas exigem.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-08:P02",
+          "prioridade": "P2",
+          "descricao": "Regimes e fronteira da concorrência lícita pouco aplicados",
+          "evidencia": "secções Concorrência Desleal/Direito da Concorrência e caso 259–269; S20/S21/S29",
+          "proposta": "Distinguir categorias e dar caso com factos suficientes e resposta, sem presumir ilicitude de preços baixos ou captação de clientes.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-09",
@@ -1341,13 +1504,35 @@
       "titulo": "Aula 09 - Caso Prático Orientado",
       "ficheiro": "aulas/estudo-empresa/aula-09.html",
       "sha256": "ce6ab027b96c8e2ae653a95cfd2ca5aa784b49cd9d3263bb5b9d30fa4a304acd",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "não verificada",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-09.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S26",
+        "S30",
+        "S31",
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-09:P01",
+          "prioridade": "P2",
+          "descricao": "Caso sem factos e normas suficientes para solução jurídica",
+          "evidencia": "enunciado, questões 77–85 e resposta 90–98; S26 CSC arts. 5.º/197.º, S30 CT art. 11.º, S3 CC art. 798.º e S31 CIRE art. 3.º",
+          "proposta": "Acrescentar documentos/factos relevantes e soluções condicionadas por problema, verificando regimes e prazos antes de validar.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-09:P02",
+          "prioridade": "P2",
+          "descricao": "Capital confundível com disponibilidade financeira",
+          "evidencia": "linha 69 e resposta sobre recursos",
+          "proposta": "Distinguir capital nominal, património e tesouraria atual; pedir dados contabilísticos adequados sem os inventar.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-10",
@@ -1356,13 +1541,34 @@
       "titulo": "📘 Aula 10 - Revisão Geral e Quiz Final",
       "ficheiro": "aulas/estudo-empresa/quiz-final.html",
       "sha256": "511765ec47a063887f961d78c2e0ec86ac501d98d7cc97855127975fd670a0cf",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/estudo-empresa/aula-10.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S26",
+        "S29"
+      ],
+      "problemas": [
+        {
+          "id": "estudo-empresa:aula-10:P01",
+          "prioridade": "P1",
+          "descricao": "Resposta única da pergunta 1 exclui alternativas juridicamente admissíveis",
+          "evidencia": "linhas 57–62; S3 CC art. 66.º e S26 CSC art. 5.º",
+          "proposta": "Reformular o objeto para pessoa coletiva ou explicitar sujeitos/condições; justificar personalidade das pessoas singulares e momento da personalidade social.",
+          "estado": "propostas"
+        },
+        {
+          "id": "estudo-empresa:aula-10:P02",
+          "prioridade": "P2",
+          "descricao": "Avaliação sem fundamentação nem critérios de desenvolvimento",
+          "evidencia": "linhas 65–105; S29 CPI art. 311.º e análise pedagógica",
+          "proposta": "Separar tentativa de solução, comentar cinco itens e definir critérios para desenvolvimento e aplicação prática.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "sociologia-direito:aula-01",
@@ -5194,7 +5400,15 @@
       "operacao": "leitura integral, verificação económica e jurídica no âmbito descrito",
       "recuperacao": "git log -1 --format=%H -- auditoria/relatorios/introducao-economia.md",
       "commit_anterior": "eddc7d950ebdb14561d620ec1d6a69bf0a0bcf81"
+    },
+    {
+      "data": "2026-11-02",
+      "disciplina": "estudo-empresa",
+      "aulas": 10,
+      "operacao": "leitura integral e confronto jurídico/pedagógico no âmbito descrito",
+      "recuperacao": "git log --diff-filter=A -1 --format=%H -- auditoria/relatorios/estudo-empresa.md",
+      "commit_anterior": "d00cc1028a52de3b260d49032048d6903a9a3d7b"
     }
   ],
-  "ultima_aula_concluida": "introducao-economia:aula-10"
+  "ultima_aula_concluida": "estudo-empresa:aula-10"
 }

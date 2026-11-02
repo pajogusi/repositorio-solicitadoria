@@ -1,6 +1,6 @@
 # Resumo geral — 02/11/2026
 
-Auditoria integral **em curso**: 36/266 relatórios de análise concluídos (6 recuperados e 30 novos), 230 pendentes. Zero aulas validadas; 19 com correções menores; 14 com correções jurídicas; 0 revisão profunda; 3 não verificadas. Nenhuma correção aplicada.
+Auditoria integral **em curso**: 46/266 relatórios de análise concluídos (6 recuperados e 40 novos), 220 pendentes. Zero aulas validadas; 25 com correções menores; 17 com correções jurídicas; 0 revisão profunda; 4 não verificadas. Nenhuma correção aplicada.
 
 ## Lote recuperado — Direito do Notariado
 
@@ -12,7 +12,7 @@ A sequência das seis aulas é compreensível; há repetições entre 01/03/06 e
 
 ## Continuação
 
-[Lote Introdução ao Direito I](introducao-direito-i.md): dez unidades analisadas. [Lote Direito Constitucional](direito-constitucional.md): dez unidades analisadas. [Lote Introdução à Economia](introducao-economia.md): dez unidades analisadas (7 correções menores, 2 correções jurídicas, 1 não verificada). Próxima disciplina: Introdução ao Estudo da Empresa, começando pela aula 01. As outras 230 unidades estão pendentes, não se inferiu qualidade a partir do inventário. O comando de continuidade calcula sempre o estado real e sinaliza hashes divergentes.
+[Lote Introdução ao Direito I](introducao-direito-i.md): dez unidades analisadas. [Lote Direito Constitucional](direito-constitucional.md): dez unidades analisadas. [Lote Introdução à Economia](introducao-economia.md): dez unidades analisadas (7 correções menores, 2 correções jurídicas, 1 não verificada). [Lote Introdução ao Estudo da Empresa](estudo-empresa.md): dez unidades analisadas (6 correções menores, 3 correções jurídicas, 1 não verificada). Próxima disciplina: Sociologia do Direito, começando pela aula 01. As outras 220 unidades estão pendentes, não se inferiu qualidade a partir do inventário. O comando de continuidade calcula sempre o estado real e sinaliza hashes divergentes.
 
 ## Recuperação do lote
 
@@ -21,3 +21,7 @@ O commit que introduz este ficheiro é o ponto de recuperação deste lote: `git
 ## Histórico adicional — lote Introdução à Economia
 
 Dez análises concluídas em 02/11/2026; mantidos os 26 relatórios anteriores. Fontes S3/S12/S16–S25; prioridades e limites no relatório do lote. Recuperação anterior eddc7d950ebdb14561d620ec1d6a69bf0a0bcf81; commit introdutório do lote consultável por `git log --diff-filter=A -1 --format=%H -- auditoria/relatorios/introducao-economia.md`. Nenhuma correção aplicada.
+
+## Histórico adicional — lote Introdução ao Estudo da Empresa
+
+Dez análises concluídas em 02/11/2026; mantidos os 36 relatórios anteriores. Principais prioridades: entradas por tipo societário, concorrência desleal e personalidade no quiz; caso 09 sem solução jurídica completa verificada. Fontes S3/S18/S20/S21/S26–S32 e reservas no relatório do lote. Recuperação anterior d00cc1028a52de3b260d49032048d6903a9a3d7b; commit introdutório por `git log --diff-filter=A -1 --format=%H -- auditoria/relatorios/estudo-empresa.md`. Nenhuma correção aplicada.
