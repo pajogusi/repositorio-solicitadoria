@@ -1937,13 +1937,33 @@
       "titulo": "Aula 01 - O texto jurídico e as suas características",
       "ficheiro": "aulas/analise-producao-textos/aula-01.html",
       "sha256": "d883d8bfdbe82ffbcb29de815d19a531c0986d5ea6c5fe16d7b433a2cd53aee5",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-01.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S41"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-01:P01",
+          "prioridade": "P2",
+          "descricao": "Exercício exige informação que o enunciado não fornece",
+          "evidencia": "linhas 205–219; exemplo 146–166",
+          "proposta": "Indicar expressamente dados por apurar e campos a preencher; fornecer solução comentada sem inventar obrigação, data ou incumprimento.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-01:P02",
+          "prioridade": "P2",
+          "descricao": "Precisão do prazo e autoavaliação incompletas",
+          "evidencia": "linhas 49–57/195–202; S41",
+          "proposta": "Distinguir prazo ilustrativo de prazo aplicável e acrescentar evento inicial e critérios de correção às perguntas.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-02",
@@ -1952,13 +1972,33 @@
       "titulo": "Aula 02 - Clareza e precisão da linguagem jurídica",
       "ficheiro": "aulas/analise-producao-textos/aula-02.html",
       "sha256": "35ef3cd9c6dc3d7fdd458453feb155bbac5c6de3d756af07040ed5d36c08464a",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-02.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S41",
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-02:P01",
+          "prioridade": "P2",
+          "descricao": "Melhoria textual acrescenta causa/dados sem explicitar pressupostos",
+          "evidencia": "tabela 63–91 e exemplo 180–197; S3 art. 236.º",
+          "proposta": "Assinalar que modalidade de cessação e datas dependem de confirmação, separando reformulação dos factos de criação de hipótese.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-02:P02",
+          "prioridade": "P2",
+          "descricao": "Exercício e perguntas sem solução verificável",
+          "evidencia": "linhas 210–234",
+          "proposta": "Fornecer rubrica e versão com campos por preencher, incluindo origem do prazo e do pedido, sem concluir por um remédio jurídico sem factos.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-03",
@@ -1967,13 +2007,34 @@
       "titulo": "Aula 03 - Estrutura de documentos jurídicos",
       "ficheiro": "aulas/analise-producao-textos/aula-03.html",
       "sha256": "f61ee3c2a83b9285b7ece25f66dca4f7be80acc7ab88df9cda2d14661c1dee21",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-03.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S13",
+        "S41"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-03:P01",
+          "prioridade": "P1",
+          "descricao": "Modelo atribui ao arrendatário o pedido de pagamento da própria renda",
+          "evidencia": "linhas 206–223, especialmente 211/219; S3 CC art. 1038.º, al. a)",
+          "proposta": "Rever identidade/qualidade do autor e destinatário para coerência entre credor, devedor e pedido; não presumir representação ou outra relação ausente.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-03:P02",
+          "prioridade": "P2",
+          "descricao": "Exercício sem solução distingue mal pretensão e direito ao reembolso",
+          "evidencia": "linhas 257–273; S3 CC arts. 432.º/808.º",
+          "proposta": "Fornecer resposta comentada de estrutura e deixar em aberto os pressupostos de restituição até os factos e o regime estarem determinados.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-04",
@@ -1982,13 +2043,34 @@
       "titulo": "Aula 04 - Técnicas de argumentação e persuasão",
       "ficheiro": "aulas/analise-producao-textos/aula-04.html",
       "sha256": "51e5133d023980ceab1772380922c87fb13325649b67d2ba679fed6cff796eed",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-04.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S42",
+        "S41"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-04:P01",
+          "prioridade": "P2",
+          "descricao": "Conclusões sobre atraso e responsabilidade sem delimitar pressupostos",
+          "evidencia": "linhas 174–189/204–224 e 247–261; S3 arts. 798.º–805.º",
+          "proposta": "Distinguir descrição de atraso, mora e responsabilidade, indicando o que os factos permitem concluir e o que falta provar; acrescentar solução do exercício.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-04:P02",
+          "prioridade": "P2",
+          "descricao": "Âmbito da interpretação de CCG demasiado abreviado",
+          "evidencia": "linhas 277–298; S42 arts. 10.º–11.º",
+          "proposta": "Precisar interpretação favorável ao aderente na dúvida e ressalva das ações inibitórias; criar exemplo sem generalizar a qualquer redator ou documento.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-05",
@@ -1997,13 +2079,34 @@
       "titulo": "Aula 05 - Interpretação e análise textual",
       "ficheiro": "aulas/analise-producao-textos/aula-05.html",
       "sha256": "742fa2d141a53204dc76d0771fcc6cba03f470e66bfbb788c9d668dfa881d128",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-05.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S43",
+        "S41"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-05:P01",
+          "prioridade": "P1",
+          "descricao": "Exemplo de denúncia de defeitos sem âmbito pode ensinar prazo geral incorreto",
+          "evidencia": "linhas 188–208; S3 CC art. 916.º, n.os 1–3; S43 DL 84/2021 arts. 3.º/12.º–17.º",
+          "proposta": "Delimitar o regime e as exceções ou marcar texto expressamente fictício; explicar que trinta dias após conhecimento não é dever geral de denúncia de qualquer comprador.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-05:P02",
+          "prioridade": "P2",
+          "descricao": "Método confunde análise literal com validação jurídica dos exemplos",
+          "evidencia": "linhas 79/129–146 e 242–267; S3 arts. 9.º/1075.º e S41",
+          "proposta": "Distinguir compreensão, interpretação jurídica e verificação de validade/aplicabilidade; fornecer solução do exercício e assinalar a natureza hipotética dos prazos e efeitos.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-06",
@@ -2012,13 +2115,33 @@
       "titulo": "Aula 06 - Resumo e síntese de textos jurídicos",
       "ficheiro": "aulas/analise-producao-textos/aula-06.html",
       "sha256": "7b111d872095d53b4bc07368c84d137587e4d04d5c2c4da5dac85b09e06784ae",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-06.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S41",
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-06:P01",
+          "prioridade": "P2",
+          "descricao": "Resumo elimina comunicações sem explicar finalidade da seleção",
+          "evidencia": "linhas 110–133; S3 CC arts. 804.º/805.º",
+          "proposta": "Explicitar objetivo do resumo e mostrar quando comunicações são relevantes para prova ou mora, evitando tomá-las sempre por detalhe secundário.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-06:P02",
+          "prioridade": "P2",
+          "descricao": "Síntese e exercício sem fontes reais ou grelha de conferência",
+          "evidencia": "linhas 136–193/242–269",
+          "proposta": "Acrescentar textos identificáveis para síntese, indicação de origem das ideias e solução comentada de duas frases com critérios de seleção.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-07",
@@ -2027,13 +2150,35 @@
       "titulo": "Aula 07 - Pareceres, requerimentos e petições",
       "ficheiro": "aulas/analise-producao-textos/aula-07.html",
       "sha256": "1b7deef7637ba5e107e9d50f6a16eec2245cbd0cf2a607b7d430307d44fd9f76",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-07.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S13",
+        "S44",
+        "S3",
+        "S41"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-07:P01",
+          "prioridade": "P2",
+          "descricao": "Exemplo simplificado não distingue fragmento e documento utilizável",
+          "evidencia": "linhas 110–136/155–169; S13 CPA arts. 102.º/104.º e S44 CPC art. 552.º",
+          "proposta": "Assinalar elementos omitidos e acrescentar quadro por contexto, sem transformar estrutura genérica em lista suficiente para toda apresentação.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-07:P02",
+          "prioridade": "P2",
+          "descricao": "Escolha documental subdeterminada e sem solução",
+          "evidencia": "linhas 243–271",
+          "proposta": "Precisar destinatário/finalidade/processo em cada hipótese e aceitar respostas justificadas; fornecer grelha das três escolhas e do requerimento.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-08",
@@ -2042,13 +2187,33 @@
       "titulo": "Aula 08 - Erros frequentes na escrita jurídica",
       "ficheiro": "aulas/analise-producao-textos/aula-08.html",
       "sha256": "aca51869addf9179b6b91fa4fc68de77c42c101ae36552ed3026879a21e953aa",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-08.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S41",
+        "S3"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-08:P01",
+          "prioridade": "P2",
+          "descricao": "Versões mais claras continuam incompletas ou acrescentam facto relevante",
+          "evidencia": "linhas 45–67/157–175 e 241–259; S3 art. 805.º",
+          "proposta": "Distinguir melhoria de forma de completude jurídica e confirmar a interpelação antes de a alegar; explicar o alcance do pedido de devolução.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-08:P02",
+          "prioridade": "P2",
+          "descricao": "Reescrita final sem dados suficientes e sem autoavaliação",
+          "evidencia": "linhas 290–314",
+          "proposta": "Adicionar grelha que premie a identificação de lacunas e uso de campos, com aplicação da lista de revisão a um exemplo completo e factual.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-09",
@@ -2057,13 +2222,34 @@
       "titulo": "Aula 09 - Caso prático orientado",
       "ficheiro": "aulas/analise-producao-textos/aula-09.html",
       "sha256": "c8f3b53250c89274cf58daaae3e54b8d21931d9ecb45fb8a3db3b594d3f9bf44",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "não verificada",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-09.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S43",
+        "S41"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-09:P01",
+          "prioridade": "P2",
+          "descricao": "Modelo não demonstra adequação jurídica do prazo e da alternativa de reembolso",
+          "evidencia": "linhas 108–122/125–186; S3 CC arts. 432.º/804.º–808.º",
+          "proposta": "Esclarecer finalidade, base legal/contratual, evento inicial e razoabilidade do prazo; manter em aberto o direito concreto à restituição até verificar os pressupostos.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-09:P02",
+          "prioridade": "P2",
+          "descricao": "Destino do equipamento e critérios de avaliação ausentes",
+          "evidencia": "linhas 142–186/226–250",
+          "proposta": "Tratar o destino do computador no cenário de reembolso e fornecer grelha, distinguindo resposta, execução da reparação, devolução e prova de comunicação.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "analise-producao-textos:aula-10",
@@ -2072,13 +2258,35 @@
       "titulo": "Aula 10 - Revisão geral e quiz final",
       "ficheiro": "aulas/analise-producao-textos/quiz-final.html",
       "sha256": "2d0b00bb1bfec0f707b8d25450c4870972c881e17c055127ecc89907cb5181a9",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "não verificada",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/analise-producao-textos/aula-10.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S13",
+        "S44",
+        "S41"
+      ],
+      "problemas": [
+        {
+          "id": "analise-producao-textos:aula-10:P01",
+          "prioridade": "P2",
+          "descricao": "Modelo final não fundamenta prazo, restituição e efeito pretendido",
+          "evidencia": "linhas 229–274; S3 CC arts. 432.º/804.º–808.º/1207.º",
+          "proposta": "Distinguir solicitação negocial, cumprimento e resolução; justificar prazo e evento inicial, mantendo o direito concreto ao reembolso por verificar.",
+          "estado": "propostas"
+        },
+        {
+          "id": "analise-producao-textos:aula-10:P02",
+          "prioridade": "P2",
+          "descricao": "Quiz e modelo sem critérios suficientes de produção textual",
+          "evidencia": "linhas 252–274/277–347; S13/S44",
+          "proposta": "Identificar omissões do fragmento e fornecer rubrica para as cinco tarefas, delimitando a síntese sobre petição e a revisão final como orientação didática.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-direito-ii:aula-01",
@@ -5626,7 +5834,15 @@
       "operacao": "leitura integral e confronto jurídico/pedagógico no âmbito descrito",
       "recuperacao": "git log --diff-filter=A -1 --format=%H -- auditoria/relatorios/sociologia-direito.md",
       "commit_anterior": "3020c942ed2b644b2e4c2b01f68fd726a14a4ed4"
+    },
+    {
+      "data": "2026-11-02",
+      "disciplina": "analise-producao-textos",
+      "aulas": 10,
+      "operacao": "leitura integral e confronto jurídico/pedagógico no âmbito descrito",
+      "recuperacao": "git log --diff-filter=A -1 --format=%H -- auditoria/relatorios/analise-producao-textos.md",
+      "commit_anterior": "e5e73b8f6ef828f4be3d0acbe192b56c98640805"
     }
   ],
-  "ultima_aula_concluida": "sociologia-direito:aula-10"
+  "ultima_aula_concluida": "analise-producao-textos:aula-10"
 }
