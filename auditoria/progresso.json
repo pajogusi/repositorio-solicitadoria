@@ -857,13 +857,34 @@
       "titulo": "Aula 01 - O que é a Economia?",
       "ficheiro": "aulas/introducao-economia/aula-01.html",
       "sha256": "0a57979f70ee9e131cb827ba1952f388fe261977e058fa23b435b23cb3152a0a",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-01.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S3",
+        "S12",
+        "S16"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-01:P01",
+          "prioridade": "P2",
+          "descricao": "Bloco jurídico e aplicação sem remissões concretas",
+          "evidencia": "secção Propriedade privada e autonomia privada; pergunta de exame e caso, linhas 261–286; S3 art. 405.º e S12 arts. 61.º–62.º",
+          "proposta": "Acrescentar remissões e critério de resposta que compare a melhor alternativa viável e benefícios incertos, sem prometer retorno da formação.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-01:P02",
+          "prioridade": "P3",
+          "descricao": "Progressão repetitiva com 02/03",
+          "evidencia": "caso de formação e comparação integral das três aulas",
+          "proposta": "Usar remissões de revisão e propor dificuldade adicional, preservando o conteúdo até aprovação.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-02",
@@ -872,13 +893,32 @@
       "titulo": "Aula 02 - Necessidades, Bens e Recursos",
       "ficheiro": "aulas/introducao-economia/aula-02.html",
       "sha256": "078e758561f0f0f70b0bb63c24f3e51618149304bd6e0edc494eea8e0974302c",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-02.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S18"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-02:P01",
+          "prioridade": "P2",
+          "descricao": "Restrição orçamental do caso não demonstrada",
+          "evidencia": "linhas 197–210; quatro questões e resposta",
+          "proposta": "Indicar preços ou exclusividade das opções e classificar expressamente bem/serviço na solução.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-02:P02",
+          "prioridade": "P2",
+          "descricao": "Bem livre e necessidade secundária precisam de contexto",
+          "evidencia": "linhas 61–108; S18 verbetes Bem/Bens livres/Bens económicos",
+          "proposta": "Distinguir ausência de preço de ausência de escassez e mostrar que a classificação depende do contexto.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-03",
@@ -887,13 +927,32 @@
       "titulo": "Aula 03 - Escassez, Escolha e Custo de Oportunidade",
       "ficheiro": "aulas/introducao-economia/aula-03.html",
       "sha256": "6ea929bed2eac546a54dcdd5b5e552717d500fb366505e70c84d2af677ba9840",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-03.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S16"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-03:P01",
+          "prioridade": "P2",
+          "descricao": "Caso exige pressupostos e comparação de valor",
+          "evidencia": "linhas 201–215 e quiz 243–250; S16 pp. 3–4",
+          "proposta": "Explicitar exclusividade/custos e pedir valor da melhor alternativa viável, distinguindo-o de todas as renúncias.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-03:P02",
+          "prioridade": "P3",
+          "descricao": "Repetição sem aprofundamento suficiente",
+          "evidencia": "comparação integral de 01/02/03, casos de formação",
+          "proposta": "Acrescentar problema com três alternativas e fundamentação, sem suprimir automaticamente conteúdo.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-04",
@@ -902,13 +961,33 @@
       "titulo": "Aula 04 - Agentes Económicos",
       "ficheiro": "aulas/introducao-economia/aula-04.html",
       "sha256": "2f93d4a2891d7e3c2974026e4f428baf832b1dc92cf8b6d7b7d05a34c65e6454",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-04.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S17"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-04:P01",
+          "prioridade": "P2",
+          "descricao": "Circuito e papéis económicos insuficientemente aplicados",
+          "evidencia": "linhas 153–168 e caso 234–246; S17 GTA 4 pp. 3–6",
+          "proposta": "Explicitar modelo agregado e acrescentar fluxos reais/monetários, poupança e crédito em exercício comentado.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-04:P02",
+          "prioridade": "P3",
+          "descricao": "Gralha no verbo vender",
+          "evidencia": "linha 98",
+          "proposta": "Propor correção de Vendemm para Vendem; não aplicada nesta fase.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-05",
@@ -917,13 +996,42 @@
       "titulo": "Aula 05 - Produção, Consumo e Rendimento",
       "ficheiro": "aulas/introducao-economia/aula-05.html",
       "sha256": "811e0fc8facc4ac5c497602fe208135d3128d1ef0ee3837fb8f2b6fddd265eac",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-05.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S17",
+        "S19",
+        "S25"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-05:P01",
+          "prioridade": "P2",
+          "descricao": "Âmbito da proteção do consumidor generalizado",
+          "evidencia": "linha 267; S19, Lei 24/96 art. 2.º, n.º 1",
+          "proposta": "Distinguir consumidor em sentido económico da qualificação jurídica e acrescentar compra profissional versus uso privado.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-05:P02",
+          "prioridade": "P2",
+          "descricao": "Recebimento, rendimento e poupança pouco delimitados",
+          "evidencia": "linhas 173–177/238–247 e caso 315–328; S25",
+          "proposta": "Precisar rendimento disponível e distinguir financiamento/alienação de património; acrescentar exemplo numérico com pressupostos.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-05:P03",
+          "prioridade": "P3",
+          "descricao": "Convenção bens/serviços não harmonizada",
+          "evidencia": "secção Bens e Serviços versus aula 02, bens imateriais",
+          "proposta": "Explicitar as duas convenções sem marcar como errada uma resposta fundamentada.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-06",
@@ -932,13 +1040,33 @@
       "titulo": "Aula 06 - Mercado, Procura e Oferta",
       "ficheiro": "aulas/introducao-economia/aula-06.html",
       "sha256": "ccbaf7f62f6a8c5ec787caffa427f88e3d2cdf46796ef696b7f458449f24407f",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções jurídicas",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-06.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S18",
+        "S19"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-06:P01",
+          "prioridade": "P2",
+          "descricao": "Comprador económico confundido com consumidor protegido",
+          "evidencia": "linha 166; S19 Lei 24/96 art. 2.º, n.º 1",
+          "proposta": "Delimitar relação de consumo e usar caso contrastante com compra profissional, harmonizando com 05.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-06:P02",
+          "prioridade": "P2",
+          "descricao": "Nível e deslocamento de procura/oferta pouco diferenciados",
+          "evidencia": "secções Fatores, Equilíbrio e caso, linhas 222–232; S18 Lei da oferta/Lei da procura/Procura",
+          "proposta": "Explicitar hipótese de restantes fatores constantes, período e preços; acrescentar tabela ou gráfico com solução.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-07",
@@ -947,13 +1075,34 @@
       "titulo": "Aula 07 - Preço, Concorrência e Equilíbrio",
       "ficheiro": "aulas/introducao-economia/aula-07.html",
       "sha256": "28d955fb4f3e507370576e139bbb5ffd32f6b75ee693f9a4c2b2f11de431deeb",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-07.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S18",
+        "S20",
+        "S21"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-07:P01",
+          "prioridade": "P2",
+          "descricao": "Resposta incompleta e repetição do caso",
+          "evidencia": "linha 263 versus resposta 267–270; comparação com 06",
+          "proposta": "Responder à consequência social e introduzir variante que exija raciocínio adicional.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-07:P02",
+          "prioridade": "P2",
+          "descricao": "Modelos e regimes de concorrência sem distinções suficientes",
+          "evidencia": "linhas 114–125 e 195–208; S18, S20 arts. 9.º/11.º/41.º e S21",
+          "proposta": "Precisar hipóteses do modelo e distinguir abuso, concentração e prática desleal de consumo, sem presumir ilicitude por dimensão.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-08",
@@ -962,13 +1111,35 @@
       "titulo": "Aula 08 - Estado e Economia",
       "ficheiro": "aulas/introducao-economia/aula-08.html",
       "sha256": "f06a0da16691400ae1ddc377393c8c2006bca505c00477e665c199b938ebde6b",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-08.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S22",
+        "S23",
+        "S24"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-08:P01",
+          "prioridade": "P2",
+          "descricao": "Caso sem solução e incidência económica/jurídica ambígua",
+          "evidencia": "linhas 190–200; S23 CIVA arts. 2.º/37.º e S24 CIRC art. 2.º",
+          "proposta": "Responder às três questões, distinguindo suporte económico, sujeito passivo e entrega do imposto; fixar pressupostos.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-08:P02",
+          "prioridade": "P2",
+          "descricao": "Tributos e modelo económico pouco delimitados",
+          "evidencia": "linha 94 e secção Economia de Mercado; S22 LGT arts. 3.º–4.º e S12 CRP arts. 80.º/103.º",
+          "proposta": "Distinguir imposto/taxa/contribuição e enquadrar economia mista, com remissões concretas.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-09",
@@ -977,13 +1148,34 @@
       "titulo": "Aula 09 - Caso Prático Orientado",
       "ficheiro": "aulas/introducao-economia/aula-09.html",
       "sha256": "1227fccd9083db7809c35a1d3fbd4d4b7f2dad04a88e323f71a6cf68eec48dfc",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "não verificada",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-09.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S12",
+        "S16",
+        "S24"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-09:P01",
+          "prioridade": "P2",
+          "descricao": "Requisitos jurídicos do caso sem verificação suficiente",
+          "evidencia": "linhas 44–61 e resposta 77–83; S12 art. 61.º e S24 art. 2.º",
+          "proposta": "Fixar forma, local, data e serviços efetivos; verificar cada obrigação específica antes de validar ou prescrever registo/licença.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-09:P02",
+          "prioridade": "P2",
+          "descricao": "Resposta económica sem pressupostos de viabilidade",
+          "evidencia": "linhas 58–60 e cinco questões; S16",
+          "proposta": "Distinguir meta de cobertura de custos de formação do preço; explicitar exclusividade das alternativas e dar solução por questão.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "introducao-economia:aula-10",
@@ -992,13 +1184,35 @@
       "titulo": "Aula 10 - Revisão Geral e Quiz Final",
       "ficheiro": "aulas/introducao-economia/quiz-final.html",
       "sha256": "a6c376b73ee53f7a6e6a5f6f784aa262813a71205a58d83bc6338f9b2f5a6cf5",
-      "auditoria": "pendente",
-      "classificacao": null,
-      "correcoes": "não iniciadas",
-      "data_auditoria": null,
+      "auditoria": "concluída",
+      "classificacao": "correções menores",
+      "correcoes": "propostas",
+      "data_auditoria": "2026-11-02",
       "relatorio": "disciplinas/introducao-economia/aula-10.md",
-      "fontes": [],
-      "problemas": []
+      "fontes": [
+        "S16",
+        "S17",
+        "S18",
+        "S12"
+      ],
+      "problemas": [
+        {
+          "id": "introducao-economia:aula-10:P01",
+          "prioridade": "P2",
+          "descricao": "Grelha reduz precisão de procura/oferta/equilíbrio",
+          "evidencia": "respostas finais, linhas 91–95; S18 verbetes Procura/Lei da oferta/Lei da procura",
+          "proposta": "Indicar preço/período e igualdade das quantidades; aceitar formulações equivalentes fundamentadas.",
+          "estado": "propostas"
+        },
+        {
+          "id": "introducao-economia:aula-10:P02",
+          "prioridade": "P2",
+          "descricao": "Autoavaliação não mede aplicação nem define cotação",
+          "evidencia": "vinte perguntas/soluções e linha 122",
+          "proposta": "Definir pesos/crédito parcial e incluir problemas de aplicação com resposta comentada; não mexer no progresso académico.",
+          "estado": "propostas"
+        }
+      ]
     },
     {
       "id": "estudo-empresa:aula-01",
@@ -4972,7 +5186,15 @@
       "aulas": 10,
       "operacao": "leitura integral e confronto no âmbito descrito",
       "recuperacao": "git log -1 --format=%H -- auditoria/relatorios/direito-constitucional.md"
+    },
+    {
+      "data": "2026-11-02",
+      "disciplina": "introducao-economia",
+      "aulas": 10,
+      "operacao": "leitura integral, verificação económica e jurídica no âmbito descrito",
+      "recuperacao": "git log -1 --format=%H -- auditoria/relatorios/introducao-economia.md",
+      "commit_anterior": "eddc7d950ebdb14561d620ec1d6a69bf0a0bcf81"
     }
   ],
-  "ultima_aula_concluida": "direito-constitucional:aula-10"
+  "ultima_aula_concluida": "introducao-economia:aula-10"
 }
